@@ -10,7 +10,8 @@
       0.24,
       0.32,
       0.31,
-      0.77
+      0.77,
+      4.96
     ]
   },
   "UF;UB UR;U M2 U': M, U2": {
@@ -25,7 +26,8 @@
       0.12,
       0.41,
       4.06,
-      0.54
+      0.54,
+      2.7
     ]
   },
   "UF;UB UR;R2 U': S, R2": {
@@ -48,25 +50,30 @@
     "results": [
       0.96
     ],
-    "latest": true
+    "latest": true,
+    "word": "Bat"
   },
   "UF;UR UB;U M2 U': U2, M": {
     "buffer": "UF",
     "targets": "UR UB",
     "alg": "U M2 U': U2, M",
     "results": [
-      0.78
+      0.78,
+      4.8
     ],
-    "latest": true
+    "latest": true,
+    "word": "Czas"
   },
   "UF;UR UL;M2 U: M, U2": {
     "buffer": "UF",
     "targets": "UR UL",
     "alg": "M2 U: M, U2",
     "results": [
-      0.52
+      0.52,
+      3.42
     ],
-    "latest": true
+    "latest": true,
+    "word": "Cable"
   },
   "UF;UL UR;M2 U': M, U2": {
     "buffer": "UF",
@@ -76,6 +83,7 @@
       0.81,
       0.76
     ],
-    "latest": true
+    "latest": true,
+    "word": "Baca"
   }
 }
