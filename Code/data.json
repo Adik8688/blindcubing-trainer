@@ -1,0 +1,193 @@
+{
+  "UF;UB UL;U' M2 U: M, U2": {
+    "lp": "AB",
+    "alg": "U' M2 U: M, U2",
+    "latest": true,
+    "targets": "UB UL",
+    "buffer": "UF",
+    "word": "Arbuz",
+    "results": [
+      0.24,
+      0.32,
+      0.31,
+      {
+        "UF;UB UR;R2 U': S, R2": 1.21,
+        "UF;UR UL;M2 U: M, U2": 1.07,
+        "UF;UL UB;U' M2 U: U2, M": 1.09,
+        "UF;UB UL;U' M2 U: M, U2": 1.05
+      }
+    ]
+  },
+  "UF;UB UR;U M2 U': M, U2": {
+    "lp": "AC",
+    "alg": "U M2 U': M, U2",
+    "latest": true,
+    "targets": "UB UR",
+    "buffer": "UF",
+    "word": "Acid",
+    "results": [
+      0.54,
+      0.12,
+      0.41,
+      {
+        "UF;UB UR;R2 U': S, R2": 4.88,
+        "UF;UR UB;U M2 U': U2, M": 5.05,
+        "UF;UB UR;U M2 U': M, U2": 5.07,
+        "UF;UR UL;M2 U: M, U2": 4.92
+      },
+      {
+        "UF;UB UR;U M2 U': M, U2": 4.17,
+        "UF;UL UB;U' M2 U: U2, M": 4.38,
+        "UF;UL UR;M2 U': M, U2": 2.51,
+        "UF;UR UL;M2 U: M, U2": 3.36
+      },
+      {
+        "UF;UR UL;M2 U: M, U2": 1.45,
+        "UF;UB UR;U M2 U': M, U2": 0.82,
+        "UF;UR UB;U M2 U': U2, M": 0.81,
+        "UF;UL UR;M2 U': M, U2": 0.81
+      }
+    ]
+  },
+  "UF;UB UR;R2 U': S, R2": {
+    "lp": "AC",
+    "alg": "R2 U': S, R2",
+    "latest": false,
+    "targets": "UB UR",
+    "buffer": "UF",
+    "word": "Acid",
+    "results": [
+      0.54,
+      0.27,
+      0.16,
+      {
+        "UF;UB UR;R2 U': S, R2": 1.21,
+        "UF;UR UL;M2 U: M, U2": 1.07,
+        "UF;UL UB;U' M2 U: U2, M": 1.09,
+        "UF;UB UL;U' M2 U: M, U2": 1.05
+      },
+      {
+        "UF;UB UR;R2 U': S, R2": 4.88,
+        "UF;UR UB;U M2 U': U2, M": 5.05,
+        "UF;UB UR;U M2 U': M, U2": 5.07,
+        "UF;UR UL;M2 U: M, U2": 4.92
+      }
+    ]
+  },
+  "UF;UL UB;U' M2 U: U2, M": {
+    "buffer": "UF",
+    "targets": "UL UB",
+    "alg": "U' M2 U: U2, M",
+    "results": [
+      {
+        "UF;UB UR;R2 U': S, R2": 1.21,
+        "UF;UR UL;M2 U: M, U2": 1.07,
+        "UF;UL UB;U' M2 U: U2, M": 1.09,
+        "UF;UB UL;U' M2 U: M, U2": 1.05
+      },
+      {
+        "UF;UB UR;U M2 U': M, U2": 4.17,
+        "UF;UL UB;U' M2 U: U2, M": 4.38,
+        "UF;UL UR;M2 U': M, U2": 2.51,
+        "UF;UR UL;M2 U: M, U2": 3.36
+      },
+      {
+        "UF;UR UB;U M2 U': U2, M": 1.85,
+        "UF;UL UR;M2 U': M, U2": 0.86,
+        "UF;UR UL;M2 U: M, U2": 1.06,
+        "UF;UL UB;U' M2 U: U2, M": 0.95
+      }
+    ],
+    "latest": true
+  },
+  "UF;UR UB;U M2 U': U2, M": {
+    "buffer": "UF",
+    "targets": "UR UB",
+    "alg": "U M2 U': U2, M",
+    "results": [
+      {
+        "UF;UB UR;R2 U': S, R2": 4.88,
+        "UF;UR UB;U M2 U': U2, M": 5.05,
+        "UF;UB UR;U M2 U': M, U2": 5.07,
+        "UF;UR UL;M2 U: M, U2": 4.92
+      },
+      {
+        "UF;UR UL;M2 U: M, U2": 1.45,
+        "UF;UB UR;U M2 U': M, U2": 0.82,
+        "UF;UR UB;U M2 U': U2, M": 0.81,
+        "UF;UL UR;M2 U': M, U2": 0.81
+      },
+      {
+        "UF;UR UB;U M2 U': U2, M": 1.85,
+        "UF;UL UR;M2 U': M, U2": 0.86,
+        "UF;UR UL;M2 U: M, U2": 1.06,
+        "UF;UL UB;U' M2 U: U2, M": 0.95
+      }
+    ],
+    "latest": true
+  },
+  "UF;UR UL;M2 U: M, U2": {
+    "buffer": "UF",
+    "targets": "UR UL",
+    "alg": "M2 U: M, U2",
+    "results": [
+      {
+        "UF;UB UR;R2 U': S, R2": 1.21,
+        "UF;UR UL;M2 U: M, U2": 1.07,
+        "UF;UL UB;U' M2 U: U2, M": 1.09,
+        "UF;UB UL;U' M2 U: M, U2": 1.05
+      },
+      {
+        "UF;UB UR;R2 U': S, R2": 4.88,
+        "UF;UR UB;U M2 U': U2, M": 5.05,
+        "UF;UB UR;U M2 U': M, U2": 5.07,
+        "UF;UR UL;M2 U: M, U2": 4.92
+      },
+      {
+        "UF;UB UR;U M2 U': M, U2": 4.17,
+        "UF;UL UB;U' M2 U: U2, M": 4.38,
+        "UF;UL UR;M2 U': M, U2": 2.51,
+        "UF;UR UL;M2 U: M, U2": 3.36
+      },
+      {
+        "UF;UR UL;M2 U: M, U2": 1.45,
+        "UF;UB UR;U M2 U': M, U2": 0.82,
+        "UF;UR UB;U M2 U': U2, M": 0.81,
+        "UF;UL UR;M2 U': M, U2": 0.81
+      },
+      {
+        "UF;UR UB;U M2 U': U2, M": 1.85,
+        "UF;UL UR;M2 U': M, U2": 0.86,
+        "UF;UR UL;M2 U: M, U2": 1.06,
+        "UF;UL UB;U' M2 U: U2, M": 0.95
+      }
+    ],
+    "latest": true
+  },
+  "UF;UL UR;M2 U': M, U2": {
+    "buffer": "UF",
+    "targets": "UL UR",
+    "alg": "M2 U': M, U2",
+    "results": [
+      {
+        "UF;UB UR;U M2 U': M, U2": 4.17,
+        "UF;UL UB;U' M2 U: U2, M": 4.38,
+        "UF;UL UR;M2 U': M, U2": 2.51,
+        "UF;UR UL;M2 U: M, U2": 3.36
+      },
+      {
+        "UF;UR UL;M2 U: M, U2": 1.45,
+        "UF;UB UR;U M2 U': M, U2": 0.82,
+        "UF;UR UB;U M2 U': U2, M": 0.81,
+        "UF;UL UR;M2 U': M, U2": 0.81
+      },
+      {
+        "UF;UR UB;U M2 U': U2, M": 1.85,
+        "UF;UL UR;M2 U': M, U2": 0.86,
+        "UF;UR UL;M2 U: M, U2": 1.06,
+        "UF;UL UB;U' M2 U: U2, M": 0.95
+      }
+    ],
+    "latest": true
+  }
+}
