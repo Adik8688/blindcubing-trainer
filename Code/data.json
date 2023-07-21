@@ -1,99 +1,50 @@
 {
-  "UF;UB UL;U' M2 U: M, U2": {
-    "lp": "AB",
-    "alg": "U' M2 U: M, U2",
-    "latest": true,
-    "targets": "UB UL",
+  "UF;UL;UB;U' M2 U: U2, M": {
     "buffer": "UF",
-    "word": "Arbuz",
-    "results": [
-      0.24,
-      0.32,
-      0.31,
-      0.77,
-      4.96,
-      1.45,
-      1.32
-    ]
-  },
-  "UF;UB UR;U M2 U': M, U2": {
-    "lp": "AC",
-    "alg": "U M2 U': M, U2",
-    "latest": true,
-    "targets": "UB UR",
-    "buffer": "UF",
-    "word": "Acid",
-    "results": [
-      0.54,
-      0.12,
-      0.41,
-      4.06,
-      0.54,
-      2.7,
-      1.33,
-      1.17
-    ]
-  },
-  "UF;UB UR;R2 U': S, R2": {
-    "lp": "AC",
-    "alg": "R2 U': S, R2",
-    "latest": false,
-    "targets": "UB UR",
-    "buffer": "UF",
-    "word": "Acid",
-    "results": [
-      0.54,
-      0.27,
-      0.16
-    ]
-  },
-  "UF;UL UB;U' M2 U: U2, M": {
-    "buffer": "UF",
-    "targets": "UL UB",
+    "first_target": "UL",
+    "second_target": "UB",
     "alg": "U' M2 U: U2, M",
-    "results": [
-      0.96,
-      1.45
-    ],
-    "latest": true,
-    "word": "Bat"
+    "results": [],
+    "latest": true
   },
-  "UF;UR UB;U M2 U': U2, M": {
+  "UF;UR;UB;R2 U: S, R2": {
     "buffer": "UF",
-    "targets": "UR UB",
-    "alg": "U M2 U': U2, M",
-    "results": [
-      0.78,
-      4.8,
-      2.71,
-      1.37
-    ],
-    "latest": true,
-    "word": "Czas"
+    "first_target": "UR",
+    "second_target": "UB",
+    "alg": "R2 U: S, R2",
+    "results": [],
+    "latest": true
   },
-  "UF;UR UL;M2 U: M, U2": {
+  "UF;UB;UL;U' M2 U: M, U2": {
     "buffer": "UF",
-    "targets": "UR UL",
+    "first_target": "UB",
+    "second_target": "UL",
+    "alg": "U' M2 U: M, U2",
+    "results": [],
+    "latest": true
+  },
+  "UF;UR;UL;M2 U: M, U2": {
+    "buffer": "UF",
+    "first_target": "UR",
+    "second_target": "UL",
     "alg": "M2 U: M, U2",
-    "results": [
-      0.52,
-      3.42,
-      1.04
-    ],
-    "latest": true,
-    "word": "Cable"
+    "results": [],
+    "latest": true
   },
-  "UF;UL UR;M2 U': M, U2": {
+  "UF;UB;UR;R2 U': S, R2": {
     "buffer": "UF",
-    "targets": "UL UR",
+    "first_target": "UB",
+    "second_target": "UR",
+    "alg": "R2 U': S, R2",
+    "results": [],
+    "latest": true
+  },
+  "UF;UL;UR;M2 U': M, U2": {
+    "buffer": "UF",
+    "first_target": "UL",
+    "second_target": "UR",
     "alg": "M2 U': M, U2",
-    "results": [
-      0.81,
-      0.76,
-      1.5,
-      1.19
-    ],
-    "latest": true,
-    "word": "Baca"
+    "results": [],
+    "latest": true
   }
 }
