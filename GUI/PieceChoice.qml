@@ -6,11 +6,15 @@ GridLayout {
     columns: 2
     ColumnLayout {
         Layout.alignment: Qt.AlignCenter
+        spacing: 10
         Button {
             id: edgesButton
             Layout.alignment: Qt.AlignCenter
             text: "Edges"
-            onClicked: stackview.push( "SubsetChoice.qml" )
+            onClicked: {
+                bridge.getColor('lala')
+                stackview.push( "SubsetChoice.qml" )
+            }
         }
 
         Button {
@@ -35,6 +39,7 @@ GridLayout {
         }
     }
     ColumnLayout {
+        spacing: 2
         Layout.alignment: Qt.AlignCenter
         Button {
             id: xcentersButton
@@ -55,6 +60,13 @@ GridLayout {
             Layout.alignment: Qt.AlignCenter
             text: "Midges"
             onClicked: stackview.push( "SubsetChoice.qml" )
+        }
+
+        Button {
+            id: backButton
+            Layout.alignment: Qt.AlignCenter
+            text: "Back"
+            onClicked: stackview.pop()
         }
     }
 }

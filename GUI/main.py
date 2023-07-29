@@ -1,15 +1,16 @@
-# Copyright (C) 2022 The Qt Company Ltd.
-# SPDX-License-Identifier: LicenseRef-Qt-Commercial
-
 import sys
 from pathlib import Path
 
 from PySide6.QtGui import QGuiApplication
 from PySide6.QtQml import QQmlApplicationEngine
+from PySide6.QtQuickControls2 import QQuickStyle
+
+
 
 
 if __name__ == '__main__':
     app = QGuiApplication(sys.argv)
+    QQuickStyle.setStyle("Material")
     engine = QQmlApplicationEngine()
 
     # Get the path of the current directory, and then add the name

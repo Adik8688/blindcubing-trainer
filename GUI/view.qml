@@ -1,12 +1,22 @@
-import QtQuick 2.12
-import QtQuick.Window 2.12
+import QtQuick 2.0
+import QtQuick.Layouts 1.11
+import QtQuick.Controls 2.1
+import QtQuick.Window 2.1
+import QtQuick.Controls.Material 2.1
 
-Window {
+
+ApplicationWindow {
     id: root
     width: 1024
     height: 680
     visible: true
     title: qsTr("InfotainmentExample")
+    Material.theme: Material.Dark
+    Material.accent: Material.Red
+
+    Bridge {
+        id: bridge
+    }
 
     Loader {
         id: mainLoader
