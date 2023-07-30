@@ -23,11 +23,17 @@ class Bridge(QObject):
         print(self.counter)
 
 
-    @Slot (str)
-    def openFile(self, url):
+    @Slot (str, str)
+    def updateData(self, url, update_option):
         filepath = url[8:]
         sm = SpreadsheetsManager(filepath)
-        sm.update_algs()
+        if update_option == 'algs':
+            sm.update_algs()
+        elif update_option == 'memo':
+            sm.update_memo()
+        else:
+            sm.update_lps()
+
                
 
 

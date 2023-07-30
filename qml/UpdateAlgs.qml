@@ -18,7 +18,11 @@ ColumnLayout {
         id: fileDialog
         title: "Please choose a file"
         nameFilters: ["Excel files (*.xlsx *.xls)"]
-        onAccepted: bridge.openFile(fileDialog.selectedFile) 
+        onAccepted: {
+            bridge.updateData(fileDialog.selectedFile, 'algs') 
+            stackview.pop()
+            stackview.pop()
+        }
     }   
 
     Button {

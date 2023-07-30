@@ -333,7 +333,8 @@
     "second_target": "DR",
     "results": [],
     "latest": true,
-    "alg": "R' F2: R'/S'"
+    "alg": "R' F2: R'/S'",
+    "lp": "EF"
   },
   "FL;RB;DL;L' u' L: U, L E' L'": {
     "buffer": "FL",
@@ -381,6 +382,7 @@
     "second_target": "DL",
     "results": [],
     "latest": true,
-    "alg": "R' F2: R/S'"
+    "alg": "R' F2: R/S'",
+    "lp": "FE"
   }
 }

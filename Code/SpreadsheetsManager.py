@@ -185,7 +185,7 @@ class SpreadsheetsManager:
         if df.shape[0] < 2 or df.shape[1] < 2 or not df.iloc[0][1]:
             return None
 
-        piece_type = SpreadsheetsManager.buffer_to_type(df.iloc[0][1])
+        piece_type = SpreadsheetsManager.buffer_to_type(df.iloc[1][0])
 
         result = dict()
         if df.iloc[1][0] == df.iloc[0][1]:
@@ -197,16 +197,15 @@ class SpreadsheetsManager:
             return {piece_type: result}
 
 
-        row = 1
-        while df.iloc[row][0]:
-            key = f'{df.iloc[row][0]};{df.iloc[row][1]}'
-            result[key] = df.iloc[row][2]
-            row += 1
+        for i in range(df.shape[0]):
+            key = f'{df.iloc[i][0]};{df.iloc[i][1]}'
+            result[key] = df.iloc[i][2]
+  
         return {piece_type: result}
 
 
-    def update_words(self):
-        words = SpreadsheetsManager.excel_to_dict_of_df(self.filepath)
+    def update_memo(self):
+        words = self.excel_to_dict_of_dfs()
         words_dict = dict()
         for df in words.values():
             
@@ -231,7 +230,6 @@ class SpreadsheetsManager:
                 if filename.startswith(piece_type):
                     jsons.append(filename)
 
-            print(jsons)
             for filename in jsons:
                 data = SpreadsheetsManager.get_data(path_to_jsons / filename)
 
@@ -239,6 +237,57 @@ class SpreadsheetsManager:
                     try:
                         targets = f"{v['first_target']};{v['second_target']}"
                         data[k]['word'] = words[targets]
+                    except KeyError:
+                        pass
+                
+                SpreadsheetsManager.save_data(data, path_to_jsons / filename)
+
+    @staticmethod
+    def df_to_lps_dict(df):
+        if df.shape[0] < 2 or df.shape[1] < 2 or not df.iloc[0][1]:
+            return None
+
+        piece_type = SpreadsheetsManager.buffer_to_type(df.iloc[1][0])
+
+        result = dict()
+        for i in range(df.shape[0]):
+            result[df.iloc[i][0]] = df.iloc[i][1]
+        return {piece_type: result}
+
+
+    def update_lps(self):
+        lps = self.excel_to_dict_of_dfs()
+        lps_dict = dict()
+        for df in lps.values():
+            
+            lps_grouped_by_type = SpreadsheetsManager.df_to_lps_dict(df)
+            
+            if lps_grouped_by_type is None:
+                continue
+            
+            for piece_type, words_grouped_by_case in lps_grouped_by_type.items():
+                if piece_type in lps_dict:
+                    lps_dict[piece_type].update(words_grouped_by_case)
+                else:
+                    lps_dict[piece_type] = words_grouped_by_case
+        
+
+        for piece_type, lps in lps_dict.items():
+            path_to_jsons = Path().absolute().parent / "json"
+
+            jsons = []
+
+            for filename in os.listdir(path_to_jsons):
+                if filename.startswith(piece_type):
+                    jsons.append(filename)
+
+            for filename in jsons:
+                data = SpreadsheetsManager.get_data(path_to_jsons / filename)
+
+                for k, v in data.items():
+                    try:
+                        targets = [v['first_target'], v['second_target']]
+                        data[k]['lp'] = ''.join([lps[i] for i in targets])
                     except KeyError:
                         pass
                 
