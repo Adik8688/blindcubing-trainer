@@ -1,6 +1,7 @@
 import QtQuick 2.0
 import QtQuick.Layouts 1.12
 import QtQuick.Controls 2.12
+
 ColumnLayout  {
     Text {
         id: leftlabel
@@ -9,13 +10,15 @@ ColumnLayout  {
         font.pointSize: 40
         text: "BLD Trainer"
     }
-    
 
     Button {
         id: playButton
         Layout.alignment: Qt.AlignCenter
         text: "Play"
-        onClicked: stackview.push( "PieceChoice.qml" )
+        onClicked: {
+            bridge.getColor('lala')
+            stackview.push( "PieceChoice.qml" )
+        }
     }
 
     Button {
