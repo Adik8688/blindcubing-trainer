@@ -53,8 +53,7 @@
     "second_target": "FL",
     "results": [],
     "latest": true,
-    "alg": "R U R' U': R/E",
-    "lp": "FI"
+    "alg": "R U R' U': R/E"
   },
   "FR;DL;FL;L' U' L U: L/E'": {
     "buffer": "FR",
@@ -62,8 +61,7 @@
     "second_target": "FL",
     "results": [],
     "latest": true,
-    "alg": "L' U' L U: L/E'",
-    "lp": "EI"
+    "alg": "L' U' L U: L/E'"
   },
   "FR;FL;RB;R S' R', F2": {
     "buffer": "FR",
@@ -519,8 +517,7 @@
     "second_target": "DR",
     "results": [],
     "latest": true,
-    "alg": "R U R' U': R'/E",
-    "lp": "IF"
+    "alg": "R U R' U': R'/E"
   },
   "FR;RB;DR;R2 U': R' U R, E": {
     "buffer": "FR",
@@ -576,8 +573,7 @@
     "second_target": "DR",
     "results": [],
     "latest": true,
-    "alg": "L F2: L'/S",
-    "lp": "EF"
+    "alg": "L F2: L'/S"
   },
   "FR;FL;DL;L' U' L U: L'/E'": {
     "buffer": "FR",
@@ -585,8 +581,7 @@
     "second_target": "DL",
     "results": [],
     "latest": true,
-    "alg": "L' U' L U: L'/E'",
-    "lp": "IE"
+    "alg": "L' U' L U: L'/E'"
   },
   "FR;RB;DL;L' B L U': L'/E'": {
     "buffer": "FR",
@@ -642,7 +637,6 @@
     "second_target": "DL",
     "results": [],
     "latest": true,
-    "alg": "L F2: L/S",
-    "lp": "FE"
+    "alg": "L F2: L/S"
   }
 }

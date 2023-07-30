@@ -5,8 +5,7 @@
     "second_target": "FR",
     "results": [],
     "latest": true,
-    "alg": "R D': R/E",
-    "lp": "IJ"
+    "alg": "R D': R/E"
   },
   "DB;RB;FR;r' U r, E": {
     "buffer": "DB",
@@ -70,8 +69,7 @@
     "second_target": "FR",
     "results": [],
     "latest": true,
-    "alg": "R2: U M2 U', R'",
-    "lp": "FJ"
+    "alg": "R2: U M2 U', R'"
   },
   "DB;DL;FR;M2 U: L'/E'": {
     "buffer": "DB",
@@ -79,8 +77,7 @@
     "second_target": "FR",
     "results": [],
     "latest": true,
-    "alg": "M2 U: L'/E'",
-    "lp": "EJ"
+    "alg": "M2 U: L'/E'"
   },
   "DB;FR;FL;R D': R'/E": {
     "buffer": "DB",
@@ -88,8 +85,7 @@
     "second_target": "FL",
     "results": [],
     "latest": true,
-    "alg": "R D': R'/E",
-    "lp": "JI"
+    "alg": "R D': R'/E"
   },
   "DB;RB;FL;r': U, r' E r": {
     "buffer": "DB",
@@ -153,8 +149,7 @@
     "second_target": "FL",
     "results": [],
     "latest": true,
-    "alg": "M2 U': R/E",
-    "lp": "FI"
+    "alg": "M2 U': R/E"
   },
   "DB;DL;FL;L2: U' M2 U, L": {
     "buffer": "DB",
@@ -162,8 +157,7 @@
     "second_target": "FL",
     "results": [],
     "latest": true,
-    "alg": "L2: U' M2 U, L",
-    "lp": "EI"
+    "alg": "L2: U' M2 U, L"
   },
   "DB;FR;RB;E, r' U r": {
     "buffer": "DB",
@@ -811,8 +805,7 @@
     "second_target": "DR",
     "results": [],
     "latest": true,
-    "alg": "R: U M2 U', R",
-    "lp": "JF"
+    "alg": "R: U M2 U', R"
   },
   "DB;FL;DR;M2 U': R'/E": {
     "buffer": "DB",
@@ -820,8 +813,7 @@
     "second_target": "DR",
     "results": [],
     "latest": true,
-    "alg": "M2 U': R'/E",
-    "lp": "IF"
+    "alg": "M2 U': R'/E"
   },
   "DB;RB;DR;S': R', U' M U": {
     "buffer": "DB",
@@ -885,8 +877,7 @@
     "second_target": "DR",
     "results": [],
     "latest": true,
-    "alg": "M2 U': R2, S'",
-    "lp": "EF"
+    "alg": "M2 U': R2, S'"
   },
   "DB;FR;DL;M2 U: L/E'": {
     "buffer": "DB",
@@ -894,8 +885,7 @@
     "second_target": "DL",
     "results": [],
     "latest": true,
-    "alg": "M2 U: L/E'",
-    "lp": "JE"
+    "alg": "M2 U: L/E'"
   },
   "DB;FL;DL;L': U' M2 U, L'": {
     "buffer": "DB",
@@ -903,8 +893,7 @@
     "second_target": "DL",
     "results": [],
     "latest": true,
-    "alg": "L': U' M2 U, L'",
-    "lp": "IE"
+    "alg": "L': U' M2 U, L'"
   },
   "DB;RB;DL;L E L', D": {
     "buffer": "DB",
@@ -968,7 +957,6 @@
     "second_target": "DL",
     "results": [],
     "latest": true,
-    "alg": "M2 U: L2, S",
-    "lp": "FE"
+    "alg": "M2 U: L2, S"
   }
 }

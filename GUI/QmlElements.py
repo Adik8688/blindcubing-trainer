@@ -1,26 +1,20 @@
 import sys
 
+from pathlib import Path
+import os
 from PySide6.QtCore import QObject, Slot
-from PySide6.QtQml import QQmlApplicationEngine, QmlElement
+from PySide6.QtQml import QmlElement
 
 sys.path.append('..')
 
 from Code.SpreadsheetsManager import SpreadsheetsManager
 
-# To be used on the @QmlElement decorator
-# (QML_IMPORT_MINOR_VERSION is optional)
 QML_IMPORT_NAME = "io.qt.textproperties"
 QML_IMPORT_MAJOR_VERSION = 1
 
 
 @QmlElement
 class Bridge(QObject):
-
-    
-    @Slot (int)
-    def setCounter(self, value):
-        self.counter = value
-        print(self.counter)
 
 
     @Slot (str, str)
@@ -34,47 +28,31 @@ class Bridge(QObject):
         else:
             sm.update_lps()
 
-               
+    @Slot (str)
+    def setPieceType(self, piece):
+        self.pieceType = piece
 
+    @Slot (result=str)
+    def getPieceType(self):
+        return self.pieceType
 
-    @Slot(str, result=str)
-    def getColor(self, s):
-        Bridge.counter += 1
-        print(Bridge.counter)
-        if s.lower() == "red":
-            return "#ef9a9a"
-        elif s.lower() == "green":
-            return "#a5d6a7"
-        elif s.lower() == "blue":
-            return "#90caf9"
-        else:
-            return "white"
+    @Slot (result=list)
+    def getBuffersList(self):
+        path_to_jsons = Path().absolute().parent / "json"
 
-    @Slot(float, result=int)
-    def getSize(self, s):
-        size = int(s * 34)
-        if size <= 0:
-            return 1
-        else:
-            return size
+        jsons = []
 
-    @Slot(str, result=bool)
-    def getItalic(self, s):
-        if s.lower() == "italic":
-            return True
-        else:
-            return False
+        for filename in os.listdir(path_to_jsons):
+            if filename.startswith(self.pieceType):
+                jsons.append(filename)
 
-    @Slot(str, result=bool)
-    def getBold(self, s):
-        if s.lower() == "bold":
-            return True
-        else:
-            return False
+        buffers = [i.split('.')[0].split('_')[1] for i in jsons]
+        return buffers
+    
+    @Slot (str)
+    def setBuffer(self, buffer):
+        self.buffer = buffer
 
-    @Slot(str, result=bool)
-    def getUnderline(self, s):
-        if s.lower() == "underline":
-            return True
-        else:
-            return False
+    @Slot (result=str)
+    def getBuffer(self):
+        return self.buffer

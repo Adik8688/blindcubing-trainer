@@ -4,23 +4,28 @@ import QtQuick.Controls 2.12
 ColumnLayout {
     Text {
         Layout.alignment: Qt.AlignCenter
-        text: "Choose subset"
+        text: "Choose your buffer"
         color: '#FFFFFF'
         font.pointSize: 40
     }
 
-    Text {
+
+    ComboBox {
+        id: bufferBox
         Layout.alignment: Qt.AlignCenter
-        text: "Type: " + bridge.getPieceType()
-        color: '#FFFFFF'
-        font.pointSize: 20
+        model: bridge.getBuffersList()
     }
 
-    Text {
+    Button {
+        id: submitButton
         Layout.alignment: Qt.AlignCenter
-        text: "Buffer: " + bridge.getBuffer()
-        color: '#FFFFFF'
-        font.pointSize: 20
+        text: "Submit"
+        onClicked: {
+            if (bufferBox.currentValue) {
+                bridge.setBuffer(bufferBox.currentValue)
+                stackview.push('SubsetChoice.qml')
+            }
+        }
     }
 
     Button {
