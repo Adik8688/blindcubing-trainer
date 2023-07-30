@@ -1,5 +1,5 @@
 import json
-from os.path import exists
+import os
 import pandas as pd
 import numpy as np
 from pathlib import Path
@@ -13,7 +13,7 @@ class SpreadsheetsManager:
 
     @staticmethod
     def get_data(file_path):
-        if not exists(file_path):
+        if not os.path.exists(file_path):
             return {}
 
         with open(file_path, "r") as f:
@@ -43,26 +43,33 @@ class SpreadsheetsManager:
         return alg
     
     @staticmethod
-    def buffer_to_type(buffer):
+    def buffer_to_type(buffer, suffix = False):
         if len(buffer) < 2 or len(buffer) > 3:
             return "error"
+        
+        piece_type = ''
 
         if buffer[0].islower():
-            return "midges" + "_" + buffer.lower()
+            piece_type = "midges"
 
-        if len(buffer) == 2 and buffer[1].islower():
-            return "tcenters" + "_" + buffer.lower()
+        elif len(buffer) == 2 and buffer[1].islower():
+            piece_type = "tcenters"
 
-        if len(buffer) == 2:
-            return "edges" + "_" + buffer.lower()
+        elif len(buffer) == 2:
+            piece_type = "edges"
+        elif buffer[1].islower():
+            piece_type = "xcenters"
 
-        if buffer[1].islower():
-            return "xcenters" + "_" + buffer.lower()
+        elif buffer[2].islower():
+            piece_type = "wings"
+        
+        else:
+            piece_type = "corners"
 
-        if buffer[2].islower():
-            return "wings" + "_" + buffer.lower()
-
-        return "corners" + "_" + buffer.lower()
+        if suffix:
+            piece_type = f'{piece_type}_{buffer}'
+        
+        return piece_type
      
     @staticmethod
     def keys_with_different_algs(data, key):
@@ -98,7 +105,7 @@ class SpreadsheetsManager:
         if not buffer or df.shape[0] < 2 or df.shape[1] < 2 or not df.iloc[0][1]:
             return None
 
-        piece_type = SpreadsheetsManager.buffer_to_type(buffer)
+        piece_type = SpreadsheetsManager.buffer_to_type(buffer, True)
         result = []
 
         # table
@@ -172,3 +179,67 @@ class SpreadsheetsManager:
             SpreadsheetsManager.save_data(data, str(filepath))
 
     
+
+    @staticmethod
+    def df_to_words_dict(df):
+        if df.shape[0] < 2 or df.shape[1] < 2 or not df.iloc[0][1]:
+            return None
+
+        piece_type = SpreadsheetsManager.buffer_to_type(df.iloc[0][1])
+
+        result = dict()
+        if df.iloc[1][0] == df.iloc[0][1]:
+            for i in range(1, df.shape[1]):
+                for j in range(1, df.shape[0]):
+                    if df.iloc[i][j]:
+                        key = f'{df.iloc[0][j]};{df.iloc[i][0]}'
+                        result[key] = df.iloc[i][j]
+            return {piece_type: result}
+
+
+        row = 1
+        while df.iloc[row][0]:
+            key = f'{df.iloc[row][0]};{df.iloc[row][1]}'
+            result[key] = df.iloc[row][2]
+            row += 1
+        return {piece_type: result}
+
+
+    def update_words(self):
+        words = SpreadsheetsManager.excel_to_dict_of_df(self.filepath)
+        words_dict = dict()
+        for df in words.values():
+            
+            words_grouped_by_type = SpreadsheetsManager.df_to_words_dict(df)
+            
+            if words_grouped_by_type is None:
+                continue
+            
+            for piece_type, words_grouped_by_case in words_grouped_by_type.items():
+                if piece_type in words_dict:
+                    words_dict[piece_type].update(words_grouped_by_case)
+                else:
+                    words_dict[piece_type] = words_grouped_by_case
+        
+
+        for piece_type, words in words_dict.items():
+            path_to_jsons = Path().absolute().parent / "json"
+
+            jsons = []
+
+            for filename in os.listdir(path_to_jsons):
+                if filename.startswith(piece_type):
+                    jsons.append(filename)
+
+            print(jsons)
+            for filename in jsons:
+                data = SpreadsheetsManager.get_data(path_to_jsons / filename)
+
+                for k, v in data.items():
+                    try:
+                        targets = f"{v['first_target']};{v['second_target']}"
+                        data[k]['word'] = words[targets]
+                    except KeyError:
+                        pass
+                
+                SpreadsheetsManager.save_data(data, path_to_jsons / filename)

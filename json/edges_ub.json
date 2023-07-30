@@ -5,7 +5,8 @@
     "second_target": "UR",
     "results": [],
     "latest": true,
-    "alg": "M2: U/M'"
+    "alg": "M2: U/M'",
+    "word": "Baca"
   },
   "UB;FR;UR;E': R' E R, U": {
     "buffer": "UB",
@@ -149,7 +150,8 @@
     "second_target": "UL",
     "results": [],
     "latest": true,
-    "alg": "M2: U'/M'"
+    "alg": "M2: U'/M'",
+    "word": "Cable"
   },
   "UB;FR;UL;L' E2 L, U'": {
     "buffer": "UB",

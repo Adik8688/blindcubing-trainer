@@ -5,7 +5,8 @@
     "second_target": "UB",
     "results": [],
     "latest": true,
-    "alg": "R2 U': R2, S"
+    "alg": "R2 U': R2, S",
+    "word": "Czas"
   },
   "UF;UL;UB;L2 U: L2, S'": {
     "buffer": "UF",
@@ -13,7 +14,8 @@
     "second_target": "UB",
     "results": [],
     "latest": true,
-    "alg": "L2 U: L2, S'"
+    "alg": "L2 U: L2, S'",
+    "word": "Bat"
   },
   "UF;FR;UB;R' U': R2, S": {
     "buffer": "UF",
@@ -165,7 +167,8 @@
     "second_target": "UR",
     "results": [],
     "latest": true,
-    "alg": "R2 U': S, R2"
+    "alg": "R2 U': S, R2",
+    "word": "Acid"
   },
   "UF;UL;UR;M2: U'/M": {
     "buffer": "UF",
@@ -173,7 +176,8 @@
     "second_target": "UR",
     "results": [],
     "latest": true,
-    "alg": "M2: U'/M"
+    "alg": "M2: U'/M",
+    "word": "Baca"
   },
   "UF;FR;UR;E': R' E R, U'": {
     "buffer": "UF",
@@ -325,7 +329,8 @@
     "second_target": "UL",
     "results": [],
     "latest": true,
-    "alg": "L2 U: S', L2"
+    "alg": "L2 U: S', L2",
+    "word": "Arbuz"
   },
   "UF;UR;UL;M2: U/M": {
     "buffer": "UF",
@@ -333,7 +338,8 @@
     "second_target": "UL",
     "results": [],
     "latest": true,
-    "alg": "M2: U/M"
+    "alg": "M2: U/M",
+    "word": "Cable"
   },
   "UF;FR;UL;L' E2 L, U": {
     "buffer": "UF",
