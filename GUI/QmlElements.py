@@ -1,3 +1,4 @@
+import os
 
 from PySide6.QtCore import QObject, Slot
 from PySide6.QtQml import QQmlApplicationEngine, QmlElement
@@ -12,6 +13,19 @@ QML_IMPORT_MAJOR_VERSION = 1
 class Bridge(QObject):
 
     counter = 0
+    @Slot (int)
+    def setCounter(self, value):
+        self.counter = value
+        print(self.counter)
+
+
+    @Slot (str)
+    def openFile(self, url):
+        with open(url[8:], 'r') as f:
+            for line in f:
+                print(line)
+               
+
 
     @Slot(str, result=str)
     def getColor(self, s):

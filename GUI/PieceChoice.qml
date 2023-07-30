@@ -12,7 +12,7 @@ GridLayout {
             Layout.alignment: Qt.AlignCenter
             text: "Edges"
             onClicked: {
-                bridge.getColor('lala')
+                bridge.setCounter(1)
                 stackview.push( "SubsetChoice.qml" )
             }
         }
@@ -21,7 +21,10 @@ GridLayout {
             id: cornersButton
             Layout.alignment: Qt.AlignCenter
             text: "Corners"
-            onClicked: stackview.push( "SubsetChoice.qml" )
+            onClicked: {
+                bridge.setCounter(5)
+                stackview.push( "SubsetChoice.qml" )
+            }
         }
 
         Button {

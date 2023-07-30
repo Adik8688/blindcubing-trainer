@@ -16,7 +16,6 @@ ColumnLayout  {
         Layout.alignment: Qt.AlignCenter
         text: "Play"
         onClicked: {
-            bridge.getColor('lala')
             stackview.push( "PieceChoice.qml" )
         }
     }
