@@ -1,7 +1,11 @@
-import os
+import sys
 
 from PySide6.QtCore import QObject, Slot
 from PySide6.QtQml import QQmlApplicationEngine, QmlElement
+
+sys.path.append('..')
+
+from Code.SpreadsheetsManager import SpreadsheetsManager
 
 # To be used on the @QmlElement decorator
 # (QML_IMPORT_MINOR_VERSION is optional)
@@ -12,7 +16,7 @@ QML_IMPORT_MAJOR_VERSION = 1
 @QmlElement
 class Bridge(QObject):
 
-    counter = 0
+    
     @Slot (int)
     def setCounter(self, value):
         self.counter = value
@@ -21,9 +25,9 @@ class Bridge(QObject):
 
     @Slot (str)
     def openFile(self, url):
-        with open(url[8:], 'r') as f:
-            for line in f:
-                print(line)
+        filepath = url[8:]
+        sm = SpreadsheetsManager(filepath)
+        sm.update_algs()
                
 
 

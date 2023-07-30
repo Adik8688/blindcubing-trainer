@@ -17,13 +17,8 @@ ColumnLayout {
     FileDialog {
         id: fileDialog
         title: "Please choose a file"
-        onAccepted: {
-            console.log("You chose: " + fileDialog.selectedFile)
-            bridge.openFile(fileDialog.selectedFile)
-        }
-        onRejected: {
-            console.log("Canceled")
-        }
+        nameFilters: ["Excel files (*.xlsx *.xls)"]
+        onAccepted: bridge.openFile(fileDialog.selectedFile) 
     }   
 
     Button {

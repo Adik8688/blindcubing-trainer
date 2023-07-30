@@ -33,4 +33,11 @@ ColumnLayout  {
         text: "Export data"
         onClicked: stackview.push( "ExportOptions.qml" )
     }
+
+    Button {
+        id: exitButton
+        Layout.alignment: Qt.AlignCenter
+        text: "Exit"
+        onClicked: Qt.quit()
+    }
 }
