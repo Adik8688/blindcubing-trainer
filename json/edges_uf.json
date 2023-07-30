@@ -1,0 +1,3522 @@
+{
+  "UF;UR;UB;R2 U': R2, S": {
+    "buffer": "UF",
+    "first_target": "UR",
+    "second_target": "UB",
+    "results": [],
+    "latest": true,
+    "alg": "R2 U': R2, S"
+  },
+  "UF;UL;UB;L2 U: L2, S'": {
+    "buffer": "UF",
+    "first_target": "UL",
+    "second_target": "UB",
+    "results": [],
+    "latest": true,
+    "alg": "L2 U: L2, S'"
+  },
+  "UF;FR;UB;R' U': R2, S": {
+    "buffer": "UF",
+    "first_target": "FR",
+    "second_target": "UB",
+    "results": [],
+    "latest": true,
+    "alg": "R' U': R2, S"
+  },
+  "UF;FD;UB;R' F': E, R U R'": {
+    "buffer": "UF",
+    "first_target": "FD",
+    "second_target": "UB",
+    "results": [],
+    "latest": true,
+    "alg": "R' F': E, R U R'"
+  },
+  "UF;FL;UB;L U: L2, S'": {
+    "buffer": "UF",
+    "first_target": "FL",
+    "second_target": "UB",
+    "results": [],
+    "latest": true,
+    "alg": "L U: L2, S'"
+  },
+  "UF;RU;UB;U M: U'/M'": {
+    "buffer": "UF",
+    "first_target": "RU",
+    "second_target": "UB",
+    "results": [],
+    "latest": true,
+    "alg": "U M: U'/M'"
+  },
+  "UF;RB;UB;U'/L' E L": {
+    "buffer": "UF",
+    "first_target": "RB",
+    "second_target": "UB",
+    "results": [],
+    "latest": true,
+    "alg": "U'/L' E L"
+  },
+  "UF;RD;UB;U/R' E' R": {
+    "buffer": "UF",
+    "first_target": "RD",
+    "second_target": "UB",
+    "results": [],
+    "latest": true,
+    "alg": "U/R' E' R"
+  },
+  "UF;RF;UB;U'/L E' L'": {
+    "buffer": "UF",
+    "first_target": "RF",
+    "second_target": "UB",
+    "results": [],
+    "latest": true,
+    "alg": "U'/L E' L'"
+  },
+  "UF;BL;UB;L' U: L2, S'": {
+    "buffer": "UF",
+    "first_target": "BL",
+    "second_target": "UB",
+    "results": [],
+    "latest": true,
+    "alg": "L' U: L2, S'"
+  },
+  "UF;BD;UB;U M': U'/M'": {
+    "buffer": "UF",
+    "first_target": "BD",
+    "second_target": "UB",
+    "results": [],
+    "latest": true,
+    "alg": "U M': U'/M'"
+  },
+  "UF;BR;UB;R U': R2, S": {
+    "buffer": "UF",
+    "first_target": "BR",
+    "second_target": "UB",
+    "results": [],
+    "latest": true,
+    "alg": "R U': R2, S"
+  },
+  "UF;LU;UB;U' M: U/M'": {
+    "buffer": "UF",
+    "first_target": "LU",
+    "second_target": "UB",
+    "results": [],
+    "latest": true,
+    "alg": "U' M: U/M'"
+  },
+  "UF;LF;UB;U/R' E R": {
+    "buffer": "UF",
+    "first_target": "LF",
+    "second_target": "UB",
+    "results": [],
+    "latest": true,
+    "alg": "U/R' E R"
+  },
+  "UF;LD;UB;U'/L E L'": {
+    "buffer": "UF",
+    "first_target": "LD",
+    "second_target": "UB",
+    "results": [],
+    "latest": true,
+    "alg": "U'/L E L'"
+  },
+  "UF;LB;UB;U/R E' R'": {
+    "buffer": "UF",
+    "first_target": "LB",
+    "second_target": "UB",
+    "results": [],
+    "latest": true,
+    "alg": "U/R E' R'"
+  },
+  "UF;DF;UB;M', U2": {
+    "buffer": "UF",
+    "first_target": "DF",
+    "second_target": "UB",
+    "results": [],
+    "latest": true,
+    "alg": "M', U2"
+  },
+  "UF;DR;UB;U': R2, S": {
+    "buffer": "UF",
+    "first_target": "DR",
+    "second_target": "UB",
+    "results": [],
+    "latest": true,
+    "alg": "U': R2, S"
+  },
+  "UF;DB;UB;U2, M": {
+    "buffer": "UF",
+    "first_target": "DB",
+    "second_target": "UB",
+    "results": [],
+    "latest": true,
+    "alg": "U2, M"
+  },
+  "UF;DL;UB;U: L2, S'": {
+    "buffer": "UF",
+    "first_target": "DL",
+    "second_target": "UB",
+    "results": [],
+    "latest": true,
+    "alg": "U: L2, S'"
+  },
+  "UF;UB;UR;R2 U': S, R2": {
+    "buffer": "UF",
+    "first_target": "UB",
+    "second_target": "UR",
+    "results": [],
+    "latest": true,
+    "alg": "R2 U': S, R2"
+  },
+  "UF;UL;UR;M2: U'/M": {
+    "buffer": "UF",
+    "first_target": "UL",
+    "second_target": "UR",
+    "results": [],
+    "latest": true,
+    "alg": "M2: U'/M"
+  },
+  "UF;FR;UR;E': R' E R, U'": {
+    "buffer": "UF",
+    "first_target": "FR",
+    "second_target": "UR",
+    "results": [],
+    "latest": true,
+    "alg": "E': R' E R, U'"
+  },
+  "UF;FD;UR;R U' R' U, M'": {
+    "buffer": "UF",
+    "first_target": "FD",
+    "second_target": "UR",
+    "results": [],
+    "latest": true,
+    "alg": "R U' R' U, M'"
+  },
+  "UF;FL;UR;R E2 R', U'": {
+    "buffer": "UF",
+    "first_target": "FL",
+    "second_target": "UR",
+    "results": [],
+    "latest": true,
+    "alg": "R E2 R', U'"
+  },
+  "UF;RB;UR;U2: L' E L, U'": {
+    "buffer": "UF",
+    "first_target": "RB",
+    "second_target": "UR",
+    "results": [],
+    "latest": true,
+    "alg": "U2: L' E L, U'"
+  },
+  "UF;RD;UR;R' E' R, U'": {
+    "buffer": "UF",
+    "first_target": "RD",
+    "second_target": "UR",
+    "results": [],
+    "latest": true,
+    "alg": "R' E' R, U'"
+  },
+  "UF;RF;UR;U2: L E' L', U'": {
+    "buffer": "UF",
+    "first_target": "RF",
+    "second_target": "UR",
+    "results": [],
+    "latest": true,
+    "alg": "U2: L E' L', U'"
+  },
+  "UF;BU;UR;R' U' R U, M": {
+    "buffer": "UF",
+    "first_target": "BU",
+    "second_target": "UR",
+    "results": [],
+    "latest": true,
+    "alg": "R' U' R U, M"
+  },
+  "UF;BL;UR;R' E2 R, U'": {
+    "buffer": "UF",
+    "first_target": "BL",
+    "second_target": "UR",
+    "results": [],
+    "latest": true,
+    "alg": "R' E2 R, U'"
+  },
+  "UF;BD;UR;M U' M' U' M U' M' U'": {
+    "buffer": "UF",
+    "first_target": "BD",
+    "second_target": "UR",
+    "results": [],
+    "latest": true,
+    "alg": "M U' M' U' M U' M' U'"
+  },
+  "UF;BR;UR;E: R E' R', U'": {
+    "buffer": "UF",
+    "first_target": "BR",
+    "second_target": "UR",
+    "results": [],
+    "latest": true,
+    "alg": "E: R E' R', U'"
+  },
+  "UF;LU;UR;L F' L', S'": {
+    "buffer": "UF",
+    "first_target": "LU",
+    "second_target": "UR",
+    "results": [],
+    "latest": true,
+    "alg": "L F' L', S'"
+  },
+  "UF;LF;UR;R' E R, U'": {
+    "buffer": "UF",
+    "first_target": "LF",
+    "second_target": "UR",
+    "results": [],
+    "latest": true,
+    "alg": "R' E R, U'"
+  },
+  "UF;LD;UR;U2: L E L', U'": {
+    "buffer": "UF",
+    "first_target": "LD",
+    "second_target": "UR",
+    "results": [],
+    "latest": true,
+    "alg": "U2: L E L', U'"
+  },
+  "UF;LB;UR;R E' R', U'": {
+    "buffer": "UF",
+    "first_target": "LB",
+    "second_target": "UR",
+    "results": [],
+    "latest": true,
+    "alg": "R E' R', U'"
+  },
+  "UF;DF;UR;L: F'/L' S' L": {
+    "buffer": "UF",
+    "first_target": "DF",
+    "second_target": "UR",
+    "results": [],
+    "latest": true,
+    "alg": "L: F'/L' S' L"
+  },
+  "UF;DR;UR;R' U: R/S": {
+    "buffer": "UF",
+    "first_target": "DR",
+    "second_target": "UR",
+    "results": [],
+    "latest": true,
+    "alg": "R' U: R/S"
+  },
+  "UF;DB;UR;R U R': U/M": {
+    "buffer": "UF",
+    "first_target": "DB",
+    "second_target": "UR",
+    "results": [],
+    "latest": true,
+    "alg": "R U R': U/M"
+  },
+  "UF;DL;UR;L U L' U' L' U' L' U L U": {
+    "buffer": "UF",
+    "first_target": "DL",
+    "second_target": "UR",
+    "results": [],
+    "latest": true,
+    "alg": "L U L' U' L' U' L' U L U"
+  },
+  "UF;UB;UL;L2 U: S', L2": {
+    "buffer": "UF",
+    "first_target": "UB",
+    "second_target": "UL",
+    "results": [],
+    "latest": true,
+    "alg": "L2 U: S', L2"
+  },
+  "UF;UR;UL;M2: U/M": {
+    "buffer": "UF",
+    "first_target": "UR",
+    "second_target": "UL",
+    "results": [],
+    "latest": true,
+    "alg": "M2: U/M"
+  },
+  "UF;FR;UL;L' E2 L, U": {
+    "buffer": "UF",
+    "first_target": "FR",
+    "second_target": "UL",
+    "results": [],
+    "latest": true,
+    "alg": "L' E2 L, U"
+  },
+  "UF;FD;UL;L' U L U', M'": {
+    "buffer": "UF",
+    "first_target": "FD",
+    "second_target": "UL",
+    "results": [],
+    "latest": true,
+    "alg": "L' U L U', M'"
+  },
+  "UF;FL;UL;E: L E' L', U": {
+    "buffer": "UF",
+    "first_target": "FL",
+    "second_target": "UL",
+    "results": [],
+    "latest": true,
+    "alg": "E: L E' L', U"
+  },
+  "UF;RU;UL;R' F R, S": {
+    "buffer": "UF",
+    "first_target": "RU",
+    "second_target": "UL",
+    "results": [],
+    "latest": true,
+    "alg": "R' F R, S"
+  },
+  "UF;RB;UL;L' E L, U": {
+    "buffer": "UF",
+    "first_target": "RB",
+    "second_target": "UL",
+    "results": [],
+    "latest": true,
+    "alg": "L' E L, U"
+  },
+  "UF;RD;UL;U2: R' E' R, U": {
+    "buffer": "UF",
+    "first_target": "RD",
+    "second_target": "UL",
+    "results": [],
+    "latest": true,
+    "alg": "U2: R' E' R, U"
+  },
+  "UF;RF;UL;L E' L', U": {
+    "buffer": "UF",
+    "first_target": "RF",
+    "second_target": "UL",
+    "results": [],
+    "latest": true,
+    "alg": "L E' L', U"
+  },
+  "UF;BU;UL;L U L' U', M": {
+    "buffer": "UF",
+    "first_target": "BU",
+    "second_target": "UL",
+    "results": [],
+    "latest": true,
+    "alg": "L U L' U', M"
+  },
+  "UF;BL;UL;E': L' E L, U": {
+    "buffer": "UF",
+    "first_target": "BL",
+    "second_target": "UL",
+    "results": [],
+    "latest": true,
+    "alg": "E': L' E L, U"
+  },
+  "UF;BD;UL;M U M' U M U M' U": {
+    "buffer": "UF",
+    "first_target": "BD",
+    "second_target": "UL",
+    "results": [],
+    "latest": true,
+    "alg": "M U M' U M U M' U"
+  },
+  "UF;BR;UL;L E2 L', U": {
+    "buffer": "UF",
+    "first_target": "BR",
+    "second_target": "UL",
+    "results": [],
+    "latest": true,
+    "alg": "L E2 L', U"
+  },
+  "UF;LF;UL;U2: R' E R, U": {
+    "buffer": "UF",
+    "first_target": "LF",
+    "second_target": "UL",
+    "results": [],
+    "latest": true,
+    "alg": "U2: R' E R, U"
+  },
+  "UF;LD;UL;L E L', U": {
+    "buffer": "UF",
+    "first_target": "LD",
+    "second_target": "UL",
+    "results": [],
+    "latest": true,
+    "alg": "L E L', U"
+  },
+  "UF;LB;UL;U2: R E' R', U": {
+    "buffer": "UF",
+    "first_target": "LB",
+    "second_target": "UL",
+    "results": [],
+    "latest": true,
+    "alg": "U2: R E' R', U"
+  },
+  "UF;DF;UL;R': F/R S R'": {
+    "buffer": "UF",
+    "first_target": "DF",
+    "second_target": "UL",
+    "results": [],
+    "latest": true,
+    "alg": "R': F/R S R'"
+  },
+  "UF;DR;UL;R' U' R U R U R U' R' U'": {
+    "buffer": "UF",
+    "first_target": "DR",
+    "second_target": "UL",
+    "results": [],
+    "latest": true,
+    "alg": "R' U' R U R U R U' R' U'"
+  },
+  "UF;DB;UL;U l: U/R' E R": {
+    "buffer": "UF",
+    "first_target": "DB",
+    "second_target": "UL",
+    "results": [],
+    "latest": true,
+    "alg": "U l: U/R' E R"
+  },
+  "UF;DL;UL;L U': L'/S'": {
+    "buffer": "UF",
+    "first_target": "DL",
+    "second_target": "UL",
+    "results": [],
+    "latest": true,
+    "alg": "L U': L'/S'"
+  },
+  "UF;UB;FR;R' U': S, R2": {
+    "buffer": "UF",
+    "first_target": "UB",
+    "second_target": "FR",
+    "results": [],
+    "latest": true,
+    "alg": "R' U': S, R2"
+  },
+  "UF;UR;FR;E': U', R' E R": {
+    "buffer": "UF",
+    "first_target": "UR",
+    "second_target": "FR",
+    "results": [],
+    "latest": true,
+    "alg": "E': U', R' E R"
+  },
+  "UF;UL;FR;U, L' E2 L": {
+    "buffer": "UF",
+    "first_target": "UL",
+    "second_target": "FR",
+    "results": [],
+    "latest": true,
+    "alg": "U, L' E2 L"
+  },
+  "UF;FD;FR;U' R U, M'": {
+    "buffer": "UF",
+    "first_target": "FD",
+    "second_target": "FR",
+    "results": [],
+    "latest": true,
+    "alg": "U' R U, M'"
+  },
+  "UF;FL;FR;R' U': R'/E": {
+    "buffer": "UF",
+    "first_target": "FL",
+    "second_target": "FR",
+    "results": [],
+    "latest": true,
+    "alg": "R' U': R'/E"
+  },
+  "UF;RU;FR;R' U' E': R'/E": {
+    "buffer": "UF",
+    "first_target": "RU",
+    "second_target": "FR",
+    "results": [],
+    "latest": true,
+    "alg": "R' U' E': R'/E"
+  },
+  "UF;RB;FR;E', R U' R'": {
+    "buffer": "UF",
+    "first_target": "RB",
+    "second_target": "FR",
+    "results": [],
+    "latest": true,
+    "alg": "E', R U' R'"
+  },
+  "UF;RD;FR;R' u': R/E'": {
+    "buffer": "UF",
+    "first_target": "RD",
+    "second_target": "FR",
+    "results": [],
+    "latest": true,
+    "alg": "R' u': R/E'"
+  },
+  "UF;BU;FR;U' R U, M": {
+    "buffer": "UF",
+    "first_target": "BU",
+    "second_target": "FR",
+    "results": [],
+    "latest": true,
+    "alg": "U' R U, M"
+  },
+  "UF;BL;FR;R' U': R/E'": {
+    "buffer": "UF",
+    "first_target": "BL",
+    "second_target": "FR",
+    "results": [],
+    "latest": true,
+    "alg": "R' U': R/E'"
+  },
+  "UF;BD;FR;U': R, U' M U": {
+    "buffer": "UF",
+    "first_target": "BD",
+    "second_target": "FR",
+    "results": [],
+    "latest": true,
+    "alg": "U': R, U' M U"
+  },
+  "UF;BR;FR;U: R/S": {
+    "buffer": "UF",
+    "first_target": "BR",
+    "second_target": "FR",
+    "results": [],
+    "latest": true,
+    "alg": "U: R/S"
+  },
+  "UF;LU;FR;S' U: L'/E'": {
+    "buffer": "UF",
+    "first_target": "LU",
+    "second_target": "FR",
+    "results": [],
+    "latest": true,
+    "alg": "S' U: L'/E'"
+  },
+  "UF;LF;FR;E, R U' R'": {
+    "buffer": "UF",
+    "first_target": "LF",
+    "second_target": "FR",
+    "results": [],
+    "latest": true,
+    "alg": "E, R U' R'"
+  },
+  "UF;LD;FR;U: L F2 L', S": {
+    "buffer": "UF",
+    "first_target": "LD",
+    "second_target": "FR",
+    "results": [],
+    "latest": true,
+    "alg": "U: L F2 L', S"
+  },
+  "UF;LB;FR;R: R E' R', U'": {
+    "buffer": "UF",
+    "first_target": "LB",
+    "second_target": "FR",
+    "results": [],
+    "latest": true,
+    "alg": "R: R E' R', U'"
+  },
+  "UF;DF;FR;U D': L'/E'": {
+    "buffer": "UF",
+    "first_target": "DF",
+    "second_target": "FR",
+    "results": [],
+    "latest": true,
+    "alg": "U D': L'/E'"
+  },
+  "UF;DR;FR;U2 R U' R' U' R' U' R U R U'": {
+    "buffer": "UF",
+    "first_target": "DR",
+    "second_target": "FR",
+    "results": [],
+    "latest": true,
+    "alg": "U2 R U' R' U' R' U' R U R U'"
+  },
+  "UF;DB;FR;U D: L'/E'": {
+    "buffer": "UF",
+    "first_target": "DB",
+    "second_target": "FR",
+    "results": [],
+    "latest": true,
+    "alg": "U D: L'/E'"
+  },
+  "UF;DL;FR;U: L'/E'": {
+    "buffer": "UF",
+    "first_target": "DL",
+    "second_target": "FR",
+    "results": [],
+    "latest": true,
+    "alg": "U: L'/E'"
+  },
+  "UF;UB;FD;R' F': R U R', E": {
+    "buffer": "UF",
+    "first_target": "UB",
+    "second_target": "FD",
+    "results": [],
+    "latest": true,
+    "alg": "R' F': R U R', E"
+  },
+  "UF;UR;FD;M', R U' R' U": {
+    "buffer": "UF",
+    "first_target": "UR",
+    "second_target": "FD",
+    "results": [],
+    "latest": true,
+    "alg": "M', R U' R' U"
+  },
+  "UF;UL;FD;M', L' U L U'": {
+    "buffer": "UF",
+    "first_target": "UL",
+    "second_target": "FD",
+    "results": [],
+    "latest": true,
+    "alg": "M', L' U L U'"
+  },
+  "UF;FR;FD;M', U' R U": {
+    "buffer": "UF",
+    "first_target": "FR",
+    "second_target": "FD",
+    "results": [],
+    "latest": true,
+    "alg": "M', U' R U"
+  },
+  "UF;FL;FD;M', U L' U'": {
+    "buffer": "UF",
+    "first_target": "FL",
+    "second_target": "FD",
+    "results": [],
+    "latest": true,
+    "alg": "M', U L' U'"
+  },
+  "UF;RU;FD;R' F': R U' R', E": {
+    "buffer": "UF",
+    "first_target": "RU",
+    "second_target": "FD",
+    "results": [],
+    "latest": true,
+    "alg": "R' F': R U' R', E"
+  },
+  "UF;RB;FD;M2: U R' U', M": {
+    "buffer": "UF",
+    "first_target": "RB",
+    "second_target": "FD",
+    "results": [],
+    "latest": true,
+    "alg": "M2: U R' U', M"
+  },
+  "UF;RD;FD;U': R' F' R, S'": {
+    "buffer": "UF",
+    "first_target": "RD",
+    "second_target": "FD",
+    "results": [],
+    "latest": true,
+    "alg": "U': R' F' R, S'"
+  },
+  "UF;RF;FD;M': M', U R U'": {
+    "buffer": "UF",
+    "first_target": "RF",
+    "second_target": "FD",
+    "results": [],
+    "latest": true,
+    "alg": "M': M', U R U'"
+  },
+  "UF;BU;FD;U': R' F' R, S": {
+    "buffer": "UF",
+    "first_target": "BU",
+    "second_target": "FD",
+    "results": [],
+    "latest": true,
+    "alg": "U': R' F' R, S"
+  },
+  "UF;BL;FD;M', U L U'": {
+    "buffer": "UF",
+    "first_target": "BL",
+    "second_target": "FD",
+    "results": [],
+    "latest": true,
+    "alg": "M', U L U'"
+  },
+  "UF;BD;FD;U M U M' U2 M' U' M U": {
+    "buffer": "UF",
+    "first_target": "BD",
+    "second_target": "FD",
+    "results": [],
+    "latest": true,
+    "alg": "U M U M' U2 M' U' M U"
+  },
+  "UF;BR;FD;M', U' R' U": {
+    "buffer": "UF",
+    "first_target": "BR",
+    "second_target": "FD",
+    "results": [],
+    "latest": true,
+    "alg": "M', U' R' U"
+  },
+  "UF;LU;FD;U' D: S', R' F R": {
+    "buffer": "UF",
+    "first_target": "LU",
+    "second_target": "FD",
+    "results": [],
+    "latest": true,
+    "alg": "U' D: S', R' F R"
+  },
+  "UF;LF;FD;M2: U' L' U, M": {
+    "buffer": "UF",
+    "first_target": "LF",
+    "second_target": "FD",
+    "results": [],
+    "latest": true,
+    "alg": "M2: U' L' U, M"
+  },
+  "UF;LD;FD;U: L F L', S": {
+    "buffer": "UF",
+    "first_target": "LD",
+    "second_target": "FD",
+    "results": [],
+    "latest": true,
+    "alg": "U: L F L', S"
+  },
+  "UF;LB;FD;U' M': U', R E' R'": {
+    "buffer": "UF",
+    "first_target": "LB",
+    "second_target": "FD",
+    "results": [],
+    "latest": true,
+    "alg": "U' M': U', R E' R'"
+  },
+  "UF;DR;FD;U R' F': R/S": {
+    "buffer": "UF",
+    "first_target": "DR",
+    "second_target": "FD",
+    "results": [],
+    "latest": true,
+    "alg": "U R' F': R/S"
+  },
+  "UF;DB;FD;D': S, L' F' L": {
+    "buffer": "UF",
+    "first_target": "DB",
+    "second_target": "FD",
+    "results": [],
+    "latest": true,
+    "alg": "D': S, L' F' L"
+  },
+  "UF;DL;FD;U' L F: L'/S'": {
+    "buffer": "UF",
+    "first_target": "DL",
+    "second_target": "FD",
+    "results": [],
+    "latest": true,
+    "alg": "U' L F: L'/S'"
+  },
+  "UF;UB;FL;L U: S', L2": {
+    "buffer": "UF",
+    "first_target": "UB",
+    "second_target": "FL",
+    "results": [],
+    "latest": true,
+    "alg": "L U: S', L2"
+  },
+  "UF;UR;FL;U', R E2 R'": {
+    "buffer": "UF",
+    "first_target": "UR",
+    "second_target": "FL",
+    "results": [],
+    "latest": true,
+    "alg": "U', R E2 R'"
+  },
+  "UF;UL;FL;E: U, L E' L'": {
+    "buffer": "UF",
+    "first_target": "UL",
+    "second_target": "FL",
+    "results": [],
+    "latest": true,
+    "alg": "E: U, L E' L'"
+  },
+  "UF;FR;FL;R' U': R/E": {
+    "buffer": "UF",
+    "first_target": "FR",
+    "second_target": "FL",
+    "results": [],
+    "latest": true,
+    "alg": "R' U': R/E"
+  },
+  "UF;FD;FL;U L' U', M'": {
+    "buffer": "UF",
+    "first_target": "FD",
+    "second_target": "FL",
+    "results": [],
+    "latest": true,
+    "alg": "U L' U', M'"
+  },
+  "UF;RU;FL;S U': R/E": {
+    "buffer": "UF",
+    "first_target": "RU",
+    "second_target": "FL",
+    "results": [],
+    "latest": true,
+    "alg": "S U': R/E"
+  },
+  "UF;RB;FL;L': L' E L, U": {
+    "buffer": "UF",
+    "first_target": "RB",
+    "second_target": "FL",
+    "results": [],
+    "latest": true,
+    "alg": "L': L' E L, U"
+  },
+  "UF;RD;FL;U': R' F2 R, S'": {
+    "buffer": "UF",
+    "first_target": "RD",
+    "second_target": "FL",
+    "results": [],
+    "latest": true,
+    "alg": "U': R' F2 R, S'"
+  },
+  "UF;RF;FL;E', L' U L": {
+    "buffer": "UF",
+    "first_target": "RF",
+    "second_target": "FL",
+    "results": [],
+    "latest": true,
+    "alg": "E', L' U L"
+  },
+  "UF;BU;FL;U L' U', M": {
+    "buffer": "UF",
+    "first_target": "BU",
+    "second_target": "FL",
+    "results": [],
+    "latest": true,
+    "alg": "U L' U', M"
+  },
+  "UF;BL;FL;U': L'/S'": {
+    "buffer": "UF",
+    "first_target": "BL",
+    "second_target": "FL",
+    "results": [],
+    "latest": true,
+    "alg": "U': L'/S'"
+  },
+  "UF;BD;FL;U: L', U M U'": {
+    "buffer": "UF",
+    "first_target": "BD",
+    "second_target": "FL",
+    "results": [],
+    "latest": true,
+    "alg": "U: L', U M U'"
+  },
+  "UF;BR;FL;R U': R/E": {
+    "buffer": "UF",
+    "first_target": "BR",
+    "second_target": "FL",
+    "results": [],
+    "latest": true,
+    "alg": "R U': R/E"
+  },
+  "UF;LU;FL;r U: r' E r, U": {
+    "buffer": "UF",
+    "first_target": "LU",
+    "second_target": "FL",
+    "results": [],
+    "latest": true,
+    "alg": "r U: r' E r, U"
+  },
+  "UF;LD;FL;S' U': R/E": {
+    "buffer": "UF",
+    "first_target": "LD",
+    "second_target": "FL",
+    "results": [],
+    "latest": true,
+    "alg": "S' U': R/E"
+  },
+  "UF;LB;FL;E, L' U L": {
+    "buffer": "UF",
+    "first_target": "LB",
+    "second_target": "FL",
+    "results": [],
+    "latest": true,
+    "alg": "E, L' U L"
+  },
+  "UF;DF;FL;U' D: R/E": {
+    "buffer": "UF",
+    "first_target": "DF",
+    "second_target": "FL",
+    "results": [],
+    "latest": true,
+    "alg": "U' D: R/E"
+  },
+  "UF;DR;FL;U': R/E": {
+    "buffer": "UF",
+    "first_target": "DR",
+    "second_target": "FL",
+    "results": [],
+    "latest": true,
+    "alg": "U': R/E"
+  },
+  "UF;DB;FL;U' D': R/E": {
+    "buffer": "UF",
+    "first_target": "DB",
+    "second_target": "FL",
+    "results": [],
+    "latest": true,
+    "alg": "U' D': R/E"
+  },
+  "UF;DL;FL;U2 L' U L U L U L' U' L' U": {
+    "buffer": "UF",
+    "first_target": "DL",
+    "second_target": "FL",
+    "results": [],
+    "latest": true,
+    "alg": "U2 L' U L U L U L' U' L' U"
+  },
+  "UF;UB;RU;U M: U/M'": {
+    "buffer": "UF",
+    "first_target": "UB",
+    "second_target": "RU",
+    "results": [],
+    "latest": true,
+    "alg": "U M: U/M'"
+  },
+  "UF;UL;RU;S, R' F R": {
+    "buffer": "UF",
+    "first_target": "UL",
+    "second_target": "RU",
+    "results": [],
+    "latest": true,
+    "alg": "S, R' F R"
+  },
+  "UF;FR;RU;R' U' E': R/E": {
+    "buffer": "UF",
+    "first_target": "FR",
+    "second_target": "RU",
+    "results": [],
+    "latest": true,
+    "alg": "R' U' E': R/E"
+  },
+  "UF;FD;RU;R' F': E, R U' R'": {
+    "buffer": "UF",
+    "first_target": "FD",
+    "second_target": "RU",
+    "results": [],
+    "latest": true,
+    "alg": "R' F': E, R U' R'"
+  },
+  "UF;FL;RU;S U': R'/E": {
+    "buffer": "UF",
+    "first_target": "FL",
+    "second_target": "RU",
+    "results": [],
+    "latest": true,
+    "alg": "S U': R'/E"
+  },
+  "UF;RB;RU;S': L' E L, U": {
+    "buffer": "UF",
+    "first_target": "RB",
+    "second_target": "RU",
+    "results": [],
+    "latest": true,
+    "alg": "S': L' E L, U"
+  },
+  "UF;RD;RU;R E' R' U': R'/E": {
+    "buffer": "UF",
+    "first_target": "RD",
+    "second_target": "RU",
+    "results": [],
+    "latest": true,
+    "alg": "R E' R' U': R'/E"
+  },
+  "UF;RF;RU;S': L E' L', U": {
+    "buffer": "UF",
+    "first_target": "RF",
+    "second_target": "RU",
+    "results": [],
+    "latest": true,
+    "alg": "S': L E' L', U"
+  },
+  "UF;BU;RU;M', R U R' U'": {
+    "buffer": "UF",
+    "first_target": "BU",
+    "second_target": "RU",
+    "results": [],
+    "latest": true,
+    "alg": "M', R U R' U'"
+  },
+  "UF;BL;RU;S U': R/E'": {
+    "buffer": "UF",
+    "first_target": "BL",
+    "second_target": "RU",
+    "results": [],
+    "latest": true,
+    "alg": "S U': R/E'"
+  },
+  "UF;BD;RU;U D: S, L F' L'": {
+    "buffer": "UF",
+    "first_target": "BD",
+    "second_target": "RU",
+    "results": [],
+    "latest": true,
+    "alg": "U D: S, L F' L'"
+  },
+  "UF;BR;RU;R u': R'/E'": {
+    "buffer": "UF",
+    "first_target": "BR",
+    "second_target": "RU",
+    "results": [],
+    "latest": true,
+    "alg": "R u': R'/E'"
+  },
+  "UF;LU;RU;M: U/M'": {
+    "buffer": "UF",
+    "first_target": "LU",
+    "second_target": "RU",
+    "results": [],
+    "latest": true,
+    "alg": "M: U/M'"
+  },
+  "UF;LF;RU;U' r': R U' R', E": {
+    "buffer": "UF",
+    "first_target": "LF",
+    "second_target": "RU",
+    "results": [],
+    "latest": true,
+    "alg": "U' r': R U' R', E"
+  },
+  "UF;LD;RU;L F': L/S'": {
+    "buffer": "UF",
+    "first_target": "LD",
+    "second_target": "RU",
+    "results": [],
+    "latest": true,
+    "alg": "L F': L/S'"
+  },
+  "UF;LB;RU;l: U/M'": {
+    "buffer": "UF",
+    "first_target": "LB",
+    "second_target": "RU",
+    "results": [],
+    "latest": true,
+    "alg": "l: U/M'"
+  },
+  "UF;DF;RU;D: S', R' F R": {
+    "buffer": "UF",
+    "first_target": "DF",
+    "second_target": "RU",
+    "results": [],
+    "latest": true,
+    "alg": "D: S', R' F R"
+  },
+  "UF;DR;RU;S', R' F R": {
+    "buffer": "UF",
+    "first_target": "DR",
+    "second_target": "RU",
+    "results": [],
+    "latest": true,
+    "alg": "S', R' F R"
+  },
+  "UF;DB;RU;D': S', R' F R": {
+    "buffer": "UF",
+    "first_target": "DB",
+    "second_target": "RU",
+    "results": [],
+    "latest": true,
+    "alg": "D': S', R' F R"
+  },
+  "UF;DL;RU;l: R' E R, U": {
+    "buffer": "UF",
+    "first_target": "DL",
+    "second_target": "RU",
+    "results": [],
+    "latest": true,
+    "alg": "l: R' E R, U"
+  },
+  "UF;UB;RB;U/L' E L": {
+    "buffer": "UF",
+    "first_target": "UB",
+    "second_target": "RB",
+    "results": [],
+    "latest": true,
+    "alg": "U/L' E L"
+  },
+  "UF;UR;RB;U: L' E L, U": {
+    "buffer": "UF",
+    "first_target": "UR",
+    "second_target": "RB",
+    "results": [],
+    "latest": true,
+    "alg": "U: L' E L, U"
+  },
+  "UF;UL;RB;U, L' E L": {
+    "buffer": "UF",
+    "first_target": "UL",
+    "second_target": "RB",
+    "results": [],
+    "latest": true,
+    "alg": "U, L' E L"
+  },
+  "UF;FR;RB;R U' R', E'": {
+    "buffer": "UF",
+    "first_target": "FR",
+    "second_target": "RB",
+    "results": [],
+    "latest": true,
+    "alg": "R U' R', E'"
+  },
+  "UF;FD;RB;M': U R' U', M'": {
+    "buffer": "UF",
+    "first_target": "FD",
+    "second_target": "RB",
+    "results": [],
+    "latest": true,
+    "alg": "M': U R' U', M'"
+  },
+  "UF;FL;RB;L': U, L' E L": {
+    "buffer": "UF",
+    "first_target": "FL",
+    "second_target": "RB",
+    "results": [],
+    "latest": true,
+    "alg": "L': U, L' E L"
+  },
+  "UF;RU;RB;S': U, L' E L": {
+    "buffer": "UF",
+    "first_target": "RU",
+    "second_target": "RB",
+    "results": [],
+    "latest": true,
+    "alg": "S': U, L' E L"
+  },
+  "UF;RD;RB;U' S U, R": {
+    "buffer": "UF",
+    "first_target": "RD",
+    "second_target": "RB",
+    "results": [],
+    "latest": true,
+    "alg": "U' S U, R"
+  },
+  "UF;RF;RB;M' U': R'/S": {
+    "buffer": "UF",
+    "first_target": "RF",
+    "second_target": "RB",
+    "results": [],
+    "latest": true,
+    "alg": "M' U': R'/S"
+  },
+  "UF;BU;RB;M', U R' U'": {
+    "buffer": "UF",
+    "first_target": "BU",
+    "second_target": "RB",
+    "results": [],
+    "latest": true,
+    "alg": "M', U R' U'"
+  },
+  "UF;BL;RB;L U L', E": {
+    "buffer": "UF",
+    "first_target": "BL",
+    "second_target": "RB",
+    "results": [],
+    "latest": true,
+    "alg": "L U L', E"
+  },
+  "UF;BD;RB;U M: l' E l, U'": {
+    "buffer": "UF",
+    "first_target": "BD",
+    "second_target": "RB",
+    "results": [],
+    "latest": true,
+    "alg": "U M: l' E l, U'"
+  },
+  "UF;LU;RB;r': U/M'": {
+    "buffer": "UF",
+    "first_target": "LU",
+    "second_target": "RB",
+    "results": [],
+    "latest": true,
+    "alg": "r': U/M'"
+  },
+  "UF;LF;RB;r U: R'/E": {
+    "buffer": "UF",
+    "first_target": "LF",
+    "second_target": "RB",
+    "results": [],
+    "latest": true,
+    "alg": "r U: R'/E"
+  },
+  "UF;LD;RB;L F': E, L2": {
+    "buffer": "UF",
+    "first_target": "LD",
+    "second_target": "RB",
+    "results": [],
+    "latest": true,
+    "alg": "L F': E, L2"
+  },
+  "UF;LB;RB;u: R/S": {
+    "buffer": "UF",
+    "first_target": "LB",
+    "second_target": "RB",
+    "results": [],
+    "latest": true,
+    "alg": "u: R/S"
+  },
+  "UF;DF;RB;F': R2, E": {
+    "buffer": "UF",
+    "first_target": "DF",
+    "second_target": "RB",
+    "results": [],
+    "latest": true,
+    "alg": "F': R2, E"
+  },
+  "UF;DR;RB;u': R'/E'": {
+    "buffer": "UF",
+    "first_target": "DR",
+    "second_target": "RB",
+    "results": [],
+    "latest": true,
+    "alg": "u': R'/E'"
+  },
+  "UF;DB;RB;M'/U R' U'": {
+    "buffer": "UF",
+    "first_target": "DB",
+    "second_target": "RB",
+    "results": [],
+    "latest": true,
+    "alg": "M'/U R' U'"
+  },
+  "UF;DL;RB;u: L'/E'": {
+    "buffer": "UF",
+    "first_target": "DL",
+    "second_target": "RB",
+    "results": [],
+    "latest": true,
+    "alg": "u: L'/E'"
+  },
+  "UF;UB;RD;U'/R' E' R": {
+    "buffer": "UF",
+    "first_target": "UB",
+    "second_target": "RD",
+    "results": [],
+    "latest": true,
+    "alg": "U'/R' E' R"
+  },
+  "UF;UR;RD;U', R' E' R": {
+    "buffer": "UF",
+    "first_target": "UR",
+    "second_target": "RD",
+    "results": [],
+    "latest": true,
+    "alg": "U', R' E' R"
+  },
+  "UF;UL;RD;U': R' E' R, U'": {
+    "buffer": "UF",
+    "first_target": "UL",
+    "second_target": "RD",
+    "results": [],
+    "latest": true,
+    "alg": "U': R' E' R, U'"
+  },
+  "UF;FR;RD;R' u': R'/E'": {
+    "buffer": "UF",
+    "first_target": "FR",
+    "second_target": "RD",
+    "results": [],
+    "latest": true,
+    "alg": "R' u': R'/E'"
+  },
+  "UF;FD;RD;U': S', R' F' R": {
+    "buffer": "UF",
+    "first_target": "FD",
+    "second_target": "RD",
+    "results": [],
+    "latest": true,
+    "alg": "U': S', R' F' R"
+  },
+  "UF;FL;RD;U': S', R' F2 R": {
+    "buffer": "UF",
+    "first_target": "FL",
+    "second_target": "RD",
+    "results": [],
+    "latest": true,
+    "alg": "U': S', R' F2 R"
+  },
+  "UF;RU;RD;R E' R' U': R/E": {
+    "buffer": "UF",
+    "first_target": "RU",
+    "second_target": "RD",
+    "results": [],
+    "latest": true,
+    "alg": "R E' R' U': R/E"
+  },
+  "UF;RB;RD;R, U' S U": {
+    "buffer": "UF",
+    "first_target": "RB",
+    "second_target": "RD",
+    "results": [],
+    "latest": true,
+    "alg": "R, U' S U"
+  },
+  "UF;RF;RD;R', U' S U": {
+    "buffer": "UF",
+    "first_target": "RF",
+    "second_target": "RD",
+    "results": [],
+    "latest": true,
+    "alg": "R', U' S U"
+  },
+  "UF;BU;RD;U' D': R' F' R, S": {
+    "buffer": "UF",
+    "first_target": "BU",
+    "second_target": "RD",
+    "results": [],
+    "latest": true,
+    "alg": "U' D': R' F' R, S"
+  },
+  "UF;BL;RD;R' E2: R U' R', E": {
+    "buffer": "UF",
+    "first_target": "BL",
+    "second_target": "RD",
+    "results": [],
+    "latest": true,
+    "alg": "R' E2: R U' R', E"
+  },
+  "UF;BD;RD;U': S', l U l'": {
+    "buffer": "UF",
+    "first_target": "BD",
+    "second_target": "RD",
+    "results": [],
+    "latest": true,
+    "alg": "U': S', l U l'"
+  },
+  "UF;BR;RD;D': M', U' R' U": {
+    "buffer": "UF",
+    "first_target": "BR",
+    "second_target": "RD",
+    "results": [],
+    "latest": true,
+    "alg": "D': M', U' R' U"
+  },
+  "UF;LU;RD;R' F: R/S": {
+    "buffer": "UF",
+    "first_target": "LU",
+    "second_target": "RD",
+    "results": [],
+    "latest": true,
+    "alg": "R' F: R/S"
+  },
+  "UF;LF;RD;M' U: R'/E": {
+    "buffer": "UF",
+    "first_target": "LF",
+    "second_target": "RD",
+    "results": [],
+    "latest": true,
+    "alg": "M' U: R'/E"
+  },
+  "UF;LD;RD;R' F: R'/S'": {
+    "buffer": "UF",
+    "first_target": "LD",
+    "second_target": "RD",
+    "results": [],
+    "latest": true,
+    "alg": "R' F: R'/S'"
+  },
+  "UF;LB;RD;R' F: R2, E'": {
+    "buffer": "UF",
+    "first_target": "LB",
+    "second_target": "RD",
+    "results": [],
+    "latest": true,
+    "alg": "R' F: R2, E'"
+  },
+  "UF;DF;RD;R' F': R2, E": {
+    "buffer": "UF",
+    "first_target": "DF",
+    "second_target": "RD",
+    "results": [],
+    "latest": true,
+    "alg": "R' F': R2, E"
+  },
+  "UF;DB;RD;U': R' B R, S": {
+    "buffer": "UF",
+    "first_target": "DB",
+    "second_target": "RD",
+    "results": [],
+    "latest": true,
+    "alg": "U': R' B R, S"
+  },
+  "UF;DL;RD;S', R F R'": {
+    "buffer": "UF",
+    "first_target": "DL",
+    "second_target": "RD",
+    "results": [],
+    "latest": true,
+    "alg": "S', R F R'"
+  },
+  "UF;UB;RF;U/L E' L'": {
+    "buffer": "UF",
+    "first_target": "UB",
+    "second_target": "RF",
+    "results": [],
+    "latest": true,
+    "alg": "U/L E' L'"
+  },
+  "UF;UR;RF;U: L E' L', U": {
+    "buffer": "UF",
+    "first_target": "UR",
+    "second_target": "RF",
+    "results": [],
+    "latest": true,
+    "alg": "U: L E' L', U"
+  },
+  "UF;UL;RF;U, L E' L'": {
+    "buffer": "UF",
+    "first_target": "UL",
+    "second_target": "RF",
+    "results": [],
+    "latest": true,
+    "alg": "U, L E' L'"
+  },
+  "UF;FD;RF;M': U R U', M'": {
+    "buffer": "UF",
+    "first_target": "FD",
+    "second_target": "RF",
+    "results": [],
+    "latest": true,
+    "alg": "M': U R U', M'"
+  },
+  "UF;FL;RF;L' U L, E'": {
+    "buffer": "UF",
+    "first_target": "FL",
+    "second_target": "RF",
+    "results": [],
+    "latest": true,
+    "alg": "L' U L, E'"
+  },
+  "UF;RU;RF;S': U, L E' L'": {
+    "buffer": "UF",
+    "first_target": "RU",
+    "second_target": "RF",
+    "results": [],
+    "latest": true,
+    "alg": "S': U, L E' L'"
+  },
+  "UF;RB;RF;M' U': R/S": {
+    "buffer": "UF",
+    "first_target": "RB",
+    "second_target": "RF",
+    "results": [],
+    "latest": true,
+    "alg": "M' U': R/S"
+  },
+  "UF;RD;RF;U' S U, R'": {
+    "buffer": "UF",
+    "first_target": "RD",
+    "second_target": "RF",
+    "results": [],
+    "latest": true,
+    "alg": "U' S U, R'"
+  },
+  "UF;BU;RF;M', U R U'": {
+    "buffer": "UF",
+    "first_target": "BU",
+    "second_target": "RF",
+    "results": [],
+    "latest": true,
+    "alg": "M', U R U'"
+  },
+  "UF;BL;RF;L: U, L E' L'": {
+    "buffer": "UF",
+    "first_target": "BL",
+    "second_target": "RF",
+    "results": [],
+    "latest": true,
+    "alg": "L: U, L E' L'"
+  },
+  "UF;BD;RF;U l: E', L' U' L": {
+    "buffer": "UF",
+    "first_target": "BD",
+    "second_target": "RF",
+    "results": [],
+    "latest": true,
+    "alg": "U l: E', L' U' L"
+  },
+  "UF;BR;RF;R' U' R, E": {
+    "buffer": "UF",
+    "first_target": "BR",
+    "second_target": "RF",
+    "results": [],
+    "latest": true,
+    "alg": "R' U' R, E"
+  },
+  "UF;LU;RF;R M: U/M'": {
+    "buffer": "UF",
+    "first_target": "LU",
+    "second_target": "RF",
+    "results": [],
+    "latest": true,
+    "alg": "R M: U/M'"
+  },
+  "UF;LF;RF;U E: R'/S": {
+    "buffer": "UF",
+    "first_target": "LF",
+    "second_target": "RF",
+    "results": [],
+    "latest": true,
+    "alg": "U E: R'/S"
+  },
+  "UF;LD;RF;M' U': L'/E'": {
+    "buffer": "UF",
+    "first_target": "LD",
+    "second_target": "RF",
+    "results": [],
+    "latest": true,
+    "alg": "M' U': L'/E'"
+  },
+  "UF;LB;RF;R2 F: R2, E'": {
+    "buffer": "UF",
+    "first_target": "LB",
+    "second_target": "RF",
+    "results": [],
+    "latest": true,
+    "alg": "R2 F: R2, E'"
+  },
+  "UF;DF;RF;R2 F': R2, E": {
+    "buffer": "UF",
+    "first_target": "DF",
+    "second_target": "RF",
+    "results": [],
+    "latest": true,
+    "alg": "R2 F': R2, E"
+  },
+  "UF;DR;RF;U' E': R/E": {
+    "buffer": "UF",
+    "first_target": "DR",
+    "second_target": "RF",
+    "results": [],
+    "latest": true,
+    "alg": "U' E': R/E"
+  },
+  "UF;DB;RF;M'/U R U'": {
+    "buffer": "UF",
+    "first_target": "DB",
+    "second_target": "RF",
+    "results": [],
+    "latest": true,
+    "alg": "M'/U R U'"
+  },
+  "UF;DL;RF;U E: L/E": {
+    "buffer": "UF",
+    "first_target": "DL",
+    "second_target": "RF",
+    "results": [],
+    "latest": true,
+    "alg": "U E: L/E"
+  },
+  "UF;UR;BU;M, R' U' R U": {
+    "buffer": "UF",
+    "first_target": "UR",
+    "second_target": "BU",
+    "results": [],
+    "latest": true,
+    "alg": "M, R' U' R U"
+  },
+  "UF;UL;BU;M, L U L' U'": {
+    "buffer": "UF",
+    "first_target": "UL",
+    "second_target": "BU",
+    "results": [],
+    "latest": true,
+    "alg": "M, L U L' U'"
+  },
+  "UF;FR;BU;M, U' R U": {
+    "buffer": "UF",
+    "first_target": "FR",
+    "second_target": "BU",
+    "results": [],
+    "latest": true,
+    "alg": "M, U' R U"
+  },
+  "UF;FD;BU;U': S, R' F' R": {
+    "buffer": "UF",
+    "first_target": "FD",
+    "second_target": "BU",
+    "results": [],
+    "latest": true,
+    "alg": "U': S, R' F' R"
+  },
+  "UF;FL;BU;M, U L' U'": {
+    "buffer": "UF",
+    "first_target": "FL",
+    "second_target": "BU",
+    "results": [],
+    "latest": true,
+    "alg": "M, U L' U'"
+  },
+  "UF;RU;BU;R U R' U', M'": {
+    "buffer": "UF",
+    "first_target": "RU",
+    "second_target": "BU",
+    "results": [],
+    "latest": true,
+    "alg": "R U R' U', M'"
+  },
+  "UF;RB;BU;U R' U', M'": {
+    "buffer": "UF",
+    "first_target": "RB",
+    "second_target": "BU",
+    "results": [],
+    "latest": true,
+    "alg": "U R' U', M'"
+  },
+  "UF;RD;BU;U' D': S, R' F' R": {
+    "buffer": "UF",
+    "first_target": "RD",
+    "second_target": "BU",
+    "results": [],
+    "latest": true,
+    "alg": "U' D': S, R' F' R"
+  },
+  "UF;RF;BU;U R U', M'": {
+    "buffer": "UF",
+    "first_target": "RF",
+    "second_target": "BU",
+    "results": [],
+    "latest": true,
+    "alg": "U R U', M'"
+  },
+  "UF;BL;BU;M, U L U'": {
+    "buffer": "UF",
+    "first_target": "BL",
+    "second_target": "BU",
+    "results": [],
+    "latest": true,
+    "alg": "M, U L U'"
+  },
+  "UF;BD;BU;U': S, l U l'": {
+    "buffer": "UF",
+    "first_target": "BD",
+    "second_target": "BU",
+    "results": [],
+    "latest": true,
+    "alg": "U': S, l U l'"
+  },
+  "UF;BR;BU;M, U' R' U": {
+    "buffer": "UF",
+    "first_target": "BR",
+    "second_target": "BU",
+    "results": [],
+    "latest": true,
+    "alg": "M, U' R' U"
+  },
+  "UF;LU;BU;L' U' L U, M'": {
+    "buffer": "UF",
+    "first_target": "LU",
+    "second_target": "BU",
+    "results": [],
+    "latest": true,
+    "alg": "L' U' L U, M'"
+  },
+  "UF;LF;BU;U' L' U, M'": {
+    "buffer": "UF",
+    "first_target": "LF",
+    "second_target": "BU",
+    "results": [],
+    "latest": true,
+    "alg": "U' L' U, M'"
+  },
+  "UF;LD;BU;U' D: S, R' F' R": {
+    "buffer": "UF",
+    "first_target": "LD",
+    "second_target": "BU",
+    "results": [],
+    "latest": true,
+    "alg": "U' D: S, R' F' R"
+  },
+  "UF;LB;BU;U' L U, M'": {
+    "buffer": "UF",
+    "first_target": "LB",
+    "second_target": "BU",
+    "results": [],
+    "latest": true,
+    "alg": "U' L U, M'"
+  },
+  "UF;DF;BU;U: R' F' R, S": {
+    "buffer": "UF",
+    "first_target": "DF",
+    "second_target": "BU",
+    "results": [],
+    "latest": true,
+    "alg": "U: R' F' R, S"
+  },
+  "UF;DR;BU;U D': R' F' R, S": {
+    "buffer": "UF",
+    "first_target": "DR",
+    "second_target": "BU",
+    "results": [],
+    "latest": true,
+    "alg": "U D': R' F' R, S"
+  },
+  "UF;DB;BU;U: l U l', S": {
+    "buffer": "UF",
+    "first_target": "DB",
+    "second_target": "BU",
+    "results": [],
+    "latest": true,
+    "alg": "U: l U l', S"
+  },
+  "UF;DL;BU;U D: R' F' R, S": {
+    "buffer": "UF",
+    "first_target": "DL",
+    "second_target": "BU",
+    "results": [],
+    "latest": true,
+    "alg": "U D: R' F' R, S"
+  },
+  "UF;UB;BL;L' U: S', L2": {
+    "buffer": "UF",
+    "first_target": "UB",
+    "second_target": "BL",
+    "results": [],
+    "latest": true,
+    "alg": "L' U: S', L2"
+  },
+  "UF;UR;BL;U', R' E2 R": {
+    "buffer": "UF",
+    "first_target": "UR",
+    "second_target": "BL",
+    "results": [],
+    "latest": true,
+    "alg": "U', R' E2 R"
+  },
+  "UF;UL;BL;E': U, L' E L": {
+    "buffer": "UF",
+    "first_target": "UL",
+    "second_target": "BL",
+    "results": [],
+    "latest": true,
+    "alg": "E': U, L' E L"
+  },
+  "UF;FR;BL;R' U': R'/E'": {
+    "buffer": "UF",
+    "first_target": "FR",
+    "second_target": "BL",
+    "results": [],
+    "latest": true,
+    "alg": "R' U': R'/E'"
+  },
+  "UF;FD;BL;U L U', M'": {
+    "buffer": "UF",
+    "first_target": "FD",
+    "second_target": "BL",
+    "results": [],
+    "latest": true,
+    "alg": "U L U', M'"
+  },
+  "UF;FL;BL;U': L/S'": {
+    "buffer": "UF",
+    "first_target": "FL",
+    "second_target": "BL",
+    "results": [],
+    "latest": true,
+    "alg": "U': L/S'"
+  },
+  "UF;RU;BL;S U': R'/E'": {
+    "buffer": "UF",
+    "first_target": "RU",
+    "second_target": "BL",
+    "results": [],
+    "latest": true,
+    "alg": "S U': R'/E'"
+  },
+  "UF;RB;BL;E, L U L'": {
+    "buffer": "UF",
+    "first_target": "RB",
+    "second_target": "BL",
+    "results": [],
+    "latest": true,
+    "alg": "E, L U L'"
+  },
+  "UF;RD;BL;R' E': R U' R', E'": {
+    "buffer": "UF",
+    "first_target": "RD",
+    "second_target": "BL",
+    "results": [],
+    "latest": true,
+    "alg": "R' E': R U' R', E'"
+  },
+  "UF;RF;BL;L: L E' L', U": {
+    "buffer": "UF",
+    "first_target": "RF",
+    "second_target": "BL",
+    "results": [],
+    "latest": true,
+    "alg": "L: L E' L', U"
+  },
+  "UF;BU;BL;U L U', M": {
+    "buffer": "UF",
+    "first_target": "BU",
+    "second_target": "BL",
+    "results": [],
+    "latest": true,
+    "alg": "U L U', M"
+  },
+  "UF;BD;BL;U: L, U M U'": {
+    "buffer": "UF",
+    "first_target": "BD",
+    "second_target": "BL",
+    "results": [],
+    "latest": true,
+    "alg": "U: L, U M U'"
+  },
+  "UF;BR;BL;R U': R'/E'": {
+    "buffer": "UF",
+    "first_target": "BR",
+    "second_target": "BL",
+    "results": [],
+    "latest": true,
+    "alg": "R U': R'/E'"
+  },
+  "UF;LU;BL;U' l: U/M'": {
+    "buffer": "UF",
+    "first_target": "LU",
+    "second_target": "BL",
+    "results": [],
+    "latest": true,
+    "alg": "U' l: U/M'"
+  },
+  "UF;LF;BL;E', L U L'": {
+    "buffer": "UF",
+    "first_target": "LF",
+    "second_target": "BL",
+    "results": [],
+    "latest": true,
+    "alg": "E', L U L'"
+  },
+  "UF;LD;BL;S' U': R'/E'": {
+    "buffer": "UF",
+    "first_target": "LD",
+    "second_target": "BL",
+    "results": [],
+    "latest": true,
+    "alg": "S' U': R'/E'"
+  },
+  "UF;DF;BL;U' D: R'/E'": {
+    "buffer": "UF",
+    "first_target": "DF",
+    "second_target": "BL",
+    "results": [],
+    "latest": true,
+    "alg": "U' D: R'/E'"
+  },
+  "UF;DR;BL;U': R'/E'": {
+    "buffer": "UF",
+    "first_target": "DR",
+    "second_target": "BL",
+    "results": [],
+    "latest": true,
+    "alg": "U': R'/E'"
+  },
+  "UF;DB;BL;U' D': R'/E'": {
+    "buffer": "UF",
+    "first_target": "DB",
+    "second_target": "BL",
+    "results": [],
+    "latest": true,
+    "alg": "U' D': R'/E'"
+  },
+  "UF;DL;BL;L U' L' U' L' U' L U L U": {
+    "buffer": "UF",
+    "first_target": "DL",
+    "second_target": "BL",
+    "results": [],
+    "latest": true,
+    "alg": "L U' L' U' L' U' L U L U"
+  },
+  "UF;UB;BD;U M': U/M'": {
+    "buffer": "UF",
+    "first_target": "UB",
+    "second_target": "BD",
+    "results": [],
+    "latest": true,
+    "alg": "U M': U/M'"
+  },
+  "UF;UR;BD;U M U M' U M U M'": {
+    "buffer": "UF",
+    "first_target": "UR",
+    "second_target": "BD",
+    "results": [],
+    "latest": true,
+    "alg": "U M U M' U M U M'"
+  },
+  "UF;UL;BD;U' M U' M' U' M U' M'": {
+    "buffer": "UF",
+    "first_target": "UL",
+    "second_target": "BD",
+    "results": [],
+    "latest": true,
+    "alg": "U' M U' M' U' M U' M'"
+  },
+  "UF;FR;BD;U2: M, U R U'": {
+    "buffer": "UF",
+    "first_target": "FR",
+    "second_target": "BD",
+    "results": [],
+    "latest": true,
+    "alg": "U2: M, U R U'"
+  },
+  "UF;FD;BD;U M' U' M U2 M U M' U": {
+    "buffer": "UF",
+    "first_target": "FD",
+    "second_target": "BD",
+    "results": [],
+    "latest": true,
+    "alg": "U M' U' M U2 M U M' U"
+  },
+  "UF;FL;BD;U2: M, U' L' U": {
+    "buffer": "UF",
+    "first_target": "FL",
+    "second_target": "BD",
+    "results": [],
+    "latest": true,
+    "alg": "U2: M, U' L' U"
+  },
+  "UF;RU;BD;U D: L F' L', S": {
+    "buffer": "UF",
+    "first_target": "RU",
+    "second_target": "BD",
+    "results": [],
+    "latest": true,
+    "alg": "U D: L F' L', S"
+  },
+  "UF;RB;BD;U M: U', l' E l": {
+    "buffer": "UF",
+    "first_target": "RB",
+    "second_target": "BD",
+    "results": [],
+    "latest": true,
+    "alg": "U M: U', l' E l"
+  },
+  "UF;RD;BD;U': l U l', S'": {
+    "buffer": "UF",
+    "first_target": "RD",
+    "second_target": "BD",
+    "results": [],
+    "latest": true,
+    "alg": "U': l U l', S'"
+  },
+  "UF;RF;BD;U M: U', L E' L'": {
+    "buffer": "UF",
+    "first_target": "RF",
+    "second_target": "BD",
+    "results": [],
+    "latest": true,
+    "alg": "U M: U', L E' L'"
+  },
+  "UF;BU;BD;U': R B R', S": {
+    "buffer": "UF",
+    "first_target": "BU",
+    "second_target": "BD",
+    "results": [],
+    "latest": true,
+    "alg": "U': R B R', S"
+  },
+  "UF;BL;BD;U2: M, U' L U": {
+    "buffer": "UF",
+    "first_target": "BL",
+    "second_target": "BD",
+    "results": [],
+    "latest": true,
+    "alg": "U2: M, U' L U"
+  },
+  "UF;BR;BD;U2: M, U R' U'": {
+    "buffer": "UF",
+    "first_target": "BR",
+    "second_target": "BD",
+    "results": [],
+    "latest": true,
+    "alg": "U2: M, U R' U'"
+  },
+  "UF;LU;BD;D' R' F: R/S": {
+    "buffer": "UF",
+    "first_target": "LU",
+    "second_target": "BD",
+    "results": [],
+    "latest": true,
+    "alg": "D' R' F: R/S"
+  },
+  "UF;LF;BD;U' M: U, R' E R": {
+    "buffer": "UF",
+    "first_target": "LF",
+    "second_target": "BD",
+    "results": [],
+    "latest": true,
+    "alg": "U' M: U, R' E R"
+  },
+  "UF;LD;BD;U: L' B' L, S": {
+    "buffer": "UF",
+    "first_target": "LD",
+    "second_target": "BD",
+    "results": [],
+    "latest": true,
+    "alg": "U: L' B' L, S"
+  },
+  "UF;LB;BD;U' M: U, R E' R'": {
+    "buffer": "UF",
+    "first_target": "LB",
+    "second_target": "BD",
+    "results": [],
+    "latest": true,
+    "alg": "U' M: U, R E' R'"
+  },
+  "UF;DF;BD;D: S, L' F' L": {
+    "buffer": "UF",
+    "first_target": "DF",
+    "second_target": "BD",
+    "results": [],
+    "latest": true,
+    "alg": "D: S, L' F' L"
+  },
+  "UF;DR;BD;D' R' F': R2, E": {
+    "buffer": "UF",
+    "first_target": "DR",
+    "second_target": "BD",
+    "results": [],
+    "latest": true,
+    "alg": "D' R' F': R2, E"
+  },
+  "UF;DL;BD;D L F: L2, E'": {
+    "buffer": "UF",
+    "first_target": "DL",
+    "second_target": "BD",
+    "results": [],
+    "latest": true,
+    "alg": "D L F: L2, E'"
+  },
+  "UF;UB;BR;R U': S, R2": {
+    "buffer": "UF",
+    "first_target": "UB",
+    "second_target": "BR",
+    "results": [],
+    "latest": true,
+    "alg": "R U': S, R2"
+  },
+  "UF;UR;BR;E: U', R E' R'": {
+    "buffer": "UF",
+    "first_target": "UR",
+    "second_target": "BR",
+    "results": [],
+    "latest": true,
+    "alg": "E: U', R E' R'"
+  },
+  "UF;UL;BR;U, L E2 L'": {
+    "buffer": "UF",
+    "first_target": "UL",
+    "second_target": "BR",
+    "results": [],
+    "latest": true,
+    "alg": "U, L E2 L'"
+  },
+  "UF;FR;BR;U: R'/S": {
+    "buffer": "UF",
+    "first_target": "FR",
+    "second_target": "BR",
+    "results": [],
+    "latest": true,
+    "alg": "U: R'/S"
+  },
+  "UF;FD;BR;U' R' U, M'": {
+    "buffer": "UF",
+    "first_target": "FD",
+    "second_target": "BR",
+    "results": [],
+    "latest": true,
+    "alg": "U' R' U, M'"
+  },
+  "UF;FL;BR;R U': R'/E": {
+    "buffer": "UF",
+    "first_target": "FL",
+    "second_target": "BR",
+    "results": [],
+    "latest": true,
+    "alg": "R U': R'/E"
+  },
+  "UF;RU;BR;R u': R/E'": {
+    "buffer": "UF",
+    "first_target": "RU",
+    "second_target": "BR",
+    "results": [],
+    "latest": true,
+    "alg": "R u': R/E'"
+  },
+  "UF;RD;BR;D': U' R' U, M'": {
+    "buffer": "UF",
+    "first_target": "RD",
+    "second_target": "BR",
+    "results": [],
+    "latest": true,
+    "alg": "D': U' R' U, M'"
+  },
+  "UF;RF;BR;E, R' U' R": {
+    "buffer": "UF",
+    "first_target": "RF",
+    "second_target": "BR",
+    "results": [],
+    "latest": true,
+    "alg": "E, R' U' R"
+  },
+  "UF;BU;BR;U' R' U, M": {
+    "buffer": "UF",
+    "first_target": "BU",
+    "second_target": "BR",
+    "results": [],
+    "latest": true,
+    "alg": "U' R' U, M"
+  },
+  "UF;BL;BR;R U': R/E'": {
+    "buffer": "UF",
+    "first_target": "BL",
+    "second_target": "BR",
+    "results": [],
+    "latest": true,
+    "alg": "R U': R/E'"
+  },
+  "UF;BD;BR;U': R', U' M U": {
+    "buffer": "UF",
+    "first_target": "BD",
+    "second_target": "BR",
+    "results": [],
+    "latest": true,
+    "alg": "U': R', U' M U"
+  },
+  "UF;LU;BR;M': U', L' E L": {
+    "buffer": "UF",
+    "first_target": "LU",
+    "second_target": "BR",
+    "results": [],
+    "latest": true,
+    "alg": "M': U', L' E L"
+  },
+  "UF;LF;BR;R': R' E R, U'": {
+    "buffer": "UF",
+    "first_target": "LF",
+    "second_target": "BR",
+    "results": [],
+    "latest": true,
+    "alg": "R': R' E R, U'"
+  },
+  "UF;LD;BR;L E: L' U L, E": {
+    "buffer": "UF",
+    "first_target": "LD",
+    "second_target": "BR",
+    "results": [],
+    "latest": true,
+    "alg": "L E: L' U L, E"
+  },
+  "UF;LB;BR;E', R' U' R": {
+    "buffer": "UF",
+    "first_target": "LB",
+    "second_target": "BR",
+    "results": [],
+    "latest": true,
+    "alg": "E', R' U' R"
+  },
+  "UF;DF;BR;U R': U'/M'": {
+    "buffer": "UF",
+    "first_target": "DF",
+    "second_target": "BR",
+    "results": [],
+    "latest": true,
+    "alg": "U R': U'/M'"
+  },
+  "UF;DR;BR;R' U R U R U R' U' R' U'": {
+    "buffer": "UF",
+    "first_target": "DR",
+    "second_target": "BR",
+    "results": [],
+    "latest": true,
+    "alg": "R' U R U R U R' U' R' U'"
+  },
+  "UF;DB;BR;U' R' U, M2": {
+    "buffer": "UF",
+    "first_target": "DB",
+    "second_target": "BR",
+    "results": [],
+    "latest": true,
+    "alg": "U' R' U, M2"
+  },
+  "UF;DL;BR;U: L/E": {
+    "buffer": "UF",
+    "first_target": "DL",
+    "second_target": "BR",
+    "results": [],
+    "latest": true,
+    "alg": "U: L/E"
+  },
+  "UF;UB;LU;U' M: U'/M'": {
+    "buffer": "UF",
+    "first_target": "UB",
+    "second_target": "LU",
+    "results": [],
+    "latest": true,
+    "alg": "U' M: U'/M'"
+  },
+  "UF;UR;LU;S', L F' L'": {
+    "buffer": "UF",
+    "first_target": "UR",
+    "second_target": "LU",
+    "results": [],
+    "latest": true,
+    "alg": "S', L F' L'"
+  },
+  "UF;FR;LU;S' U: L/E'": {
+    "buffer": "UF",
+    "first_target": "FR",
+    "second_target": "LU",
+    "results": [],
+    "latest": true,
+    "alg": "S' U: L/E'"
+  },
+  "UF;FD;LU;U' D: R' F R, S'": {
+    "buffer": "UF",
+    "first_target": "FD",
+    "second_target": "LU",
+    "results": [],
+    "latest": true,
+    "alg": "U' D: R' F R, S'"
+  },
+  "UF;FL;LU;r U: U, r' E r": {
+    "buffer": "UF",
+    "first_target": "FL",
+    "second_target": "LU",
+    "results": [],
+    "latest": true,
+    "alg": "r U: U, r' E r"
+  },
+  "UF;RU;LU;M: U'/M'": {
+    "buffer": "UF",
+    "first_target": "RU",
+    "second_target": "LU",
+    "results": [],
+    "latest": true,
+    "alg": "M: U'/M'"
+  },
+  "UF;RB;LU;r': U'/M'": {
+    "buffer": "UF",
+    "first_target": "RB",
+    "second_target": "LU",
+    "results": [],
+    "latest": true,
+    "alg": "r': U'/M'"
+  },
+  "UF;RD;LU;R' F: R'/S": {
+    "buffer": "UF",
+    "first_target": "RD",
+    "second_target": "LU",
+    "results": [],
+    "latest": true,
+    "alg": "R' F: R'/S"
+  },
+  "UF;RF;LU;R M: U'/M'": {
+    "buffer": "UF",
+    "first_target": "RF",
+    "second_target": "LU",
+    "results": [],
+    "latest": true,
+    "alg": "R M: U'/M'"
+  },
+  "UF;BU;LU;M', L' U' L U": {
+    "buffer": "UF",
+    "first_target": "BU",
+    "second_target": "LU",
+    "results": [],
+    "latest": true,
+    "alg": "M', L' U' L U"
+  },
+  "UF;BL;LU;U' l: U'/M'": {
+    "buffer": "UF",
+    "first_target": "BL",
+    "second_target": "LU",
+    "results": [],
+    "latest": true,
+    "alg": "U' l: U'/M'"
+  },
+  "UF;BD;LU;U' D': S', R' F R": {
+    "buffer": "UF",
+    "first_target": "BD",
+    "second_target": "LU",
+    "results": [],
+    "latest": true,
+    "alg": "U' D': S', R' F R"
+  },
+  "UF;BR;LU;S' U: L'/E": {
+    "buffer": "UF",
+    "first_target": "BR",
+    "second_target": "LU",
+    "results": [],
+    "latest": true,
+    "alg": "S' U: L'/E"
+  },
+  "UF;LF;LU;S: R' E R, U'": {
+    "buffer": "UF",
+    "first_target": "LF",
+    "second_target": "LU",
+    "results": [],
+    "latest": true,
+    "alg": "S: R' E R, U'"
+  },
+  "UF;LD;LU;l' U: L/S'": {
+    "buffer": "UF",
+    "first_target": "LD",
+    "second_target": "LU",
+    "results": [],
+    "latest": true,
+    "alg": "l' U: L/S'"
+  },
+  "UF;LB;LU;S: R E' R', U'": {
+    "buffer": "UF",
+    "first_target": "LB",
+    "second_target": "LU",
+    "results": [],
+    "latest": true,
+    "alg": "S: R E' R', U'"
+  },
+  "UF;DF;LU;L' F': E', L2": {
+    "buffer": "UF",
+    "first_target": "DF",
+    "second_target": "LU",
+    "results": [],
+    "latest": true,
+    "alg": "L' F': E', L2"
+  },
+  "UF;DR;LU;r: L E' L', U'": {
+    "buffer": "UF",
+    "first_target": "DR",
+    "second_target": "LU",
+    "results": [],
+    "latest": true,
+    "alg": "r: L E' L', U'"
+  },
+  "UF;DB;LU;D: S, L F' L'": {
+    "buffer": "UF",
+    "first_target": "DB",
+    "second_target": "LU",
+    "results": [],
+    "latest": true,
+    "alg": "D: S, L F' L'"
+  },
+  "UF;DL;LU;S, L F' L'": {
+    "buffer": "UF",
+    "first_target": "DL",
+    "second_target": "LU",
+    "results": [],
+    "latest": true,
+    "alg": "S, L F' L'"
+  },
+  "UF;UB;LF;U'/R' E R": {
+    "buffer": "UF",
+    "first_target": "UB",
+    "second_target": "LF",
+    "results": [],
+    "latest": true,
+    "alg": "U'/R' E R"
+  },
+  "UF;UR;LF;U', R' E R": {
+    "buffer": "UF",
+    "first_target": "UR",
+    "second_target": "LF",
+    "results": [],
+    "latest": true,
+    "alg": "U', R' E R"
+  },
+  "UF;UL;LF;U': R' E R, U'": {
+    "buffer": "UF",
+    "first_target": "UL",
+    "second_target": "LF",
+    "results": [],
+    "latest": true,
+    "alg": "U': R' E R, U'"
+  },
+  "UF;FR;LF;R U' R', E": {
+    "buffer": "UF",
+    "first_target": "FR",
+    "second_target": "LF",
+    "results": [],
+    "latest": true,
+    "alg": "R U' R', E"
+  },
+  "UF;FD;LF;M': U' L' U, M'": {
+    "buffer": "UF",
+    "first_target": "FD",
+    "second_target": "LF",
+    "results": [],
+    "latest": true,
+    "alg": "M': U' L' U, M'"
+  },
+  "UF;RU;LF;U' M: U', R' E R": {
+    "buffer": "UF",
+    "first_target": "RU",
+    "second_target": "LF",
+    "results": [],
+    "latest": true,
+    "alg": "U' M: U', R' E R"
+  },
+  "UF;RB;LF;r U: R/E": {
+    "buffer": "UF",
+    "first_target": "RB",
+    "second_target": "LF",
+    "results": [],
+    "latest": true,
+    "alg": "r U: R/E"
+  },
+  "UF;RD;LF;M' U: R/E": {
+    "buffer": "UF",
+    "first_target": "RD",
+    "second_target": "LF",
+    "results": [],
+    "latest": true,
+    "alg": "M' U: R/E"
+  },
+  "UF;RF;LF;U E: R/S": {
+    "buffer": "UF",
+    "first_target": "RF",
+    "second_target": "LF",
+    "results": [],
+    "latest": true,
+    "alg": "U E: R/S"
+  },
+  "UF;BU;LF;M', U' L' U": {
+    "buffer": "UF",
+    "first_target": "BU",
+    "second_target": "LF",
+    "results": [],
+    "latest": true,
+    "alg": "M', U' L' U"
+  },
+  "UF;BL;LF;L U L', E'": {
+    "buffer": "UF",
+    "first_target": "BL",
+    "second_target": "LF",
+    "results": [],
+    "latest": true,
+    "alg": "L U L', E'"
+  },
+  "UF;BD;LF;U' r': E, R U R'": {
+    "buffer": "UF",
+    "first_target": "BD",
+    "second_target": "LF",
+    "results": [],
+    "latest": true,
+    "alg": "U' r': E, R U R'"
+  },
+  "UF;BR;LF;R': U', R' E R": {
+    "buffer": "UF",
+    "first_target": "BR",
+    "second_target": "LF",
+    "results": [],
+    "latest": true,
+    "alg": "R': U', R' E R"
+  },
+  "UF;LU;LF;S: U', R' E R": {
+    "buffer": "UF",
+    "first_target": "LU",
+    "second_target": "LF",
+    "results": [],
+    "latest": true,
+    "alg": "S: U', R' E R"
+  },
+  "UF;LD;LF;U S' U', L": {
+    "buffer": "UF",
+    "first_target": "LD",
+    "second_target": "LF",
+    "results": [],
+    "latest": true,
+    "alg": "U S' U', L"
+  },
+  "UF;LB;LF;M' U: L'/S'": {
+    "buffer": "UF",
+    "first_target": "LB",
+    "second_target": "LF",
+    "results": [],
+    "latest": true,
+    "alg": "M' U: L'/S'"
+  },
+  "UF;DF;LF;U R' F': R S R', F'": {
+    "buffer": "UF",
+    "first_target": "DF",
+    "second_target": "LF",
+    "results": [],
+    "latest": true,
+    "alg": "U R' F': R S R', F'"
+  },
+  "UF;DR;LF;U' E': R'/E'": {
+    "buffer": "UF",
+    "first_target": "DR",
+    "second_target": "LF",
+    "results": [],
+    "latest": true,
+    "alg": "U' E': R'/E'"
+  },
+  "UF;DB;LF;M'/U' L' U": {
+    "buffer": "UF",
+    "first_target": "DB",
+    "second_target": "LF",
+    "results": [],
+    "latest": true,
+    "alg": "M'/U' L' U"
+  },
+  "UF;DL;LF;U E: L'/E'": {
+    "buffer": "UF",
+    "first_target": "DL",
+    "second_target": "LF",
+    "results": [],
+    "latest": true,
+    "alg": "U E: L'/E'"
+  },
+  "UF;UB;LD;U/L E L'": {
+    "buffer": "UF",
+    "first_target": "UB",
+    "second_target": "LD",
+    "results": [],
+    "latest": true,
+    "alg": "U/L E L'"
+  },
+  "UF;UR;LD;U: L E L', U": {
+    "buffer": "UF",
+    "first_target": "UR",
+    "second_target": "LD",
+    "results": [],
+    "latest": true,
+    "alg": "U: L E L', U"
+  },
+  "UF;UL;LD;U, L E L'": {
+    "buffer": "UF",
+    "first_target": "UL",
+    "second_target": "LD",
+    "results": [],
+    "latest": true,
+    "alg": "U, L E L'"
+  },
+  "UF;FR;LD;U: S, L F2 L'": {
+    "buffer": "UF",
+    "first_target": "FR",
+    "second_target": "LD",
+    "results": [],
+    "latest": true,
+    "alg": "U: S, L F2 L'"
+  },
+  "UF;FD;LD;U: S, L F L'": {
+    "buffer": "UF",
+    "first_target": "FD",
+    "second_target": "LD",
+    "results": [],
+    "latest": true,
+    "alg": "U: S, L F L'"
+  },
+  "UF;FL;LD;S' U': R'/E": {
+    "buffer": "UF",
+    "first_target": "FL",
+    "second_target": "LD",
+    "results": [],
+    "latest": true,
+    "alg": "S' U': R'/E"
+  },
+  "UF;RU;LD;L F': L'/S'": {
+    "buffer": "UF",
+    "first_target": "RU",
+    "second_target": "LD",
+    "results": [],
+    "latest": true,
+    "alg": "L F': L'/S'"
+  },
+  "UF;RB;LD;L F': L2, E": {
+    "buffer": "UF",
+    "first_target": "RB",
+    "second_target": "LD",
+    "results": [],
+    "latest": true,
+    "alg": "L F': L2, E"
+  },
+  "UF;RD;LD;L F': L/S": {
+    "buffer": "UF",
+    "first_target": "RD",
+    "second_target": "LD",
+    "results": [],
+    "latest": true,
+    "alg": "L F': L/S"
+  },
+  "UF;RF;LD;M' U': L/E'": {
+    "buffer": "UF",
+    "first_target": "RF",
+    "second_target": "LD",
+    "results": [],
+    "latest": true,
+    "alg": "M' U': L/E'"
+  },
+  "UF;BU;LD;U' D: R' F' R, S": {
+    "buffer": "UF",
+    "first_target": "BU",
+    "second_target": "LD",
+    "results": [],
+    "latest": true,
+    "alg": "U' D: R' F' R, S"
+  },
+  "UF;BL;LD;S' U': R/E'": {
+    "buffer": "UF",
+    "first_target": "BL",
+    "second_target": "LD",
+    "results": [],
+    "latest": true,
+    "alg": "S' U': R/E'"
+  },
+  "UF;BD;LD;U: S, r' U' r": {
+    "buffer": "UF",
+    "first_target": "BD",
+    "second_target": "LD",
+    "results": [],
+    "latest": true,
+    "alg": "U: S, r' U' r"
+  },
+  "UF;BR;LD;L E2: L' U L, E'": {
+    "buffer": "UF",
+    "first_target": "BR",
+    "second_target": "LD",
+    "results": [],
+    "latest": true,
+    "alg": "L E2: L' U L, E'"
+  },
+  "UF;LU;LD;l' U: L'/S'": {
+    "buffer": "UF",
+    "first_target": "LU",
+    "second_target": "LD",
+    "results": [],
+    "latest": true,
+    "alg": "l' U: L'/S'"
+  },
+  "UF;LF;LD;L, U S' U'": {
+    "buffer": "UF",
+    "first_target": "LF",
+    "second_target": "LD",
+    "results": [],
+    "latest": true,
+    "alg": "L, U S' U'"
+  },
+  "UF;LB;LD;L', U S' U'": {
+    "buffer": "UF",
+    "first_target": "LB",
+    "second_target": "LD",
+    "results": [],
+    "latest": true,
+    "alg": "L', U S' U'"
+  },
+  "UF;DF;LD;L F: L2, E'": {
+    "buffer": "UF",
+    "first_target": "DF",
+    "second_target": "LD",
+    "results": [],
+    "latest": true,
+    "alg": "L F: L2, E'"
+  },
+  "UF;DR;LD;S, L' F' L": {
+    "buffer": "UF",
+    "first_target": "DR",
+    "second_target": "LD",
+    "results": [],
+    "latest": true,
+    "alg": "S, L' F' L"
+  },
+  "UF;DB;LD;U: L B' L', S'": {
+    "buffer": "UF",
+    "first_target": "DB",
+    "second_target": "LD",
+    "results": [],
+    "latest": true,
+    "alg": "U: L B' L', S'"
+  },
+  "UF;UB;LB;U'/R E' R'": {
+    "buffer": "UF",
+    "first_target": "UB",
+    "second_target": "LB",
+    "results": [],
+    "latest": true,
+    "alg": "U'/R E' R'"
+  },
+  "UF;UR;LB;U', R E' R'": {
+    "buffer": "UF",
+    "first_target": "UR",
+    "second_target": "LB",
+    "results": [],
+    "latest": true,
+    "alg": "U', R E' R'"
+  },
+  "UF;UL;LB;U': R E' R', U'": {
+    "buffer": "UF",
+    "first_target": "UL",
+    "second_target": "LB",
+    "results": [],
+    "latest": true,
+    "alg": "U': R E' R', U'"
+  },
+  "UF;FR;LB;R: U', R E' R'": {
+    "buffer": "UF",
+    "first_target": "FR",
+    "second_target": "LB",
+    "results": [],
+    "latest": true,
+    "alg": "R: U', R E' R'"
+  },
+  "UF;FD;LB;U' M': R E' R', U'": {
+    "buffer": "UF",
+    "first_target": "FD",
+    "second_target": "LB",
+    "results": [],
+    "latest": true,
+    "alg": "U' M': R E' R', U'"
+  },
+  "UF;FL;LB;L' U L, E": {
+    "buffer": "UF",
+    "first_target": "FL",
+    "second_target": "LB",
+    "results": [],
+    "latest": true,
+    "alg": "L' U L, E"
+  },
+  "UF;RU;LB;l: U'/M'": {
+    "buffer": "UF",
+    "first_target": "RU",
+    "second_target": "LB",
+    "results": [],
+    "latest": true,
+    "alg": "l: U'/M'"
+  },
+  "UF;RB;LB;u: R'/S": {
+    "buffer": "UF",
+    "first_target": "RB",
+    "second_target": "LB",
+    "results": [],
+    "latest": true,
+    "alg": "u: R'/S"
+  },
+  "UF;RD;LB;R' F: E', R2": {
+    "buffer": "UF",
+    "first_target": "RD",
+    "second_target": "LB",
+    "results": [],
+    "latest": true,
+    "alg": "R' F: E', R2"
+  },
+  "UF;RF;LB;R2 F: E', R2": {
+    "buffer": "UF",
+    "first_target": "RF",
+    "second_target": "LB",
+    "results": [],
+    "latest": true,
+    "alg": "R2 F: E', R2"
+  },
+  "UF;BU;LB;M', U' L U": {
+    "buffer": "UF",
+    "first_target": "BU",
+    "second_target": "LB",
+    "results": [],
+    "latest": true,
+    "alg": "M', U' L U"
+  },
+  "UF;BD;LB;U' M: R E' R', U": {
+    "buffer": "UF",
+    "first_target": "BD",
+    "second_target": "LB",
+    "results": [],
+    "latest": true,
+    "alg": "U' M: R E' R', U"
+  },
+  "UF;BR;LB;R' U' R, E'": {
+    "buffer": "UF",
+    "first_target": "BR",
+    "second_target": "LB",
+    "results": [],
+    "latest": true,
+    "alg": "R' U' R, E'"
+  },
+  "UF;LU;LB;S: U', R E' R'": {
+    "buffer": "UF",
+    "first_target": "LU",
+    "second_target": "LB",
+    "results": [],
+    "latest": true,
+    "alg": "S: U', R E' R'"
+  },
+  "UF;LF;LB;M' U: L/S'": {
+    "buffer": "UF",
+    "first_target": "LF",
+    "second_target": "LB",
+    "results": [],
+    "latest": true,
+    "alg": "M' U: L/S'"
+  },
+  "UF;LD;LB;U S' U', L'": {
+    "buffer": "UF",
+    "first_target": "LD",
+    "second_target": "LB",
+    "results": [],
+    "latest": true,
+    "alg": "U S' U', L'"
+  },
+  "UF;DF;LB;F: L2, E'": {
+    "buffer": "UF",
+    "first_target": "DF",
+    "second_target": "LB",
+    "results": [],
+    "latest": true,
+    "alg": "F: L2, E'"
+  },
+  "UF;DR;LB;u': R/E": {
+    "buffer": "UF",
+    "first_target": "DR",
+    "second_target": "LB",
+    "results": [],
+    "latest": true,
+    "alg": "u': R/E"
+  },
+  "UF;DB;LB;M'/U' L U": {
+    "buffer": "UF",
+    "first_target": "DB",
+    "second_target": "LB",
+    "results": [],
+    "latest": true,
+    "alg": "M'/U' L U"
+  },
+  "UF;DL;LB;u: L/E": {
+    "buffer": "UF",
+    "first_target": "DL",
+    "second_target": "LB",
+    "results": [],
+    "latest": true,
+    "alg": "u: L/E"
+  },
+  "UF;UB;DF;U2, M'": {
+    "buffer": "UF",
+    "first_target": "UB",
+    "second_target": "DF",
+    "results": [],
+    "latest": true,
+    "alg": "U2, M'"
+  },
+  "UF;UR;DF;M U2 M, U": {
+    "buffer": "UF",
+    "first_target": "UR",
+    "second_target": "DF",
+    "results": [],
+    "latest": true,
+    "alg": "M U2 M, U"
+  },
+  "UF;UL;DF;M U2 M, U'": {
+    "buffer": "UF",
+    "first_target": "UL",
+    "second_target": "DF",
+    "results": [],
+    "latest": true,
+    "alg": "M U2 M, U'"
+  },
+  "UF;FR;DF;U D': L/E'": {
+    "buffer": "UF",
+    "first_target": "FR",
+    "second_target": "DF",
+    "results": [],
+    "latest": true,
+    "alg": "U D': L/E'"
+  },
+  "UF;FL;DF;U' D: R'/E": {
+    "buffer": "UF",
+    "first_target": "FL",
+    "second_target": "DF",
+    "results": [],
+    "latest": true,
+    "alg": "U' D: R'/E"
+  },
+  "UF;RU;DF;D: R' F R, S'": {
+    "buffer": "UF",
+    "first_target": "RU",
+    "second_target": "DF",
+    "results": [],
+    "latest": true,
+    "alg": "D: R' F R, S'"
+  },
+  "UF;RB;DF;F': E, R2": {
+    "buffer": "UF",
+    "first_target": "RB",
+    "second_target": "DF",
+    "results": [],
+    "latest": true,
+    "alg": "F': E, R2"
+  },
+  "UF;RD;DF;R' F': E, R2": {
+    "buffer": "UF",
+    "first_target": "RD",
+    "second_target": "DF",
+    "results": [],
+    "latest": true,
+    "alg": "R' F': E, R2"
+  },
+  "UF;RF;DF;R2 F': E, R2": {
+    "buffer": "UF",
+    "first_target": "RF",
+    "second_target": "DF",
+    "results": [],
+    "latest": true,
+    "alg": "R2 F': E, R2"
+  },
+  "UF;BU;DF;U: S, R' F' R": {
+    "buffer": "UF",
+    "first_target": "BU",
+    "second_target": "DF",
+    "results": [],
+    "latest": true,
+    "alg": "U: S, R' F' R"
+  },
+  "UF;BL;DF;U' D: R/E'": {
+    "buffer": "UF",
+    "first_target": "BL",
+    "second_target": "DF",
+    "results": [],
+    "latest": true,
+    "alg": "U' D: R/E'"
+  },
+  "UF;BD;DF;D: L' F' L, S": {
+    "buffer": "UF",
+    "first_target": "BD",
+    "second_target": "DF",
+    "results": [],
+    "latest": true,
+    "alg": "D: L' F' L, S"
+  },
+  "UF;BR;DF;U R': U/M'": {
+    "buffer": "UF",
+    "first_target": "BR",
+    "second_target": "DF",
+    "results": [],
+    "latest": true,
+    "alg": "U R': U/M'"
+  },
+  "UF;LU;DF;L' F': L2, E'": {
+    "buffer": "UF",
+    "first_target": "LU",
+    "second_target": "DF",
+    "results": [],
+    "latest": true,
+    "alg": "L' F': L2, E'"
+  },
+  "UF;LF;DF;U R' F2: R S R', F": {
+    "buffer": "UF",
+    "first_target": "LF",
+    "second_target": "DF",
+    "results": [],
+    "latest": true,
+    "alg": "U R' F2: R S R', F"
+  },
+  "UF;LD;DF;L F: E', L2": {
+    "buffer": "UF",
+    "first_target": "LD",
+    "second_target": "DF",
+    "results": [],
+    "latest": true,
+    "alg": "L F: E', L2"
+  },
+  "UF;LB;DF;F: E', L2": {
+    "buffer": "UF",
+    "first_target": "LB",
+    "second_target": "DF",
+    "results": [],
+    "latest": true,
+    "alg": "F: E', L2"
+  },
+  "UF;DR;DF;R' F': R S' R', F2": {
+    "buffer": "UF",
+    "first_target": "DR",
+    "second_target": "DF",
+    "results": [],
+    "latest": true,
+    "alg": "R' F': R S' R', F2"
+  },
+  "UF;DB;DF;M' U2 M' U2 M2": {
+    "buffer": "UF",
+    "first_target": "DB",
+    "second_target": "DF",
+    "results": [],
+    "latest": true,
+    "alg": "M' U2 M' U2 M2"
+  },
+  "UF;DL;DF;L: F/L' S L": {
+    "buffer": "UF",
+    "first_target": "DL",
+    "second_target": "DF",
+    "results": [],
+    "latest": true,
+    "alg": "L: F/L' S L"
+  },
+  "UF;UB;DR;U': S, R2": {
+    "buffer": "UF",
+    "first_target": "UB",
+    "second_target": "DR",
+    "results": [],
+    "latest": true,
+    "alg": "U': S, R2"
+  },
+  "UF;UR;DR;U', R E' R2 E R": {
+    "buffer": "UF",
+    "first_target": "UR",
+    "second_target": "DR",
+    "results": [],
+    "latest": true,
+    "alg": "U', R E' R2 E R"
+  },
+  "UF;UL;DR;U R U R' U' R' U' R' U R": {
+    "buffer": "UF",
+    "first_target": "UL",
+    "second_target": "DR",
+    "results": [],
+    "latest": true,
+    "alg": "U R U R' U' R' U' R' U R"
+  },
+  "UF;FR;DR;U R' U' R' U R U R U R' U2": {
+    "buffer": "UF",
+    "first_target": "FR",
+    "second_target": "DR",
+    "results": [],
+    "latest": true,
+    "alg": "U R' U' R' U R U R U R' U2"
+  },
+  "UF;FD;DR;U R' F': R'/S": {
+    "buffer": "UF",
+    "first_target": "FD",
+    "second_target": "DR",
+    "results": [],
+    "latest": true,
+    "alg": "U R' F': R'/S"
+  },
+  "UF;FL;DR;U': R'/E": {
+    "buffer": "UF",
+    "first_target": "FL",
+    "second_target": "DR",
+    "results": [],
+    "latest": true,
+    "alg": "U': R'/E"
+  },
+  "UF;RU;DR;R' F R, S'": {
+    "buffer": "UF",
+    "first_target": "RU",
+    "second_target": "DR",
+    "results": [],
+    "latest": true,
+    "alg": "R' F R, S'"
+  },
+  "UF;RB;DR;u': R/E'": {
+    "buffer": "UF",
+    "first_target": "RB",
+    "second_target": "DR",
+    "results": [],
+    "latest": true,
+    "alg": "u': R/E'"
+  },
+  "UF;RF;DR;U' E': R'/E": {
+    "buffer": "UF",
+    "first_target": "RF",
+    "second_target": "DR",
+    "results": [],
+    "latest": true,
+    "alg": "U' E': R'/E"
+  },
+  "UF;BU;DR;U D': S, R' F' R": {
+    "buffer": "UF",
+    "first_target": "BU",
+    "second_target": "DR",
+    "results": [],
+    "latest": true,
+    "alg": "U D': S, R' F' R"
+  },
+  "UF;BL;DR;U': R/E'": {
+    "buffer": "UF",
+    "first_target": "BL",
+    "second_target": "DR",
+    "results": [],
+    "latest": true,
+    "alg": "U': R/E'"
+  },
+  "UF;BD;DR;D' R' F': E, R2": {
+    "buffer": "UF",
+    "first_target": "BD",
+    "second_target": "DR",
+    "results": [],
+    "latest": true,
+    "alg": "D' R' F': E, R2"
+  },
+  "UF;BR;DR;U R U R U' R' U' R' U' R": {
+    "buffer": "UF",
+    "first_target": "BR",
+    "second_target": "DR",
+    "results": [],
+    "latest": true,
+    "alg": "U R U R U' R' U' R' U' R"
+  },
+  "UF;LU;DR;r: U', L E' L'": {
+    "buffer": "UF",
+    "first_target": "LU",
+    "second_target": "DR",
+    "results": [],
+    "latest": true,
+    "alg": "r: U', L E' L'"
+  },
+  "UF;LF;DR;U' E': R/E'": {
+    "buffer": "UF",
+    "first_target": "LF",
+    "second_target": "DR",
+    "results": [],
+    "latest": true,
+    "alg": "U' E': R/E'"
+  },
+  "UF;LD;DR;L' F' L, S": {
+    "buffer": "UF",
+    "first_target": "LD",
+    "second_target": "DR",
+    "results": [],
+    "latest": true,
+    "alg": "L' F' L, S"
+  },
+  "UF;LB;DR;u': R'/E": {
+    "buffer": "UF",
+    "first_target": "LB",
+    "second_target": "DR",
+    "results": [],
+    "latest": true,
+    "alg": "u': R'/E"
+  },
+  "UF;DF;DR;R': F/R S' R'": {
+    "buffer": "UF",
+    "first_target": "DF",
+    "second_target": "DR",
+    "results": [],
+    "latest": true,
+    "alg": "R': F/R S' R'"
+  },
+  "UF;DB;DR;U' R D: R/S'": {
+    "buffer": "UF",
+    "first_target": "DB",
+    "second_target": "DR",
+    "results": [],
+    "latest": true,
+    "alg": "U' R D: R/S'"
+  },
+  "UF;DL;DR;U': R2, S'": {
+    "buffer": "UF",
+    "first_target": "DL",
+    "second_target": "DR",
+    "results": [],
+    "latest": true,
+    "alg": "U': R2, S'"
+  },
+  "UF;UB;DB;M, U2": {
+    "buffer": "UF",
+    "first_target": "UB",
+    "second_target": "DB",
+    "results": [],
+    "latest": true,
+    "alg": "M, U2"
+  },
+  "UF;UR;DB;R U R': U'/M": {
+    "buffer": "UF",
+    "first_target": "UR",
+    "second_target": "DB",
+    "results": [],
+    "latest": true,
+    "alg": "R U R': U'/M"
+  },
+  "UF;UL;DB;U l: U'/R' E R": {
+    "buffer": "UF",
+    "first_target": "UL",
+    "second_target": "DB",
+    "results": [],
+    "latest": true,
+    "alg": "U l: U'/R' E R"
+  },
+  "UF;FR;DB;U D: L/E'": {
+    "buffer": "UF",
+    "first_target": "FR",
+    "second_target": "DB",
+    "results": [],
+    "latest": true,
+    "alg": "U D: L/E'"
+  },
+  "UF;FD;DB;D': L' F' L, S": {
+    "buffer": "UF",
+    "first_target": "FD",
+    "second_target": "DB",
+    "results": [],
+    "latest": true,
+    "alg": "D': L' F' L, S"
+  },
+  "UF;FL;DB;U' D': R'/E": {
+    "buffer": "UF",
+    "first_target": "FL",
+    "second_target": "DB",
+    "results": [],
+    "latest": true,
+    "alg": "U' D': R'/E"
+  },
+  "UF;RU;DB;D': R' F R, S'": {
+    "buffer": "UF",
+    "first_target": "RU",
+    "second_target": "DB",
+    "results": [],
+    "latest": true,
+    "alg": "D': R' F R, S'"
+  },
+  "UF;RB;DB;M/U R' U'": {
+    "buffer": "UF",
+    "first_target": "RB",
+    "second_target": "DB",
+    "results": [],
+    "latest": true,
+    "alg": "M/U R' U'"
+  },
+  "UF;RD;DB;U': S, R' B R": {
+    "buffer": "UF",
+    "first_target": "RD",
+    "second_target": "DB",
+    "results": [],
+    "latest": true,
+    "alg": "U': S, R' B R"
+  },
+  "UF;RF;DB;M/U R U'": {
+    "buffer": "UF",
+    "first_target": "RF",
+    "second_target": "DB",
+    "results": [],
+    "latest": true,
+    "alg": "M/U R U'"
+  },
+  "UF;BU;DB;U: S, l U l'": {
+    "buffer": "UF",
+    "first_target": "BU",
+    "second_target": "DB",
+    "results": [],
+    "latest": true,
+    "alg": "U: S, l U l'"
+  },
+  "UF;BL;DB;U' D': R/E'": {
+    "buffer": "UF",
+    "first_target": "BL",
+    "second_target": "DB",
+    "results": [],
+    "latest": true,
+    "alg": "U' D': R/E'"
+  },
+  "UF;BR;DB;M2, U' R' U": {
+    "buffer": "UF",
+    "first_target": "BR",
+    "second_target": "DB",
+    "results": [],
+    "latest": true,
+    "alg": "M2, U' R' U"
+  },
+  "UF;LU;DB;D: L F' L', S": {
+    "buffer": "UF",
+    "first_target": "LU",
+    "second_target": "DB",
+    "results": [],
+    "latest": true,
+    "alg": "D: L F' L', S"
+  },
+  "UF;LF;DB;M/U' L' U": {
+    "buffer": "UF",
+    "first_target": "LF",
+    "second_target": "DB",
+    "results": [],
+    "latest": true,
+    "alg": "M/U' L' U"
+  },
+  "UF;LD;DB;U: S', L B' L'": {
+    "buffer": "UF",
+    "first_target": "LD",
+    "second_target": "DB",
+    "results": [],
+    "latest": true,
+    "alg": "U: S', L B' L'"
+  },
+  "UF;LB;DB;M/U' L U": {
+    "buffer": "UF",
+    "first_target": "LB",
+    "second_target": "DB",
+    "results": [],
+    "latest": true,
+    "alg": "M/U' L U"
+  },
+  "UF;DF;DB;u2 M' u2 M'": {
+    "buffer": "UF",
+    "first_target": "DF",
+    "second_target": "DB",
+    "results": [],
+    "latest": true,
+    "alg": "u2 M' u2 M'"
+  },
+  "UF;DR;DB;U' R D: R'/S'": {
+    "buffer": "UF",
+    "first_target": "DR",
+    "second_target": "DB",
+    "results": [],
+    "latest": true,
+    "alg": "U' R D: R'/S'"
+  },
+  "UF;DL;DB;U' R' D' R D R D R D' R' U D'": {
+    "buffer": "UF",
+    "first_target": "DL",
+    "second_target": "DB",
+    "results": [],
+    "latest": true,
+    "alg": "U' R' D' R D R D R D' R' U D'"
+  },
+  "UF;UB;DL;U: S', L2": {
+    "buffer": "UF",
+    "first_target": "UB",
+    "second_target": "DL",
+    "results": [],
+    "latest": true,
+    "alg": "U: S', L2"
+  },
+  "UF;UR;DL;l F: L'/S'": {
+    "buffer": "UF",
+    "first_target": "UR",
+    "second_target": "DL",
+    "results": [],
+    "latest": true,
+    "alg": "l F: L'/S'"
+  },
+  "UF;UL;DL;U, L' E L2 E' L'": {
+    "buffer": "UF",
+    "first_target": "UL",
+    "second_target": "DL",
+    "results": [],
+    "latest": true,
+    "alg": "U, L' E L2 E' L'"
+  },
+  "UF;FR;DL;U: L/E'": {
+    "buffer": "UF",
+    "first_target": "FR",
+    "second_target": "DL",
+    "results": [],
+    "latest": true,
+    "alg": "U: L/E'"
+  },
+  "UF;FD;DL;U' L F: L/S'": {
+    "buffer": "UF",
+    "first_target": "FD",
+    "second_target": "DL",
+    "results": [],
+    "latest": true,
+    "alg": "U' L F: L/S'"
+  },
+  "UF;FL;DL;U' L U L U' L' U' L' U' L U2": {
+    "buffer": "UF",
+    "first_target": "FL",
+    "second_target": "DL",
+    "results": [],
+    "latest": true,
+    "alg": "U' L U L U' L' U' L' U' L U2"
+  },
+  "UF;RU;DL;l': R' E R, U": {
+    "buffer": "UF",
+    "first_target": "RU",
+    "second_target": "DL",
+    "results": [],
+    "latest": true,
+    "alg": "l': R' E R, U"
+  },
+  "UF;RB;DL;u: L/E'": {
+    "buffer": "UF",
+    "first_target": "RB",
+    "second_target": "DL",
+    "results": [],
+    "latest": true,
+    "alg": "u: L/E'"
+  },
+  "UF;RD;DL;R F R', S'": {
+    "buffer": "UF",
+    "first_target": "RD",
+    "second_target": "DL",
+    "results": [],
+    "latest": true,
+    "alg": "R F R', S'"
+  },
+  "UF;RF;DL;U E: L'/E": {
+    "buffer": "UF",
+    "first_target": "RF",
+    "second_target": "DL",
+    "results": [],
+    "latest": true,
+    "alg": "U E: L'/E"
+  },
+  "UF;BU;DL;U D: S, R' F' R": {
+    "buffer": "UF",
+    "first_target": "BU",
+    "second_target": "DL",
+    "results": [],
+    "latest": true,
+    "alg": "U D: S, R' F' R"
+  },
+  "UF;BL;DL;U' L' U' L' U L U L U L'": {
+    "buffer": "UF",
+    "first_target": "BL",
+    "second_target": "DL",
+    "results": [],
+    "latest": true,
+    "alg": "U' L' U' L' U L U L U L'"
+  },
+  "UF;BD;DL;D L F: E', L2": {
+    "buffer": "UF",
+    "first_target": "BD",
+    "second_target": "DL",
+    "results": [],
+    "latest": true,
+    "alg": "D L F: E', L2"
+  },
+  "UF;BR;DL;U: L'/E": {
+    "buffer": "UF",
+    "first_target": "BR",
+    "second_target": "DL",
+    "results": [],
+    "latest": true,
+    "alg": "U: L'/E"
+  },
+  "UF;LU;DL;L F' L', S": {
+    "buffer": "UF",
+    "first_target": "LU",
+    "second_target": "DL",
+    "results": [],
+    "latest": true,
+    "alg": "L F' L', S"
+  },
+  "UF;LF;DL;U E: L/E'": {
+    "buffer": "UF",
+    "first_target": "LF",
+    "second_target": "DL",
+    "results": [],
+    "latest": true,
+    "alg": "U E: L/E'"
+  },
+  "UF;LB;DL;u: L'/E": {
+    "buffer": "UF",
+    "first_target": "LB",
+    "second_target": "DL",
+    "results": [],
+    "latest": true,
+    "alg": "u: L'/E"
+  },
+  "UF;DF;DL;L: F'/L' S L": {
+    "buffer": "UF",
+    "first_target": "DF",
+    "second_target": "DL",
+    "results": [],
+    "latest": true,
+    "alg": "L: F'/L' S L"
+  },
+  "UF;DR;DL;U: L2, S": {
+    "buffer": "UF",
+    "first_target": "DR",
+    "second_target": "DL",
+    "results": [],
+    "latest": true,
+    "alg": "U: L2, S"
+  },
+  "UF;DB;DL;U' D R D R' D' R' D' R' D R U": {
+    "buffer": "UF",
+    "first_target": "DB",
+    "second_target": "DL",
+    "results": [],
+    "latest": true,
+    "alg": "U' D R D R' D' R' D' R' D R U"
+  }
+}
