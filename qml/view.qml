@@ -12,10 +12,11 @@ ApplicationWindow {
     width: 1024
     height: 680
     visible: true
-    title: qsTr("InfotainmentExample")
+    title: qsTr("Blindcubing trainer")
     Material.theme: Material.Dark
     Material.accent: Material.Red
 
+    
     Bridge {
         id: bridge
     }

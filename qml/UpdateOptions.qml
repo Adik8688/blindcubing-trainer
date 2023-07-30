@@ -5,9 +5,9 @@ ColumnLayout {
     Text {
         id: leftlabel
         Layout.alignment: Qt.AlignCenter
-        color: "black"
+        color: "white"
         font.pointSize: 40
-        text: "BLD Trainer"
+        text: "Update options"
     }
 
 
