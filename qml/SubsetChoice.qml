@@ -20,31 +20,39 @@ ColumnLayout {
             ColumnLayout{
                 ComboBox{
                     id: firstTarget
-                    model: bridge.first_targets
+                    model: bridge.getFirstTargets()
                 }
                 Button {
                     id: addButton
                     text: "Add"
+                    onClicked: casesList.model = bridge.modifyList('Add', firstTarget.currentValue, secondTarget.currentValue, casesList.model)
                 }
             }
             ColumnLayout{
                 ComboBox {
                     id: secondTarget
-                    model: bridge.first_targets
+                    model: bridge.getSecondTargets()
                 }
                 Button {
                     id: removeButton
                     text: 'Remove'
+                    onClicked: casesList.model = bridge.modifyList('Remove', firstTarget.currentValue, secondTarget.currentValue, casesList.model)
                 }
             }
         }
         ColumnLayout{
+            Text {
+                Layout.alignment: Qt.AlignCenter
+                text: "Current list"
+                color: '#FFFFFF'
+                font.pointSize: 30
+            }
             ListView {
                 id: casesList
                 width: 160
                 height: 240
 
-                model: ['UF', 'UB', 'UR']
+                model: []
 
                 delegate: ItemDelegate {
                     text: modelData
