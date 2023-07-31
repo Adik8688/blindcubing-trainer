@@ -8,6 +8,7 @@ from PySide6.QtQml import QmlElement
 sys.path.append('..')
 
 from Code.SpreadsheetsManager import SpreadsheetsManager
+from Code.GameManager import GameManager
 
 QML_IMPORT_NAME = "io.qt.textproperties"
 QML_IMPORT_MAJOR_VERSION = 1
@@ -100,3 +101,8 @@ class Bridge(QObject):
             cases_list.difference_update(new_set)
 
         return list(cases_list)
+    
+    @Slot (list)
+    def startGame(self, targets):
+        gm = GameManager(f'{self.pieceType}_{self.buffer}.json', targets)
+        

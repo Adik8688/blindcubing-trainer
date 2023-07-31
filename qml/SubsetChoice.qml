@@ -63,14 +63,30 @@ ColumnLayout {
             }
         }
     }
+    RowLayout{
+        Layout.alignment: Qt.AlignBottom
+        Layout.bottomMargin: 30
+        Layout.rightMargin: 40
+        Layout.leftMargin: 40
+        Layout.preferredWidth: 1024
+        
+        Button {
+            id: backButton
+            Layout.alignment: Qt.AlignCenter
+            text: "Back"
+            onClicked: {
+                stackview.pop()
+                casesList.model = bridge.addElement(casesList.model, firstTarget.currentValue + " " + secondTarget.currentValue)
+            }
+        }
 
-    Button {
-        id: backButton
-        Layout.alignment: Qt.AlignCenter
-        text: "Back"
-        onClicked: {
-            stackview.pop()
-            casesList.model = bridge.addElement(casesList.model, firstTarget.currentValue + " " + secondTarget.currentValue)
+        Button {
+            Layout.alignment: Qt.AlignRight
+            id: submitButton
+            text: "Submit"
+            onClicked: {
+                bridge.startGame(casesList.model)
+            }
         }
     }
 }
