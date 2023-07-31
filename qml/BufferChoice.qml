@@ -23,6 +23,7 @@ ColumnLayout {
         onClicked: {
             if (bufferBox.currentValue) {
                 bridge.setBuffer(bufferBox.currentValue)
+                bridge.setAvailableTargets()
                 stackview.push('SubsetChoice.qml')
             }
         }

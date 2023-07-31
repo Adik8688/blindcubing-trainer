@@ -6,6 +6,6 @@ Item {
     StackView {
         id: stackview
         anchors.fill: parent
-        initialItem: "SubsetChoice.qml"
+        initialItem: "MainMenu.qml"
     }
 }

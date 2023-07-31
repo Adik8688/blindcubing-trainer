@@ -20,7 +20,7 @@ ColumnLayout {
             ColumnLayout{
                 ComboBox{
                     id: firstTarget
-                    model: ['All', 'UB', 'UL', 'UR']
+                    model: bridge.first_targets
                 }
                 Button {
                     id: addButton
@@ -30,7 +30,7 @@ ColumnLayout {
             ColumnLayout{
                 ComboBox {
                     id: secondTarget
-                    model: ['All', 'UB', 'UL', 'UR']
+                    model: bridge.first_targets
                 }
                 Button {
                     id: removeButton
@@ -39,30 +39,19 @@ ColumnLayout {
             }
         }
         ColumnLayout{
-            ListModel {
-                id: listModel
-                ListElement {
-                    name: "Bill Smith"
-                    number: "555 3264"
-                }
-                ListElement {
-                    name: "John Brown"
-                    number: "555 8426"
-                }
-                ListElement {
-                    name: "Sam Wise"
-                    number: "555 0473"
-                }
-            }
-
             ListView {
-                width: 180; height: 200
+                id: casesList
+                width: 160
+                height: 240
 
-                model: listModel
-                delegate: Text {
-                    color: 'white'
-                    text: name + ": " + number
+                model: ['UF', 'UB', 'UR']
+
+                delegate: ItemDelegate {
+                    text: modelData
+                    onClicked: console.log("clicked:", modelData)
+                    required property string modelData
                 }
+                ScrollIndicator.vertical: ScrollIndicator { }
             }
         }
     }
@@ -72,8 +61,8 @@ ColumnLayout {
         Layout.alignment: Qt.AlignCenter
         text: "Back"
         onClicked: {
-            bridge.printList(listModel)
             stackview.pop()
+            casesList.model = bridge.addElement(casesList.model, firstTarget.currentValue + " " + secondTarget.currentValue)
         }
     }
 }

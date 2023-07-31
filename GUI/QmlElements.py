@@ -57,7 +57,21 @@ class Bridge(QObject):
     def getBuffer(self):
         return self.buffer
     
-    @Slot (list)
-    def printList(self, listModel):
-        for i in listModel:
-            print(i)
+    @Slot ()
+    def setAvailableTargets(self):
+        print(self.pieceType)
+        print(self.buffer)
+
+        filepath = Path().absolute().parent / 'json' / f'{self.pieceType}_{self.buffer}.json'
+
+        print(str(filepath))
+
+        data = SpreadsheetsManager.get_data(filepath)
+
+        self.first_targets = ['All'] + list(set([v['first_target'] for v in data.values()]))
+        self.seconds_targets = ['All'] + list(set([v['second_target'] for v in data.values()]))
+
+
+    @Slot (list, str, result=list)
+    def modifyList(self, option, first_target, second_target, cases_list):
+        pass
