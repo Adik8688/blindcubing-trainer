@@ -33,6 +33,13 @@ ColumnLayout {
     }
 
     Button {
+        id: helpButton
+        Layout.alignment: Qt.AlignCenter
+        text: "Help"
+        onClicked: stackview.push('HelpAlgs.qml')
+    }
+
+    Button {
         id: backButton
         Layout.alignment: Qt.AlignCenter
         text: "Back"

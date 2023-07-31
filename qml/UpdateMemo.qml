@@ -7,10 +7,10 @@ import QtQuick.Dialogs
 ColumnLayout {
     Text {
         id: leftlabel
-        Layout.alignment: Qt.AlignCenter
-        color: "black"
+        Layout.alignment: Qt.AlignHCenter
+        color: "white"
         font.pointSize: 40
-        text: "BLD Trainer"
+        text: "Choose file"
     }
 
 

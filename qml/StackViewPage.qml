@@ -6,6 +6,6 @@ Item {
     StackView {
         id: stackview
         anchors.fill: parent
-        initialItem: "MainMenu.qml"
+        initialItem: "HelpAlgs.qml"
     }
 }
