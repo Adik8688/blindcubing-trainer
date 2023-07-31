@@ -9,18 +9,44 @@ ColumnLayout {
         font.pointSize: 40
     }
 
-    Text {
+    RowLayout{
         Layout.alignment: Qt.AlignCenter
-        text: "Type: " + bridge.getPieceType()
-        color: '#FFFFFF'
-        font.pointSize: 20
-    }
+        Layout.bottomMargin: 30
+        Layout.rightMargin: 40
+        Layout.leftMargin: 40
+        Layout.preferredWidth: 1024
+        RowLayout{
+            Layout.preferredWidth: parent.preferredWidth / 3
+            ColumnLayout{
+                ComboBox{
+                    id: firstTarget
+                    model: ['All', 'UB', 'UL', 'UR']
+                }
+                Button {
+                    id: addButton
+                    text: "Add"
+                }
+            }
+            ColumnLayout{
+                ComboBox {
+                    id: secondTarget
+                    model: ['All', 'UB', 'UL', 'UR']
+                }
+                Button {
+                    id: removeButton
+                    text: 'Remove'
+                }
+            }
+        }
+        ColumnLayout{
+            ListView {
+                width: 180; height: 200
 
-    Text {
-        Layout.alignment: Qt.AlignCenter
-        text: "Buffer: " + bridge.getBuffer()
-        color: '#FFFFFF'
-        font.pointSize: 20
+                model: ['UB', 'UL', 'UR']
+
+                
+            }
+        }
     }
 
     Button {
