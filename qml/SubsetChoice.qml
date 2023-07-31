@@ -39,12 +39,30 @@ ColumnLayout {
             }
         }
         ColumnLayout{
+            ListModel {
+                id: listModel
+                ListElement {
+                    name: "Bill Smith"
+                    number: "555 3264"
+                }
+                ListElement {
+                    name: "John Brown"
+                    number: "555 8426"
+                }
+                ListElement {
+                    name: "Sam Wise"
+                    number: "555 0473"
+                }
+            }
+
             ListView {
                 width: 180; height: 200
 
-                model: ['UB', 'UL', 'UR']
-
-                
+                model: listModel
+                delegate: Text {
+                    color: 'white'
+                    text: name + ": " + number
+                }
             }
         }
     }
@@ -54,6 +72,7 @@ ColumnLayout {
         Layout.alignment: Qt.AlignCenter
         text: "Back"
         onClicked: {
+            bridge.printList(listModel)
             stackview.pop()
         }
     }

@@ -56,3 +56,8 @@ class Bridge(QObject):
     @Slot (result=str)
     def getBuffer(self):
         return self.buffer
+    
+    @Slot (list)
+    def printList(self, listModel):
+        for i in listModel:
+            print(i)
