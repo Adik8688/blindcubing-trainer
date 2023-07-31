@@ -102,7 +102,36 @@ class Bridge(QObject):
 
         return list(cases_list)
     
-    @Slot (list)
-    def startGame(self, targets):
-        gm = GameManager(f'{self.pieceType}_{self.buffer}.json', targets)
-        
+    @Slot (list, int)
+    def startGame(self, targets, study_mode):
+        self.gm = GameManager(f'{self.pieceType}_{self.buffer}.json', targets)
+        self.study_mode = study_mode
+
+    @Slot ()
+    def incrementGameIndex(self):
+        self.gm.increment_index()
+
+    @Slot (result=str)
+    def getNextAlg(self):
+        return self.gm.get_next_alg()
+    
+    @Slot (result=str)
+    def getCurrentAlg(self):
+        return self.gm.get_current_alg()
+
+    @Slot (result=str)
+    def getCurrentMemo(self):
+        return self.gm.get_current_memo()
+    
+    @Slot (result=str)
+    def getCurrentAlgNo(self): ####
+        return str(self.gm.get_current_alg_no())
+    
+    @Slot (result=str)
+    def getAlgsCount(self): ####
+        return str(self.gm.get_algs_count())
+    
+    @Slot (float)
+    def saveResults(self, result):
+        self.gm.save_result(result)
+

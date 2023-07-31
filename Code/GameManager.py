@@ -1,5 +1,7 @@
 from Code.SpreadsheetsManager import SpreadsheetsManager
 from pathlib import Path
+from random import shuffle
+
 
 class GameManager:
 
@@ -11,6 +13,9 @@ class GameManager:
         self.targets = targets
         self.map_targets_to_keys()
         self.get_game_attributes()
+        self.get_shuffled_keys()
+        self.index = 0
+        self.size = len(self.keys)
 
 
     def map_targets_to_keys(self):
@@ -46,6 +51,11 @@ class GameManager:
                 print('\t', k1, ':', v1)
 
 
+    def get_shuffled_keys(self):
+        self.keys = list(self.targets_keys_map.keys())
+        shuffle(self.keys)
+
+
     def filter_data(self, **attributes):
         result = dict()
         
@@ -54,5 +64,30 @@ class GameManager:
                 result[k] = v
         
         self.data = result
-
     
+    
+    def increment_index(self):
+        self.index += 1
+    
+    def get_next_alg(self):
+        try:
+            return self.targets_keys_map[self.keys[self.index + 1]]['memo'] 
+        except IndexError:
+            return ''
+
+    def get_current_alg(self):
+        return self.targets_keys_map[self.keys[self.index]]['alg']
+    
+    def get_current_memo(self):
+        return self.targets_keys_map[self.keys[self.index]]['memo']
+
+    def get_current_alg_no(self):
+        return self.index + 1
+    
+    def get_algs_count(self):
+        return self.size
+    
+    def save_result(self, result):
+        self.targets_keys_map[self.keys[self.index]]['result'] = result
+
+        

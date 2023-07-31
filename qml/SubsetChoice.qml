@@ -61,6 +61,10 @@ ColumnLayout {
                 }
                 ScrollIndicator.vertical: ScrollIndicator { }
             }
+            Switch {
+                id: studySwitch
+                text: 'Study mode'
+            }
         }
     }
     RowLayout{
@@ -76,7 +80,6 @@ ColumnLayout {
             text: "Back"
             onClicked: {
                 stackview.pop()
-                casesList.model = bridge.addElement(casesList.model, firstTarget.currentValue + " " + secondTarget.currentValue)
             }
         }
 
@@ -85,7 +88,8 @@ ColumnLayout {
             id: submitButton
             text: "Submit"
             onClicked: {
-                bridge.startGame(casesList.model)
+                bridge.startGame(casesList.model, studySwitch.position)
+                mainLoader.source = 'WaitingScreen.qml'
             }
         }
     }
