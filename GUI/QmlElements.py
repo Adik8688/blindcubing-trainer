@@ -4,6 +4,7 @@ from pathlib import Path
 import os
 from PySide6.QtCore import QObject, Slot
 from PySide6.QtQml import QmlElement
+from datetime import datetime
 
 sys.path.append('..')
 
@@ -124,14 +125,30 @@ class Bridge(QObject):
         return self.gm.get_current_memo()
     
     @Slot (result=str)
-    def getCurrentAlgNo(self): ####
+    def getCurrentAlgNo(self):
         return str(self.gm.get_current_alg_no())
     
     @Slot (result=str)
-    def getAlgsCount(self): ####
+    def getAlgsCount(self): 
         return str(self.gm.get_algs_count())
     
-    @Slot (float)
-    def saveResults(self, result):
-        self.gm.save_result(result)
+    @Slot (object, object)
+    def saveResults(self, start_time, end_time):
+        delta = (end_time - start_time).total_seconds()
+        self.gm.save_result(round(delta, 2))
 
+    @Slot (result=float)
+    def getStudyMode(self):
+        return self.study_mode
+
+    @Slot (result=bool)
+    def isGameFinished(self):
+        return self.gm.is_game_finished()
+    
+    @Slot (result=object)
+    def getCurrentTime(self):
+        return datetime.now()
+    
+    @Slot (result=str)
+    def getLastResult(self):
+        return self.gm.get_last_result()

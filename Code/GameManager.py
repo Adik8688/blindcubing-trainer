@@ -70,10 +70,16 @@ class GameManager:
         self.index += 1
     
     def get_next_alg(self):
-        try:
-            return self.targets_keys_map[self.keys[self.index + 1]]['memo'] 
-        except IndexError:
+        if self.index == self.size - 1:
             return ''
+        return self.targets_keys_map[self.keys[self.index + 1]]['memo'] 
+
+    def get_last_result(self):
+        print(self.index)
+        if self.index == 0:
+            return ''
+        return self.targets_keys_map[self.keys[self.index - 1]]['result']
+            
 
     def get_current_alg(self):
         return self.targets_keys_map[self.keys[self.index]]['alg']
@@ -89,5 +95,10 @@ class GameManager:
     
     def save_result(self, result):
         self.targets_keys_map[self.keys[self.index]]['result'] = result
+
+    def is_game_finished(self):
+        return self.index == self.size
+    
+   
 
         
