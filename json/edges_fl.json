@@ -5,7 +5,8 @@
     "second_target": "RB",
     "results": [],
     "latest": true,
-    "alg": "R2 U': R U R', E"
+    "alg": "R2 U': R U R', E",
+    "lp": "ZW"
   },
   "FL;BL;RB;L' E': L'/E'": {
     "buffer": "FL",
@@ -13,7 +14,8 @@
     "second_target": "RB",
     "results": [],
     "latest": true,
-    "alg": "L' E': L'/E'"
+    "alg": "L' E': L'/E'",
+    "lp": "MW"
   },
   "FL;LD;RB;R S': R'/E": {
     "buffer": "FL",
@@ -21,7 +23,8 @@
     "second_target": "RB",
     "results": [],
     "latest": true,
-    "alg": "R S': R'/E"
+    "alg": "R S': R'/E",
+    "lp": "TW"
   },
   "FL;LB;RB;L' S' L, B2": {
     "buffer": "FL",
@@ -29,7 +32,8 @@
     "second_target": "RB",
     "results": [],
     "latest": true,
-    "alg": "L' S' L, B2"
+    "alg": "L' S' L, B2",
+    "lp": "RW"
   },
   "FL;DR;RB;L S: L/E": {
     "buffer": "FL",
@@ -37,7 +41,8 @@
     "second_target": "RB",
     "results": [],
     "latest": true,
-    "alg": "L S: L/E"
+    "alg": "L S: L/E",
+    "lp": "FW"
   },
   "FL;DL;RB;L' u' L: L E' L', U": {
     "buffer": "FL",
@@ -45,7 +50,8 @@
     "second_target": "RB",
     "results": [],
     "latest": true,
-    "alg": "L' u' L: L E' L', U"
+    "alg": "L' u' L: L E' L', U",
+    "lp": "EW"
   },
   "FL;RB;RD;R2 u': R U R', E'": {
     "buffer": "FL",
@@ -53,7 +59,8 @@
     "second_target": "RD",
     "results": [],
     "latest": true,
-    "alg": "R2 u': R U R', E'"
+    "alg": "R2 u': R U R', E'",
+    "lp": "WZ"
   },
   "FL;BL;RD;S': L/S'": {
     "buffer": "FL",
@@ -61,7 +68,8 @@
     "second_target": "RD",
     "results": [],
     "latest": true,
-    "alg": "S': L/S'"
+    "alg": "S': L/S'",
+    "lp": "MZ"
   },
   "FL;BR;RD;R' u R: U', R E' R'": {
     "buffer": "FL",
@@ -69,7 +77,8 @@
     "second_target": "RD",
     "results": [],
     "latest": true,
-    "alg": "R' u R: U', R E' R'"
+    "alg": "R' u R: U', R E' R'",
+    "lp": "NZ"
   },
   "FL;LD;RD;S': R'/E": {
     "buffer": "FL",
@@ -77,7 +86,8 @@
     "second_target": "RD",
     "results": [],
     "latest": true,
-    "alg": "S': R'/E"
+    "alg": "S': R'/E",
+    "lp": "TZ"
   },
   "FL;LB;RD;R' F R U': R/E'": {
     "buffer": "FL",
@@ -85,7 +95,8 @@
     "second_target": "RD",
     "results": [],
     "latest": true,
-    "alg": "R' F R U': R/E'"
+    "alg": "R' F R U': R/E'",
+    "lp": "RZ"
   },
   "FL;DL;RD;U' L U, S": {
     "buffer": "FL",
@@ -93,7 +104,8 @@
     "second_target": "RD",
     "results": [],
     "latest": true,
-    "alg": "U' L U, S"
+    "alg": "U' L U, S",
+    "lp": "EZ"
   },
   "FL;RB;BL;L' E': L/E'": {
     "buffer": "FL",
@@ -101,7 +113,8 @@
     "second_target": "BL",
     "results": [],
     "latest": true,
-    "alg": "L' E': L/E'"
+    "alg": "L' E': L/E'",
+    "lp": "WM"
   },
   "FL;RD;BL;S': L'/S'": {
     "buffer": "FL",
@@ -109,7 +122,8 @@
     "second_target": "BL",
     "results": [],
     "latest": true,
-    "alg": "S': L'/S'"
+    "alg": "S': L'/S'",
+    "lp": "ZM"
   },
   "FL;BR;BL;L2, E": {
     "buffer": "FL",
@@ -117,7 +131,8 @@
     "second_target": "BL",
     "results": [],
     "latest": true,
-    "alg": "L2, E"
+    "alg": "L2, E",
+    "lp": "NM"
   },
   "FL;LD;BL;S': L/S": {
     "buffer": "FL",
@@ -125,7 +140,8 @@
     "second_target": "BL",
     "results": [],
     "latest": true,
-    "alg": "S': L/S"
+    "alg": "S': L/S",
+    "lp": "TM"
   },
   "FL;DR;BL;L/S": {
     "buffer": "FL",
@@ -133,7 +149,8 @@
     "second_target": "BL",
     "results": [],
     "latest": true,
-    "alg": "L/S"
+    "alg": "L/S",
+    "lp": "FM"
   },
   "FL;DL;BL;u2: R/S'": {
     "buffer": "FL",
@@ -141,7 +158,8 @@
     "second_target": "BL",
     "results": [],
     "latest": true,
-    "alg": "u2: R/S'"
+    "alg": "u2: R/S'",
+    "lp": "EM"
   },
   "FL;RD;BR;R' u R: R E' R', U'": {
     "buffer": "FL",
@@ -149,7 +167,8 @@
     "second_target": "BR",
     "results": [],
     "latest": true,
-    "alg": "R' u R: R E' R', U'"
+    "alg": "R' u R: R E' R', U'",
+    "lp": "ZN"
   },
   "FL;BL;BR;E, L2": {
     "buffer": "FL",
@@ -157,7 +176,8 @@
     "second_target": "BR",
     "results": [],
     "latest": true,
-    "alg": "E, L2"
+    "alg": "E, L2",
+    "lp": "MN"
   },
   "FL;LD;BR;L' u L: U', L E' L'": {
     "buffer": "FL",
@@ -165,7 +185,8 @@
     "second_target": "BR",
     "results": [],
     "latest": true,
-    "alg": "L' u L: U', L E' L'"
+    "alg": "L' u L: U', L E' L'",
+    "lp": "TN"
   },
   "FL;LB;BR;E L: S, L F2 L'": {
     "buffer": "FL",
@@ -173,7 +194,8 @@
     "second_target": "BR",
     "results": [],
     "latest": true,
-    "alg": "E L: S, L F2 L'"
+    "alg": "E L: S, L F2 L'",
+    "lp": "RN"
   },
   "FL;DR;BR;R' U R U': R'/E": {
     "buffer": "FL",
@@ -181,7 +203,8 @@
     "second_target": "BR",
     "results": [],
     "latest": true,
-    "alg": "R' U R U': R'/E"
+    "alg": "R' U R U': R'/E",
+    "lp": "FN"
   },
   "FL;DL;BR;L' U' L U: L/E": {
     "buffer": "FL",
@@ -189,7 +212,8 @@
     "second_target": "BR",
     "results": [],
     "latest": true,
-    "alg": "L' U' L U: L/E"
+    "alg": "L' U' L U: L/E",
+    "lp": "EN"
   },
   "FL;RB;LD;R S': R/E": {
     "buffer": "FL",
@@ -197,7 +221,8 @@
     "second_target": "LD",
     "results": [],
     "latest": true,
-    "alg": "R S': R/E"
+    "alg": "R S': R/E",
+    "lp": "WT"
   },
   "FL;RD;LD;S': R/E": {
     "buffer": "FL",
@@ -205,7 +230,8 @@
     "second_target": "LD",
     "results": [],
     "latest": true,
-    "alg": "S': R/E"
+    "alg": "S': R/E",
+    "lp": "ZT"
   },
   "FL;BL;LD;S': L'/S": {
     "buffer": "FL",
@@ -213,7 +239,8 @@
     "second_target": "LD",
     "results": [],
     "latest": true,
-    "alg": "S': L'/S"
+    "alg": "S': L'/S",
+    "lp": "MT"
   },
   "FL;BR;LD;L' u L: L E' L', U'": {
     "buffer": "FL",
@@ -221,7 +248,8 @@
     "second_target": "LD",
     "results": [],
     "latest": true,
-    "alg": "L' u L: L E' L', U'"
+    "alg": "L' u L: L E' L', U'",
+    "lp": "NT"
   },
   "FL;LB;LD;L': S', U L U'": {
     "buffer": "FL",
@@ -229,7 +257,8 @@
     "second_target": "LD",
     "results": [],
     "latest": true,
-    "alg": "L': S', U L U'"
+    "alg": "L': S', U L U'",
+    "lp": "RT"
   },
   "FL;DR;LD;R F2 R', S'": {
     "buffer": "FL",
@@ -237,7 +266,8 @@
     "second_target": "LD",
     "results": [],
     "latest": true,
-    "alg": "R F2 R', S'"
+    "alg": "R F2 R', S'",
+    "lp": "FT"
   },
   "FL;RB;LB;B2, L' S' L": {
     "buffer": "FL",
@@ -245,7 +275,8 @@
     "second_target": "LB",
     "results": [],
     "latest": true,
-    "alg": "B2, L' S' L"
+    "alg": "B2, L' S' L",
+    "lp": "WR"
   },
   "FL;RD;LB;R' F R U': R'/E'": {
     "buffer": "FL",
@@ -253,7 +284,8 @@
     "second_target": "LB",
     "results": [],
     "latest": true,
-    "alg": "R' F R U': R'/E'"
+    "alg": "R' F R U': R'/E'",
+    "lp": "ZR"
   },
   "FL;BR;LB;E L: L F2 L', S": {
     "buffer": "FL",
@@ -261,7 +293,8 @@
     "second_target": "LB",
     "results": [],
     "latest": true,
-    "alg": "E L: L F2 L', S"
+    "alg": "E L: L F2 L', S",
+    "lp": "NR"
   },
   "FL;LD;LB;L': U L U', S'": {
     "buffer": "FL",
@@ -269,7 +302,8 @@
     "second_target": "LB",
     "results": [],
     "latest": true,
-    "alg": "L': U L U', S'"
+    "alg": "L': U L U', S'",
+    "lp": "TR"
   },
   "FL;DR;LB;R B' R' U: R'/E": {
     "buffer": "FL",
@@ -277,7 +311,8 @@
     "second_target": "LB",
     "results": [],
     "latest": true,
-    "alg": "R B' R' U: R'/E"
+    "alg": "R B' R' U: R'/E",
+    "lp": "FR"
   },
   "FL;DL;LB;L2 u: L U' L', E": {
     "buffer": "FL",
@@ -285,7 +320,8 @@
     "second_target": "LB",
     "results": [],
     "latest": true,
-    "alg": "L2 u: L U' L', E"
+    "alg": "L2 u: L U' L', E",
+    "lp": "ER"
   },
   "FL;RB;DR;L S: L'/E": {
     "buffer": "FL",
@@ -293,7 +329,8 @@
     "second_target": "DR",
     "results": [],
     "latest": true,
-    "alg": "L S: L'/E"
+    "alg": "L S: L'/E",
+    "lp": "WF"
   },
   "FL;BL;DR;L'/S": {
     "buffer": "FL",
@@ -301,7 +338,8 @@
     "second_target": "DR",
     "results": [],
     "latest": true,
-    "alg": "L'/S"
+    "alg": "L'/S",
+    "lp": "MF"
   },
   "FL;BR;DR;R' U R U': R/E": {
     "buffer": "FL",
@@ -309,7 +347,8 @@
     "second_target": "DR",
     "results": [],
     "latest": true,
-    "alg": "R' U R U': R/E"
+    "alg": "R' U R U': R/E",
+    "lp": "NF"
   },
   "FL;LD;DR;S', R F2 R'": {
     "buffer": "FL",
@@ -317,7 +356,8 @@
     "second_target": "DR",
     "results": [],
     "latest": true,
-    "alg": "S', R F2 R'"
+    "alg": "S', R F2 R'",
+    "lp": "TF"
   },
   "FL;LB;DR;R B' R' U: R/E": {
     "buffer": "FL",
@@ -325,7 +365,8 @@
     "second_target": "DR",
     "results": [],
     "latest": true,
-    "alg": "R B' R' U: R/E"
+    "alg": "R B' R' U: R/E",
+    "lp": "RF"
   },
   "FL;DL;DR;R' F2: R'/S'": {
     "buffer": "FL",
@@ -333,7 +374,8 @@
     "second_target": "DR",
     "results": [],
     "latest": true,
-    "alg": "R' F2: R'/S'"
+    "alg": "R' F2: R'/S'",
+    "lp": "EF"
   },
   "FL;RB;DL;L' u' L: U, L E' L'": {
     "buffer": "FL",
@@ -341,7 +383,8 @@
     "second_target": "DL",
     "results": [],
     "latest": true,
-    "alg": "L' u' L: U, L E' L'"
+    "alg": "L' u' L: U, L E' L'",
+    "lp": "WE"
   },
   "FL;RD;DL;S, U' L U": {
     "buffer": "FL",
@@ -349,7 +392,8 @@
     "second_target": "DL",
     "results": [],
     "latest": true,
-    "alg": "S, U' L U"
+    "alg": "S, U' L U",
+    "lp": "ZE"
   },
   "FL;BL;DL;u2: R'/S'": {
     "buffer": "FL",
@@ -357,7 +401,8 @@
     "second_target": "DL",
     "results": [],
     "latest": true,
-    "alg": "u2: R'/S'"
+    "alg": "u2: R'/S'",
+    "lp": "ME"
   },
   "FL;BR;DL;L' U' L U: L'/E": {
     "buffer": "FL",
@@ -365,7 +410,8 @@
     "second_target": "DL",
     "results": [],
     "latest": true,
-    "alg": "L' U' L U: L'/E"
+    "alg": "L' U' L U: L'/E",
+    "lp": "NE"
   },
   "FL;LB;DL;L2 U: L U' L', E'": {
     "buffer": "FL",
@@ -373,7 +419,8 @@
     "second_target": "DL",
     "results": [],
     "latest": true,
-    "alg": "L2 U: L U' L', E'"
+    "alg": "L2 U: L U' L', E'",
+    "lp": "RE"
   },
   "FL;DR;DL;R' F2: R/S'": {
     "buffer": "FL",
@@ -381,6 +428,7 @@
     "second_target": "DL",
     "results": [],
     "latest": true,
-    "alg": "R' F2: R/S'"
+    "alg": "R' F2: R/S'",
+    "lp": "FE"
   }
 }

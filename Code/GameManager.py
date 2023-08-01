@@ -45,12 +45,6 @@ class GameManager:
             self.targets_keys_map[k]['alg'] = alg
             self.targets_keys_map[k]['memo'] = memo
 
-        for k, v in self.targets_keys_map.items():
-            print(k)
-            for k1, v1 in v.items():
-                print('\t', k1, ':', v1)
-
-
     def get_shuffled_keys(self):
         self.keys = list(self.targets_keys_map.keys())
         shuffle(self.keys)
@@ -75,7 +69,6 @@ class GameManager:
         return self.targets_keys_map[self.keys[self.index + 1]]['memo'] 
 
     def get_last_result(self):
-        print(self.index)
         if self.index == 0:
             return ''
         return self.targets_keys_map[self.keys[self.index - 1]]['result']
@@ -99,6 +92,8 @@ class GameManager:
     def is_game_finished(self):
         return self.index == self.size
     
-   
-
-        
+    def get_results_list(self):
+        output = []
+        for k, v in self.targets_keys_map.items():
+            output.append(f'{k} {v["result"]}')
+        return output

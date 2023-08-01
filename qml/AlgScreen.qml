@@ -17,35 +17,94 @@ ColumnLayout {
         }
     }
 
-    Text {
-        id: title
-        Layout.alignment: Qt.AlignCenter
-        text: bridge.getCurrentMemo() + '\n' + bridge.getCurrentAlg()
-        color: '#FFFFFF'
-        font.pointSize: 30
-    }
+    
+    ColumnLayout{
+        Layout.preferredHeight: 900
+        Layout.fillWidth: true
+        Rectangle {
+            Layout.fillWidth: true
+            Layout.fillHeight: true
+            color: "transparent"
+            Text {
+                id: title
+                anchors {
+                    horizontalCenter: parent.horizontalCenter
+                    bottom: parent.bottom
+                } 
+                text: bridge.getCurrentMemo()
+                color: '#FFFFFF'
+                font.pointSize: 30
+            }
 
+        }
+        Rectangle {
+            Layout.fillWidth: true
+            Layout.fillHeight: true
+            color: "transparent"
+            Text {
+                id: alg
+                anchors {
+                    horizontalCenter: parent.horizontalCenter
+                    top: parent.top
+                } 
+                text: bridge.getCurrentAlg()
+                color: '#FFFFFF'
+                font.pointSize: 30
+            }
+        }
+        
+    }
     RowLayout{
         Layout.alignment: Qt.AlignBottom
         Layout.bottomMargin: 30
         Layout.rightMargin: 40
         Layout.leftMargin: 40
-        Layout.preferredWidth: 1024
+        Layout.fillWidth: true
+        Layout.preferredHeight: 150
+
         
-        Text {
-            Layout.alignment: Qt.AlignLeft
-            text: bridge.getCurrentAlgNo() + "/" + bridge.getAlgsCount()
-            color: '#FFFFFF'
-            font.pointSize: 30
-
-        } 
-        Text {
-            Layout.alignment: Qt.AlignRight
-            text: bridge.getNextAlg() ? "Next: " + bridge.getNextAlg() : ''
-            color: '#FFFFFF'
-            font.pointSize: 30
-
+        Rectangle {
+            Layout.fillWidth: true
+            Layout.fillHeight: true
+            color: "transparent"
+            Text {
+                text: bridge.getLastResult() ? 'Last: ' + bridge.getLastResult() : ''
+                color: '#FFFFFF'
+                font.pointSize: 30
+                anchors {
+                    horizontalCenter: parent.horizontalCenter
+                    bottom: parent.bottom
+                }
+            }
         }
+        Rectangle {
+            Layout.fillWidth: true
+            Layout.fillHeight: true
+            color: "transparent"
+            Text {
+                text: bridge.getCurrentAlgNo() + "/" + bridge.getAlgsCount()
+                color: '#FFFFFF'
+                font.pointSize: 30
+                anchors {
+                    horizontalCenter: parent.horizontalCenter
+                    bottom: parent.bottom
+                }
+            }
+        }
+        Rectangle {
+            Layout.fillWidth: true
+            Layout.fillHeight: true
+            color: "transparent"
+            Text {
+                text: bridge.getNextAlg() ? "Next: " + bridge.getNextAlg() : ''
+                color: '#FFFFFF'
+                font.pointSize: 30
+                anchors {
+                    horizontalCenter: parent.horizontalCenter
+                    bottom: parent.bottom
+                }
+            }
+        }      
     }
     
 }

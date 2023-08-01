@@ -69,11 +69,11 @@ class Bridge(QObject):
 
     @Slot (result=list)
     def getFirstTargets(self):
-        return self.first_targets
+        return sorted(self.first_targets)
     
     @Slot (result=list)
     def getSecondTargets(self):
-        return self.second_targets
+        return sorted(self.second_targets)
 
 
     @Slot (str, str, str, list, result=list)
@@ -132,9 +132,9 @@ class Bridge(QObject):
     def getAlgsCount(self): 
         return str(self.gm.get_algs_count())
     
-    @Slot (object, object)
-    def saveResults(self, start_time, end_time):
-        delta = (end_time - start_time).total_seconds()
+    @Slot ()
+    def saveResult(self):
+        delta = (self.end - self.start).total_seconds()
         self.gm.save_result(round(delta, 2))
 
     @Slot (result=float)
@@ -145,10 +145,20 @@ class Bridge(QObject):
     def isGameFinished(self):
         return self.gm.is_game_finished()
     
-    @Slot (result=object)
-    def getCurrentTime(self):
-        return datetime.now()
-    
     @Slot (result=str)
     def getLastResult(self):
-        return self.gm.get_last_result()
+        return str(self.gm.get_last_result())
+    
+    @Slot ()
+    def setStartTime(self):
+        self.start = datetime.now()
+    
+    @Slot ()
+    def setEndTime(self):
+        if not self.endFlag:
+            self.end = datetime.now()
+            self.endFlag = True
+
+    @Slot ()
+    def resetEndFlag(self):
+        self.endFlag = False

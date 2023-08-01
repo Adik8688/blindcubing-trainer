@@ -5,13 +5,18 @@ import QtQuick.Controls 2.12
 ColumnLayout {
     focus: true
     id: mainLayout
-    property var startTime: bridge.getCurrentTime()
-    property var endTime: bridge.getCurrentTime()
+    anchors.fill: parent
+    property var getStartTime: bridge.setStartTime(), bridge.resetEndFlag()
+
+    Keys.onPressed: (event) => {
+        if(event.key === Qt.Key_Space)
+            bridge.setEndTime()
+    }
 
     Keys.onReleased: (event) => {
         if(event.key === Qt.Key_Space && !event.isAutoRepeat) {
-            mainLayout.endTime = bridge.getCurrentTime()
-            bridge.saveResults(mainLayout.startTime, mainLayout.endTime)
+            console.log(bridge.end)
+            bridge.saveResult()
             if (bridge.getStudyMode()) {
                 mainLoader.source = 'AlgScreen.qml'
             }
@@ -29,42 +34,83 @@ ColumnLayout {
         }
     }
 
-    Text {
-        id: title
-        Layout.alignment: Qt.AlignCenter
-        text: bridge.getCurrentMemo()
-        color: '#FFFFFF'
-        font.pointSize: 30
-    }
+    ColumnLayout{
+        Layout.preferredHeight: 900
+        Layout.fillWidth: true
+        Rectangle {
+            Layout.fillWidth: true
+            Layout.fillHeight: true
+            color: "transparent"
+            Text {
+                id: title
+                anchors {
+                    horizontalCenter: parent.horizontalCenter
+                    bottom: parent.bottom
+                } 
+                text: bridge.getCurrentMemo()
+                color: '#FFFFFF'
+                font.pointSize: 30
+            }
 
+        }
+        Rectangle {
+            Layout.fillWidth: true
+            Layout.fillHeight: true
+            color: "transparent"
+        }
+        
+    }
     RowLayout{
         Layout.alignment: Qt.AlignBottom
         Layout.bottomMargin: 30
         Layout.rightMargin: 40
         Layout.leftMargin: 40
-        Layout.preferredWidth: 1024
+        Layout.fillWidth: true
+        Layout.preferredHeight: 150
+
         
-        ColumnLayout {
-            Layout.alignment: Qt.AlignLeft
+        Rectangle {
+            Layout.fillWidth: true
+            Layout.fillHeight: true
+            color: "transparent"
             Text {
                 text: bridge.getLastResult() ? 'Last: ' + bridge.getLastResult() : ''
                 color: '#FFFFFF'
                 font.pointSize: 30
-            } 
+                anchors {
+                    horizontalCenter: parent.horizontalCenter
+                    bottom: parent.bottom
+                }
+            }
+        }
+        Rectangle {
+            Layout.fillWidth: true
+            Layout.fillHeight: true
+            color: "transparent"
             Text {
                 text: bridge.getCurrentAlgNo() + "/" + bridge.getAlgsCount()
                 color: '#FFFFFF'
                 font.pointSize: 30
-            } 
+                anchors {
+                    horizontalCenter: parent.horizontalCenter
+                    bottom: parent.bottom
+                }
+            }
         }
-        
-        Text {
-            Layout.alignment: Qt.AlignRight
-            text: bridge.getNextAlg() ? "Next: " + bridge.getNextAlg() : ''
-            color: '#FFFFFF'
-            font.pointSize: 30
-
-        }
+        Rectangle {
+            Layout.fillWidth: true
+            Layout.fillHeight: true
+            color: "transparent"
+            Text {
+                text: bridge.getNextAlg() ? "Next: " + bridge.getNextAlg() : ''
+                color: '#FFFFFF'
+                font.pointSize: 30
+                anchors {
+                    horizontalCenter: parent.horizontalCenter
+                    bottom: parent.bottom
+                }
+            }
+        }      
     }
     
 }
