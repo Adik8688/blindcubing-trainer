@@ -6,6 +6,7 @@ import QtQuick.Controls.Material 2.1
 import QtQuick.Dialogs 
 
 import io.qt.textproperties 1.0
+import 'components'
 
 ApplicationWindow {
     id: root
@@ -27,13 +28,8 @@ ApplicationWindow {
     
     Loader {
         id: mainLoader
-        anchors {
-            left: parent.left
-            right: parent.right
-            top: parent.top
-            bottom: parent.bottom
-            margins: 30
-        }
+        anchors.fill: parent
+        anchors.margins: 30
         source: "StackViewPage.qml"
     }
 }
