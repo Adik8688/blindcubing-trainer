@@ -2,6 +2,7 @@ import sys
 
 from pathlib import Path
 import os
+from typing import Optional
 from PySide6.QtCore import QObject, Slot
 from PySide6.QtQml import QmlElement
 from datetime import datetime
@@ -12,12 +13,32 @@ from Code.SpreadsheetsManager import SpreadsheetsManager
 from Code.GameManager import GameManager
 
 QML_IMPORT_NAME = "io.qt.textproperties"
-QML_IMPORT_MAJOR_VERSION = 1
+QML_IMPORT_MAJOR_VERSION = 1 
+
+@QmlElement
+class Style(QObject):
+    @Slot ()
+    def __init__(self):
+        super().__init__(None)
+        stylepath = Path().absolute().parent / 'style' / 'style.json'
+        self.styleDict = SpreadsheetsManager.get_data(stylepath)
+   
+
+    @Slot (str, result=int)
+    def getInt(self, property):
+        return self.styleDict[property]
+    
+    @Slot (str, result=str)
+    def getStr(self, property):
+        return self.styleDict[property]
 
 
 @QmlElement
 class Bridge(QObject):
-
+    @Slot (str, result=object)
+    def getStyleProperty(self, property):
+        return self.styleDict[property]
+    
 
     @Slot (str, str)
     def updateData(self, url, update_option):

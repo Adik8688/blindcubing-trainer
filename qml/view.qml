@@ -13,14 +13,18 @@ ApplicationWindow {
     height: 680
     visible: true
     title: qsTr("Blindcubing trainer")
+
     Material.theme: Material.Dark
     Material.accent: Material.Red
-
-    
+ 
     Bridge {
         id: bridge
     }
 
+    Style {
+        id: style
+    }
+    
     Loader {
         id: mainLoader
         anchors {
@@ -28,6 +32,7 @@ ApplicationWindow {
             right: parent.right
             top: parent.top
             bottom: parent.bottom
+            margins: 30
         }
         source: "StackViewPage.qml"
     }

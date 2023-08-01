@@ -1,116 +1,81 @@
 import QtQuick 2.0
 import QtQuick.Layouts 1.12
 import QtQuick.Controls 2.12
+import "components"
 
 ColumnLayout {
     focus: true
-    id: mainLayout
-    anchors.fill: parent
     property var getStartTime: bridge.setStartTime(), bridge.resetEndFlag()
 
     Keys.onPressed: (event) => {
-        if(event.key === Qt.Key_Space)
-            bridge.setEndTime()
-    }
+    if (event.key === Qt.Key_Space)
+        bridge.setEndTime()
+}
 
     Keys.onReleased: (event) => {
-        if(event.key === Qt.Key_Space && !event.isAutoRepeat) {
-            console.log(bridge.end)
-            bridge.saveResult()
-            if (bridge.getStudyMode()) {
-                mainLoader.source = 'AlgScreen.qml'
-            }
+    if (event.key === Qt.Key_Space && !event.isAutoRepeat)
+    {
+        bridge.saveResult()
+        if (bridge.getStudyMode()) mainLoader.source = 'AlgScreen.qml'
+
+        else {
+            bridge.incrementGameIndex()
+            if (bridge.isGameFinished()) mainLoader.source = 'SavingScreen.qml'
             else {
-                bridge.incrementGameIndex()
-
-                if (bridge.isGameFinished()) {
-                    mainLoader.source = 'SavingScreen.qml'
-                }
-                else {
-                    mainLoader.source = 'AlgScreen.qml'
-                    mainLoader.source = 'GameScreen.qml'
-                }
+                mainLoader.source = 'AlgScreen.qml'
+                mainLoader.source = 'GameScreen.qml'
             }
         }
     }
+    }
 
-    ColumnLayout{
-        Layout.preferredHeight: 900
+    RowLayout {
+        id: top
+        Layout.preferredHeight: style.getInt('topHeight')
         Layout.fillWidth: true
-        Rectangle {
+    }
+    ColumnLayout {
+        id: mid
+        Layout.preferredHeight: style.getInt('midHeight')
+        Layout.fillWidth: true
+        RectangleBox {
             Layout.fillWidth: true
             Layout.fillHeight: true
-            color: "transparent"
-            Text {
-                id: title
-                anchors {
-                    horizontalCenter: parent.horizontalCenter
-                    bottom: parent.bottom
-                } 
+            BottomText {
                 text: bridge.getCurrentMemo()
-                color: '#FFFFFF'
-                font.pointSize: 30
             }
-
         }
-        Rectangle {
+        RectangleBox {
             Layout.fillWidth: true
             Layout.fillHeight: true
-            color: "transparent"
         }
-        
+
     }
-    RowLayout{
-        Layout.alignment: Qt.AlignBottom
-        Layout.bottomMargin: 30
-        Layout.rightMargin: 40
-        Layout.leftMargin: 40
+    RowLayout {
+        id: bottom
+        Layout.preferredHeight: style.getInt('bottomHeight')
         Layout.fillWidth: true
-        Layout.preferredHeight: 150
 
-        
-        Rectangle {
+        RectangleBox {
             Layout.fillWidth: true
             Layout.fillHeight: true
-            color: "transparent"
-            Text {
+            BottomText {
                 text: bridge.getLastResult() ? 'Last: ' + bridge.getLastResult() : ''
-                color: '#FFFFFF'
-                font.pointSize: 30
-                anchors {
-                    horizontalCenter: parent.horizontalCenter
-                    bottom: parent.bottom
-                }
             }
         }
-        Rectangle {
+        RectangleBox {
             Layout.fillWidth: true
             Layout.fillHeight: true
-            color: "transparent"
-            Text {
+            BottomText {
                 text: bridge.getCurrentAlgNo() + "/" + bridge.getAlgsCount()
-                color: '#FFFFFF'
-                font.pointSize: 30
-                anchors {
-                    horizontalCenter: parent.horizontalCenter
-                    bottom: parent.bottom
-                }
             }
         }
-        Rectangle {
+        RectangleBox {
             Layout.fillWidth: true
             Layout.fillHeight: true
-            color: "transparent"
-            Text {
+            BottomText {
                 text: bridge.getNextAlg() ? "Next: " + bridge.getNextAlg() : ''
-                color: '#FFFFFF'
-                font.pointSize: 30
-                anchors {
-                    horizontalCenter: parent.horizontalCenter
-                    bottom: parent.bottom
-                }
             }
-        }      
+        }
     }
-    
 }
