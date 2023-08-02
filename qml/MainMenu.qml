@@ -4,7 +4,6 @@ import QtQuick.Controls 2.12
 
 import 'components'
 
-
 ColumnLayout {
     RowLayout {
         id: top
