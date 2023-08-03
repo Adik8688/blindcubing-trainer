@@ -3,16 +3,9 @@ import QtQuick.Layouts 1.12
 import QtQuick.Controls 2.12
 import QtQuick.Dialogs 
 
+import 'components'
 
 ColumnLayout {
-    Text {
-        id: leftlabel
-        Layout.alignment: Qt.AlignHCenter
-        color: "white"
-        font.pointSize: 40
-        text: "Choose file"
-    }
-
 
     FileDialog {
         id: fileDialog
@@ -23,26 +16,66 @@ ColumnLayout {
             stackview.pop()
             stackview.pop()
         }
-    }   
+    } 
 
-    Button {
-        id: fileButton
-        Layout.alignment: Qt.AlignCenter
-        text: "Open file"
-        onClicked: fileDialog.open()
+    RowLayout {
+        id: top
+        Layout.preferredHeight: style.getInt('topHeight')
+        Layout.fillWidth: true
+        RectangleBox {
+            Layout.fillWidth: true
+            Layout.fillHeight: true
+            BottomText {
+                text: "Choose file"
+                font.pointSize: 40
+            }
+        }
+    }
+    
+    ColumnLayout {
+        id: mid
+        Layout.preferredHeight: style.getInt('midHeight')
+        Layout.fillWidth: true
+        RectangleBox {
+            Layout.fillWidth: true
+            Layout.fillHeight: true
+        }
+        RectangleBox {
+            Layout.fillWidth: true
+            Layout.fillHeight: true
+        }
+        RectangleBox {
+            Layout.fillWidth: true
+            Layout.fillHeight: true
+            MyButton {
+                id: fileButton
+                text: "Open file"
+                onClicked: fileDialog.open()
+            }
+        }
+        RectangleBox {
+            Layout.fillWidth: true
+            Layout.fillHeight: true
+            MyButton {
+                id: helpButton
+                text: "Help"
+                onClicked: stackview.push('HelpLPs.qml')
+            }
+        }
+        RectangleBox {
+            Layout.fillWidth: true
+            Layout.fillHeight: true
+            MyButton {
+                id: backButton
+                text: "Back"
+                onClicked: stackview.pop()
+            }
+        }  
     }
 
-    Button {
-        id: helpButton
-        Layout.alignment: Qt.AlignCenter
-        text: "Help"
-        onClicked: stackview.push('HelpLPs.qml')
-    }
-
-    Button {
-        id: backButton
-        Layout.alignment: Qt.AlignCenter
-        text: "Back"
-        onClicked: stackview.pop()
+    RowLayout {
+        id: bottom
+        Layout.preferredHeight: style.getInt('bottomHeight')
+        Layout.fillWidth: true
     }
 }
