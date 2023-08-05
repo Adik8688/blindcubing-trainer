@@ -11,6 +11,7 @@ ColumnLayout {
         if(event.key === Qt.Key_Space && !event.isAutoRepeat) {
             bridge.incrementGameIndex()
             if (bridge.isGameFinished()) {
+                    bridge.endGame()
                     mainLoader.source = 'SavingScreen.qml'
                 }
                 else {
@@ -32,6 +33,7 @@ ColumnLayout {
             Layout.fillHeight: true
             BottomText {
                 text: bridge.getCurrentMemo()
+                font.pointSize: 60
             }
         }
         RectangleBox {
@@ -39,6 +41,7 @@ ColumnLayout {
             Layout.fillHeight: true
             TopText {
                 text: bridge.getCurrentAlg()
+                font.pointSize: 60
             }
         }
 

@@ -100,19 +100,19 @@ class Bridge(QObject):
     @Slot (str, str, str, list, result=list)
     def modifyList(self, option, first_target, second_target, cases_list):
         if first_target == 'All':
-            first_target = self.first_targets
+            first_target = [i for i in self.first_targets if i != 'All']
         else:
             first_target = [first_target]
 
         if second_target == 'All':
-            second_target = self.second_targets
+            second_target = [i for i in self.second_targets if i != 'All']
         else:
             second_target = [second_target]
 
         new_set = set()
         for i in first_target:
             for j in second_target:
-                if i != j:
+                if i != j and i != j[::-1]:
                     new_set.add(f'{i} {j}')
 
         cases_list = set(cases_list)
@@ -183,3 +183,30 @@ class Bridge(QObject):
     @Slot ()
     def resetEndFlag(self):
         self.endFlag = False
+
+    @Slot ()
+    def endGame(self):
+        results_list = self.gm.get_results_list()
+        self.first_targets = list(set([i.split()[0] for i in results_list]))
+        self.second_targets = list(set([i.split()[1] for i in results_list]))
+
+
+    @Slot (result = list)
+    def getResultsList(self):
+        return self.gm.get_results_list()
+    
+    @Slot (str, list, result=list)
+    def removeFromResultsList(self, key, results_list):
+        results_list = [i for i in results_list if not key.split() == i.split()[:2]]
+        self.first_targets = list(set([i.split()[0] for i in results_list]))
+        self.second_targets = list(set([i.split()[1] for i in results_list]))
+
+        return results_list
+    
+    @Slot ()
+    def saveResults(self):
+        self.gm.save_results()
+
+    @Slot ()
+    def resetGame(self):
+        self.gm.set_game()

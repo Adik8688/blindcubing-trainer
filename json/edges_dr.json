@@ -3,7 +3,9 @@
     "buffer": "DR",
     "first_target": "BL",
     "second_target": "RB",
-    "results": [],
+    "results": [
+      0.42
+    ],
     "latest": true,
     "alg": "L' S: L'/E",
     "lp": "MW"
@@ -75,7 +77,9 @@
     "buffer": "DR",
     "first_target": "BL",
     "second_target": "BR",
-    "results": [],
+    "results": [
+      0.57
+    ],
     "latest": true,
     "alg": "R' U R U': R'/E'",
     "lp": "MN"
@@ -120,7 +124,9 @@
     "buffer": "DR",
     "first_target": "BL",
     "second_target": "LD",
-    "results": [],
+    "results": [
+      0.71
+    ],
     "latest": true,
     "alg": "S', R' B2 R",
     "lp": "MT"
@@ -192,7 +198,9 @@
     "buffer": "DR",
     "first_target": "BL",
     "second_target": "DL",
-    "results": [],
+    "results": [
+      0.44
+    ],
     "latest": true,
     "alg": "l U2: R/E'",
     "lp": "ME"

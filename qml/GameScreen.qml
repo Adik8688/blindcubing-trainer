@@ -20,7 +20,10 @@ ColumnLayout {
 
         else {
             bridge.incrementGameIndex()
-            if (bridge.isGameFinished()) mainLoader.source = 'SavingScreen.qml'
+            if (bridge.isGameFinished()) {
+                bridge.endGame()
+                mainLoader.source = 'SavingScreen.qml'
+            } 
             else {
                 mainLoader.source = 'AlgScreen.qml'
                 mainLoader.source = 'GameScreen.qml'
@@ -43,6 +46,7 @@ ColumnLayout {
             Layout.fillHeight: true
             BottomText {
                 text: bridge.getCurrentMemo()
+                font.pointSize: 60
             }
         }
         RectangleBox {

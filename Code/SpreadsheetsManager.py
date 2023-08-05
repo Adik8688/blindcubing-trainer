@@ -12,16 +12,16 @@ class SpreadsheetsManager:
         self.filepath = filepath
 
     @staticmethod
-    def get_data(file_path):
-        if not os.path.exists(file_path):
+    def get_data(filepath):
+        if not os.path.exists(filepath):
             return {}
 
-        with open(file_path, "r") as f:
+        with open(filepath, "r") as f:
             return json.load(f)
 
     @staticmethod
-    def save_data(data, file_path):
-        with open(file_path, "w") as f:
+    def save_data(data, filepath):
+        with open(filepath, "w") as f:
             json.dump(data, f, indent=2)
 
     @staticmethod

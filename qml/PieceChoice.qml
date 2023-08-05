@@ -117,7 +117,7 @@ ColumnLayout {
                 Layout.fillWidth: true
                 Layout.fillHeight: true
                 MyButtonDeeper {
-                    text: height + ' ' + parent.height + ' ' + parent.parent.parent.height + ' ' + parent.parent.parent.parent.height
+                    text: 'Midges'
                     onClicked: {
                         bridge.setPieceType('midges')
                         stackview.push( "BufferChoice.qml" )
@@ -138,8 +138,7 @@ ColumnLayout {
             Layout.fillWidth: true
             Layout.fillHeight: true
             MyButtonDeeper {
-                height: parent.parent.parent.height * 0.1
-                text: height + ' ' + parent.height + ' ' + parent.parent.parent.height
+                text: "Back"
                 onClicked: stackview.pop()
             }
         }

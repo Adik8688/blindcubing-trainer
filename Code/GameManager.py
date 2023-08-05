@@ -11,21 +11,27 @@ class GameManager:
         self.data = SpreadsheetsManager.get_data(self.filepath)
         self.filter_data(latest = [True])
         self.targets = targets
+
+        self.set_game()
+
+    def set_game(self):
         self.map_targets_to_keys()
         self.get_game_attributes()
         self.get_shuffled_keys()
         self.index = 0
         self.size = len(self.keys)
 
-
     def map_targets_to_keys(self):
         self.targets_keys_map = dict()
-        while self.targets:
-            t, self.targets = self.targets[0], self.targets[1:]
+        targets = self.targets
+        print(targets)
+        while targets:
+            t, targets = targets[0], targets[1:]
 
             for k in self.data.keys():
                 d_targets = k.split(';')[1:3]
                 if t == " ".join(d_targets):
+                    print(t)
                     self.targets_keys_map[t] = {'key': k}
                     break
     
@@ -96,4 +102,15 @@ class GameManager:
         output = []
         for k, v in self.targets_keys_map.items():
             output.append(f'{k} {v["result"]}')
+        
+        output = sorted(output, key=lambda x: x.split()[2], reverse=True)
+
         return output
+    
+    def save_results(self):
+        for v in self.targets_keys_map.values():
+            key = v['key']
+            result = v['result']
+            self.data[key]['results'].append(result)
+        
+        SpreadsheetsManager.save_data(self.data, self.filepath)

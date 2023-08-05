@@ -1,56 +1,79 @@
 import QtQuick 2.0
 import QtQuick.Layouts 1.12
 import QtQuick.Controls 2.12
-ColumnLayout {
-    Text {
-        Layout.alignment: Qt.AlignCenter
-        text: "Choose subset"
-        color: '#FFFFFF'
-        font.pointSize: 40
-    }
 
-    RowLayout{
-        Layout.alignment: Qt.AlignCenter
-        Layout.bottomMargin: 30
-        Layout.rightMargin: 40
-        Layout.leftMargin: 40
-        Layout.preferredWidth: 1024
-        RowLayout{
-            Layout.preferredWidth: parent.preferredWidth / 3
-            ColumnLayout{
+import QtQuick 2.0
+import QtQuick.Layouts 1.12
+import QtQuick.Controls 2.12
+
+import 'components'
+
+ColumnLayout {
+    RowLayout {
+        id: top
+        Layout.preferredHeight: style.getInt('topHeight')
+        Layout.fillWidth: true
+        RectangleBox {
+            Layout.fillWidth: true
+            Layout.fillHeight: true
+            BottomText {
+                text: "Choose subset"
+                font.pointSize: 40
+            }
+        }
+    }
+    ColumnLayout {
+        id: mid
+        Layout.preferredHeight: style.getInt('midHeight')
+        Layout.fillWidth: true
+        RectangleBox {
+            Layout.fillWidth: true
+            Layout.preferredHeight: 15
+        }
+        RectangleBox {
+            Layout.fillWidth: true
+            Layout.preferredHeight: 100
+            RowLayout {
+                Layout.fillWidth: true
+                Layout.fillHeight: true
+                anchors.horizontalCenter: parent.horizontalCenter
                 ComboBox{
                     id: firstTarget
                     model: bridge.getFirstTargets()
                 }
-                Button {
-                    id: addButton
-                    text: "Add"
-                    onClicked: casesList.model = bridge.modifyList('Add', firstTarget.currentValue, secondTarget.currentValue, casesList.model)
-                }
-            }
-            ColumnLayout{
                 ComboBox {
                     id: secondTarget
                     model: bridge.getSecondTargets()
                 }
                 Button {
+                    id: addButton
+                    text: "+"
+                    onClicked: casesList.model = bridge.modifyList('Add', firstTarget.currentValue, secondTarget.currentValue, casesList.model)
+                }
+                Button {
                     id: removeButton
-                    text: 'Remove'
+                    text: '-'
                     onClicked: casesList.model = bridge.modifyList('Remove', firstTarget.currentValue, secondTarget.currentValue, casesList.model)
                 }
             }
-        }
-        ColumnLayout{
-            Text {
-                Layout.alignment: Qt.AlignCenter
-                text: "Current list"
-                color: '#FFFFFF'
-                font.pointSize: 30
+            Switch {
+                anchors.right: parent.right
+                id: studySwitch
+                text: 'Study mode'
             }
+        }
+        RectangleBox {
+            Layout.fillWidth: true
+            Layout.preferredHeight: 15
+        }
+        RectangleBox {
+            Layout.fillWidth: true
+            Layout.preferredHeight: 270
             ListView {
+                anchors.horizontalCenter: parent.horizontalCenter
                 id: casesList
                 width: 160
-                height: 240
+                height: parent.height
 
                 model: []
 
@@ -61,35 +84,29 @@ ColumnLayout {
                 }
                 ScrollIndicator.vertical: ScrollIndicator { }
             }
-            Switch {
-                id: studySwitch
-                text: 'Study mode'
-            }
         }
     }
-    RowLayout{
-        Layout.alignment: Qt.AlignBottom
-        Layout.bottomMargin: 30
-        Layout.rightMargin: 40
-        Layout.leftMargin: 40
-        Layout.preferredWidth: 1024
-        
-        Button {
-            id: backButton
-            Layout.alignment: Qt.AlignCenter
-            text: "Back"
-            onClicked: {
-                stackview.pop()
+    RowLayout {
+        id: bottom
+        Layout.preferredHeight: style.getInt('bottomHeight')
+        Layout.fillWidth: true
+        RectangleBox {
+            Layout.fillWidth: true
+            Layout.fillHeight: true
+            MyButtonDeeper {
+                text: "Back"
+                onClicked: stackview.pop()
             }
         }
-
-        Button {
-            Layout.alignment: Qt.AlignRight
-            id: submitButton
-            text: "Submit"
-            onClicked: {
-                bridge.startGame(casesList.model, studySwitch.position)
-                mainLoader.source = 'WaitingScreen.qml'
+        RectangleBox {
+            Layout.fillWidth: true
+            Layout.fillHeight: true
+            MyButtonDeeper {
+                text: "Submit"
+                onClicked: {
+                    bridge.startGame(casesList.model, studySwitch.position)
+                    mainLoader.source = 'WaitingScreen.qml'
+                }
             }
         }
     }

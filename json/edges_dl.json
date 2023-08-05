@@ -3,7 +3,10 @@
     "buffer": "DL",
     "first_target": "BL",
     "second_target": "RB",
-    "results": [],
+    "results": [
+      1.06,
+      0.82
+    ],
     "latest": true,
     "alg": "L2 U' L': U, L' E L",
     "lp": "MW"
@@ -30,7 +33,13 @@
     "buffer": "DL",
     "first_target": "BR",
     "second_target": "BL",
-    "results": [],
+    "results": [
+      0.49,
+      0.71,
+      0.35,
+      0.4,
+      0.25
+    ],
     "latest": true,
     "alg": "L U' L' U: L/E",
     "lp": "NM"
@@ -39,7 +48,10 @@
     "buffer": "DL",
     "first_target": "BL",
     "second_target": "BR",
-    "results": [],
+    "results": [
+      0.53,
+      0.81
+    ],
     "latest": true,
     "alg": "L U' L' U: L'/E",
     "lp": "MN"
@@ -66,7 +78,14 @@
     "buffer": "DL",
     "first_target": "BR",
     "second_target": "LB",
-    "results": [],
+    "results": [
+      0.27,
+      0.51,
+      0.29,
+      0.17,
+      0.34,
+      1.1
+    ],
     "latest": true,
     "alg": "R S': R/E'",
     "lp": "NR"
