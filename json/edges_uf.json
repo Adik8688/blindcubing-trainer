@@ -183,7 +183,9 @@
     "buffer": "UF",
     "first_target": "UB",
     "second_target": "UR",
-    "results": [],
+    "results": [
+      1.93
+    ],
     "latest": true,
     "alg": "R2 U': S, R2",
     "lp": "AC"
@@ -363,7 +365,9 @@
     "buffer": "UF",
     "first_target": "UB",
     "second_target": "UL",
-    "results": [],
+    "results": [
+      2.73
+    ],
     "latest": true,
     "alg": "L2 U: S', L2",
     "lp": "AB"
@@ -543,7 +547,9 @@
     "buffer": "UF",
     "first_target": "UB",
     "second_target": "FR",
-    "results": [],
+    "results": [
+      1.91
+    ],
     "latest": true,
     "alg": "R' U': S, R2",
     "lp": "AJ"
@@ -723,7 +729,9 @@
     "buffer": "UF",
     "first_target": "UB",
     "second_target": "FD",
-    "results": [],
+    "results": [
+      1.73
+    ],
     "latest": true,
     "alg": "R' F': R U R', E",
     "lp": "AK"
@@ -903,7 +911,9 @@
     "buffer": "UF",
     "first_target": "UB",
     "second_target": "FL",
-    "results": [],
+    "results": [
+      3.06
+    ],
     "latest": true,
     "alg": "L U: S', L2",
     "lp": "AI"
@@ -1083,7 +1093,9 @@
     "buffer": "UF",
     "first_target": "UB",
     "second_target": "RU",
-    "results": [],
+    "results": [
+      2.34
+    ],
     "latest": true,
     "alg": "U M: U/M'",
     "lp": "AH"
@@ -1263,7 +1275,9 @@
     "buffer": "UF",
     "first_target": "UB",
     "second_target": "RB",
-    "results": [],
+    "results": [
+      2.13
+    ],
     "latest": true,
     "alg": "U/L' E L",
     "lp": "AW"
@@ -1443,7 +1457,9 @@
     "buffer": "UF",
     "first_target": "UB",
     "second_target": "RD",
-    "results": [],
+    "results": [
+      3.02
+    ],
     "latest": true,
     "alg": "U'/R' E' R",
     "lp": "AZ"
@@ -1623,7 +1639,9 @@
     "buffer": "UF",
     "first_target": "UB",
     "second_target": "RF",
-    "results": [],
+    "results": [
+      3.39
+    ],
     "latest": true,
     "alg": "U/L E' L'",
     "lp": "AU"
@@ -1983,7 +2001,9 @@
     "buffer": "UF",
     "first_target": "UB",
     "second_target": "BL",
-    "results": [],
+    "results": [
+      0.04
+    ],
     "latest": true,
     "alg": "L' U: S', L2",
     "lp": "AM"
@@ -2163,7 +2183,9 @@
     "buffer": "UF",
     "first_target": "UB",
     "second_target": "BD",
-    "results": [],
+    "results": [
+      2.39
+    ],
     "latest": true,
     "alg": "U M': U/M'",
     "lp": "AO"
@@ -2343,7 +2365,9 @@
     "buffer": "UF",
     "first_target": "UB",
     "second_target": "BR",
-    "results": [],
+    "results": [
+      1.7
+    ],
     "latest": true,
     "alg": "R U': S, R2",
     "lp": "AN"
@@ -2523,7 +2547,9 @@
     "buffer": "UF",
     "first_target": "UB",
     "second_target": "LU",
-    "results": [],
+    "results": [
+      2.47
+    ],
     "latest": true,
     "alg": "U' M: U'/M'",
     "lp": "AP"
@@ -2703,7 +2729,9 @@
     "buffer": "UF",
     "first_target": "UB",
     "second_target": "LF",
-    "results": [],
+    "results": [
+      2.28
+    ],
     "latest": true,
     "alg": "U'/R' E R",
     "lp": "AS"
@@ -2883,7 +2911,9 @@
     "buffer": "UF",
     "first_target": "UB",
     "second_target": "LD",
-    "results": [],
+    "results": [
+      2.87
+    ],
     "latest": true,
     "alg": "U/L E L'",
     "lp": "AT"
@@ -3063,7 +3093,9 @@
     "buffer": "UF",
     "first_target": "UB",
     "second_target": "LB",
-    "results": [],
+    "results": [
+      2.48
+    ],
     "latest": true,
     "alg": "U'/R E' R'",
     "lp": "AR"
@@ -3243,7 +3275,9 @@
     "buffer": "UF",
     "first_target": "UB",
     "second_target": "DF",
-    "results": [],
+    "results": [
+      2.23
+    ],
     "latest": true,
     "alg": "U2, M'",
     "lp": "AG"
@@ -3423,7 +3457,9 @@
     "buffer": "UF",
     "first_target": "UB",
     "second_target": "DR",
-    "results": [],
+    "results": [
+      2.3
+    ],
     "latest": true,
     "alg": "U': S, R2",
     "lp": "AF"
@@ -3603,7 +3639,9 @@
     "buffer": "UF",
     "first_target": "UB",
     "second_target": "DB",
-    "results": [],
+    "results": [
+      2.1
+    ],
     "latest": true,
     "alg": "M, U2",
     "lp": "AD"
@@ -3783,7 +3821,9 @@
     "buffer": "UF",
     "first_target": "UB",
     "second_target": "DL",
-    "results": [],
+    "results": [
+      2.51
+    ],
     "latest": true,
     "alg": "U: S', L2",
     "lp": "AE"

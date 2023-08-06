@@ -48,12 +48,12 @@ ColumnLayout {
                 Button {
                     id: addButton
                     text: "+"
-                    onClicked: casesList.model = bridge.modifyList('Add', firstTarget.currentValue, secondTarget.currentValue, casesList.model)
+                    onClicked: casesList.model = bridge.modifyList('Add', firstTarget.currentValue, secondTarget.currentValue)
                 }
                 Button {
                     id: removeButton
                     text: '-'
-                    onClicked: casesList.model = bridge.modifyList('Remove', firstTarget.currentValue, secondTarget.currentValue, casesList.model)
+                    onClicked: casesList.model = bridge.modifyList('Remove', firstTarget.currentValue, secondTarget.currentValue)
                 }
             }
             Switch {
@@ -75,7 +75,7 @@ ColumnLayout {
                 width: 160
                 height: parent.height
 
-                model: []
+                model: ['Click + to add comms']
 
                 delegate: ItemDelegate {
                     text: modelData

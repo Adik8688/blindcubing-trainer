@@ -34,7 +34,10 @@ ColumnLayout {
             MyButton {
                 id: algsButton
                 text: "Export stats"
-                onClicked: stackview.pop()
+                onClicked: {
+                    bridge.exportStats()
+                    stackview.pop()
+                }
             }
         }
         RectangleBox {

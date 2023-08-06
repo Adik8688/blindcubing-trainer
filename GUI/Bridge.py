@@ -11,6 +11,7 @@ sys.path.append('..')
 
 from Code.SpreadsheetsManager import SpreadsheetsManager
 from Code.GameManager import GameManager
+from Code.ExportManager import ExportManager
 
 QML_IMPORT_NAME = "io.qt.textproperties"
 QML_IMPORT_MAJOR_VERSION = 1 
@@ -87,6 +88,7 @@ class Bridge(QObject):
 
         self.first_targets = ['All'] + list(set([v['first_target'] for v in data.values()]))
         self.second_targets = ['All'] + list(set([v['second_target'] for v in data.values()]))
+        self.cases_set = set()
 
     @Slot (result=list)
     def getFirstTargets(self):
@@ -97,8 +99,8 @@ class Bridge(QObject):
         return sorted(self.second_targets)
 
 
-    @Slot (str, str, str, list, result=list)
-    def modifyList(self, option, first_target, second_target, cases_list):
+    @Slot (str, str, str, result=list)
+    def modifyList(self, option, first_target, second_target):
         if first_target == 'All':
             first_target = [i for i in self.first_targets if i != 'All']
         else:
@@ -115,14 +117,17 @@ class Bridge(QObject):
                 if i != j and i != j[::-1]:
                     new_set.add(f'{i} {j}')
 
-        cases_list = set(cases_list)
 
         if option == 'Add':
-            cases_list.update(new_set)
+            self.cases_set.update(new_set)
         else:
-            cases_list.difference_update(new_set)
+            self.cases_set.difference_update(new_set)
 
-        return list(cases_list)
+        
+        if not self.cases_set:
+            return ['Click + to add comms']
+
+        return list(self.cases_set)
     
     @Slot (list, int)
     def startGame(self, targets, study_mode):
@@ -210,3 +215,8 @@ class Bridge(QObject):
     @Slot ()
     def resetGame(self):
         self.gm.set_game()
+
+    @Slot ()
+    def exportStats(self):
+        em = ExportManager()
+        em.export_stats()

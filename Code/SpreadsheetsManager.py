@@ -21,6 +21,9 @@ class SpreadsheetsManager:
 
     @staticmethod
     def save_data(data, filepath):
+
+        data = dict(sorted(data))
+
         with open(filepath, "w") as f:
             json.dump(data, f, indent=2)
 
