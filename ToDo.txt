@@ -1,0 +1,6 @@
+1. Add "Remove memo" and "Remove LPs" options to the "Update" menu 
+2. Figure out optimal way of presenting exported data
+3. Standaralize parity algs scheme (reduct from 3 to 2 target fields)
+4. Bigger caption in the scroll lists
+5. Standaralize help pages (maybe add a few extra ones)
+6. Disable (ideally grey-out) submit button if input is not valid

@@ -104,8 +104,10 @@ ColumnLayout {
             MyButtonDeeper {
                 text: "Submit"
                 onClicked: {
-                    bridge.startGame(casesList.model, studySwitch.position)
-                    mainLoader.source = 'WaitingScreen.qml'
+                    if (casesList.model){
+                        bridge.startGame(casesList.model, studySwitch.position)
+                        mainLoader.source = 'WaitingScreen.qml'
+                    }
                 }
             }
         }
