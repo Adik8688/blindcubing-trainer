@@ -4,3 +4,9 @@
 4. Bigger caption in the scroll lists
 5. Standaralize help pages (maybe add a few extra ones)
 6. Disable (ideally grey-out) submit button if input is not valid
+
+
+Update 21/08
+1. Replace parity with twists and flips
+2. Add reading from file for targets list
+3. Add more stats 

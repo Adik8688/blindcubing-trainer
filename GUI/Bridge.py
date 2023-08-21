@@ -52,6 +52,15 @@ class Bridge(QObject):
         else:
             sm.update_lps()
 
+    @Slot (str, result=list)
+    def listFromFile(self, url):
+        filepath = url[8:]
+        targets = []
+        with open(filepath) as f:
+            for line in f:
+                targets.append(line.strip())
+        return targets
+
     @Slot (str)
     def setPieceType(self, piece):
         self.pieceType = piece

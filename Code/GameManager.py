@@ -24,14 +24,12 @@ class GameManager:
     def map_targets_to_keys(self):
         self.targets_keys_map = dict()
         targets = self.targets
-        print(targets)
         while targets:
             t, targets = targets[0], targets[1:]
 
             for k in self.data.keys():
                 d_targets = k.split(';')[1:3]
                 if t == " ".join(d_targets):
-                    print(t)
                     self.targets_keys_map[t] = {'key': k}
                     break
     

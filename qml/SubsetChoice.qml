@@ -4,11 +4,20 @@ import QtQuick.Controls 2.12
 
 import QtQuick 2.0
 import QtQuick.Layouts 1.12
+import QtQuick.Dialogs 
 import QtQuick.Controls 2.12
 
 import 'components'
 
 ColumnLayout {
+    FileDialog {
+        id: fileDialog
+        title: "Please choose a file"
+        nameFilters: ["Text files (*.txt)"]
+        onAccepted: {
+            casesList.model = bridge.listFromFile(fileDialog.selectedFile)
+        }
+    }
     RowLayout {
         id: top
         Layout.preferredHeight: style.getInt('topHeight')
@@ -33,6 +42,11 @@ ColumnLayout {
         RectangleBox {
             Layout.fillWidth: true
             Layout.preferredHeight: 100
+            Button {
+                id: fileButton
+                text: "From file"
+                onClicked: fileDialog.open()
+                }
             RowLayout {
                 Layout.fillWidth: true
                 Layout.fillHeight: true

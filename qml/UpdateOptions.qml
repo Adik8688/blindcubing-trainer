@@ -22,14 +22,11 @@ ColumnLayout {
         id: mid
         Layout.preferredHeight: style.getInt('midHeight')
         Layout.fillWidth: true
+        
         RectangleBox {
             Layout.fillWidth: true
             Layout.fillHeight: true
-        }
-        RectangleBox {
-            Layout.fillWidth: true
-            Layout.fillHeight: true
-            MyButton {
+            MyButtonDeeper {
                 id: algsButton
                 text: "Update algs"
                 onClicked: stackview.push('UpdateAlgs.qml')
@@ -38,7 +35,7 @@ ColumnLayout {
         RectangleBox {
             Layout.fillWidth: true
             Layout.fillHeight: true
-            MyButton {
+            MyButtonDeeper {
                 id: memoButton
                 text: "Update memo"
                 onClicked: stackview.push('UpdateMemo.qml')
@@ -47,7 +44,7 @@ ColumnLayout {
         RectangleBox {
             Layout.fillWidth: true
             Layout.fillHeight: true
-            MyButton {
+            MyButtonDeeper {
                 id: lpButton
                 text: "Update LPs"
                 onClicked: stackview.push('UpdateLPs.qml')
@@ -56,10 +53,17 @@ ColumnLayout {
         RectangleBox {
             Layout.fillWidth: true
             Layout.fillHeight: true
-            MyButton {
-                id: backButton
-                text: "Back"
-                onClicked: stackview.pop()
+            MyButtonDeeper {
+                text: "Remove memo"
+                onClicked: stackview.push("RemoveMemo.qml")
+            }
+        }
+        RectangleBox {
+            Layout.fillWidth: true
+            Layout.fillHeight: true
+            MyButtonDeeper {
+                text: "Remove LPs"
+                onClicked: stackview.push("RemoveLPs.qml")
             }
         }
     }
@@ -67,5 +71,13 @@ ColumnLayout {
         id: bottom
         Layout.preferredHeight: style.getInt('bottomHeight')
         Layout.fillWidth: true
+        RectangleBox {
+            Layout.fillWidth: true
+            Layout.fillHeight: true
+            MyButtonDeeper {
+                text: "Back"
+                onClicked: stackview.pop()
+            }
+        }
     }
 }
