@@ -10,3 +10,7 @@ Update 21/08
 1. Replace parity with twists and flips
 2. Add reading from file for targets list
 3. Add more stats 
+
+Update 22/08
+1. Pause key zamiast study mode
+2. Fix sorting in SpreadsheetsManager

@@ -75,7 +75,9 @@
     "buffer": "DB",
     "first_target": "DR",
     "second_target": "FR",
-    "results": [],
+    "results": [
+      0.03
+    ],
     "latest": true,
     "alg": "R2: U M2 U', R'",
     "lp": "FJ"
@@ -165,7 +167,9 @@
     "buffer": "DB",
     "first_target": "DR",
     "second_target": "FL",
-    "results": [],
+    "results": [
+      0.36
+    ],
     "latest": true,
     "alg": "M2 U': R/E",
     "lp": "FI"
@@ -255,7 +259,9 @@
     "buffer": "DB",
     "first_target": "DR",
     "second_target": "RB",
-    "results": [],
+    "results": [
+      0.23
+    ],
     "latest": true,
     "alg": "S': U' M U, R'",
     "lp": "FW"
@@ -435,7 +441,9 @@
     "buffer": "DB",
     "first_target": "DR",
     "second_target": "RF",
-    "results": [],
+    "results": [
+      0.27
+    ],
     "latest": true,
     "alg": "S': U' M U, R",
     "lp": "FU"
@@ -525,7 +533,9 @@
     "buffer": "DB",
     "first_target": "DR",
     "second_target": "BL",
-    "results": [],
+    "results": [
+      0.23
+    ],
     "latest": true,
     "alg": "M2 U': R'/E'",
     "lp": "FM"
@@ -615,7 +625,9 @@
     "buffer": "DB",
     "first_target": "DR",
     "second_target": "BR",
-    "results": [],
+    "results": [
+      0.17
+    ],
     "latest": true,
     "alg": "R2: U M2 U', R",
     "lp": "FN"
@@ -705,7 +717,9 @@
     "buffer": "DB",
     "first_target": "DR",
     "second_target": "LF",
-    "results": [],
+    "results": [
+      0.07
+    ],
     "latest": true,
     "alg": "D', R E R'",
     "lp": "FS"
@@ -804,7 +818,9 @@
     "buffer": "DB",
     "first_target": "DR",
     "second_target": "LD",
-    "results": [],
+    "results": [
+      0.02
+    ],
     "latest": true,
     "alg": "S, L B' L'",
     "lp": "FT"
@@ -885,7 +901,9 @@
     "buffer": "DB",
     "first_target": "DR",
     "second_target": "LB",
-    "results": [],
+    "results": [
+      0.04
+    ],
     "latest": true,
     "alg": "D', R' E' R",
     "lp": "FR"
@@ -1074,7 +1092,9 @@
     "buffer": "DB",
     "first_target": "DR",
     "second_target": "DL",
-    "results": [],
+    "results": [
+      0.04
+    ],
     "latest": true,
     "alg": "M2 U: L2, S",
     "lp": "FE"

@@ -55,11 +55,13 @@ class Bridge(QObject):
     @Slot (str, result=list)
     def listFromFile(self, url):
         filepath = url[8:]
-        targets = []
+        targets = set()
         with open(filepath) as f:
             for line in f:
-                targets.append(line.strip())
-        return targets
+                targets.add(line.strip())
+
+        self.cases_set = targets
+        return list(targets)
 
     @Slot (str)
     def setPieceType(self, piece):
