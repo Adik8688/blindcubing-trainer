@@ -33,6 +33,9 @@ class GameManager:
                     self.targets_keys_map[t] = {'key': k}
                     break
     
+    def remove_from_targets_map(self, key):
+        self.targets_keys_map.pop(key)
+
     def get_game_attributes(self):
         for k, v in self.targets_keys_map.items():
             key = v['key']

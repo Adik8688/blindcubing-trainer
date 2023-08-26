@@ -11,7 +11,7 @@ class ExportManager:
         "Buffer",
         "1st target",
         "2nd target",
-        "Algs",
+        "Alg",
         "Mean",
         "Median",
         "Count",
@@ -73,7 +73,7 @@ class ExportManager:
             self.temp_df = {i: [] for i in ExportManager.COLUMNS}
             self.process_file(ExportManager.IN_PATH / filename)
 
-            if self.temp_df.values()[0]:
+            if self.temp_df.values():
                 sheetname = filename.split('.')[0]
                 sheetname = ' '.join(sheetname.split('_'))
 

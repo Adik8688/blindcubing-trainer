@@ -217,6 +217,8 @@ class Bridge(QObject):
         self.first_targets = list(set([i.split()[0] for i in results_list]))
         self.second_targets = list(set([i.split()[1] for i in results_list]))
 
+        self.gm.remove_from_targets_map(key)
+
         return results_list
     
     @Slot ()
