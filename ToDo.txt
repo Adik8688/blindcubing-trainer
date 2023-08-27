@@ -13,4 +13,4 @@ Update 21/08
 
 Update 22/08
 1. Pause key zamiast study mode
-2. Fix sorting in SpreadsheetsManager
+2. Fix sorting in SpreadsheetsManager 

@@ -104,7 +104,7 @@ class GameManager:
         for k, v in self.targets_keys_map.items():
             output.append(f'{k} {v["result"]}')
         
-        output = sorted(output, key=lambda x: x.split()[2], reverse=True)
+        output = sorted(output, key=lambda x: float(x.split()[2]), reverse=True)
 
         return output
     
@@ -112,6 +112,8 @@ class GameManager:
         for v in self.targets_keys_map.values():
             key = v['key']
             result = v['result']
+            if result < 0.1:
+                continue
             self.data[key]['results'].append(result)
         
         SpreadsheetsManager.save_data(self.data, self.filepath)
