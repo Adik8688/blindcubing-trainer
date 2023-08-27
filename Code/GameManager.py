@@ -7,7 +7,7 @@ class GameManager:
 
 
     def __init__(self, filename, targets):
-        self.filepath = Path().absolute().parent / 'json' / filename
+        self.filepath = Path().absolute().parent / 'Json' / filename
         self.data = SpreadsheetsManager.get_data(self.filepath)
         self.filter_data(latest = [True])
         self.targets = targets

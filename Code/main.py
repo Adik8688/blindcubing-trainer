@@ -1,7 +1,6 @@
 import sys
 from pathlib import Path
 
-from PySide6.QtCore import QObject, Slot
 from PySide6.QtGui import QGuiApplication
 from PySide6.QtQml import QQmlApplicationEngine, QmlElement
 from PySide6.QtQuickControls2 import QQuickStyle
@@ -14,7 +13,7 @@ if __name__ == '__main__':
     QQuickStyle.setStyle("Material")
     engine = QQmlApplicationEngine()
 
-    qml_file = Path(__file__).parents[1] / 'qml' / 'view.qml'
+    qml_file = Path(__file__).parents[1] / 'Qml' / 'view.qml'
     engine.load(qml_file)
 
     if not engine.rootObjects():

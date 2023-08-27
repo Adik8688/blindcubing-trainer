@@ -21,7 +21,7 @@ class Style(QObject):
     @Slot ()
     def __init__(self):
         super().__init__(None)
-        stylepath = Path().absolute().parent / 'style' / 'style.json'
+        stylepath = Path().absolute().parent / 'Style' / 'style.json'
         self.styleDict = SpreadsheetsManager.get_data(stylepath)
    
 
@@ -73,7 +73,7 @@ class Bridge(QObject):
 
     @Slot (result=list)
     def getBuffersList(self):
-        path_to_jsons = Path().absolute().parent / "json"
+        path_to_jsons = Path().absolute().parent / "Json"
 
         jsons = []
 

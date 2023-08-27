@@ -18,9 +18,9 @@ class ExportManager:
         "Std",
     ]
 
-    IN_PATH = Path().absolute().parent / "json"
+    IN_PATH = Path().absolute().parent / "Json"
 
-    OUT_PATH = Path().absolute().parent / "exports"
+    OUT_PATH = Path().absolute().parent / "Exports"
 
     def __init__(self):
         self.df_dict = dict()

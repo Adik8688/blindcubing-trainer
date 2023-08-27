@@ -164,7 +164,7 @@ class SpreadsheetsManager:
                 algs[piece_type] = algs.get(piece_type, []) + alg_list
 
         for piece_type, algs_list in algs.items():
-            filepath = Path().absolute().parent / "json" / f"{piece_type}.json"
+            filepath = Path().absolute().parent / "Json" / f"{piece_type}.json"
             data = SpreadsheetsManager.get_data(str(filepath))
 
             for key in algs_list:
@@ -224,7 +224,7 @@ class SpreadsheetsManager:
         
 
         for piece_type, words in words_dict.items():
-            path_to_jsons = Path().absolute().parent / "json"
+            path_to_jsons = Path().absolute().parent / "Json"
 
             jsons = []
 
@@ -275,7 +275,7 @@ class SpreadsheetsManager:
         
 
         for piece_type, lps in lps_dict.items():
-            path_to_jsons = Path().absolute().parent / "json"
+            path_to_jsons = Path().absolute().parent / "Json"
 
             jsons = []
 
