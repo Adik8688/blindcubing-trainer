@@ -7,6 +7,10 @@ from datetime import datetime
 
 
 class ExportManager:
+    '''
+    This class deals with exporting statistics from the app
+    '''
+
     COLUMNS = [
         "Buffer",
         "1st target",
@@ -27,6 +31,9 @@ class ExportManager:
 
     @staticmethod
     def get_data(filepath):
+        '''
+        Returns content of json file under given path
+        '''
         if not os.path.exists(filepath):
             return {}
 
@@ -35,22 +42,35 @@ class ExportManager:
 
     @staticmethod
     def save_data(data, filepath):
+        '''
+        Saves data to the json file
+        '''
         with open(filepath, "w") as f:
             json.dump(data, f, indent=2)
 
     
     def add_to_df(self, record):
+        '''
+        Appends list of values to the dataframe as a new row
+        '''
         for column, field in zip(ExportManager.COLUMNS, record):
             self.temp_df[column].append(field)
     
     def process_file(self, filepath):
+        '''
+        Interates thorugh every record in the json file and extract information from them
+        '''
+
         data = ExportManager.get_data(filepath)
+
         for r in data.values():
             results = r["results"]
 
+            # skip records with empty results list
             if not results:
                 continue
             
+            # helper function for calculating stats
             def get_stat(func):
                 return round(func(results), 2)
 
@@ -69,11 +89,16 @@ class ExportManager:
 
 
     def prepare_stats(self):
+        '''
+        Prepares dataframe with stats for every json file.
+        Different piece types with different buffers are saved as different sheets of the same excel file
+        '''
         for filename in os.listdir(ExportManager.IN_PATH):
             self.temp_df = {i: [] for i in ExportManager.COLUMNS}
             self.process_file(ExportManager.IN_PATH / filename)
 
             if self.temp_df.values():
+                # convert file name to the sheet name
                 sheetname = filename.split('.')[0]
                 sheetname = ' '.join(sheetname.split('_'))
 
@@ -82,7 +107,12 @@ class ExportManager:
 
     
     def save_stats(self):
+        '''
+        Saves calculated statistics to the excel file
+        '''
         dt = datetime.now()
+
+        # current time string to asure unique file name
         date = dt.strftime("%Y%m%d%H%M%S")
         filename = f"Export_{date}.xlsx"
 
@@ -92,5 +122,8 @@ class ExportManager:
 
 
     def export_stats(self):
+        '''
+        Calls submethods to export statistics
+        '''
         self.prepare_stats()
         self.save_stats()

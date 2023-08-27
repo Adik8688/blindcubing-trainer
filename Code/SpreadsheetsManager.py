@@ -6,6 +6,10 @@ from pathlib import Path
 
 
 class SpreadsheetsManager:
+    '''
+    This class deals with reading and processing BLD spreadsheets
+    '''
+
     VALID_CHARS = " UDFBRLMESudfbrlw'/:,2xyz"
 
     def __init__(self, filepath):
@@ -13,6 +17,9 @@ class SpreadsheetsManager:
 
     @staticmethod
     def get_data(filepath):
+        '''
+        Returns content of json file
+        '''
         if not os.path.exists(filepath):
             return {}
 
@@ -21,6 +28,10 @@ class SpreadsheetsManager:
 
     @staticmethod
     def save_data(data, filepath):
+        '''
+        Saves data to the json file
+        '''
+
         # data = dict(sorted(data))
 
         with open(filepath, "w") as f:
@@ -28,6 +39,10 @@ class SpreadsheetsManager:
 
     @staticmethod
     def clean_alg_entry(alg):
+        '''
+        Filters out invalid chars and extra whitespaces before using alg
+        '''
+
         # filtering out invalid chars
         alg = "".join([i for i in alg if i in SpreadsheetsManager.VALID_CHARS])
 
@@ -46,6 +61,18 @@ class SpreadsheetsManager:
     
     @staticmethod
     def buffer_to_type(buffer, suffix = False):
+        '''
+        Returns piece name depending of the buffer
+
+        Scheme is:
+        UF - edges
+        UFR - corners
+        UFr - wings
+        Ufr - xcenters
+        Uf - tcenters
+        uF - midges
+        '''
+
         if len(buffer) < 2 or len(buffer) > 3:
             return "error"
         
@@ -75,34 +102,43 @@ class SpreadsheetsManager:
      
     @staticmethod
     def keys_with_different_algs(data, key):
+        '''
+        Returns list of records which covers the same case, but might have different algorithm
+        '''
         return [k for k in data if key.split(";")[:-1] == k.split(";")[:-1]]
 
     @staticmethod
     def new_record_from_key(key):
+        '''
+        Creates new record to be appended to the file from the given key
+        '''
+
         key = key.split(";")
-        record = {
+        return {
             "buffer": key[0],
             "first_target": key[1],
             "second_target": key[2],
+            "alg": key[3],
             "results": [],
             "latest": True,
         }
 
-        if len(key) == 4:
-            record["alg"] = key[3]
-            return record
-
-        record["third_target"] = key[3]
-        record["alg"] = key[4]
-        return record
 
     def excel_to_dict_of_dfs(self):
+        '''
+        Reads excel file and returns dict of pd dataframes
+        '''
         my_dict = pd.read_excel(self.filepath, header=None, sheet_name=None)
         my_dict = {k: df.replace(np.nan, "", regex=True) for k, df in my_dict.items()}
         return my_dict
 
     @staticmethod
     def df_to_alg_list(df):
+        '''
+        Returns dict with piece type as a key and list of cases keys as values
+        '''
+        # buffer is expected to be in A1
+
         buffer = df.iloc[0][0]
         if not buffer or df.shape[0] < 2 or df.shape[1] < 2 or not df.iloc[0][1]:
             return None
@@ -124,32 +160,16 @@ class SpreadsheetsManager:
 
         if not (df.shape[1] == 4 or df.shape[1] == 5):
             return None
+        
         # list
-        if df.shape[1] == 4:
+        if df.shape[1] == 3:
             row = 1
             while df.iloc[row][0]:
-                alg = SpreadsheetsManager.clean_alg_entry(df.iloc[row][3])
-                key = ";".join([df.iloc[row][0], df.iloc[row][1], df.iloc[row][2], alg])
+                alg = SpreadsheetsManager.clean_alg_entry(df.iloc[row][2])
+                key = ";".join([buffer, df.iloc[row][0], df.iloc[row][1], alg])
                 result.append(key)
                 row += 1
             return {piece_type: result}
-
-        # parity
-        row = 1
-        while df.iloc[row][0]:
-            alg = clean_alg_entry(df.iloc[row][4])
-            key = ";".join(
-                [
-                    df.iloc[row][0],
-                    df.iloc[row][1],
-                    df.iloc[row][2],
-                    df.iloc[row][3],
-                    alg,
-                ]
-            )
-            result.append(key)
-            row += 1
-        return {"parity": result}
 
     def update_algs(self):
         sheets = self.excel_to_dict_of_dfs()

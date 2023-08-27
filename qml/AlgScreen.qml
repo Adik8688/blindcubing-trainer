@@ -69,7 +69,7 @@ ColumnLayout {
             Layout.fillWidth: true
             Layout.fillHeight: true
             BottomText {
-                text: bridge.getNextAlg() ? "Next: " + bridge.getNextAlg() : ''
+                text: bridge.getNextCase() ? "Next: " + bridge.getNextCase() : ''
             }
         }
     }  
