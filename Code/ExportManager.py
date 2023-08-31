@@ -4,6 +4,9 @@ from pathlib import Path
 import pandas as pd
 import numpy as np
 from datetime import datetime
+from scipy import stats
+
+
 
 
 class ExportManager:
@@ -20,6 +23,9 @@ class ExportManager:
         "Median",
         "Count",
         "Std",
+        "Best",
+        "Worst",
+        "Skew"
     ]
 
     IN_PATH = Path().absolute().parent / "Json"
@@ -83,6 +89,9 @@ class ExportManager:
                 get_stat(np.median),
                 get_stat(np.size),
                 get_stat(np.std),
+                get_stat(np.min),
+                get_stat(np.max),
+                get_stat(stats.skew)
             ]
 
             self.add_to_df(record)
@@ -127,3 +136,25 @@ class ExportManager:
         '''
         self.prepare_stats()
         self.save_stats()
+
+    def get_algs_count(self):
+        result = 0
+        for filename in os.listdir(ExportManager.IN_PATH):
+            data = ExportManager.get_data(ExportManager.IN_PATH / filename)
+            for v in data.values():
+                result += len(v['results'])
+
+        return result
+    
+    def get_time_spent(self):
+        total = 0
+        for filename in os.listdir(ExportManager.IN_PATH):
+            data = ExportManager.get_data(ExportManager.IN_PATH / filename)
+            for v in data.values():
+                total += sum(v['results'])
+
+        h = total // 3600
+        total = total % 3600
+        m, s = total // 60, total % 60
+
+        return f'{int(h):02d}:{int(m):02d}:{int(s):02d}'

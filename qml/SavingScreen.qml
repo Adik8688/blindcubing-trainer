@@ -52,18 +52,29 @@ ColumnLayout {
                         casesList.model = bridge.removeFromResultsList(firstTarget.currentValue + ' ' + secondTarget.currentValue, casesList.model)
                         firstTarget.model = bridge.getFirstTargets()
                         secondTarget.model = bridge.getSecondTargets()
+                        avg.text = bridge.getSessionAvg()
                     }
 
                 }
             }
         }
+        
+        RectangleBox {
+            Layout.fillWidth: true
+            Layout.preferredHeight: 30
+            BottomText {
+                id: avg
+                text: bridge.getSessionAvg()
+            }
+
         RectangleBox {
             Layout.fillWidth: true
             Layout.preferredHeight: 15
         }
+        }
         RectangleBox {
             Layout.fillWidth: true
-            Layout.preferredHeight: 270
+            Layout.preferredHeight: 230
             ListView {
                 anchors.horizontalCenter: parent.horizontalCenter
                 id: casesList

@@ -14,7 +14,7 @@ ColumnLayout {
             Layout.fillWidth: true
             Layout.fillHeight: true
             BottomText {
-                text: "Export"
+                text: "Stats"
                 font.pointSize: 40
             }
         }
@@ -26,34 +26,23 @@ ColumnLayout {
         RectangleBox {
             Layout.fillWidth: true
             Layout.fillHeight: true
-            MyButton {
-                id: showStats
-                text: "Show global stats"
-                onClicked: {
-                    stackview.push("GlobalStats.qml")
-                }
+            BottomText {
+                text: "You executed " + bridge.getNumberOfExecutedAlgs() + " algs"
             }
         }
         
         RectangleBox {
             Layout.fillWidth: true
             Layout.fillHeight: true
-            MyButton {
-                id: algsButton
-                text: "Export stats"
-                onClicked: {
-                    bridge.exportStats()
-                    stackview.pop()
-                }
+            BottomText {
+                text: "It took you " + bridge.getTimeSpent()
             }
         }
         RectangleBox {
             Layout.fillWidth: true
             Layout.fillHeight: true
-            MyButton {
-                id: wordsButton
-                text: "Export data"
-                onClicked: stackview.pop()
+            BottomText {
+                text: "Please, go outside, touch grass"
             }
         }
         RectangleBox {

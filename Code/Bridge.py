@@ -12,6 +12,7 @@ sys.path.append('..')
 from Code.SpreadsheetsManager import SpreadsheetsManager
 from Code.GameManager import GameManager
 from Code.ExportManager import ExportManager
+import numpy as np
 
 QML_IMPORT_NAME = "io.qt.textproperties"
 QML_IMPORT_MAJOR_VERSION = 1 
@@ -352,3 +353,21 @@ class Bridge(QObject):
         '''
         em = ExportManager()
         em.export_stats()
+
+    @Slot (result=str)
+    def getSessionAvg(self):
+        rl = self.gm.get_results_list()
+        rl = [float(i.split()[2]) for i in rl]
+        avg = np.mean(rl)
+        return f"Avg: {avg:.2f}"
+    
+    @Slot (result=int)
+    def getNumberOfExecutedAlgs(self):
+        em = ExportManager()
+        return em.get_algs_count()
+    
+
+    @Slot (result=str)
+    def getTimeSpent(self):
+        em = ExportManager()
+        return em.get_time_spent()
