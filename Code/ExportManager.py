@@ -158,3 +158,14 @@ class ExportManager:
         m, s = total // 60, total % 60
 
         return f'{int(h):02d}:{int(m):02d}:{int(s):02d}'
+    
+    def get_global_avg(self):
+        total = 0
+        comm_num = 0
+        for filename in os.listdir(ExportManager.IN_PATH):
+            data = ExportManager.get_data(ExportManager.IN_PATH / filename)
+            for v in data.values():
+                total += sum(v['results'])
+                comm_num += len(v['results'])
+
+        return f"{total/comm_num:.2f}"

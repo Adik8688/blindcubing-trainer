@@ -134,15 +134,36 @@ class Bridge(QObject):
         '''
         Returns list of available first targets
         '''
-        return sorted(self.first_targets)
+        
+        return self.first_targets
+    
+    @Slot ()
+    def setFirstTargets(self):
+        results_list = self.getResultsList()
+        first_targets = []
+        for i in results_list:
+            j = i.split()[0]
+            if j not in first_targets:
+                first_targets.append(j)
+        self.first_targets = [first_targets[0]] + sorted(first_targets[1:])
+
     
     @Slot (result=list)
     def getSecondTargets(self):
         '''
         Returns list of available second targets
         '''
-        return sorted(self.second_targets)
-
+        return self.second_targets
+    
+    @Slot ()
+    def setSecondTargets(self):
+        results_list = self.getResultsList()
+        second_targets = []
+        for i in results_list:
+            j = i.split()[1]
+            if j not in second_targets:
+                second_targets.append(j)
+        self.second_targets = [second_targets[0]] + sorted(second_targets[1:])
 
     @Slot (str, str, str, result=list)
     def modifyList(self, option, first_target, second_target):
@@ -306,9 +327,8 @@ class Bridge(QObject):
         '''
         Generates lists of first and second targets to allow user modifying results before saving them
         '''
-        results_list = self.gm.get_results_list()
-        self.first_targets = list(set([i.split()[0] for i in results_list]))
-        self.second_targets = list(set([i.split()[1] for i in results_list]))
+        self.setFirstTargets()
+        self.setSecondTargets()
 
 
     @Slot (result = list)
@@ -324,13 +344,11 @@ class Bridge(QObject):
         Removes result with given key from the result list
         '''
 
-        results_list = [i for i in results_list if not key.split() == i.split()[:2]]
-        self.first_targets = list(set([i.split()[0] for i in results_list]))
-        self.second_targets = list(set([i.split()[1] for i in results_list]))
-
         self.gm.remove_from_targets_map(key)
+        self.setFirstTargets()
+        self.setSecondTargets()
 
-        return results_list
+        return self.getResultsList()
     
     @Slot ()
     def saveResults(self):
@@ -371,3 +389,8 @@ class Bridge(QObject):
     def getTimeSpent(self):
         em = ExportManager()
         return em.get_time_spent()
+    
+    @Slot (result=str)
+    def getGlobalAvg(self):
+        em = ExportManager()
+        return em.get_global_avg()

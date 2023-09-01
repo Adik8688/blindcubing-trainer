@@ -27,7 +27,7 @@ ColumnLayout {
             Layout.fillWidth: true
             Layout.fillHeight: true
             BottomText {
-                text: "You executed " + bridge.getNumberOfExecutedAlgs() + " algs"
+                text: "You executed " + bridge.getNumberOfExecutedAlgs() + " algs with " + bridge.getGlobalAvg() + "s per comm"
             }
         }
         
