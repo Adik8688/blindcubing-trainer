@@ -4,6 +4,7 @@ Blindcubing trainer is a simple and powerful tool for timing execution time for 
 
 ## Installation
 Create python venv and install modules from `requirements.txt`
+Run main.py
 
 ## How to start
 First step is to load `excel file` with blind algorithms into the app. Go `Update comms` -> `Update algs` and choose proper spreadsheet. In addition spreadsheets with words or LPs can be loaded. If only algs are provided pair of target will be displayed in the screen. Otherwise words/LPs are used
