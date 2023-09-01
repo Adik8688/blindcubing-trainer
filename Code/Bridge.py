@@ -125,8 +125,8 @@ class Bridge(QObject):
         filepath = Path().absolute().parent / 'json' / f'{self.pieceType}_{self.buffer}.json'
         data = SpreadsheetsManager.get_data(filepath)
 
-        self.first_targets = ['All'] + list(set([v['first_target'] for v in data.values()]))
-        self.second_targets = ['All'] + list(set([v['second_target'] for v in data.values()]))
+        self.first_targets = ['All'] + sorted(list(set([v['first_target'] for v in data.values()])))
+        self.second_targets = ['All'] + sorted(list(set([v['second_target'] for v in data.values()])))
         self.cases_set = set()
 
     @Slot (result=list)
