@@ -6,6 +6,8 @@ import numpy as np
 from datetime import datetime
 from scipy import stats
 
+from ComutatorAnalyzer import ComutatorAnalyzer
+
 
 
 
@@ -19,8 +21,10 @@ class ExportManager:
         "1st target",
         "2nd target",
         "Alg",
+        "Alg long",
         "Mean",
         "Median",
+        "TPS",
         "Count",
         "Std",
         "Best",
@@ -85,14 +89,21 @@ class ExportManager:
                 r["first_target"],
                 r["second_target"],
                 r["alg"],
+                np.nan,
                 get_stat(np.mean),
                 get_stat(np.median),
+                np.nan,
                 get_stat(np.size),
                 get_stat(np.std),
                 get_stat(np.min),
                 get_stat(np.max),
                 get_stat(stats.skew)
             ]
+
+            if "," in r['alg']:
+                ca = ComutatorAnalyzer(r['alg'])
+                record[4] = ca.get_alg_str()
+                record[7] = ca.get_tps(get_stat(np.mean))
 
             self.add_to_df(record)
 
