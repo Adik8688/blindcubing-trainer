@@ -145,7 +145,10 @@ class Bridge(QObject):
             j = i.split()[0]
             if j not in first_targets:
                 first_targets.append(j)
-        self.first_targets = [first_targets[0]] + sorted(first_targets[1:])
+        if first_targets:
+            self.first_targets = [first_targets[0]] + sorted(first_targets[1:])
+        else:
+            self.first_targets = []
 
     
     @Slot (result=list)
@@ -163,7 +166,10 @@ class Bridge(QObject):
             j = i.split()[1]
             if j not in second_targets:
                 second_targets.append(j)
-        self.second_targets = [second_targets[0]] + sorted(second_targets[1:])
+        if second_targets:
+            self.second_targets = [second_targets[0]] + sorted(second_targets[1:])
+        else:
+            self.second_targets = []
 
     @Slot (str, str, str, result=list)
     def modifyList(self, option, first_target, second_target):
@@ -338,11 +344,15 @@ class Bridge(QObject):
         '''
         return self.gm.get_results_list()
     
-    @Slot (str, list, result=list)
-    def removeFromResultsList(self, key, results_list):
+    @Slot (str, bool, result=list)
+    def removeFromResultsList(self, key, onclick=False):
         '''
         Removes result with given key from the result list
         '''
+
+        if onclick:
+            key = ' '.join(key.split()[:2])
+        
 
         self.gm.remove_from_targets_map(key)
         self.setFirstTargets()
@@ -376,7 +386,7 @@ class Bridge(QObject):
     def getSessionAvg(self):
         rl = self.gm.get_results_list()
         rl = [float(i.split()[2]) for i in rl]
-        avg = np.mean(rl)
+        avg = np.mean(rl) if rl else 0
         return f"Avg: {avg:.2f}"
     
     @Slot (result=int)

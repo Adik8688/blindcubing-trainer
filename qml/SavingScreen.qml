@@ -48,11 +48,13 @@ ColumnLayout {
                 Button {
                     id: removeButton
                     text: '-'
-                    onClicked: { 
-                        casesList.model = bridge.removeFromResultsList(firstTarget.currentValue + ' ' + secondTarget.currentValue, casesList.model)
-                        firstTarget.model = bridge.getFirstTargets()
-                        secondTarget.model = bridge.getSecondTargets()
-                        avg.text = bridge.getSessionAvg()
+                    onClicked: {
+                        if (casesList.model.length > 0 ){
+                            casesList.model = bridge.removeFromResultsList(firstTarget.currentValue + ' ' + secondTarget.currentValue, false)
+                            firstTarget.model = bridge.getFirstTargets()
+                            secondTarget.model = bridge.getSecondTargets()
+                            avg.text = bridge.getSessionAvg()
+                        }
                     }
 
                 }
@@ -85,8 +87,13 @@ ColumnLayout {
 
                 delegate: ItemDelegate {
                     text: modelData
-                    onClicked: console.log("clicked:", modelData)
                     required property string modelData
+                    onClicked: { 
+                        // casesList.model = bridge.removeFromResultsList(modelData, true)
+                        // firstTarget.model = bridge.getFirstTargets()
+                        // secondTarget.model = bridge.getSecondTargets()
+                        // avg.text = bridge.getSessionAvg()
+                    }
                 }
                 ScrollIndicator.vertical: ScrollIndicator { }
             }
