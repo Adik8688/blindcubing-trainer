@@ -1,6 +1,0 @@
-UB UL
-UB UR
-UB DB
-UB DL
-UB DR
-UB DF

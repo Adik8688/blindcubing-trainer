@@ -24,6 +24,7 @@ class ExportManager:
         "Alg long",
         "Mean",
         "Median",
+        "Move count",
         "TPS",
         "Count",
         "Std",
@@ -93,6 +94,7 @@ class ExportManager:
                 get_stat(np.mean),
                 get_stat(np.median),
                 np.nan,
+                np.nan,
                 get_stat(np.size),
                 get_stat(np.std),
                 get_stat(np.min),
@@ -103,7 +105,8 @@ class ExportManager:
             if "," in r['alg']:
                 ca = ComutatorAnalyzer(r['alg'])
                 record[4] = ca.get_alg_str()
-                record[7] = ca.get_tps(get_stat(np.mean))
+                record[7] = ca.get_move_count()
+                record[8] = ca.get_tps(get_stat(np.mean))
 
             self.add_to_df(record)
 
