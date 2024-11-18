@@ -159,7 +159,7 @@ class ComutatorAnalyzer:
             if s1 == m2.get_inv_suffix():
                 return [Move(order[4] + m2.get_inv_suffix())]
             else:
-                pos = suff_sum(m1.get_inv_suffix(), s2)
+                pos = suff_sum(s1, s2)
                 return [Move(order[4] + s2), pos_to_move(b1, pos)]
 
         

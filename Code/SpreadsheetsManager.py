@@ -32,7 +32,7 @@ class SpreadsheetsManager:
         Saves data to the json file
         '''
 
-        # data = dict(sorted(data))
+        data = dict(sorted(data.items()))
 
         with open(filepath, "w") as f:
             json.dump(data, f, indent=2)
@@ -148,14 +148,19 @@ class SpreadsheetsManager:
 
         # table
         if df.iloc[1][0] == df.iloc[0][1]:
+            print(df.shape[1], df.shape[1])
             for i in range(1, df.shape[1]):
                 for j in range(1, df.shape[0]):
-                    if df.iloc[i][j]:
-                        alg = SpreadsheetsManager.clean_alg_entry(df.iloc[i][j])
-                        key = ";".join(
-                            [df.iloc[0][0], df.iloc[0][j], df.iloc[i][0], alg]
-                        )
-                        result.append(key)
+                    try:
+                        if df.iloc[i][j]:
+                            alg = SpreadsheetsManager.clean_alg_entry(df.iloc[i][j])
+                            key = ";".join(
+                                [df.iloc[0][0], df.iloc[0][j], df.iloc[i][0], alg]
+                            )
+                            result.append(key)
+                    except KeyError:
+                        print(f"The pair {i} {j} caused the problem in {df.iloc[0][0]}")
+                        exit(1)
             return {piece_type: result}
 
         if not (df.shape[1] == 4 or df.shape[1] == 5):

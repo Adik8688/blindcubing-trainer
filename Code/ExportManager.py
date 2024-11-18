@@ -37,6 +37,8 @@ class ExportManager:
 
     OUT_PATH = Path().absolute().parent / "Exports"
 
+    OUT_FILES_PATH = Path().absolute().parent / "Files"
+
     def __init__(self):
         self.df_dict = dict()
 
@@ -103,10 +105,13 @@ class ExportManager:
             ]
 
             if "," in r['alg']:
-                ca = ComutatorAnalyzer(r['alg'])
-                record[4] = ca.get_alg_str()
-                record[7] = ca.get_move_count()
-                record[8] = ca.get_tps(get_stat(np.mean))
+                try:
+                    ca = ComutatorAnalyzer(r['alg'])
+                    record[4] = ca.get_alg_str()
+                    record[7] = ca.get_move_count()
+                    record[8] = ca.get_tps(get_stat(np.mean))
+                except:
+                    print(r['alg'])
 
             self.add_to_df(record)
 
@@ -135,6 +140,14 @@ class ExportManager:
         '''
         dt = datetime.now()
 
+        for file in os.listdir(self.OUT_PATH):
+            file_path = os.path.join(self.OUT_PATH, file)
+            try:
+                if os.path.isfile(file_path):
+                    os.remove(file_path)  # Remove the file
+            except Exception as e:
+                print(f"Error while deleting file {file_path}: {e}")
+
         # current time string to asure unique file name
         date = dt.strftime("%Y%m%d%H%M%S")
         filename = f"Export_{date}.xlsx"
@@ -150,6 +163,7 @@ class ExportManager:
         '''
         self.prepare_stats()
         self.save_stats()
+        self.save_alg_sets()
 
     def get_algs_count(self):
         result = 0
@@ -183,3 +197,16 @@ class ExportManager:
                 comm_num += len(v['results'])
 
         return f"{total/comm_num:.2f}"
+        
+    def export_top_n_to_file(self, df, filename, colname, n=40, asc=True):
+        df_sorted = df.sort_values(colname, ascending=asc)[:n]
+        with open( self.OUT_FILES_PATH / filename, 'w') as f:
+            for x, y in zip(df_sorted['1st target'], df_sorted['2nd target']):
+                f.write(f"{x} {y}\n")
+
+    def save_alg_sets(self):
+        for sheet, df in self.df_dict.items():
+            self.export_top_n_to_file(df, f"{sheet}_unstable_cases.txt", "Skew")
+            self.export_top_n_to_file(df, f"{sheet}_slow_cases.txt", "Mean", asc=False)
+            self.export_top_n_to_file(df, f"{sheet}_fast_cases.txt", "Mean")
+            self.export_top_n_to_file(df, f"{sheet}_low_count.txt", "Count")
