@@ -52,6 +52,11 @@ ColumnLayout {
         RectangleBox {
             Layout.fillWidth: true
             Layout.fillHeight: true
+            // remove in production
+            TopText {
+                text: bridge.getCurrentAlg()
+                font.pointSize: 60
+            }
         }
 
     }
