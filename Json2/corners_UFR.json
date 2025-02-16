@@ -1,0 +1,3782 @@
+{
+    "UFR;BDL;BDR": {
+        "algorithms": [
+            {
+                "alg": "Lw U D: U2, R D' R'",
+                "results": [],
+                "latest": true,
+                "lp": "ON"
+            }
+        ]
+    },
+    "UFR;BDL;BUL": {
+        "algorithms": [
+            {
+                "alg": "R' D': D2, R' U R",
+                "results": [],
+                "latest": true,
+                "lp": "OM"
+            }
+        ]
+    },
+    "UFR;BDL;BUR": {
+        "algorithms": [
+            {
+                "alg": "U R2 D' R2 U', R",
+                "results": [],
+                "latest": true,
+                "lp": "OL"
+            }
+        ]
+    },
+    "UFR;BDL;DBR": {
+        "algorithms": [
+            {
+                "alg": "U R: D2, R U' R'",
+                "results": [],
+                "latest": true,
+                "lp": "OF"
+            }
+        ]
+    },
+    "UFR;BDL;DFL": {
+        "algorithms": [
+            {
+                "alg": "U R' F R: U2, R D' R'",
+                "results": [],
+                "latest": true,
+                "lp": "OE"
+            }
+        ]
+    },
+    "UFR;BDL;DFR": {
+        "algorithms": [
+            {
+                "alg": "U' D' R': R' D R, U",
+                "results": [],
+                "latest": true,
+                "lp": "OG"
+            }
+        ]
+    },
+    "UFR;BDL;FDL": {
+        "algorithms": [
+            {
+                "alg": "R' F' R D': U', R D R'",
+                "results": [],
+                "latest": true,
+                "lp": "OI"
+            }
+        ]
+    },
+    "UFR;BDL;FDR": {
+        "algorithms": [
+            {
+                "alg": "U: D2, R U R'",
+                "results": [],
+                "latest": true,
+                "lp": "OK"
+            }
+        ]
+    },
+    "UFR;BDL;FUL": {
+        "algorithms": [
+            {
+                "alg": "D2 R': F2, R D' R' D",
+                "results": [],
+                "latest": true,
+                "lp": "OQ"
+            }
+        ]
+    },
+    "UFR;BDL;LDF": {
+        "algorithms": [
+            {
+                "alg": "U' R B R': R' D R, U",
+                "results": [],
+                "latest": true,
+                "lp": "OT"
+            }
+        ]
+    },
+    "UFR;BDL;LUB": {
+        "algorithms": [
+            {
+                "alg": "U D R': R' D R, U'",
+                "results": [],
+                "latest": true,
+                "lp": "OP"
+            }
+        ]
+    },
+    "UFR;BDL;LUF": {
+        "algorithms": [
+            {
+                "alg": "x': D, R U2 R'",
+                "results": [],
+                "latest": true,
+                "lp": "OS"
+            }
+        ]
+    },
+    "UFR;BDL;RDB": {
+        "algorithms": [
+            {
+                "alg": "U': D', R' U' R",
+                "results": [],
+                "latest": true,
+                "lp": "OZ"
+            }
+        ]
+    },
+    "UFR;BDL;RFD": {
+        "algorithms": [
+            {
+                "alg": "U' R' D2: R U R', D",
+                "results": [],
+                "latest": true,
+                "lp": "OU"
+            }
+        ]
+    },
+    "UFR;BDL;RUB": {
+        "algorithms": [
+            {
+                "alg": "U' R' U: R D' R', U2",
+                "results": [],
+                "latest": true,
+                "lp": "OW"
+            }
+        ]
+    },
+    "UFR;BDL;UBL": {
+        "algorithms": [
+            {
+                "alg": "U' D': U2, R D R'",
+                "results": [],
+                "latest": true,
+                "lp": "OC"
+            }
+        ]
+    },
+    "UFR;BDL;UBR": {
+        "algorithms": [
+            {
+                "alg": "D': R D R', U'",
+                "results": [],
+                "latest": true,
+                "lp": "OA"
+            }
+        ]
+    },
+    "UFR;BDL;UFL": {
+        "algorithms": [
+            {
+                "alg": "D: U', R' D R,",
+                "results": [],
+                "latest": true,
+                "lp": "OB"
+            }
+        ]
+    },
+    "UFR;BDR;BDL": {
+        "algorithms": [
+            {
+                "alg": "Lw U D: R D' R', U2",
+                "results": [],
+                "latest": true,
+                "lp": "NO"
+            }
+        ]
+    },
+    "UFR;BDR;BUL": {
+        "algorithms": [
+            {
+                "alg": "R B' R' D: U', R D' R'",
+                "results": [],
+                "latest": true,
+                "lp": "NM"
+            }
+        ]
+    },
+    "UFR;BDR;BUR": {
+        "algorithms": [
+            {
+                "alg": "R' D': U, R' D R",
+                "results": [],
+                "latest": true,
+                "lp": "NL"
+            }
+        ]
+    },
+    "UFR;BDR;DBL": {
+        "algorithms": [
+            {
+                "alg": "U': U R2 D' R2 U', R'",
+                "results": [],
+                "latest": true,
+                "lp": "ND"
+            }
+        ]
+    },
+    "UFR;BDR;DFL": {
+        "algorithms": [
+            {
+                "alg": "D' R: R D' R', U'",
+                "results": [],
+                "latest": true,
+                "lp": "NE"
+            }
+        ]
+    },
+    "UFR;BDR;DFR": {
+        "algorithms": [
+            {
+                "alg": "R U' R' U: U2, R D R'",
+                "results": [],
+                "latest": true,
+                "lp": "NG"
+            }
+        ]
+    },
+    "UFR;BDR;FDL": {
+        "algorithms": [
+            {
+                "alg": "D: D2, R U R'",
+                "results": [],
+                "latest": true,
+                "lp": "NI"
+            }
+        ]
+    },
+    "UFR;BDR;FDR": {
+        "algorithms": [
+            {
+                "alg": "R U R' U': R U R', D'",
+                "results": [],
+                "latest": true,
+                "lp": "NK"
+            }
+        ]
+    },
+    "UFR;BDR;FUL": {
+        "algorithms": [
+            {
+                "alg": "R U: U2, R' D' R",
+                "results": [],
+                "latest": true,
+                "lp": "NQ"
+            }
+        ]
+    },
+    "UFR;BDR;LDB": {
+        "algorithms": [
+            {
+                "alg": "D': R U R', D'",
+                "results": [],
+                "latest": true,
+                "lp": "NR"
+            }
+        ]
+    },
+    "UFR;BDR;LDF": {
+        "algorithms": [
+            {
+                "alg": "R F R': U', R' D R",
+                "results": [],
+                "latest": true,
+                "lp": "NT"
+            }
+        ]
+    },
+    "UFR;BDR;LUB": {
+        "algorithms": [
+            {
+                "alg": "R U: U, R' D' R",
+                "results": [],
+                "latest": true,
+                "lp": "NP"
+            }
+        ]
+    },
+    "UFR;BDR;LUF": {
+        "algorithms": [
+            {
+                "alg": "F: R U R', D'",
+                "results": [],
+                "latest": true,
+                "lp": "NS"
+            }
+        ]
+    },
+    "UFR;BDR;RFD": {
+        "algorithms": [
+            {
+                "alg": "D', R U R'",
+                "results": [],
+                "latest": true,
+                "lp": "NU"
+            }
+        ]
+    },
+    "UFR;BDR;RUB": {
+        "algorithms": [
+            {
+                "alg": "U D R: R D' R', U2",
+                "results": [],
+                "latest": true,
+                "lp": "NW"
+            }
+        ]
+    },
+    "UFR;BDR;UBL": {
+        "algorithms": [
+            {
+                "alg": "U' D: U2, R D' R'",
+                "results": [],
+                "latest": true,
+                "lp": "NC"
+            }
+        ]
+    },
+    "UFR;BDR;UBR": {
+        "algorithms": [
+            {
+                "alg": "D: R D' R', U'",
+                "results": [],
+                "latest": true,
+                "lp": "NA"
+            }
+        ]
+    },
+    "UFR;BDR;UFL": {
+        "algorithms": [
+            {
+                "alg": "D': U', R' D' R",
+                "results": [],
+                "latest": true,
+                "lp": "NB"
+            }
+        ]
+    },
+    "UFR;BUL;BDL": {
+        "algorithms": [
+            {
+                "alg": "R' D': R' U R, D2",
+                "results": [],
+                "latest": true,
+                "lp": "MO"
+            }
+        ]
+    },
+    "UFR;BUL;BDR": {
+        "algorithms": [
+            {
+                "alg": "R B' R' D: R D' R', U'",
+                "results": [],
+                "latest": true,
+                "lp": "MN"
+            }
+        ]
+    },
+    "UFR;BUL;BUR": {
+        "algorithms": [
+            {
+                "alg": "R U R' D': R' D R, U",
+                "results": [],
+                "latest": true,
+                "lp": "ML"
+            }
+        ]
+    },
+    "UFR;BUL;DBL": {
+        "algorithms": [
+            {
+                "alg": "U' D R': R' D R, U'",
+                "results": [],
+                "latest": true,
+                "lp": "MD"
+            }
+        ]
+    },
+    "UFR;BUL;DBR": {
+        "algorithms": [
+            {
+                "alg": "U R' F R: R D R', U'",
+                "results": [],
+                "latest": true,
+                "lp": "MF"
+            }
+        ]
+    },
+    "UFR;BUL;DFL": {
+        "algorithms": [
+            {
+                "alg": "U' R': R' D R, U'",
+                "results": [],
+                "latest": true,
+                "lp": "ME"
+            }
+        ]
+    },
+    "UFR;BUL;DFR": {
+        "algorithms": [
+            {
+                "alg": "U' D' R': R' D R, U'",
+                "results": [],
+                "latest": true,
+                "lp": "MG"
+            }
+        ]
+    },
+    "UFR;BUL;FDL": {
+        "algorithms": [
+            {
+                "alg": "R: R' D R' D' R2, B'",
+                "results": [],
+                "latest": true,
+                "lp": "MI"
+            }
+        ]
+    },
+    "UFR;BUL;FDR": {
+        "algorithms": [
+            {
+                "alg": "Lw D': R' D R, U'",
+                "results": [],
+                "latest": true,
+                "lp": "MK"
+            }
+        ]
+    },
+    "UFR;BUL;FUL": {
+        "algorithms": [
+            {
+                "alg": "R U R' D': R' D R, U2",
+                "results": [],
+                "latest": true,
+                "lp": "MQ"
+            }
+        ]
+    },
+    "UFR;BUL;LDB": {
+        "algorithms": [
+            {
+                "alg": "U2 R: U, R D' R'",
+                "results": [],
+                "latest": true,
+                "lp": "MR"
+            }
+        ]
+    },
+    "UFR;BUL;LDF": {
+        "algorithms": [
+            {
+                "alg": "R B' R': U, R' D R",
+                "results": [],
+                "latest": true,
+                "lp": "MT"
+            }
+        ]
+    },
+    "UFR;BUL;LUF": {
+        "algorithms": [
+            {
+                "alg": "x': D, R U' R'",
+                "results": [],
+                "latest": true,
+                "lp": "MS"
+            }
+        ]
+    },
+    "UFR;BUL;RDB": {
+        "algorithms": [
+            {
+                "alg": "R' U: U, R' D' R",
+                "results": [],
+                "latest": true,
+                "lp": "MZ"
+            }
+        ]
+    },
+    "UFR;BUL;RFD": {
+        "algorithms": [
+            {
+                "alg": "R': R' U R, D",
+                "results": [],
+                "latest": true,
+                "lp": "MU"
+            }
+        ]
+    },
+    "UFR;BUL;RUB": {
+        "algorithms": [
+            {
+                "alg": "U R: R D R', U2",
+                "results": [],
+                "latest": true,
+                "lp": "MW"
+            }
+        ]
+    },
+    "UFR;BUL;UBR": {
+        "algorithms": [
+            {
+                "alg": "R': U2, R' D' R",
+                "results": [],
+                "latest": true,
+                "lp": "MA"
+            }
+        ]
+    },
+    "UFR;BUL;UFL": {
+        "algorithms": [
+            {
+                "alg": "U' R': R' D' R, U'",
+                "results": [],
+                "latest": true,
+                "lp": "MB"
+            }
+        ]
+    },
+    "UFR;BUR;BDL": {
+        "algorithms": [
+            {
+                "alg": "R, U R2 D' R2 U'",
+                "results": [],
+                "latest": true,
+                "lp": "LO"
+            }
+        ]
+    },
+    "UFR;BUR;BDR": {
+        "algorithms": [
+            {
+                "alg": "R' D': R' D R, U",
+                "results": [],
+                "latest": true,
+                "lp": "LN"
+            }
+        ]
+    },
+    "UFR;BUR;BUL": {
+        "algorithms": [
+            {
+                "alg": "R U R' D': U, R' D R",
+                "results": [],
+                "latest": true,
+                "lp": "LM"
+            }
+        ]
+    },
+    "UFR;BUR;DBL": {
+        "algorithms": [
+            {
+                "alg": "R U': R' U R, D'",
+                "results": [],
+                "latest": true,
+                "lp": "LD"
+            }
+        ]
+    },
+    "UFR;BUR;DBR": {
+        "algorithms": [
+            {
+                "alg": "U D' R' U': R U R', D'",
+                "results": [],
+                "latest": true,
+                "lp": "LF"
+            }
+        ]
+    },
+    "UFR;BUR;DFL": {
+        "algorithms": [
+            {
+                "alg": "U D R' U': R U R', D'",
+                "results": [],
+                "latest": true,
+                "lp": "LE"
+            }
+        ]
+    },
+    "UFR;BUR;DFR": {
+        "algorithms": [
+            {
+                "alg": "U R' U': R U R', D'",
+                "results": [],
+                "latest": true,
+                "lp": "LG"
+            }
+        ]
+    },
+    "UFR;BUR;FDL": {
+        "algorithms": [
+            {
+                "alg": "R' F: D, R U' R'",
+                "results": [],
+                "latest": true,
+                "lp": "LI"
+            }
+        ]
+    },
+    "UFR;BUR;FDR": {
+        "algorithms": [
+            {
+                "alg": "D' R' U: D, R U' R'",
+                "results": [],
+                "latest": true,
+                "lp": "LK"
+            }
+        ]
+    },
+    "UFR;BUR;FUL": {
+        "algorithms": [
+            {
+                "alg": "R D: U2, R D' R'",
+                "results": [],
+                "latest": true,
+                "lp": "LQ"
+            }
+        ]
+    },
+    "UFR;BUR;LDB": {
+        "algorithms": [
+            {
+                "alg": "R, U L U'",
+                "results": [],
+                "latest": true,
+                "lp": "LR"
+            }
+        ]
+    },
+    "UFR;BUR;LDF": {
+        "algorithms": [
+            {
+                "alg": "R' U: D, R U' R'",
+                "results": [],
+                "latest": true,
+                "lp": "LT"
+            }
+        ]
+    },
+    "UFR;BUR;LUB": {
+        "algorithms": [
+            {
+                "alg": "U R': R' D' R, U'",
+                "results": [],
+                "latest": true,
+                "lp": "LP"
+            }
+        ]
+    },
+    "UFR;BUR;LUF": {
+        "algorithms": [
+            {
+                "alg": "R' F: D, R U R'",
+                "results": [],
+                "latest": true,
+                "lp": "LS"
+            }
+        ]
+    },
+    "UFR;BUR;RDB": {
+        "algorithms": [
+            {
+                "alg": "D2 R' U: D, R U' R'",
+                "results": [],
+                "latest": true,
+                "lp": "LZ"
+            }
+        ]
+    },
+    "UFR;BUR;RFD": {
+        "algorithms": [
+            {
+                "alg": "R' U: D', R U' R'",
+                "results": [],
+                "latest": true,
+                "lp": "LU"
+            }
+        ]
+    },
+    "UFR;BUR;UBL": {
+        "algorithms": [
+            {
+                "alg": "R' D': R' D R, U2",
+                "results": [],
+                "latest": true,
+                "lp": "LC"
+            }
+        ]
+    },
+    "UFR;BUR;UFL": {
+        "algorithms": [
+            {
+                "alg": "R' D': R' D R, U'",
+                "results": [],
+                "latest": true,
+                "lp": "LB"
+            }
+        ]
+    },
+    "UFR;DBL;BDR": {
+        "algorithms": [
+            {
+                "alg": "U': R', U R2 D' R2 U'",
+                "results": [],
+                "latest": true,
+                "lp": "DN"
+            }
+        ]
+    },
+    "UFR;DBL;BUL": {
+        "algorithms": [
+            {
+                "alg": "U' D R': U', R' D R",
+                "results": [],
+                "latest": true,
+                "lp": "DM"
+            }
+        ]
+    },
+    "UFR;DBL;BUR": {
+        "algorithms": [
+            {
+                "alg": "R U': D', R' U R",
+                "results": [],
+                "latest": true,
+                "lp": "DL"
+            }
+        ]
+    },
+    "UFR;DBL;DBR": {
+        "algorithms": [
+            {
+                "alg": "R U' R': D', R' U R",
+                "results": [],
+                "latest": true,
+                "lp": "DF"
+            }
+        ]
+    },
+    "UFR;DBL;DFL": {
+        "algorithms": [
+            {
+                "alg": "R B R' U: U, R' D R",
+                "results": [],
+                "latest": true,
+                "lp": "DE"
+            }
+        ]
+    },
+    "UFR;DBL;DFR": {
+        "algorithms": [
+            {
+                "alg": "R U' R' U': R D' R', U2",
+                "results": [],
+                "latest": true,
+                "lp": "DG"
+            }
+        ]
+    },
+    "UFR;DBL;FDL": {
+        "algorithms": [
+            {
+                "alg": "D R D: R' D' R, U",
+                "results": [],
+                "latest": true,
+                "lp": "DI"
+            }
+        ]
+    },
+    "UFR;DBL;FDR": {
+        "algorithms": [
+            {
+                "alg": "R2 U': R' U R, D'",
+                "results": [],
+                "latest": true,
+                "lp": "DK"
+            }
+        ]
+    },
+    "UFR;DBL;FUL": {
+        "algorithms": [
+            {
+                "alg": "R: U2, R D' R'",
+                "results": [],
+                "latest": true,
+                "lp": "DQ"
+            }
+        ]
+    },
+    "UFR;DBL;LDF": {
+        "algorithms": [
+            {
+                "alg": "D R: F2, R' U R U'",
+                "results": [],
+                "latest": true,
+                "lp": "DT"
+            }
+        ]
+    },
+    "UFR;DBL;LUB": {
+        "algorithms": [
+            {
+                "alg": "R: U, R D' R'",
+                "results": [],
+                "latest": true,
+                "lp": "DP"
+            }
+        ]
+    },
+    "UFR;DBL;LUF": {
+        "algorithms": [
+            {
+                "alg": "U': R, U R2 D' R2 U'",
+                "results": [],
+                "latest": true,
+                "lp": "DS"
+            }
+        ]
+    },
+    "UFR;DBL;RDB": {
+        "algorithms": [
+            {
+                "alg": "R' B: R U2 R', D'",
+                "results": [],
+                "latest": true,
+                "lp": "DZ"
+            }
+        ]
+    },
+    "UFR;DBL;RFD": {
+        "algorithms": [
+            {
+                "alg": "R: U', R D' R'",
+                "results": [],
+                "latest": true,
+                "lp": "DU"
+            }
+        ]
+    },
+    "UFR;DBL;RUB": {
+        "algorithms": [
+            {
+                "alg": "U' D R': U2, R' D R",
+                "results": [],
+                "latest": true,
+                "lp": "DW"
+            }
+        ]
+    },
+    "UFR;DBL;UBL": {
+        "algorithms": [
+            {
+                "alg": "R' U' D' R: D, R U' R'",
+                "results": [],
+                "latest": true,
+                "lp": "DC"
+            }
+        ]
+    },
+    "UFR;DBL;UBR": {
+        "algorithms": [
+            {
+                "alg": "R' B: R U R', D'",
+                "results": [],
+                "latest": true,
+                "lp": "DA"
+            }
+        ]
+    },
+    "UFR;DBL;UFL": {
+        "algorithms": [
+            {
+                "alg": "R' B: R U' R', D'",
+                "results": [],
+                "latest": true,
+                "lp": "DB"
+            }
+        ]
+    },
+    "UFR;DBR;BDL": {
+        "algorithms": [
+            {
+                "alg": "U R: R U' R', D2",
+                "results": [],
+                "latest": true,
+                "lp": "FO"
+            }
+        ]
+    },
+    "UFR;DBR;BUL": {
+        "algorithms": [
+            {
+                "alg": "U R' F R: U', R D R'",
+                "results": [],
+                "latest": true,
+                "lp": "FM"
+            }
+        ]
+    },
+    "UFR;DBR;BUR": {
+        "algorithms": [
+            {
+                "alg": "U D' R' U': D', R U R'",
+                "results": [],
+                "latest": true,
+                "lp": "FL"
+            }
+        ]
+    },
+    "UFR;DBR;DBL": {
+        "algorithms": [
+            {
+                "alg": "R U' R': R' U R, D'",
+                "results": [],
+                "latest": true,
+                "lp": "FD"
+            }
+        ]
+    },
+    "UFR;DBR;DFL": {
+        "algorithms": [
+            {
+                "alg": "U R' F R: U2, R D R'",
+                "results": [],
+                "latest": true,
+                "lp": "FE"
+            }
+        ]
+    },
+    "UFR;DBR;DFR": {
+        "algorithms": [
+            {
+                "alg": "F' R U: R' D' R, U2",
+                "results": [],
+                "latest": true,
+                "lp": "FG"
+            }
+        ]
+    },
+    "UFR;DBR;FDL": {
+        "algorithms": [
+            {
+                "alg": "D R: U', R D' R'",
+                "results": [],
+                "latest": true,
+                "lp": "FI"
+            }
+        ]
+    },
+    "UFR;DBR;FDR": {
+        "algorithms": [
+            {
+                "alg": "U R D': R' D R, U'",
+                "results": [],
+                "latest": true,
+                "lp": "FK"
+            }
+        ]
+    },
+    "UFR;DBR;FUL": {
+        "algorithms": [
+            {
+                "alg": "D R: U2, R D' R'",
+                "results": [],
+                "latest": true,
+                "lp": "FQ"
+            }
+        ]
+    },
+    "UFR;DBR;LDB": {
+        "algorithms": [
+            {
+                "alg": "R D' R': U, R' D R",
+                "results": [],
+                "latest": true,
+                "lp": "FR"
+            }
+        ]
+    },
+    "UFR;DBR;LDF": {
+        "algorithms": [
+            {
+                "alg": "F': D', R U' R'",
+                "results": [],
+                "latest": true,
+                "lp": "FT"
+            }
+        ]
+    },
+    "UFR;DBR;LUB": {
+        "algorithms": [
+            {
+                "alg": "D R: U, R D' R'",
+                "results": [],
+                "latest": true,
+                "lp": "FP"
+            }
+        ]
+    },
+    "UFR;DBR;LUF": {
+        "algorithms": [
+            {
+                "alg": "R U' R': R' U R, D",
+                "results": [],
+                "latest": true,
+                "lp": "FS"
+            }
+        ]
+    },
+    "UFR;DBR;RFD": {
+        "algorithms": [
+            {
+                "alg": "D' R U' R': U2, R' D R",
+                "results": [],
+                "latest": true,
+                "lp": "FU"
+            }
+        ]
+    },
+    "UFR;DBR;RUB": {
+        "algorithms": [
+            {
+                "alg": "D: D' R D R', U R' F R",
+                "results": [],
+                "latest": true,
+                "lp": "FW"
+            }
+        ]
+    },
+    "UFR;DBR;UBL": {
+        "algorithms": [
+            {
+                "alg": "R D' R': U2, R' D R",
+                "results": [],
+                "latest": true,
+                "lp": "FC"
+            }
+        ]
+    },
+    "UFR;DBR;UBR": {
+        "algorithms": [
+            {
+                "alg": "R D' R' U R' D R, U'",
+                "results": [],
+                "latest": true,
+                "lp": "FA"
+            }
+        ]
+    },
+    "UFR;DBR;UFL": {
+        "algorithms": [
+            {
+                "alg": "R D' R': U', R' D R",
+                "results": [],
+                "latest": true,
+                "lp": "FB"
+            }
+        ]
+    },
+    "UFR;DFL;BDL": {
+        "algorithms": [
+            {
+                "alg": "U R' F R: R D' R', U2",
+                "results": [],
+                "latest": true,
+                "lp": "EO"
+            }
+        ]
+    },
+    "UFR;DFL;BDR": {
+        "algorithms": [
+            {
+                "alg": "D' R: U', R D' R'",
+                "results": [],
+                "latest": true,
+                "lp": "EN"
+            }
+        ]
+    },
+    "UFR;DFL;BUL": {
+        "algorithms": [
+            {
+                "alg": "U' R': U', R' D R",
+                "results": [],
+                "latest": true,
+                "lp": "EM"
+            }
+        ]
+    },
+    "UFR;DFL;BUR": {
+        "algorithms": [
+            {
+                "alg": "U D R' U': D', R U R'",
+                "results": [],
+                "latest": true,
+                "lp": "EL"
+            }
+        ]
+    },
+    "UFR;DFL;DBL": {
+        "algorithms": [
+            {
+                "alg": "R B R' U: R' D R, U",
+                "results": [],
+                "latest": true,
+                "lp": "ED"
+            }
+        ]
+    },
+    "UFR;DFL;DBR": {
+        "algorithms": [
+            {
+                "alg": "U R' F R: R D R', U2",
+                "results": [],
+                "latest": true,
+                "lp": "EF"
+            }
+        ]
+    },
+    "UFR;DFL;DFR": {
+        "algorithms": [
+            {
+                "alg": "R U' R' D: R' D' R, U2",
+                "results": [],
+                "latest": true,
+                "lp": "EG"
+            }
+        ]
+    },
+    "UFR;DFL;FDR": {
+        "algorithms": [
+            {
+                "alg": "R: F2, R' U R U'",
+                "results": [],
+                "latest": true,
+                "lp": "EK"
+            }
+        ]
+    },
+    "UFR;DFL;FUL": {
+        "algorithms": [
+            {
+                "alg": "R U' D: R' D' R, U2",
+                "results": [],
+                "latest": true,
+                "lp": "EQ"
+            }
+        ]
+    },
+    "UFR;DFL;LDB": {
+        "algorithms": [
+            {
+                "alg": "D U: L' F2 L U' L' U F2 U' L",
+                "results": [],
+                "latest": true,
+                "lp": "ER"
+            }
+        ]
+    },
+    "UFR;DFL;LUB": {
+        "algorithms": [
+            {
+                "alg": "R U2 D: R' D' R, U'",
+                "results": [],
+                "latest": true,
+                "lp": "EP"
+            }
+        ]
+    },
+    "UFR;DFL;LUF": {
+        "algorithms": [
+            {
+                "alg": "U' R' U: D, R U' R'",
+                "results": [],
+                "latest": true,
+                "lp": "ES"
+            }
+        ]
+    },
+    "UFR;DFL;RDB": {
+        "algorithms": [
+            {
+                "alg": "U' R': U, R' D R",
+                "results": [],
+                "latest": true,
+                "lp": "EZ"
+            }
+        ]
+    },
+    "UFR;DFL;RFD": {
+        "algorithms": [
+            {
+                "alg": "R D: R' D' R, U",
+                "results": [],
+                "latest": true,
+                "lp": "EU"
+            }
+        ]
+    },
+    "UFR;DFL;RUB": {
+        "algorithms": [
+            {
+                "alg": "U' R': U2, R' D R",
+                "results": [],
+                "latest": true,
+                "lp": "EW"
+            }
+        ]
+    },
+    "UFR;DFL;UBL": {
+        "algorithms": [
+            {
+                "alg": "R F' R' U': U2, R D R'",
+                "results": [],
+                "latest": true,
+                "lp": "EC"
+            }
+        ]
+    },
+    "UFR;DFL;UBR": {
+        "algorithms": [
+            {
+                "alg": "R' F2 R U: U2, R' D R",
+                "results": [],
+                "latest": true,
+                "lp": "EA"
+            }
+        ]
+    },
+    "UFR;DFL;UFL": {
+        "algorithms": [
+            {
+                "alg": "R2 F R U: U2, R' D' R",
+                "results": [],
+                "latest": true,
+                "lp": "EB"
+            }
+        ]
+    },
+    "UFR;DFR;BDL": {
+        "algorithms": [
+            {
+                "alg": "U' D' R': U, R' D R",
+                "results": [],
+                "latest": true,
+                "lp": "GO"
+            }
+        ]
+    },
+    "UFR;DFR;BDR": {
+        "algorithms": [
+            {
+                "alg": "R U' R' U: R D R', U2",
+                "results": [],
+                "latest": true,
+                "lp": "GN"
+            }
+        ]
+    },
+    "UFR;DFR;BUL": {
+        "algorithms": [
+            {
+                "alg": "U' D' R': U', R' D R",
+                "results": [],
+                "latest": true,
+                "lp": "GM"
+            }
+        ]
+    },
+    "UFR;DFR;BUR": {
+        "algorithms": [
+            {
+                "alg": "U R' U': D', R U R'",
+                "results": [],
+                "latest": true,
+                "lp": "GL"
+            }
+        ]
+    },
+    "UFR;DFR;DBL": {
+        "algorithms": [
+            {
+                "alg": "R U' R' U': U2, R D' R'",
+                "results": [],
+                "latest": true,
+                "lp": "GD"
+            }
+        ]
+    },
+    "UFR;DFR;DBR": {
+        "algorithms": [
+            {
+                "alg": "F' R U: U2, R' D' R",
+                "results": [],
+                "latest": true,
+                "lp": "GF"
+            }
+        ]
+    },
+    "UFR;DFR;DFL": {
+        "algorithms": [
+            {
+                "alg": "R U' R' D: U2, R' D' R",
+                "results": [],
+                "latest": true,
+                "lp": "GE"
+            }
+        ]
+    },
+    "UFR;DFR;FDL": {
+        "algorithms": [
+            {
+                "alg": "R U' R': U2, R' D R",
+                "results": [],
+                "latest": true,
+                "lp": "GI"
+            }
+        ]
+    },
+    "UFR;DFR;FUL": {
+        "algorithms": [
+            {
+                "alg": "D' R U' D: R' D' R, U2",
+                "results": [],
+                "latest": true,
+                "lp": "GQ"
+            }
+        ]
+    },
+    "UFR;DFR;LDB": {
+        "algorithms": [
+            {
+                "alg": "R U' R' U D': R D R', U2",
+                "results": [],
+                "latest": true,
+                "lp": "GR"
+            }
+        ]
+    },
+    "UFR;DFR;LDF": {
+        "algorithms": [
+            {
+                "alg": "U' R' D R: U', R D' R'",
+                "results": [],
+                "latest": true,
+                "lp": "GT"
+            }
+        ]
+    },
+    "UFR;DFR;LUB": {
+        "algorithms": [
+            {
+                "alg": "D' R U2 D: R' D' R, U'",
+                "results": [],
+                "latest": true,
+                "lp": "GP"
+            }
+        ]
+    },
+    "UFR;DFR;LUF": {
+        "algorithms": [
+            {
+                "alg": "R U' R': U2, R' D' R",
+                "results": [],
+                "latest": true,
+                "lp": "GS"
+            }
+        ]
+    },
+    "UFR;DFR;RDB": {
+        "algorithms": [
+            {
+                "alg": "D' R: F2, R' U R U'",
+                "results": [],
+                "latest": true,
+                "lp": "GZ"
+            }
+        ]
+    },
+    "UFR;DFR;RUB": {
+        "algorithms": [
+            {
+                "alg": "U' D' R': U2, R' D R",
+                "results": [],
+                "latest": true,
+                "lp": "GW"
+            }
+        ]
+    },
+    "UFR;DFR;UBL": {
+        "algorithms": [
+            {
+                "alg": "U2, R' D R U' R D' R'",
+                "results": [],
+                "latest": true,
+                "lp": "GC"
+            }
+        ]
+    },
+    "UFR;DFR;UBR": {
+        "algorithms": [
+            {
+                "alg": "U, R' D R U' R D' R'",
+                "results": [],
+                "latest": true,
+                "lp": "GA"
+            }
+        ]
+    },
+    "UFR;DFR;UFL": {
+        "algorithms": [
+            {
+                "alg": "U', R' D R U' R D' R'",
+                "results": [],
+                "latest": true,
+                "lp": "GB"
+            }
+        ]
+    },
+    "UFR;FDL;BDL": {
+        "algorithms": [
+            {
+                "alg": "R' F' R D': R D R', U'",
+                "results": [],
+                "latest": true,
+                "lp": "IO"
+            }
+        ]
+    },
+    "UFR;FDL;BDR": {
+        "algorithms": [
+            {
+                "alg": "D: R U R', D2",
+                "results": [],
+                "latest": true,
+                "lp": "IN"
+            }
+        ]
+    },
+    "UFR;FDL;BUL": {
+        "algorithms": [
+            {
+                "alg": "R: B', R' D R' D' R2",
+                "results": [],
+                "latest": true,
+                "lp": "IM"
+            }
+        ]
+    },
+    "UFR;FDL;BUR": {
+        "algorithms": [
+            {
+                "alg": "R' F: R U' R', D",
+                "results": [],
+                "latest": true,
+                "lp": "IL"
+            }
+        ]
+    },
+    "UFR;FDL;DBL": {
+        "algorithms": [
+            {
+                "alg": "D R D: U, R' D' R",
+                "results": [],
+                "latest": true,
+                "lp": "ID"
+            }
+        ]
+    },
+    "UFR;FDL;DBR": {
+        "algorithms": [
+            {
+                "alg": "D R: R D' R', U'",
+                "results": [],
+                "latest": true,
+                "lp": "IF"
+            }
+        ]
+    },
+    "UFR;FDL;DFR": {
+        "algorithms": [
+            {
+                "alg": "R U' R': R' D R, U2",
+                "results": [],
+                "latest": true,
+                "lp": "IG"
+            }
+        ]
+    },
+    "UFR;FDL;FDR": {
+        "algorithms": [
+            {
+                "alg": "R': R D' R' D, F'",
+                "results": [],
+                "latest": true,
+                "lp": "IK"
+            }
+        ]
+    },
+    "UFR;FDL;FUL": {
+        "algorithms": [
+            {
+                "alg": "R U: U2, R' D R",
+                "results": [],
+                "latest": true,
+                "lp": "IQ"
+            }
+        ]
+    },
+    "UFR;FDL;LDB": {
+        "algorithms": [
+            {
+                "alg": "D: R U R', D",
+                "results": [],
+                "latest": true,
+                "lp": "IR"
+            }
+        ]
+    },
+    "UFR;FDL;LUB": {
+        "algorithms": [
+            {
+                "alg": "R U: U, R' D R",
+                "results": [],
+                "latest": true,
+                "lp": "IP"
+            }
+        ]
+    },
+    "UFR;FDL;LUF": {
+        "algorithms": [
+            {
+                "alg": "D R' U': R U R', D'",
+                "results": [],
+                "latest": true,
+                "lp": "IS"
+            }
+        ]
+    },
+    "UFR;FDL;RDB": {
+        "algorithms": [
+            {
+                "alg": "R' F' R: R D R', U'",
+                "results": [],
+                "latest": true,
+                "lp": "IZ"
+            }
+        ]
+    },
+    "UFR;FDL;RFD": {
+        "algorithms": [
+            {
+                "alg": "D, R U R'",
+                "results": [],
+                "latest": true,
+                "lp": "IU"
+            }
+        ]
+    },
+    "UFR;FDL;RUB": {
+        "algorithms": [
+            {
+                "alg": "U' R B' R', D R' D' R",
+                "results": [],
+                "latest": true,
+                "lp": "IW"
+            }
+        ]
+    },
+    "UFR;FDL;UBL": {
+        "algorithms": [
+            {
+                "alg": "D: U2, R' D' R",
+                "results": [],
+                "latest": true,
+                "lp": "IC"
+            }
+        ]
+    },
+    "UFR;FDL;UBR": {
+        "algorithms": [
+            {
+                "alg": "D: U, R' D' R",
+                "results": [],
+                "latest": true,
+                "lp": "IA"
+            }
+        ]
+    },
+    "UFR;FDL;UFL": {
+        "algorithms": [
+            {
+                "alg": "D: U', R' D' R",
+                "results": [],
+                "latest": true,
+                "lp": "IB"
+            }
+        ]
+    },
+    "UFR;FDR;BDL": {
+        "algorithms": [
+            {
+                "alg": "U: R U R', D2",
+                "results": [],
+                "latest": true,
+                "lp": "KO"
+            }
+        ]
+    },
+    "UFR;FDR;BDR": {
+        "algorithms": [
+            {
+                "alg": "R U R' U': D', R U R'",
+                "results": [],
+                "latest": true,
+                "lp": "KN"
+            }
+        ]
+    },
+    "UFR;FDR;BUL": {
+        "algorithms": [
+            {
+                "alg": "Lw D': U', R' D R",
+                "results": [],
+                "latest": true,
+                "lp": "KM"
+            }
+        ]
+    },
+    "UFR;FDR;BUR": {
+        "algorithms": [
+            {
+                "alg": "D' R' U: R U' R', D",
+                "results": [],
+                "latest": true,
+                "lp": "KL"
+            }
+        ]
+    },
+    "UFR;FDR;DBL": {
+        "algorithms": [
+            {
+                "alg": "R2 U': D', R' U R",
+                "results": [],
+                "latest": true,
+                "lp": "KD"
+            }
+        ]
+    },
+    "UFR;FDR;DBR": {
+        "algorithms": [
+            {
+                "alg": "U R D': U', R' D R",
+                "results": [],
+                "latest": true,
+                "lp": "KF"
+            }
+        ]
+    },
+    "UFR;FDR;DFL": {
+        "algorithms": [
+            {
+                "alg": "R: R' U R U', F2",
+                "results": [],
+                "latest": true,
+                "lp": "KE"
+            }
+        ]
+    },
+    "UFR;FDR;FDL": {
+        "algorithms": [
+            {
+                "alg": "R': F', R D' R' D",
+                "results": [],
+                "latest": true,
+                "lp": "KI"
+            }
+        ]
+    },
+    "UFR;FDR;FUL": {
+        "algorithms": [
+            {
+                "alg": "R': F2, R D' R' D",
+                "results": [],
+                "latest": true,
+                "lp": "KQ"
+            }
+        ]
+    },
+    "UFR;FDR;LDB": {
+        "algorithms": [
+            {
+                "alg": "U R U': U', R D' R'",
+                "results": [],
+                "latest": true,
+                "lp": "KR"
+            }
+        ]
+    },
+    "UFR;FDR;LDF": {
+        "algorithms": [
+            {
+                "alg": "U: R U R', D",
+                "results": [],
+                "latest": true,
+                "lp": "KT"
+            }
+        ]
+    },
+    "UFR;FDR;LUB": {
+        "algorithms": [
+            {
+                "alg": "R U R': U', R' D' R",
+                "results": [],
+                "latest": true,
+                "lp": "KP"
+            }
+        ]
+    },
+    "UFR;FDR;LUF": {
+        "algorithms": [
+            {
+                "alg": "R: R' U R U', F",
+                "results": [],
+                "latest": true,
+                "lp": "KS"
+            }
+        ]
+    },
+    "UFR;FDR;RDB": {
+        "algorithms": [
+            {
+                "alg": "U: R U' R', D'",
+                "results": [],
+                "latest": true,
+                "lp": "KZ"
+            }
+        ]
+    },
+    "UFR;FDR;RUB": {
+        "algorithms": [
+            {
+                "alg": "R B R': R' D' R, U2",
+                "results": [],
+                "latest": true,
+                "lp": "KW"
+            }
+        ]
+    },
+    "UFR;FDR;UBL": {
+        "algorithms": [
+            {
+                "alg": "D': U2, R' D R",
+                "results": [],
+                "latest": true,
+                "lp": "KC"
+            }
+        ]
+    },
+    "UFR;FDR;UBR": {
+        "algorithms": [
+            {
+                "alg": "D': U, R' D R",
+                "results": [],
+                "latest": true,
+                "lp": "KA"
+            }
+        ]
+    },
+    "UFR;FDR;UFL": {
+        "algorithms": [
+            {
+                "alg": "D': U', R' D R",
+                "results": [],
+                "latest": true,
+                "lp": "KB"
+            }
+        ]
+    },
+    "UFR;FUL;BDL": {
+        "algorithms": [
+            {
+                "alg": "D2 R': R D' R' D, F2",
+                "results": [],
+                "latest": true,
+                "lp": "QO"
+            }
+        ]
+    },
+    "UFR;FUL;BDR": {
+        "algorithms": [
+            {
+                "alg": "R U: R' D' R, U2",
+                "results": [],
+                "latest": true,
+                "lp": "QN"
+            }
+        ]
+    },
+    "UFR;FUL;BUL": {
+        "algorithms": [
+            {
+                "alg": "R U R' D': U2, R' D R",
+                "results": [],
+                "latest": true,
+                "lp": "QM"
+            }
+        ]
+    },
+    "UFR;FUL;BUR": {
+        "algorithms": [
+            {
+                "alg": "R D: R D' R', U2",
+                "results": [],
+                "latest": true,
+                "lp": "QL"
+            }
+        ]
+    },
+    "UFR;FUL;DBL": {
+        "algorithms": [
+            {
+                "alg": "R: R D' R', U2",
+                "results": [],
+                "latest": true,
+                "lp": "QD"
+            }
+        ]
+    },
+    "UFR;FUL;DBR": {
+        "algorithms": [
+            {
+                "alg": "D R: R D' R', U2",
+                "results": [],
+                "latest": true,
+                "lp": "QF"
+            }
+        ]
+    },
+    "UFR;FUL;DFL": {
+        "algorithms": [
+            {
+                "alg": "R U' D: U2, R' D' R",
+                "results": [],
+                "latest": true,
+                "lp": "QE"
+            }
+        ]
+    },
+    "UFR;FUL;DFR": {
+        "algorithms": [
+            {
+                "alg": "D' R U' D: U2, R' D' R",
+                "results": [],
+                "latest": true,
+                "lp": "QG"
+            }
+        ]
+    },
+    "UFR;FUL;FDL": {
+        "algorithms": [
+            {
+                "alg": "R U: R' D R, U2",
+                "results": [],
+                "latest": true,
+                "lp": "QI"
+            }
+        ]
+    },
+    "UFR;FUL;FDR": {
+        "algorithms": [
+            {
+                "alg": "R': R D' R' D, F2",
+                "results": [],
+                "latest": true,
+                "lp": "QK"
+            }
+        ]
+    },
+    "UFR;FUL;LDB": {
+        "algorithms": [
+            {
+                "alg": "R D': R D R', U2",
+                "results": [],
+                "latest": true,
+                "lp": "QR"
+            }
+        ]
+    },
+    "UFR;FUL;LDF": {
+        "algorithms": [
+            {
+                "alg": "R' D: F2, D' R D R'",
+                "results": [],
+                "latest": true,
+                "lp": "QT"
+            }
+        ]
+    },
+    "UFR;FUL;LUB": {
+        "algorithms": [
+            {
+                "alg": "U2 R': U2, R' D' R",
+                "results": [],
+                "latest": true,
+                "lp": "QP"
+            }
+        ]
+    },
+    "UFR;FUL;RDB": {
+        "algorithms": [
+            {
+                "alg": "R U D': R' D R, U2",
+                "results": [],
+                "latest": true,
+                "lp": "QZ"
+            }
+        ]
+    },
+    "UFR;FUL;RFD": {
+        "algorithms": [
+            {
+                "alg": "D R U: R' D' R, U2",
+                "results": [],
+                "latest": true,
+                "lp": "QU"
+            }
+        ]
+    },
+    "UFR;FUL;RUB": {
+        "algorithms": [
+            {
+                "alg": "R': U', R2 D' R2 D R2",
+                "results": [],
+                "latest": true,
+                "lp": "QW"
+            }
+        ]
+    },
+    "UFR;FUL;UBL": {
+        "algorithms": [
+            {
+                "alg": "Lw' U D': U2, R D R'",
+                "results": [],
+                "latest": true,
+                "lp": "QC"
+            }
+        ]
+    },
+    "UFR;FUL;UBR": {
+        "algorithms": [
+            {
+                "alg": "R: R D R', U2",
+                "results": [],
+                "latest": true,
+                "lp": "QA"
+            }
+        ]
+    },
+    "UFR;LDB;BDR": {
+        "algorithms": [
+            {
+                "alg": "D': D', R U R'",
+                "results": [],
+                "latest": true,
+                "lp": "RN"
+            }
+        ]
+    },
+    "UFR;LDB;BUL": {
+        "algorithms": [
+            {
+                "alg": "U2 R: R D' R', U",
+                "results": [],
+                "latest": true,
+                "lp": "RM"
+            }
+        ]
+    },
+    "UFR;LDB;BUR": {
+        "algorithms": [
+            {
+                "alg": "U L U', R",
+                "results": [],
+                "latest": true,
+                "lp": "RL"
+            }
+        ]
+    },
+    "UFR;LDB;DBR": {
+        "algorithms": [
+            {
+                "alg": "R D' R': R' D R, U",
+                "results": [],
+                "latest": true,
+                "lp": "RF"
+            }
+        ]
+    },
+    "UFR;LDB;DFL": {
+        "algorithms": [
+            {
+                "alg": "D: L' U F2 U' L U L' F2 L U'",
+                "results": [],
+                "latest": true,
+                "lp": "RE"
+            }
+        ]
+    },
+    "UFR;LDB;DFR": {
+        "algorithms": [
+            {
+                "alg": "R U' R' U D': U2, R D R'",
+                "results": [],
+                "latest": true,
+                "lp": "RG"
+            }
+        ]
+    },
+    "UFR;LDB;FDL": {
+        "algorithms": [
+            {
+                "alg": "D: D, R U R'",
+                "results": [],
+                "latest": true,
+                "lp": "RI"
+            }
+        ]
+    },
+    "UFR;LDB;FDR": {
+        "algorithms": [
+            {
+                "alg": "U R U': R D' R', U'",
+                "results": [],
+                "latest": true,
+                "lp": "RK"
+            }
+        ]
+    },
+    "UFR;LDB;FUL": {
+        "algorithms": [
+            {
+                "alg": "R D': U2, R D R'",
+                "results": [],
+                "latest": true,
+                "lp": "RQ"
+            }
+        ]
+    },
+    "UFR;LDB;LDF": {
+        "algorithms": [
+            {
+                "alg": "R' D: F', D' R D R'",
+                "results": [],
+                "latest": true,
+                "lp": "RT"
+            }
+        ]
+    },
+    "UFR;LDB;LUB": {
+        "algorithms": [
+            {
+                "alg": "R D': U, R D R'",
+                "results": [],
+                "latest": true,
+                "lp": "RP"
+            }
+        ]
+    },
+    "UFR;LDB;LUF": {
+        "algorithms": [
+            {
+                "alg": "R' U' R: R D' R', U'",
+                "results": [],
+                "latest": true,
+                "lp": "RS"
+            }
+        ]
+    },
+    "UFR;LDB;RDB": {
+        "algorithms": [
+            {
+                "alg": "R' U R: R D' R', U'",
+                "results": [],
+                "latest": true,
+                "lp": "RZ"
+            }
+        ]
+    },
+    "UFR;LDB;RFD": {
+        "algorithms": [
+            {
+                "alg": "D2, R U R'",
+                "results": [],
+                "latest": true,
+                "lp": "RU"
+            }
+        ]
+    },
+    "UFR;LDB;RUB": {
+        "algorithms": [
+            {
+                "alg": "U R: R D' R', U2",
+                "results": [],
+                "latest": true,
+                "lp": "RW"
+            }
+        ]
+    },
+    "UFR;LDB;UBL": {
+        "algorithms": [
+            {
+                "alg": "U': U2, R D' R'",
+                "results": [],
+                "latest": true,
+                "lp": "RC"
+            }
+        ]
+    },
+    "UFR;LDB;UBR": {
+        "algorithms": [
+            {
+                "alg": "R D' R, U'",
+                "results": [],
+                "latest": true,
+                "lp": "RA"
+            }
+        ]
+    },
+    "UFR;LDB;UFL": {
+        "algorithms": [
+            {
+                "alg": "U': U', R D' R'",
+                "results": [],
+                "latest": true,
+                "lp": "RB"
+            }
+        ]
+    },
+    "UFR;LDF;BDL": {
+        "algorithms": [
+            {
+                "alg": "U' R B R': U, R' D R",
+                "results": [],
+                "latest": true,
+                "lp": "TO"
+            }
+        ]
+    },
+    "UFR;LDF;BDR": {
+        "algorithms": [
+            {
+                "alg": "R F R': R' D R, U'",
+                "results": [],
+                "latest": true,
+                "lp": "TN"
+            }
+        ]
+    },
+    "UFR;LDF;BUL": {
+        "algorithms": [
+            {
+                "alg": "R B' R': R' D R, U",
+                "results": [],
+                "latest": true,
+                "lp": "TM"
+            }
+        ]
+    },
+    "UFR;LDF;BUR": {
+        "algorithms": [
+            {
+                "alg": "R' U: R U' R', D",
+                "results": [],
+                "latest": true,
+                "lp": "TL"
+            }
+        ]
+    },
+    "UFR;LDF;DBL": {
+        "algorithms": [
+            {
+                "alg": "D R: R' U R U', F2",
+                "results": [],
+                "latest": true,
+                "lp": "TD"
+            }
+        ]
+    },
+    "UFR;LDF;DBR": {
+        "algorithms": [
+            {
+                "alg": "F': R U' R', D'",
+                "results": [],
+                "latest": true,
+                "lp": "TF"
+            }
+        ]
+    },
+    "UFR;LDF;DFR": {
+        "algorithms": [
+            {
+                "alg": "U' R' D R: R D' R', U'",
+                "results": [],
+                "latest": true,
+                "lp": "TG"
+            }
+        ]
+    },
+    "UFR;LDF;FDR": {
+        "algorithms": [
+            {
+                "alg": "U: D, R U R'",
+                "results": [],
+                "latest": true,
+                "lp": "TK"
+            }
+        ]
+    },
+    "UFR;LDF;FUL": {
+        "algorithms": [
+            {
+                "alg": "R' D: D' R D R', F2",
+                "results": [],
+                "latest": true,
+                "lp": "TQ"
+            }
+        ]
+    },
+    "UFR;LDF;LDB": {
+        "algorithms": [
+            {
+                "alg": "R' D: D' R D R', F'",
+                "results": [],
+                "latest": true,
+                "lp": "TR"
+            }
+        ]
+    },
+    "UFR;LDF;LUB": {
+        "algorithms": [
+            {
+                "alg": "U R': R' D R, U'",
+                "results": [],
+                "latest": true,
+                "lp": "TP"
+            }
+        ]
+    },
+    "UFR;LDF;LUF": {
+        "algorithms": [
+            {
+                "alg": "R' U': R U R', D",
+                "results": [],
+                "latest": true,
+                "lp": "TS"
+            }
+        ]
+    },
+    "UFR;LDF;RDB": {
+        "algorithms": [
+            {
+                "alg": "U D: R U' R', D2",
+                "results": [],
+                "latest": true,
+                "lp": "TZ"
+            }
+        ]
+    },
+    "UFR;LDF;RFD": {
+        "algorithms": [
+            {
+                "alg": "U' R U' R': R' D R, U",
+                "results": [],
+                "latest": true,
+                "lp": "TU"
+            }
+        ]
+    },
+    "UFR;LDF;RUB": {
+        "algorithms": [
+            {
+                "alg": "U R U: R' D R, U2",
+                "results": [],
+                "latest": true,
+                "lp": "TW"
+            }
+        ]
+    },
+    "UFR;LDF;UBL": {
+        "algorithms": [
+            {
+                "alg": "U2, R' D R",
+                "results": [],
+                "latest": true,
+                "lp": "TC"
+            }
+        ]
+    },
+    "UFR;LDF;UBR": {
+        "algorithms": [
+            {
+                "alg": "U, R' D R",
+                "results": [],
+                "latest": true,
+                "lp": "TA"
+            }
+        ]
+    },
+    "UFR;LDF;UFL": {
+        "algorithms": [
+            {
+                "alg": "U', R' D R",
+                "results": [],
+                "latest": true,
+                "lp": "TB"
+            }
+        ]
+    },
+    "UFR;LUB;BDL": {
+        "algorithms": [
+            {
+                "alg": "U D R': U', R' D R",
+                "results": [],
+                "latest": true,
+                "lp": "PO"
+            }
+        ]
+    },
+    "UFR;LUB;BDR": {
+        "algorithms": [
+            {
+                "alg": "R U: R' D' R, U",
+                "results": [],
+                "latest": true,
+                "lp": "PN"
+            }
+        ]
+    },
+    "UFR;LUB;BUR": {
+        "algorithms": [
+            {
+                "alg": "U R': U', R' D' R",
+                "results": [],
+                "latest": true,
+                "lp": "PL"
+            }
+        ]
+    },
+    "UFR;LUB;DBL": {
+        "algorithms": [
+            {
+                "alg": "R: R D' R', U",
+                "results": [],
+                "latest": true,
+                "lp": "PD"
+            }
+        ]
+    },
+    "UFR;LUB;DBR": {
+        "algorithms": [
+            {
+                "alg": "D R: R D' R', U",
+                "results": [],
+                "latest": true,
+                "lp": "PF"
+            }
+        ]
+    },
+    "UFR;LUB;DFL": {
+        "algorithms": [
+            {
+                "alg": "R U2 D: U', R' D' R",
+                "results": [],
+                "latest": true,
+                "lp": "PE"
+            }
+        ]
+    },
+    "UFR;LUB;DFR": {
+        "algorithms": [
+            {
+                "alg": "D' R U2 D: U', R' D' R",
+                "results": [],
+                "latest": true,
+                "lp": "PG"
+            }
+        ]
+    },
+    "UFR;LUB;FDL": {
+        "algorithms": [
+            {
+                "alg": "R U: R' D R, U",
+                "results": [],
+                "latest": true,
+                "lp": "PI"
+            }
+        ]
+    },
+    "UFR;LUB;FDR": {
+        "algorithms": [
+            {
+                "alg": "R U R': R' D' R, U'",
+                "results": [],
+                "latest": true,
+                "lp": "PK"
+            }
+        ]
+    },
+    "UFR;LUB;FUL": {
+        "algorithms": [
+            {
+                "alg": "U2 R': R' D' R, U2",
+                "results": [],
+                "latest": true,
+                "lp": "PQ"
+            }
+        ]
+    },
+    "UFR;LUB;LDB": {
+        "algorithms": [
+            {
+                "alg": "R D': R D R', U",
+                "results": [],
+                "latest": true,
+                "lp": "PR"
+            }
+        ]
+    },
+    "UFR;LUB;LDF": {
+        "algorithms": [
+            {
+                "alg": "U R': U', R' D R",
+                "results": [],
+                "latest": true,
+                "lp": "PT"
+            }
+        ]
+    },
+    "UFR;LUB;LUF": {
+        "algorithms": [
+            {
+                "alg": "R U' R' U': U', R' D' R",
+                "results": [],
+                "latest": true,
+                "lp": "PS"
+            }
+        ]
+    },
+    "UFR;LUB;RDB": {
+        "algorithms": [
+            {
+                "alg": "U' R' F R: U', R D R'",
+                "results": [],
+                "latest": true,
+                "lp": "PZ"
+            }
+        ]
+    },
+    "UFR;LUB;RFD": {
+        "algorithms": [
+            {
+                "alg": "D R U: R' D' R, U",
+                "results": [],
+                "latest": true,
+                "lp": "PU"
+            }
+        ]
+    },
+    "UFR;LUB;RUB": {
+        "algorithms": [
+            {
+                "alg": "R: R2 D R2 D' R2, U",
+                "results": [],
+                "latest": true,
+                "lp": "PW"
+            }
+        ]
+    },
+    "UFR;LUB;UBR": {
+        "algorithms": [
+            {
+                "alg": "R: R D R', U",
+                "results": [],
+                "latest": true,
+                "lp": "PA"
+            }
+        ]
+    },
+    "UFR;LUB;UFL": {
+        "algorithms": [
+            {
+                "alg": "R U R': R' D' R, U2",
+                "results": [],
+                "latest": true,
+                "lp": "PB"
+            }
+        ]
+    },
+    "UFR;LUF;BDL": {
+        "algorithms": [
+            {
+                "alg": "x': R U2 R', D",
+                "results": [],
+                "latest": true,
+                "lp": "SO"
+            }
+        ]
+    },
+    "UFR;LUF;BDR": {
+        "algorithms": [
+            {
+                "alg": "F: D', R U R'",
+                "results": [],
+                "latest": true,
+                "lp": "SN"
+            }
+        ]
+    },
+    "UFR;LUF;BUL": {
+        "algorithms": [
+            {
+                "alg": "x': R U' R', D",
+                "results": [],
+                "latest": true,
+                "lp": "SM"
+            }
+        ]
+    },
+    "UFR;LUF;BUR": {
+        "algorithms": [
+            {
+                "alg": "R' F: R U R', D",
+                "results": [],
+                "latest": true,
+                "lp": "SL"
+            }
+        ]
+    },
+    "UFR;LUF;DBL": {
+        "algorithms": [
+            {
+                "alg": "U': U R2 D' R2 U', R",
+                "results": [],
+                "latest": true,
+                "lp": "SD"
+            }
+        ]
+    },
+    "UFR;LUF;DBR": {
+        "algorithms": [
+            {
+                "alg": "R U' R': D, R' U R",
+                "results": [],
+                "latest": true,
+                "lp": "SF"
+            }
+        ]
+    },
+    "UFR;LUF;DFL": {
+        "algorithms": [
+            {
+                "alg": "U' R' U: R U' R', D",
+                "results": [],
+                "latest": true,
+                "lp": "SE"
+            }
+        ]
+    },
+    "UFR;LUF;DFR": {
+        "algorithms": [
+            {
+                "alg": "R U' R': R' D' R, U2",
+                "results": [],
+                "latest": true,
+                "lp": "SG"
+            }
+        ]
+    },
+    "UFR;LUF;FDL": {
+        "algorithms": [
+            {
+                "alg": "D R' U': D', R U R'",
+                "results": [],
+                "latest": true,
+                "lp": "SI"
+            }
+        ]
+    },
+    "UFR;LUF;FDR": {
+        "algorithms": [
+            {
+                "alg": "R: F, R' U R U'",
+                "results": [],
+                "latest": true,
+                "lp": "SK"
+            }
+        ]
+    },
+    "UFR;LUF;LDB": {
+        "algorithms": [
+            {
+                "alg": "R' U' R: U', R D' R'",
+                "results": [],
+                "latest": true,
+                "lp": "SR"
+            }
+        ]
+    },
+    "UFR;LUF;LDF": {
+        "algorithms": [
+            {
+                "alg": "R' U': D, R U R'",
+                "results": [],
+                "latest": true,
+                "lp": "ST"
+            }
+        ]
+    },
+    "UFR;LUF;LUB": {
+        "algorithms": [
+            {
+                "alg": "R U' R' U': R' D' R, U'",
+                "results": [],
+                "latest": true,
+                "lp": "SP"
+            }
+        ]
+    },
+    "UFR;LUF;RDB": {
+        "algorithms": [
+            {
+                "alg": "R' U': R' D' R, U2",
+                "results": [],
+                "latest": true,
+                "lp": "SZ"
+            }
+        ]
+    },
+    "UFR;LUF;RFD": {
+        "algorithms": [
+            {
+                "alg": "R' U': D', R U R'",
+                "results": [],
+                "latest": true,
+                "lp": "SU"
+            }
+        ]
+    },
+    "UFR;LUF;RUB": {
+        "algorithms": [
+            {
+                "alg": "F' U: R' D R, U2",
+                "results": [],
+                "latest": true,
+                "lp": "SW"
+            }
+        ]
+    },
+    "UFR;LUF;UBL": {
+        "algorithms": [
+            {
+                "alg": "F: R' D' R, U2",
+                "results": [],
+                "latest": true,
+                "lp": "SC"
+            }
+        ]
+    },
+    "UFR;LUF;UBR": {
+        "algorithms": [
+            {
+                "alg": "R': U', R' D' R",
+                "results": [],
+                "latest": true,
+                "lp": "SA"
+            }
+        ]
+    },
+    "UFR;RDB;BDL": {
+        "algorithms": [
+            {
+                "alg": "U': R' U' R, D'",
+                "results": [],
+                "latest": true,
+                "lp": "ZO"
+            }
+        ]
+    },
+    "UFR;RDB;BUL": {
+        "algorithms": [
+            {
+                "alg": "R' U: R' D' R, U",
+                "results": [],
+                "latest": true,
+                "lp": "ZM"
+            }
+        ]
+    },
+    "UFR;RDB;BUR": {
+        "algorithms": [
+            {
+                "alg": "D2 R' U: R U' R', D",
+                "results": [],
+                "latest": true,
+                "lp": "ZL"
+            }
+        ]
+    },
+    "UFR;RDB;DBL": {
+        "algorithms": [
+            {
+                "alg": "R' B: D', R U2 R'",
+                "results": [],
+                "latest": true,
+                "lp": "ZD"
+            }
+        ]
+    },
+    "UFR;RDB;DFL": {
+        "algorithms": [
+            {
+                "alg": "U' R': R' D R, U",
+                "results": [],
+                "latest": true,
+                "lp": "ZE"
+            }
+        ]
+    },
+    "UFR;RDB;DFR": {
+        "algorithms": [
+            {
+                "alg": "D' R: R' U R U', F2",
+                "results": [],
+                "latest": true,
+                "lp": "ZG"
+            }
+        ]
+    },
+    "UFR;RDB;FDL": {
+        "algorithms": [
+            {
+                "alg": "R' F' R: U', R D R'",
+                "results": [],
+                "latest": true,
+                "lp": "ZI"
+            }
+        ]
+    },
+    "UFR;RDB;FDR": {
+        "algorithms": [
+            {
+                "alg": "U: D', R U' R'",
+                "results": [],
+                "latest": true,
+                "lp": "ZK"
+            }
+        ]
+    },
+    "UFR;RDB;FUL": {
+        "algorithms": [
+            {
+                "alg": "R U D': U2, R' D R",
+                "results": [],
+                "latest": true,
+                "lp": "ZQ"
+            }
+        ]
+    },
+    "UFR;RDB;LDB": {
+        "algorithms": [
+            {
+                "alg": "R' U R: U', R D' R'",
+                "results": [],
+                "latest": true,
+                "lp": "ZR"
+            }
+        ]
+    },
+    "UFR;RDB;LDF": {
+        "algorithms": [
+            {
+                "alg": "U D: D2, R U' R'",
+                "results": [],
+                "latest": true,
+                "lp": "ZT"
+            }
+        ]
+    },
+    "UFR;RDB;LUB": {
+        "algorithms": [
+            {
+                "alg": "U' R' F R: R D R', U'",
+                "results": [],
+                "latest": true,
+                "lp": "ZP"
+            }
+        ]
+    },
+    "UFR;RDB;LUF": {
+        "algorithms": [
+            {
+                "alg": "R' U': U2, R' D' R",
+                "results": [],
+                "latest": true,
+                "lp": "ZS"
+            }
+        ]
+    },
+    "UFR;RDB;RFD": {
+        "algorithms": [
+            {
+                "alg": "R D': R' D R, U",
+                "results": [],
+                "latest": true,
+                "lp": "ZU"
+            }
+        ]
+    },
+    "UFR;RDB;RUB": {
+        "algorithms": [
+            {
+                "alg": "U R U': U2, R' D' R",
+                "results": [],
+                "latest": true,
+                "lp": "ZW"
+            }
+        ]
+    },
+    "UFR;RDB;UBL": {
+        "algorithms": [
+            {
+                "alg": "U': U2, R D R'",
+                "results": [],
+                "latest": true,
+                "lp": "ZC"
+            }
+        ]
+    },
+    "UFR;RDB;UBR": {
+        "algorithms": [
+            {
+                "alg": "R D R', U'",
+                "results": [],
+                "latest": true,
+                "lp": "ZA"
+            }
+        ]
+    },
+    "UFR;RDB;UFL": {
+        "algorithms": [
+            {
+                "alg": "U': U', R D R'",
+                "results": [],
+                "latest": true,
+                "lp": "ZB"
+            }
+        ]
+    },
+    "UFR;RFD;BDL": {
+        "algorithms": [
+            {
+                "alg": "U' R' D2: D, R U R'",
+                "results": [],
+                "latest": true,
+                "lp": "UO"
+            }
+        ]
+    },
+    "UFR;RFD;BDR": {
+        "algorithms": [
+            {
+                "alg": "R U R', D'",
+                "results": [],
+                "latest": true,
+                "lp": "UN"
+            }
+        ]
+    },
+    "UFR;RFD;BUL": {
+        "algorithms": [
+            {
+                "alg": "R': D, R' U R",
+                "results": [],
+                "latest": true,
+                "lp": "UM"
+            }
+        ]
+    },
+    "UFR;RFD;BUR": {
+        "algorithms": [
+            {
+                "alg": "R' U: R U' R', D'",
+                "results": [],
+                "latest": true,
+                "lp": "UL"
+            }
+        ]
+    },
+    "UFR;RFD;DBL": {
+        "algorithms": [
+            {
+                "alg": "R: R D' R', U'",
+                "results": [],
+                "latest": true,
+                "lp": "UD"
+            }
+        ]
+    },
+    "UFR;RFD;DBR": {
+        "algorithms": [
+            {
+                "alg": "D' R U' R': R' D R, U2",
+                "results": [],
+                "latest": true,
+                "lp": "UF"
+            }
+        ]
+    },
+    "UFR;RFD;DFL": {
+        "algorithms": [
+            {
+                "alg": "R D: U, R' D' R",
+                "results": [],
+                "latest": true,
+                "lp": "UE"
+            }
+        ]
+    },
+    "UFR;RFD;FDL": {
+        "algorithms": [
+            {
+                "alg": "R U R', D",
+                "results": [],
+                "latest": true,
+                "lp": "UI"
+            }
+        ]
+    },
+    "UFR;RFD;FUL": {
+        "algorithms": [
+            {
+                "alg": "D R U: U2, R' D' R",
+                "results": [],
+                "latest": true,
+                "lp": "UQ"
+            }
+        ]
+    },
+    "UFR;RFD;LDB": {
+        "algorithms": [
+            {
+                "alg": "R U R', D2",
+                "results": [],
+                "latest": true,
+                "lp": "UR"
+            }
+        ]
+    },
+    "UFR;RFD;LDF": {
+        "algorithms": [
+            {
+                "alg": "U' R U' R': U, R' D R",
+                "results": [],
+                "latest": true,
+                "lp": "UT"
+            }
+        ]
+    },
+    "UFR;RFD;LUB": {
+        "algorithms": [
+            {
+                "alg": "D R U: U, R' D' R",
+                "results": [],
+                "latest": true,
+                "lp": "UP"
+            }
+        ]
+    },
+    "UFR;RFD;LUF": {
+        "algorithms": [
+            {
+                "alg": "R' U': R U R', D'",
+                "results": [],
+                "latest": true,
+                "lp": "US"
+            }
+        ]
+    },
+    "UFR;RFD;RDB": {
+        "algorithms": [
+            {
+                "alg": "R D': U, R' D R",
+                "results": [],
+                "latest": true,
+                "lp": "UZ"
+            }
+        ]
+    },
+    "UFR;RFD;RUB": {
+        "algorithms": [
+            {
+                "alg": "R' F' R U': R' D' R, U2",
+                "results": [],
+                "latest": true,
+                "lp": "UW"
+            }
+        ]
+    },
+    "UFR;RFD;UBL": {
+        "algorithms": [
+            {
+                "alg": "U2, R' D' R",
+                "results": [],
+                "latest": true,
+                "lp": "UC"
+            }
+        ]
+    },
+    "UFR;RFD;UBR": {
+        "algorithms": [
+            {
+                "alg": "U, R' D' R",
+                "results": [],
+                "latest": true,
+                "lp": "UA"
+            }
+        ]
+    },
+    "UFR;RFD;UFL": {
+        "algorithms": [
+            {
+                "alg": "U', R' D' R",
+                "results": [],
+                "latest": true,
+                "lp": "UB"
+            }
+        ]
+    },
+    "UFR;RUB;BDL": {
+        "algorithms": [
+            {
+                "alg": "U' R' U: U2, R D' R'",
+                "results": [],
+                "latest": true,
+                "lp": "WO"
+            }
+        ]
+    },
+    "UFR;RUB;BDR": {
+        "algorithms": [
+            {
+                "alg": "U D R: U2, R D' R'",
+                "results": [],
+                "latest": true,
+                "lp": "WN"
+            }
+        ]
+    },
+    "UFR;RUB;BUL": {
+        "algorithms": [
+            {
+                "alg": "U R: U2, R D R'",
+                "results": [],
+                "latest": true,
+                "lp": "WM"
+            }
+        ]
+    },
+    "UFR;RUB;DBL": {
+        "algorithms": [
+            {
+                "alg": "U' D R': U2, R' D R",
+                "results": [],
+                "latest": true,
+                "lp": "WD"
+            }
+        ]
+    },
+    "UFR;RUB;DBR": {
+        "algorithms": [
+            {
+                "alg": "D: U R' F R, D' R D R'",
+                "results": [],
+                "latest": true,
+                "lp": "WF"
+            }
+        ]
+    },
+    "UFR;RUB;DFL": {
+        "algorithms": [
+            {
+                "alg": "U' R': R' D R, U2",
+                "results": [],
+                "latest": true,
+                "lp": "WE"
+            }
+        ]
+    },
+    "UFR;RUB;DFR": {
+        "algorithms": [
+            {
+                "alg": "U' D' R': R' D R, U2",
+                "results": [],
+                "latest": true,
+                "lp": "WG"
+            }
+        ]
+    },
+    "UFR;RUB;FDL": {
+        "algorithms": [
+            {
+                "alg": "D R' D' R, U' R B' R'",
+                "results": [],
+                "latest": true,
+                "lp": "WI"
+            }
+        ]
+    },
+    "UFR;RUB;FDR": {
+        "algorithms": [
+            {
+                "alg": "R B R': U2, R' D' R",
+                "results": [],
+                "latest": true,
+                "lp": "WK"
+            }
+        ]
+    },
+    "UFR;RUB;FUL": {
+        "algorithms": [
+            {
+                "alg": "R': R2 D' R2 D R2, U'",
+                "results": [],
+                "latest": true,
+                "lp": "WQ"
+            }
+        ]
+    },
+    "UFR;RUB;LDB": {
+        "algorithms": [
+            {
+                "alg": "U R: U2, R D' R'",
+                "results": [],
+                "latest": true,
+                "lp": "WR"
+            }
+        ]
+    },
+    "UFR;RUB;LDF": {
+        "algorithms": [
+            {
+                "alg": "U R U: U2, R' D R",
+                "results": [],
+                "latest": true,
+                "lp": "WT"
+            }
+        ]
+    },
+    "UFR;RUB;LUB": {
+        "algorithms": [
+            {
+                "alg": "R: U, R2 D R2 D' R2",
+                "results": [],
+                "latest": true,
+                "lp": "WP"
+            }
+        ]
+    },
+    "UFR;RUB;LUF": {
+        "algorithms": [
+            {
+                "alg": "F' U: U2, R' D R",
+                "results": [],
+                "latest": true,
+                "lp": "WS"
+            }
+        ]
+    },
+    "UFR;RUB;RDB": {
+        "algorithms": [
+            {
+                "alg": "U R U': R' D' R, U2",
+                "results": [],
+                "latest": true,
+                "lp": "WZ"
+            }
+        ]
+    },
+    "UFR;RUB;RFD": {
+        "algorithms": [
+            {
+                "alg": "R' F' R U': U2, R' D' R",
+                "results": [],
+                "latest": true,
+                "lp": "WU"
+            }
+        ]
+    },
+    "UFR;RUB;UBL": {
+        "algorithms": [
+            {
+                "alg": "R' U D R: D', R U' R'",
+                "results": [],
+                "latest": true,
+                "lp": "WC"
+            }
+        ]
+    },
+    "UFR;RUB;UFL": {
+        "algorithms": [
+            {
+                "alg": "U' R': R' D' R, U2",
+                "results": [],
+                "latest": true,
+                "lp": "WB"
+            }
+        ]
+    },
+    "UFR;UBL;BDL": {
+        "algorithms": [
+            {
+                "alg": "U' D': R D R', U2",
+                "results": [],
+                "latest": true,
+                "lp": "CO"
+            }
+        ]
+    },
+    "UFR;UBL;BDR": {
+        "algorithms": [
+            {
+                "alg": "U' D: R D' R', U2",
+                "results": [],
+                "latest": true,
+                "lp": "CN"
+            }
+        ]
+    },
+    "UFR;UBL;BUR": {
+        "algorithms": [
+            {
+                "alg": "R' D': U2, R' D R",
+                "results": [],
+                "latest": true,
+                "lp": "CL"
+            }
+        ]
+    },
+    "UFR;UBL;DBL": {
+        "algorithms": [
+            {
+                "alg": "R' U' D' R: R U' R', D",
+                "results": [],
+                "latest": true,
+                "lp": "CD"
+            }
+        ]
+    },
+    "UFR;UBL;DBR": {
+        "algorithms": [
+            {
+                "alg": "R D' R': R' D R, U2",
+                "results": [],
+                "latest": true,
+                "lp": "CF"
+            }
+        ]
+    },
+    "UFR;UBL;DFL": {
+        "algorithms": [
+            {
+                "alg": "R F' R' U': R D R', U2",
+                "results": [],
+                "latest": true,
+                "lp": "CE"
+            }
+        ]
+    },
+    "UFR;UBL;DFR": {
+        "algorithms": [
+            {
+                "alg": "R' D R U' R D' R', U2",
+                "results": [],
+                "latest": true,
+                "lp": "CG"
+            }
+        ]
+    },
+    "UFR;UBL;FDL": {
+        "algorithms": [
+            {
+                "alg": "D: R' D' R, U2",
+                "results": [],
+                "latest": true,
+                "lp": "CI"
+            }
+        ]
+    },
+    "UFR;UBL;FDR": {
+        "algorithms": [
+            {
+                "alg": "D': R' D R, U2",
+                "results": [],
+                "latest": true,
+                "lp": "CK"
+            }
+        ]
+    },
+    "UFR;UBL;FUL": {
+        "algorithms": [
+            {
+                "alg": "Lw' U D': R D R', U2",
+                "results": [],
+                "latest": true,
+                "lp": "CQ"
+            }
+        ]
+    },
+    "UFR;UBL;LDB": {
+        "algorithms": [
+            {
+                "alg": "U': R D' R', U2",
+                "results": [],
+                "latest": true,
+                "lp": "CR"
+            }
+        ]
+    },
+    "UFR;UBL;LDF": {
+        "algorithms": [
+            {
+                "alg": "R' D R, U2",
+                "results": [],
+                "latest": true,
+                "lp": "CT"
+            }
+        ]
+    },
+    "UFR;UBL;LUF": {
+        "algorithms": [
+            {
+                "alg": "F: U2, R' D' R",
+                "results": [],
+                "latest": true,
+                "lp": "CS"
+            }
+        ]
+    },
+    "UFR;UBL;RDB": {
+        "algorithms": [
+            {
+                "alg": "U': R D R', U2",
+                "results": [],
+                "latest": true,
+                "lp": "CZ"
+            }
+        ]
+    },
+    "UFR;UBL;RFD": {
+        "algorithms": [
+            {
+                "alg": "R' D' R, U2",
+                "results": [],
+                "latest": true,
+                "lp": "CU"
+            }
+        ]
+    },
+    "UFR;UBL;RUB": {
+        "algorithms": [
+            {
+                "alg": "R' U D R: R U' R', D'",
+                "results": [],
+                "latest": true,
+                "lp": "CW"
+            }
+        ]
+    },
+    "UFR;UBL;UBR": {
+        "algorithms": [
+            {
+                "alg": "R' D R U': U', R' D' R",
+                "results": [],
+                "latest": true,
+                "lp": "CA"
+            }
+        ]
+    },
+    "UFR;UBL;UFL": {
+        "algorithms": [
+            {
+                "alg": "R' D R U': U', R' D' R",
+                "results": [],
+                "latest": true,
+                "lp": "CB"
+            }
+        ]
+    },
+    "UFR;UBR;BDL": {
+        "algorithms": [
+            {
+                "alg": "D': U', R D R'",
+                "results": [],
+                "latest": true,
+                "lp": "AO"
+            }
+        ]
+    },
+    "UFR;UBR;BDR": {
+        "algorithms": [
+            {
+                "alg": "D: U', R D' R'",
+                "results": [],
+                "latest": true,
+                "lp": "AN"
+            }
+        ]
+    },
+    "UFR;UBR;BUL": {
+        "algorithms": [
+            {
+                "alg": "R': R' D' R, U2",
+                "results": [],
+                "latest": true,
+                "lp": "AM"
+            }
+        ]
+    },
+    "UFR;UBR;DBL": {
+        "algorithms": [
+            {
+                "alg": "R' B: D', R U R'",
+                "results": [],
+                "latest": true,
+                "lp": "AD"
+            }
+        ]
+    },
+    "UFR;UBR;DBR": {
+        "algorithms": [
+            {
+                "alg": "U', R D' R' U R' D R",
+                "results": [],
+                "latest": true,
+                "lp": "AF"
+            }
+        ]
+    },
+    "UFR;UBR;DFL": {
+        "algorithms": [
+            {
+                "alg": "R' F2 R U: R' D R, U2",
+                "results": [],
+                "latest": true,
+                "lp": "AE"
+            }
+        ]
+    },
+    "UFR;UBR;DFR": {
+        "algorithms": [
+            {
+                "alg": "R' D R U' R D' R', U",
+                "results": [],
+                "latest": true,
+                "lp": "AG"
+            }
+        ]
+    },
+    "UFR;UBR;FDL": {
+        "algorithms": [
+            {
+                "alg": "D: R' D' R, U",
+                "results": [],
+                "latest": true,
+                "lp": "AI"
+            }
+        ]
+    },
+    "UFR;UBR;FDR": {
+        "algorithms": [
+            {
+                "alg": "D': R' D R, U",
+                "results": [],
+                "latest": true,
+                "lp": "AK"
+            }
+        ]
+    },
+    "UFR;UBR;FUL": {
+        "algorithms": [
+            {
+                "alg": "R: U2, R D R'",
+                "results": [],
+                "latest": true,
+                "lp": "AQ"
+            }
+        ]
+    },
+    "UFR;UBR;LDB": {
+        "algorithms": [
+            {
+                "alg": "U', R D' R",
+                "results": [],
+                "latest": true,
+                "lp": "AR"
+            }
+        ]
+    },
+    "UFR;UBR;LDF": {
+        "algorithms": [
+            {
+                "alg": "R' D R, U",
+                "results": [],
+                "latest": true,
+                "lp": "AT"
+            }
+        ]
+    },
+    "UFR;UBR;LUB": {
+        "algorithms": [
+            {
+                "alg": "R: U, R D R'",
+                "results": [],
+                "latest": true,
+                "lp": "AP"
+            }
+        ]
+    },
+    "UFR;UBR;LUF": {
+        "algorithms": [
+            {
+                "alg": "R': R' D' R, U'",
+                "results": [],
+                "latest": true,
+                "lp": "AS"
+            }
+        ]
+    },
+    "UFR;UBR;RDB": {
+        "algorithms": [
+            {
+                "alg": "U', R D R'",
+                "results": [],
+                "latest": true,
+                "lp": "AZ"
+            }
+        ]
+    },
+    "UFR;UBR;RFD": {
+        "algorithms": [
+            {
+                "alg": "R' D' R, U",
+                "results": [],
+                "latest": true,
+                "lp": "AU"
+            }
+        ]
+    },
+    "UFR;UBR;UBL": {
+        "algorithms": [
+            {
+                "alg": "R' D R U': R' D' R, U'",
+                "results": [],
+                "latest": true,
+                "lp": "AC"
+            }
+        ]
+    },
+    "UFR;UBR;UFL": {
+        "algorithms": [
+            {
+                "alg": "R' D R U': R' D' R, U2",
+                "results": [],
+                "latest": true,
+                "lp": "AB"
+            }
+        ]
+    },
+    "UFR;UFL;BDL": {
+        "algorithms": [
+            {
+                "alg": "D: R' D R, U'",
+                "results": [],
+                "latest": true,
+                "lp": "BO"
+            }
+        ]
+    },
+    "UFR;UFL;BDR": {
+        "algorithms": [
+            {
+                "alg": "D': R' D' R, U'",
+                "results": [],
+                "latest": true,
+                "lp": "BN"
+            }
+        ]
+    },
+    "UFR;UFL;BUL": {
+        "algorithms": [
+            {
+                "alg": "U' R': U', R' D' R",
+                "results": [],
+                "latest": true,
+                "lp": "BM"
+            }
+        ]
+    },
+    "UFR;UFL;BUR": {
+        "algorithms": [
+            {
+                "alg": "R' D': U', R' D R",
+                "results": [],
+                "latest": true,
+                "lp": "BL"
+            }
+        ]
+    },
+    "UFR;UFL;DBL": {
+        "algorithms": [
+            {
+                "alg": "R' B: D', R U' R'",
+                "results": [],
+                "latest": true,
+                "lp": "BD"
+            }
+        ]
+    },
+    "UFR;UFL;DBR": {
+        "algorithms": [
+            {
+                "alg": "R D' R': R' D R, U'",
+                "results": [],
+                "latest": true,
+                "lp": "BF"
+            }
+        ]
+    },
+    "UFR;UFL;DFL": {
+        "algorithms": [
+            {
+                "alg": "R2 F R U: R' D' R, U2",
+                "results": [],
+                "latest": true,
+                "lp": "BE"
+            }
+        ]
+    },
+    "UFR;UFL;DFR": {
+        "algorithms": [
+            {
+                "alg": "R' D R U' R D' R', U'",
+                "results": [],
+                "latest": true,
+                "lp": "BG"
+            }
+        ]
+    },
+    "UFR;UFL;FDL": {
+        "algorithms": [
+            {
+                "alg": "D: R' D' R, U'",
+                "results": [],
+                "latest": true,
+                "lp": "BI"
+            }
+        ]
+    },
+    "UFR;UFL;FDR": {
+        "algorithms": [
+            {
+                "alg": "D': R' D R, U'",
+                "results": [],
+                "latest": true,
+                "lp": "BK"
+            }
+        ]
+    },
+    "UFR;UFL;LDB": {
+        "algorithms": [
+            {
+                "alg": "U': R D' R', U'",
+                "results": [],
+                "latest": true,
+                "lp": "BR"
+            }
+        ]
+    },
+    "UFR;UFL;LDF": {
+        "algorithms": [
+            {
+                "alg": "R' D R, U'",
+                "results": [],
+                "latest": true,
+                "lp": "BT"
+            }
+        ]
+    },
+    "UFR;UFL;LUB": {
+        "algorithms": [
+            {
+                "alg": "R U R': U2, R' D' R",
+                "results": [],
+                "latest": true,
+                "lp": "BP"
+            }
+        ]
+    },
+    "UFR;UFL;RDB": {
+        "algorithms": [
+            {
+                "alg": "U': R D R', U'",
+                "results": [],
+                "latest": true,
+                "lp": "BZ"
+            }
+        ]
+    },
+    "UFR;UFL;RFD": {
+        "algorithms": [
+            {
+                "alg": "R' D' R, U'",
+                "results": [],
+                "latest": true,
+                "lp": "BU"
+            }
+        ]
+    },
+    "UFR;UFL;RUB": {
+        "algorithms": [
+            {
+                "alg": "U' R': U2, R' D' R",
+                "results": [],
+                "latest": true,
+                "lp": "BW"
+            }
+        ]
+    },
+    "UFR;UFL;UBL": {
+        "algorithms": [
+            {
+                "alg": "R' D R U': R' D' R, U'",
+                "results": [],
+                "latest": true,
+                "lp": "BC"
+            }
+        ]
+    },
+    "UFR;UFL;UBR": {
+        "algorithms": [
+            {
+                "alg": "R' D R U': U2, R' D' R",
+                "results": [],
+                "latest": true,
+                "lp": "BA"
+            }
+        ]
+    }
+}
