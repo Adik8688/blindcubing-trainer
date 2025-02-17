@@ -94,6 +94,22 @@ class SpreadsheetsManager:
         return my_dict
 
     @staticmethod
+    def iterate_table_cells(df):
+        for col in range(1, df.shape[1]):
+            first_target = df.iloc[0, col]
+            for row in range(1, df.shape[0]):
+                second_target = df.iloc[row, 0]
+                cell_value = df.iloc[row, col]
+                yield first_target, second_target, cell_value
+
+    @staticmethod
+    def generic_df_to_dict(self, df, option):
+        if df.shape[0] < 2 or df.shape[1] < 2 or not df.iloc[0, 1]:
+            return None
+        
+        
+
+    @staticmethod
     def df_to_alg_dict(sheet_name, df):
         """
         Converts a DataFrame (read from an Excel sheet) into the new JSON schema.
@@ -124,7 +140,7 @@ class SpreadsheetsManager:
         """
         # Expect the sheet name to contain two parts: piece_type and buffer
         try:
-            piece_type, buffer = sheet_name.split(maxsplit=1)
+            _, buffer = sheet_name.split("_", maxsplit=1)
         except ValueError:
             print("Sheet name must contain both a piece type and a buffer, separated by space.")
             return None
@@ -134,27 +150,24 @@ class SpreadsheetsManager:
             return None
 
         new_schema = {}
-        entries = {}  # Temporary dict mapping case keys to their records
+        result = {}  # Temporary dict mapping case keys to their records
 
         # --- CASE 1: Table format ---
         # Detect table format by checking if the cell at A2 equals B1
         if df.iloc[1, 0] == df.iloc[0, 1]:
-            # In a table:
-            # - First row: col0 is buffer, col1...N are first_target values.
-            # - First column: row0 is buffer, row1...N are second_target values.
-            # - Data cells at (row, col) for row>=1 and col>=1 contain the algorithm.
             for col in range(1, df.shape[1]):
                 first_target = df.iloc[0, col]
                 for row in range(1, df.shape[0]):
                     second_target = df.iloc[row, 0]
                     cell_value = df.iloc[row, col]
-                    if pd.notna(cell_value) and cell_value != "":
+                    if cell_value != "":
+
                         alg = SpreadsheetsManager.clean_alg_entry(cell_value)
                         # Construct the key as "<buffer>;<first_target>;<second_target>"
                         key = ";".join([str(buffer), str(first_target), str(second_target)])
-                        entries[key] = {"alg": alg}
-            new_schema[f"{piece_type}_{buffer}"] = entries
-            return new_schema
+                        result[key] = {"alg": alg}
+            
+            return result
 
         # --- CASE 2: List format ---
         # In the list format, we expect exactly 3 columns: [target1, target2, alg]
@@ -171,12 +184,49 @@ class SpreadsheetsManager:
                 if pd.notna(cell_value) and cell_value != "":
                     alg = SpreadsheetsManager.clean_alg_entry(cell_value)
                     key = ";".join([str(buffer), str(target1), str(target2)])
-                    entries[key] = {"alg": alg}
-            new_schema[f"{piece_type}_{buffer}"] = entries
-            return new_schema
+                    result[key] = {"alg": alg}
+            return result
 
         # If none of the valid formats are recognized, return None.
         return None
+
+
+    @staticmethod
+    def df_to_words_dict(df):
+        if df.shape[0] < 2 or df.shape[1] < 2 or not df.iloc[0][1]:
+            return None
+
+        result = dict()
+        
+        # table
+        if df.iloc[1, 0] == df.iloc[0, 1]:
+            for col in range(1, df.shape[1]):
+                first_target = df.iloc[0, col]
+                for row in range(1, df.shape[0]):
+                    second_target = df.iloc[row, 0]
+                    cell_value = df.iloc[row, col]
+                    if cell_value != "":
+
+                        key = f'{df.iloc[0][row]};{df.iloc[i][0]}'
+                        result[key] = df.iloc[col, row]
+            return result
+
+        # list
+        for i in range(df.shape[0]):
+            key = f'{df.iloc[i][0]};{df.iloc[i][1]}'
+            result[key] = df.iloc[i][2]
+  
+        return result
+    
+    @staticmethod
+    def df_to_lps_dict(df):
+        if df.shape[0] < 2 or df.shape[1] < 2 or not df.iloc[0][1]:
+            return None
+
+        result = dict()
+        for i in range(df.shape[0]):
+            result[df.iloc[i][0]] = df.iloc[i][1]
+        return result
 
     def update_algs(self):
         sheets = self.excel_to_dict_of_dfs()
@@ -188,7 +238,7 @@ class SpreadsheetsManager:
             if algs_dict is None:
                 continue
 
-            algs.update(algs_dict)
+            algs.update({sheet_name: algs_dict})
 
         # Process each piece type's JSON file.
         for piece_type, cases in algs.items():
@@ -238,29 +288,6 @@ class SpreadsheetsManager:
 
             SpreadsheetsManager.save_data(data, str(filepath))
 
-    @staticmethod
-    def df_to_words_dict(df):
-        if df.shape[0] < 2 or df.shape[1] < 2 or not df.iloc[0][1]:
-            return None
-
-        result = dict()
-        
-        # table
-        if df.iloc[1][0] == df.iloc[0][1]:
-            for i in range(1, df.shape[1]):
-                for j in range(1, df.shape[0]):
-                    if df.iloc[i][j]:
-                        key = f'{df.iloc[0][j]};{df.iloc[i][0]}'
-                        result[key] = df.iloc[i][j]
-            return result
-
-        # list
-        for i in range(df.shape[0]):
-            key = f'{df.iloc[i][0]};{df.iloc[i][1]}'
-            result[key] = df.iloc[i][2]
-  
-        return result
-
     def update_memo(self):
         # Gather words from Excel sheets into a dict:
         # words_dict will be like:
@@ -299,17 +326,6 @@ class SpreadsheetsManager:
                             alg_record["memo"] = memo_word
             
             SpreadsheetsManager.save_data(data, str(file_path))
-
-    @staticmethod
-    def df_to_lps_dict(df):
-        if df.shape[0] < 2 or df.shape[1] < 2 or not df.iloc[0][1]:
-            return None
-
-        result = dict()
-        for i in range(df.shape[0]):
-            result[df.iloc[i][0]] = df.iloc[i][1]
-        return result
-
 
     def update_lps(self):
         # Load LP mapping(s) from Excel. Expecting a mapping of the form: { "UB": "A", "UL": "B", ... }
