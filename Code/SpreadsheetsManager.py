@@ -171,7 +171,7 @@ class SpreadsheetsManager:
                 _, buffer = sheet_name.split("_")
             except ValueError:
                 print("Sheet name must contain both a piece type and a buffer, separated by space.")
-                return None
+                break
             
             print(f"Processing {sheet_name}")
 
