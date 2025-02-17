@@ -103,137 +103,81 @@ class SpreadsheetsManager:
                 yield first_target, second_target, cell_value
 
     @staticmethod
+    def iterate_list_rows(df, num_cols=3):
+        for idx, row in df.iterrows():
+            if not row[0]:
+                break
+            yield tuple(row.iloc[:num_cols])
+    
+
     def generic_df_to_dict(self, df, option):
         if df.shape[0] < 2 or df.shape[1] < 2 or not df.iloc[0, 1]:
             return None
-        
-        
+    
+        option_map = {
+            'algs': self.df_to_alg,
+            'words': self.df_to_words,
+            'lps': self.df_to_lps
+        }
+        processing_function = option_map[option]
 
-    @staticmethod
-    def df_to_alg_dict(sheet_name, df):
-        """
-        Converts a DataFrame (read from an Excel sheet) into the new JSON schema.
-        
-        The sheet_name is expected to contain two parts separated by whitespace:
-            <piece_type> <buffer>
-        
-        Two formats are supported:
-          1. Table format (NxN grid):
-             - The first cell (A1) holds the buffer.
-             - The rest of the first row (B1, C1, ...) contains the first target values.
-             - The first column (A2, A3, ...) contains the second target values.
-             - The inner grid contains algorithm entries.
-             - Detected by checking if cell A2 equals B1.
-          2. List format:
-             - Expected to have exactly 3 columns: target1, target2, and alg.
-             - Each row (after a possible header) represents one case.
-             
-        Returns a dictionary in the form:
-          { 
-              <piece_type>: { 
-                  "<buffer>;<target1>;<target2>": { "alg": <cleaned alg> }
-                  ... (more cases)
-              }
-          }
-          
-        If the DataFrame structure is not recognized, returns None.
-        """
-        # Expect the sheet name to contain two parts: piece_type and buffer
-        try:
-            _, buffer = sheet_name.split("_", maxsplit=1)
-        except ValueError:
-            print("Sheet name must contain both a piece type and a buffer, separated by space.")
-            return None
+        entries = dict()
 
-        # Basic validation: need at least 2 rows and 2 columns and a non-empty cell at (0,1)
-        if df.shape[0] < 2 or df.shape[1] < 2 or not df.iloc[0, 1]:
-            return None
-
-        new_schema = {}
-        result = {}  # Temporary dict mapping case keys to their records
-
-        # --- CASE 1: Table format ---
-        # Detect table format by checking if the cell at A2 equals B1
-        if df.iloc[1, 0] == df.iloc[0, 1]:
-            for col in range(1, df.shape[1]):
-                first_target = df.iloc[0, col]
-                for row in range(1, df.shape[0]):
-                    second_target = df.iloc[row, 0]
-                    cell_value = df.iloc[row, col]
-                    if cell_value != "":
-
-                        alg = SpreadsheetsManager.clean_alg_entry(cell_value)
-                        # Construct the key as "<buffer>;<first_target>;<second_target>"
-                        key = ";".join([str(buffer), str(first_target), str(second_target)])
-                        result[key] = {"alg": alg}
-            
-            return result
-
-        # --- CASE 2: List format ---
-        # In the list format, we expect exactly 3 columns: [target1, target2, alg]
-        if df.shape[1] == 3:
-            # Iterate over each row (optionally skip header if needed)
-            for idx, row in df.iterrows():
-                # If needed, you can skip a header row here (e.g., if idx == 0: continue)
-                # Stop when the first cell is empty (assuming that marks the end)
-                if not row[0]:
-                    break
-                target1 = row[0]
-                target2 = row[1]
-                cell_value = row[2]
-                if pd.notna(cell_value) and cell_value != "":
-                    alg = SpreadsheetsManager.clean_alg_entry(cell_value)
-                    key = ";".join([str(buffer), str(target1), str(target2)])
-                    result[key] = {"alg": alg}
-            return result
-
-        # If none of the valid formats are recognized, return None.
-        return None
-
-
-    @staticmethod
-    def df_to_words_dict(df):
-        if df.shape[0] < 2 or df.shape[1] < 2 or not df.iloc[0][1]:
-            return None
-
-        result = dict()
-        
         # table
         if df.iloc[1, 0] == df.iloc[0, 1]:
-            for col in range(1, df.shape[1]):
-                first_target = df.iloc[0, col]
-                for row in range(1, df.shape[0]):
-                    second_target = df.iloc[row, 0]
-                    cell_value = df.iloc[row, col]
-                    if cell_value != "":
-
-                        key = f'{df.iloc[0][row]};{df.iloc[i][0]}'
-                        result[key] = df.iloc[col, row]
-            return result
-
+            for first_target, second_target, cell_value in self.iterate_table_cells(df):
+                if cell_value != "":
+                    processing_function(entries, first_target, second_target, cell_value)
+            return entries
+        
         # list
-        for i in range(df.shape[0]):
-            key = f'{df.iloc[i][0]};{df.iloc[i][1]}'
-            result[key] = df.iloc[i][2]
-  
-        return result
+        if option == "algs" and not df.shape[1] == 3:
+                return None
+        
+        if option == "lps":
+            for col1, col2 in self.iterate_list_rows(df, 2):
+                if col2 != "":
+                    processing_function(entries, col1, col2)
+            return entries
+        
+        for col1, col2, col3 in self.iterate_list_rows(df):
+            if col3 != "":
+                processing_function(entries, col1, col2, col3)
+        return entries
     
     @staticmethod
-    def df_to_lps_dict(df):
-        if df.shape[0] < 2 or df.shape[1] < 2 or not df.iloc[0][1]:
-            return None
+    def df_to_alg(entries, first_target, second_target, cell_value):
+        alg = SpreadsheetsManager.clean_alg_entry(cell_value)
+        key = ";".join([str(first_target), str(second_target)])
+        entries[key] = {"alg": alg}
 
-        result = dict()
-        for i in range(df.shape[0]):
-            result[df.iloc[i][0]] = df.iloc[i][1]
-        return result
+    @staticmethod
+    def df_to_words(entries, first_target, second_target, cell_value):
+        key = f"{first_target};{second_target}"
+        entries[key] = cell_value
+
+    @staticmethod
+    def df_to_lps(entries, first_target, cell_value):
+        key = first_target
+        entries[key] = cell_value
+   
 
     def update_algs(self):
         sheets = self.excel_to_dict_of_dfs()
         algs = dict()
 
         for sheet_name, df in sheets.items():
-            algs_dict = SpreadsheetsManager.df_to_alg_dict(sheet_name, df)
+            try:
+                _, buffer = sheet_name.split("_")
+            except ValueError:
+                print("Sheet name must contain both a piece type and a buffer, separated by space.")
+                return None
+            
+            print(f"Processing {sheet_name}")
+
+
+            algs_dict = self.generic_df_to_dict(df, 'algs')
+            algs_dict = {f"{buffer};{k}": v for k, v in algs_dict.items()}
 
             if algs_dict is None:
                 continue
@@ -288,20 +232,8 @@ class SpreadsheetsManager:
 
             SpreadsheetsManager.save_data(data, str(filepath))
 
-    def update_memo(self):
-        # Gather words from Excel sheets into a dict:
-        # words_dict will be like:
-        # { "first_target;second_target": word, ... }
-        words = self.excel_to_dict_of_dfs()
-        words_dict = dict()
-        for df in words.values():
-            res = SpreadsheetsManager.df_to_words_dict(df)
-            if res is None:
-                continue
-            # Since there's only one sheet, we can merge (or even override) words_dict.
-            words_dict.update(res)
-
-        # Process each piece_type's words.
+    @staticmethod
+    def process_metadata(mapping, process_func):
         for filename in os.listdir(SpreadsheetsManager.JSON_DIR):
             if not filename.endswith('.json'):
                 continue
@@ -309,64 +241,55 @@ class SpreadsheetsManager:
             file_path = SpreadsheetsManager.JSON_DIR / filename
             data = SpreadsheetsManager.get_data(str(file_path))
             
-            # Iterate over every record in the JSON file.
             for key, record in data.items():
-                # The key is expected to be in the form "buffer;first_target;second_target"
                 parts = key.split(";")
                 if len(parts) < 3:
                     continue
-                
-                # Construct the target key to lookup in words_dict.
-                target_key = f"{parts[1]};{parts[2]}"
-                if target_key in words_dict:
-                    memo_word = words_dict[target_key]
-                    # Update every algorithm record in this case with the 'memo'
-                    if "algorithms" in record:
-                        for alg_record in record["algorithms"]:
-                            alg_record["memo"] = memo_word
+                process_func(record, parts, mapping)
             
             SpreadsheetsManager.save_data(data, str(file_path))
+    
+    def get_df_to_dict(self, df, option):
+        excel = self.excel_to_dict_of_dfs()
+        df = excel[list(excel.keys())[0]]
+        return self.generic_df_to_dict(df, option)
+
+
+    def update_memo(self):
+        # Gather words from Excel sheets into a dict:
+        # words_dict will be like:
+        # { "first_target;second_target": word, ... }
+      
+        words_dict = self.get_df_to_dict(self, 'words')
+
+        def update(record, parts, words_dict):  
+            target_key = f"{parts[1]};{parts[2]}"
+            if target_key in words_dict:
+                memo_word = words_dict[target_key]
+                # Update every algorithm record in this case with the 'memo'
+                if "algorithms" in record:
+                    for alg_record in record["algorithms"]:
+                        alg_record["memo"] = memo_word
+
+        self.process_metadata(words_dict, update)
+            
 
     def update_lps(self):
         # Load LP mapping(s) from Excel. Expecting a mapping of the form: { "UB": "A", "UL": "B", ... }
-        lps_excel = self.excel_to_dict_of_dfs()
-        lps_mapping = dict()
-        for df in lps_excel.values():
-            mapping = SpreadsheetsManager.df_to_lps_dict(df)
-            if mapping is None:
-                continue
-            # Merge all mappings (if multiple sheets exist, later values will override earlier ones)
-            lps_mapping.update(mapping)
+        lps_dict = self.get_df_to_dict(self, 'lps')
 
-        # Determine the folder where JSON files are stored.
-        # Build the path relative to the script location: go up one level to access the sibling "Json" directory.
-        path_to_jsons = Path(__file__).resolve().parent.parent / "Json"
+        def update(record, parts, lps_dict):
+            first_target = parts[1]
+            second_target = parts[2]
 
-        # Iterate over every JSON file in the folder.
-        for filename in os.listdir(path_to_jsons):
-            if not filename.endswith('.json'):
-                continue
+            # Look up the letters from the LP mapping.
+            letter1 = lps_dict.get(first_target, "")
+            letter2 = lps_dict.get(second_target, "")
+            lp_value = letter1 + letter2
 
-            file_path = path_to_jsons / filename
-            data = SpreadsheetsManager.get_data(str(file_path))
+            # Update each algorithm record in the 'algorithms' list with the LP.
+            if "algorithms" in record:
+                for alg_record in record["algorithms"]:
+                    alg_record["lp"] = lp_value
 
-            # Process each record in the JSON file.
-            for key, record in data.items():
-                # The key is expected to be "buffer;first_target;second_target"
-                parts = key.split(";")
-                if len(parts) < 3:
-                    continue
-                first_target = parts[1]
-                second_target = parts[2]
-
-                # Look up the letters from the LP mapping.
-                letter1 = lps_mapping.get(first_target, "")
-                letter2 = lps_mapping.get(second_target, "")
-                lp_value = letter1 + letter2
-
-                # Update each algorithm record in the 'algorithms' list with the LP.
-                if "algorithms" in record:
-                    for alg_record in record["algorithms"]:
-                        alg_record["lp"] = lp_value
-
-            SpreadsheetsManager.save_data(data, str(file_path))
+        self.process_metadata(lps_dict, update)
