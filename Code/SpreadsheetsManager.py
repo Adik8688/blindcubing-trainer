@@ -58,47 +58,6 @@ class SpreadsheetsManager:
                 i += 1
 
         return alg
-    
-    @staticmethod
-    def buffer_to_type(buffer, suffix = False):
-        '''
-        Returns piece name depending of the buffer
-
-        Scheme is:
-        UF - edges
-        UFR - corners
-        UFr - wings
-        Ufr - xcenters
-        Uf - tcenters
-        uF - midges
-        '''
-
-        if len(buffer) < 2 or len(buffer) > 3:
-            return "error"
-        
-        piece_type = ''
-
-        if buffer[0].islower():
-            piece_type = "midges"
-
-        elif len(buffer) == 2 and buffer[1].islower():
-            piece_type = "tcenters"
-
-        elif len(buffer) == 2:
-            piece_type = "edges"
-        elif buffer[1].islower():
-            piece_type = "xcenters"
-
-        elif buffer[2].islower():
-            piece_type = "wings"
-        
-        else:
-            piece_type = "corners"
-
-        if suffix:
-            piece_type = f'{piece_type}_{buffer}'
-        
-        return piece_type
      
     @staticmethod
     def keys_with_different_algs(data, key):
@@ -133,75 +92,147 @@ class SpreadsheetsManager:
         return my_dict
 
     @staticmethod
-    def df_to_alg_list(df):
-        '''
-        Returns dict with piece type as a key and list of cases keys as values
-        '''
-        # buffer is expected to be in A1
-
-        buffer = df.iloc[0][0]
-        if not buffer or df.shape[0] < 2 or df.shape[1] < 2 or not df.iloc[0][1]:
-            return None
-
-        piece_type = SpreadsheetsManager.buffer_to_type(buffer, True)
-        result = []
-
-        # table
-        if df.iloc[1][0] == df.iloc[0][1]:
-            print(df.shape[1], df.shape[1])
-            for i in range(1, df.shape[1]):
-                for j in range(1, df.shape[0]):
-                    try:
-                        if df.iloc[i][j]:
-                            alg = SpreadsheetsManager.clean_alg_entry(df.iloc[i][j])
-                            key = ";".join(
-                                [df.iloc[0][0], df.iloc[0][j], df.iloc[i][0], alg]
-                            )
-                            result.append(key)
-                    except KeyError:
-                        print(f"The pair {i} {j} caused the problem in {df.iloc[0][0]}")
-                        exit(1)
-            return {piece_type: result}
-
-        if not (df.shape[1] == 4 or df.shape[1] == 5):
-            return None
+    def df_to_alg_dict(sheet_name, df):
+        """
+        Converts a DataFrame (read from an Excel sheet) into the new JSON schema.
         
-        # list
+        The sheet_name is expected to contain two parts separated by whitespace:
+            <piece_type> <buffer>
+        
+        Two formats are supported:
+          1. Table format (NxN grid):
+             - The first cell (A1) holds the buffer.
+             - The rest of the first row (B1, C1, ...) contains the first target values.
+             - The first column (A2, A3, ...) contains the second target values.
+             - The inner grid contains algorithm entries.
+             - Detected by checking if cell A2 equals B1.
+          2. List format:
+             - Expected to have exactly 3 columns: target1, target2, and alg.
+             - Each row (after a possible header) represents one case.
+             
+        Returns a dictionary in the form:
+          { 
+              <piece_type>: { 
+                  "<buffer>;<target1>;<target2>": { "alg": <cleaned alg> }
+                  ... (more cases)
+              }
+          }
+          
+        If the DataFrame structure is not recognized, returns None.
+        """
+        # Expect the sheet name to contain two parts: piece_type and buffer
+        try:
+            piece_type, buffer = sheet_name.split(maxsplit=1)
+        except ValueError:
+            print("Sheet name must contain both a piece type and a buffer, separated by space.")
+            return None
+
+        # Basic validation: need at least 2 rows and 2 columns and a non-empty cell at (0,1)
+        if df.shape[0] < 2 or df.shape[1] < 2 or not df.iloc[0, 1]:
+            return None
+
+        new_schema = {}
+        entries = {}  # Temporary dict mapping case keys to their records
+
+        # --- CASE 1: Table format ---
+        # Detect table format by checking if the cell at A2 equals B1
+        if df.iloc[1, 0] == df.iloc[0, 1]:
+            # In a table:
+            # - First row: col0 is buffer, col1...N are first_target values.
+            # - First column: row0 is buffer, row1...N are second_target values.
+            # - Data cells at (row, col) for row>=1 and col>=1 contain the algorithm.
+            for col in range(1, df.shape[1]):
+                first_target = df.iloc[0, col]
+                for row in range(1, df.shape[0]):
+                    second_target = df.iloc[row, 0]
+                    cell_value = df.iloc[row, col]
+                    if pd.notna(cell_value) and cell_value != "":
+                        alg = SpreadsheetsManager.clean_alg_entry(cell_value)
+                        # Construct the key as "<buffer>;<first_target>;<second_target>"
+                        key = ";".join([str(buffer), str(first_target), str(second_target)])
+                        entries[key] = {"alg": alg}
+            new_schema[f"{piece_type}_{buffer}"] = entries
+            return new_schema
+
+        # --- CASE 2: List format ---
+        # In the list format, we expect exactly 3 columns: [target1, target2, alg]
         if df.shape[1] == 3:
-            row = 1
-            while df.iloc[row][0]:
-                alg = SpreadsheetsManager.clean_alg_entry(df.iloc[row][2])
-                key = ";".join([buffer, df.iloc[row][0], df.iloc[row][1], alg])
-                result.append(key)
-                row += 1
-            return {piece_type: result}
+            # Iterate over each row (optionally skip header if needed)
+            for idx, row in df.iterrows():
+                # If needed, you can skip a header row here (e.g., if idx == 0: continue)
+                # Stop when the first cell is empty (assuming that marks the end)
+                if not row[0]:
+                    break
+                target1 = row[0]
+                target2 = row[1]
+                cell_value = row[2]
+                if pd.notna(cell_value) and cell_value != "":
+                    alg = SpreadsheetsManager.clean_alg_entry(cell_value)
+                    key = ";".join([str(buffer), str(target1), str(target2)])
+                    entries[key] = {"alg": alg}
+            new_schema[f"{piece_type}_{buffer}"] = entries
+            return new_schema
+
+        # If none of the valid formats are recognized, return None.
+        return None
 
     def update_algs(self):
         sheets = self.excel_to_dict_of_dfs()
         algs = dict()
-        for k, df in sheets.items():
-            algs_list = SpreadsheetsManager.df_to_alg_list(df)
 
-            if algs_list is None:
+        for sheet_name, df in sheets.items():
+            algs_dict = SpreadsheetsManager.df_to_alg_dict(sheet_name, df)
+
+            if algs_dict is None:
                 continue
 
-            for piece_type, alg_list in algs_list.items():
-                algs[piece_type] = algs.get(piece_type, []) + alg_list
+            algs.update(algs_dict)
 
-        for piece_type, algs_list in algs.items():
-            filepath = Path().absolute().parent / "Json" / f"{piece_type}.json"
+        # Process each piece type's JSON file.
+        for piece_type, cases in algs.items():
+            filepath = Path().absolute().parent / "Json3" / f"{piece_type}.json"
             data = SpreadsheetsManager.get_data(str(filepath))
+            
+            # For each case key (e.g. "UF;UB;UL") in our new data:
+            for case_key, new_record in cases.items():
+                new_alg = new_record["alg"]
 
-            for key in algs_list:
-                existing_algs = SpreadsheetsManager.keys_with_different_algs(data, key)
-
-                for k in existing_algs:
-                    data[k]["latest"] = False
-
-                if key in data:
-                    data[key]["latest"] = True
+                if case_key not in data:
+                    # Case doesn't exist: add a new entry with one algorithm record.
+                    data[case_key] = {
+                        "algorithms": [
+                            {
+                                "alg": new_alg,
+                                "results": [],
+                                "latest": True,
+                                "lp": ""
+                            }
+                        ]
+                    }
                 else:
-                    data[key] = SpreadsheetsManager.new_record_from_key(key)
+                    # Case exists: update the existing algorithms list.
+                    alg_list = data[case_key].get("algorithms", [])
+                    found = False
+                    for record in alg_list:
+                        if record["alg"] == new_alg:
+                            # Found an existing record with the same algorithm.
+                            record["latest"] = True
+                            found = True
+                        else:
+                            # Mark other records as not latest.
+                            record["latest"] = False
+                    if not found:
+                        # New algorithm is not in the list; add it.
+                        # Ensure all existing records are marked as not latest.
+                        for record in alg_list:
+                            record["latest"] = False
+                        alg_list.append({
+                            "alg": new_alg,
+                            "results": [],
+                            "latest": True,
+                            "lp": ""
+                        })
+                    data[case_key]["algorithms"] = alg_list
 
             SpreadsheetsManager.save_data(data, str(filepath))
 
