@@ -64,7 +64,7 @@ class ExportManager:
         for column, field in zip(ExportManager.COLUMNS, record):
             self.temp_df[column].append(field)
 
-    def process_file(self, filepath):
+    def process_file(self, filepath, latest_only):
         """
         Iterates through every record in the JSON file and extracts statistics.
         """
@@ -72,6 +72,9 @@ class ExportManager:
 
         for case, record in data.items():
             for r in record['algorithms']:
+                if not r.get("latest") and latest_only:
+                    continue
+
                 results = r.get("results", [])
 
                 buffer, first_target, second_target = tuple(case.split(";"))
@@ -119,7 +122,7 @@ class ExportManager:
 
                 self.add_to_df(record)
 
-    def prepare_stats(self):
+    def prepare_stats(self, latest_only=False):
         """
         Prepares a dataframe with statistics for every JSON file.
         Different piece types (or buffers) are saved as different sheets in the same Excel file.
@@ -127,7 +130,7 @@ class ExportManager:
         for filename in os.listdir(ExportManager.IN_PATH):
             # Initialize a dict-of-lists for the temporary DataFrame.
             self.temp_df = {col: [] for col in ExportManager.COLUMNS}
-            self.process_file(ExportManager.IN_PATH / filename)
+            self.process_file(ExportManager.IN_PATH / filename, latest_only)
 
             # Only add non-empty dataframes.
             # (Consider checking if at least one column list is non-empty.)
@@ -137,21 +140,12 @@ class ExportManager:
                 self.temp_df = pd.DataFrame.from_dict(self.temp_df)
                 self.df_dict[sheetname] = self.temp_df
 
-    def save_stats(self):
+    def save_stats(self, latest_only=False):
         """
         Saves calculated statistics to an Excel file.
         """
 
-        # Remove old export files.
-        for file in os.listdir(ExportManager.OUT_PATH):
-            file_path = ExportManager.OUT_PATH / file
-            try:
-                if file_path.is_file():
-                    file_path.unlink()  # Remove the file using pathlib
-            except Exception as e:
-                print(f"Error while deleting file {file_path}: {e}")
-
-        filename = f"export_stats.xlsx"
+        filename = f"export_stats{'_latest' if latest_only else ''}.xlsx"
 
         with pd.ExcelWriter(ExportManager.OUT_PATH / filename) as excel_writer:
             for sheet, df in self.df_dict.items():
@@ -163,6 +157,10 @@ class ExportManager:
         """
         self.prepare_stats()
         self.save_stats()
+
+        self.prepare_stats(latest_only = True)
+        self.save_stats(latest_only = True)
+
         self.save_alg_sets()
 
     def get_algs_count(self):

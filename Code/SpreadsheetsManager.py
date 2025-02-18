@@ -258,7 +258,6 @@ class SpreadsheetsManager:
         df = excel[list(excel.keys())[0]]
         return self.generic_df_to_dict(df, option)
 
-
     def update_memo(self):
         # Gather words from Excel sheets into a dict:
         # words_dict will be like:
