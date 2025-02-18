@@ -8,50 +8,35 @@ class GameManager:
     This class handles game backend
     '''
 
-    def __init__(self, filename, targets):
+    def __init__(self, pieceType, buffer, targets):
+        
 
+        project_root = Path(__file__).resolve().parent.parent
+        JSON_DIR = project_root / "Json2"
         # path to the json file
-        self.filepath = Path().absolute().parent / 'Json' / filename
+        self.filepath = JSON_DIR / f"{pieceType}_{buffer}.json"
 
         # save .json to dict
         self.data = SpreadsheetsManager.get_data(self.filepath)
 
-        # get only latest algorithms
-        self.filter_data(latest = [True])
-
+        self._get_latest_algs()
+        self.buffer = buffer
         # assign list of targets (subset of all algs)
         self.targets = targets
 
-        self.set_game()
+        self._set_game()
 
-    def set_game(self):
+    def _get_latest_algs(self):
+        self.data = {k: v['algorithms'][0] for k, v in self.data.items()}
+
+    def _set_game(self):
         '''
         Calls all necessary submethods
         '''
-        self.map_targets_to_keys()
         self.get_game_attributes()
         self.get_shuffled_keys()
         self.index = 0
         self.size = len(self.keys)
-
-    def map_targets_to_keys(self):
-        '''
-        Maps target pair to the main key to allow simpler access to the data
-        '''
-        self.targets_keys_map = dict()
-        targets = self.targets
-
-        while targets:
-            t, targets = targets[0], targets[1:]
-
-            for k in self.data.keys():
-
-                # 1 and 2 elements of the key are first and second target
-                d_targets = k.split(';')[1:3]
-
-                if t == " ".join(d_targets):
-                    self.targets_keys_map[t] = {'key': k}
-                    break
     
     def remove_from_targets_map(self, key):
         '''
@@ -60,9 +45,7 @@ class GameManager:
         self.targets_keys_map.pop(key)
 
     def get_game_attributes(self):
-        '''
-        Transfers information about alg and memo to the targets map
-        '''
+        self.data = {k: v for k, v in self.data.items() if k.split in self.targets}
         for k, v in self.targets_keys_map.items():
             key = v['key']
             alg = self.data[key]['alg']

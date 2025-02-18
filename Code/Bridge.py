@@ -229,7 +229,7 @@ class Bridge(QObject):
         '''
         Initializes GameManager with proper json file
         '''
-        self.gm = GameManager(f'{self.pieceType}_{self.buffer}.json', targets)
+        self.gm = GameManager(self.pieceType, self.buffer, targets)
         self.study_mode = study_mode
 
     @Slot ()
