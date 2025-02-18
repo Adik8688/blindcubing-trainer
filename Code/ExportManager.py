@@ -29,7 +29,9 @@ class ExportManager:
         "Std",
         "Best",
         "Worst",
-        "Skew"
+        "Skew",
+        "Latest"
+
     ]
 
     # Use pathlib consistently. Depending on your project structure you might prefer:
@@ -72,14 +74,12 @@ class ExportManager:
             for r in record['algorithms']:
                 results = r.get("results", [])
 
-                # Skip records with an empty results list.
-                if not results:
-                    continue
-
                 buffer, first_target, second_target = tuple(case.split(";"))
 
                 # Helper function for calculating stats.
                 def get_stat(func):
+                    if not results:
+                        return np.nan
                     return round(func(results), 2)
 
                 record = [
@@ -96,7 +96,8 @@ class ExportManager:
                     get_stat(np.std),
                     get_stat(np.min),
                     get_stat(np.max),
-                    get_stat(stats.skew)
+                    get_stat(stats.skew),
+                    r.get('latest')
                 ]
 
                 # If the algorithm string contains a comma, try analyzing with ComutatorAnalyzer.
@@ -109,6 +110,12 @@ class ExportManager:
                     except Exception as e:
                         # Log the error or print more detailed information.
                         print(f"Error processing alg '{r['alg']}': {e}")
+                
+                else:
+                    record[4] = r.get('alg')
+                    record[7] = len(r.get('alg').split())
+                    record[8] = len(r.get('alg').split()) / get_stat(np.mean) if get_stat(np.mean) != np.nan else np.nan
+  
 
                 self.add_to_df(record)
 
@@ -127,7 +134,6 @@ class ExportManager:
             if any(self.temp_df.values()):
                 # Convert filename to a more friendly sheet name.
                 sheetname = filename.split('.')[0]
-                sheetname = ' '.join(sheetname.split('_'))
                 self.temp_df = pd.DataFrame.from_dict(self.temp_df)
                 self.df_dict[sheetname] = self.temp_df
 
@@ -135,7 +141,6 @@ class ExportManager:
         """
         Saves calculated statistics to an Excel file.
         """
-        dt = datetime.now()
 
         # Remove old export files.
         for file in os.listdir(ExportManager.OUT_PATH):
@@ -146,9 +151,7 @@ class ExportManager:
             except Exception as e:
                 print(f"Error while deleting file {file_path}: {e}")
 
-        # Use current time string to assure a unique file name.
-        date_str = dt.strftime("%Y%m%d%H%M%S")
-        filename = f"Export_{date_str}.xlsx"
+        filename = f"export_stats.xlsx"
 
         with pd.ExcelWriter(ExportManager.OUT_PATH / filename) as excel_writer:
             for sheet, df in self.df_dict.items():
@@ -214,7 +217,7 @@ class ExportManager:
         Exports various top-N algorithm sets to text files.
         """
         for sheet, df in self.df_dict.items():
-            self.export_top_n_to_file(df, f"{sheet}_unstable_cases.txt", "Skew")
-            self.export_top_n_to_file(df, f"{sheet}_slow_cases.txt", "Mean", asc=False)
-            self.export_top_n_to_file(df, f"{sheet}_fast_cases.txt", "Mean")
-            self.export_top_n_to_file(df, f"{sheet}_low_count.txt", "Count")
+            self.export_top_n_to_file(df, f"Training_subsets/{sheet}_unstable_cases.txt", "Skew")
+            self.export_top_n_to_file(df, f"Training_subsets/{sheet}_slow_cases.txt", "Mean", asc=False)
+            self.export_top_n_to_file(df, f"Training_subsets/{sheet}_fast_cases.txt", "Mean")
+            self.export_top_n_to_file(df, f"Training_subsets/{sheet}_low_count.txt", "Count")

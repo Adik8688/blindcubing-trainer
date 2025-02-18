@@ -12,7 +12,7 @@ class SpreadsheetsManager:
 
     VALID_CHARS = " UDFBRLMESudfbrlw'/:,2xyz"
     project_root = Path(__file__).resolve().parent.parent
-    JSON_DIR = project_root / "Json2"
+    JSON_DIR = project_root / "Json3"
 
     def __init__(self, filepath):
         self.filepath = filepath
@@ -170,14 +170,18 @@ class SpreadsheetsManager:
             try:
                 _, buffer = sheet_name.split("_")
             except ValueError:
-                print("Sheet name must contain both a piece type and a buffer, separated by space.")
+                print("Sheet name must contain both a piece type and a buffer, separated by _ e.g. edges_UF.")
                 break
             
             print(f"Processing {sheet_name}")
 
+            algs_dict = {}
+            for k, v in self.generic_df_to_dict(df, 'algs').items():
+                t1, t2 = k.split(';')
+                key = f"{self.canonical_representation(buffer)};{self.canonical_representation(t1)};{self.canonical_representation(t2)}"
+                algs_dict[key] = v
 
-            algs_dict = self.generic_df_to_dict(df, 'algs')
-            algs_dict = {f"{buffer};{k}": v for k, v in algs_dict.items()}
+
 
             if algs_dict is None:
                 continue
@@ -306,3 +310,16 @@ class SpreadsheetsManager:
                 alg.pop("lp", None)
         
         self.process_metadata({}, remove)
+
+    @staticmethod
+    def canonical_representation(piece_name):
+        if not piece_name:
+            return ""
+        
+        order = ['U', 'D', 'F', 'B', 'R', 'L']
+        order_index = {letter: index for index, letter in enumerate(order)}
+
+
+        active = piece_name[0]
+        rest = sorted(piece_name[1:], key=lambda letter: order_index[letter])
+        return active + ''.join(rest)
