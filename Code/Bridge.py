@@ -14,6 +14,8 @@ from Code.GameManager import GameManager
 from Code.ExportManager import ExportManager
 import numpy as np
 
+from Code.project_paths import JSON_DIR
+
 QML_IMPORT_NAME = "io.qt.textproperties"
 QML_IMPORT_MAJOR_VERSION = 1 
 
@@ -95,11 +97,10 @@ class Bridge(QObject):
         '''
         Produces list of available buffers for given piece type
         '''
-        path_to_jsons = Path().absolute().parent / "Json"
 
         jsons = []
 
-        for filename in os.listdir(path_to_jsons):
+        for filename in os.listdir(JSON_DIR):
             if filename.startswith(self.pieceType):
                 jsons.append(filename)
 
@@ -126,11 +127,18 @@ class Bridge(QObject):
         Produces lists of first and second targets for given piece type and buffer.
         '''
 
-        filepath = Path().absolute().parent / 'json' / f'{self.pieceType}_{self.buffer}.json'
+        filepath = JSON_DIR / f'{self.pieceType}_{self.buffer}.json'
         data = SpreadsheetsManager.get_data(filepath)
 
-        self.first_targets = ['All'] + sorted(list(set([v['first_target'] for v in data.values()])))
-        self.second_targets = ['All'] + sorted(list(set([v['second_target'] for v in data.values()])))
+        first_targets = set()
+        second_targets = set()
+        for k in data.keys():
+            b, t1, t2 = k.split(";")
+            first_targets.add(t1)
+            second_targets.add(t2)
+
+        self.first_targets = ['All'] + sorted(list(first_targets))
+        self.second_targets = ['All'] + sorted(list(second_targets))
         self.cases_set = set()
 
     @Slot (result=list)

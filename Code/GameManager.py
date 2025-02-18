@@ -1,7 +1,7 @@
 from SpreadsheetsManager import SpreadsheetsManager
 from pathlib import Path
 from random import shuffle
-
+from project_paths import JSON_DIR
 
 class GameManager:
     '''
@@ -11,8 +11,6 @@ class GameManager:
     def __init__(self, pieceType, buffer, targets):
         
 
-        project_root = Path(__file__).resolve().parent.parent
-        JSON_DIR = project_root / "Json2"
         # path to the json file
         self.filepath = JSON_DIR / f"{pieceType}_{buffer}.json"
 
@@ -78,6 +76,11 @@ class GameManager:
         '''
         if self.index == self.size - 1:
             return ''
+        
+        print(self.data)
+        print(self.keys)
+        print(self.index)
+
         return self.data[self.keys[self.index + 1]]['memo'] 
 
     def get_last_result(self):

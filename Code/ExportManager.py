@@ -7,7 +7,7 @@ from datetime import datetime
 from scipy import stats
 
 from .ComutatorAnalyzer import ComutatorAnalyzer
-
+from .project_paths import JSON_DIR, EXPORTS_DIR, FILES_DIR
 
 class ExportManager:
     """
@@ -33,12 +33,6 @@ class ExportManager:
         "Latest"
 
     ]
-
-    # Use pathlib consistently. Depending on your project structure you might prefer:
-    # Path(__file__).resolve().parent.parent / "Json"
-    IN_PATH = Path(__file__).resolve().parent.parent / "Json2"
-    OUT_PATH = Path(__file__).resolve().parent.parent / "Exports"
-    OUT_FILES_PATH = Path(__file__).resolve().parent.parent / "Files"
 
     def __init__(self):
         self.df_dict = dict()
@@ -127,10 +121,10 @@ class ExportManager:
         Prepares a dataframe with statistics for every JSON file.
         Different piece types (or buffers) are saved as different sheets in the same Excel file.
         """
-        for filename in os.listdir(ExportManager.IN_PATH):
+        for filename in os.listdir(ExportManager.JSON_DIR):
             # Initialize a dict-of-lists for the temporary DataFrame.
             self.temp_df = {col: [] for col in ExportManager.COLUMNS}
-            self.process_file(ExportManager.IN_PATH / filename, latest_only)
+            self.process_file(ExportManager.JSON_DIR / filename, latest_only)
 
             # Only add non-empty dataframes.
             # (Consider checking if at least one column list is non-empty.)
@@ -147,7 +141,7 @@ class ExportManager:
 
         filename = f"export_stats{'_latest' if latest_only else ''}.xlsx"
 
-        with pd.ExcelWriter(ExportManager.OUT_PATH / filename) as excel_writer:
+        with pd.ExcelWriter(ExportManager.EXPORTS_DIR / filename) as excel_writer:
             for sheet, df in self.df_dict.items():
                 df.to_excel(excel_writer, sheet_name=sheet, index=False)
 
@@ -168,8 +162,8 @@ class ExportManager:
         Returns the total count of algorithms (i.e. total number of results across all records).
         """
         result = 0
-        for filename in os.listdir(ExportManager.IN_PATH):
-            data = ExportManager.get_data(ExportManager.IN_PATH / filename)
+        for filename in os.listdir(ExportManager.JSON_DIR):
+            data = ExportManager.get_data(ExportManager.JSON_DIR / filename)
             for v in data.values():
                 result += len(v.get('results', []))
         return result
@@ -179,8 +173,8 @@ class ExportManager:
         Returns a formatted string (HH:MM:SS) for the total time spent based on the results.
         """
         total = 0
-        for filename in os.listdir(ExportManager.IN_PATH):
-            data = ExportManager.get_data(ExportManager.IN_PATH / filename)
+        for filename in os.listdir(ExportManager.JSON_DIR):
+            data = ExportManager.get_data(ExportManager.JSON_DIR / filename)
             for v in data.values():
                 total += sum(v.get('results', []))
         h = total // 3600
@@ -194,8 +188,8 @@ class ExportManager:
         """
         total = 0
         count = 0
-        for filename in os.listdir(ExportManager.IN_PATH):
-            data = ExportManager.get_data(ExportManager.IN_PATH / filename)
+        for filename in os.listdir(ExportManager.JSON_DIR):
+            data = ExportManager.get_data(ExportManager.JSON_DIR / filename)
             for v in data.values():
                 total += sum(v.get('results', []))
                 count += len(v.get('results', []))
@@ -206,7 +200,7 @@ class ExportManager:
         Exports top N rows (sorted by a given column) to a text file.
         """
         df_sorted = df.sort_values(colname, ascending=asc)[:n]
-        with open(ExportManager.OUT_FILES_PATH / filename, 'w') as f:
+        with open(ExportManager.FILES_DIR / filename, 'w') as f:
             for x, y in zip(df_sorted['1st target'], df_sorted['2nd target']):
                 f.write(f"{x} {y}\n")
 

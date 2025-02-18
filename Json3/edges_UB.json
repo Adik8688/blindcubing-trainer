@@ -5,7 +5,7 @@
         "alg": "U' L U, M",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "OM"
       }
     ]
   },
@@ -15,7 +15,7 @@
         "alg": "U R' U', M",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "ON"
       }
     ]
   },
@@ -25,7 +25,7 @@
         "alg": "D': R' B' R, S'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "OG"
       }
     ]
   },
@@ -35,7 +35,7 @@
         "alg": "U R' B R: S', R2",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "OE"
       }
     ]
   },
@@ -45,7 +45,7 @@
         "alg": "U' R B R': S, R2",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "OF"
       }
     ]
   },
@@ -55,7 +55,7 @@
         "alg": "U' M U' M' U2 M' U M U'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "OK"
       }
     ]
   },
@@ -65,7 +65,7 @@
         "alg": "U' L' U, M",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "OI"
       }
     ]
   },
@@ -75,7 +75,7 @@
         "alg": "U R U', M",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "OJ"
       }
     ]
   },
@@ -85,7 +85,7 @@
         "alg": "U M: R E' R', U",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "OR"
       }
     ]
   },
@@ -95,7 +95,7 @@
         "alg": "U' D: L F L', S",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "OT"
       }
     ]
   },
@@ -105,7 +105,7 @@
         "alg": "U M: R' E R, U",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "OS"
       }
     ]
   },
@@ -115,7 +115,7 @@
         "alg": "U' D: L F' L', S",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "OP"
       }
     ]
   },
@@ -125,7 +125,7 @@
         "alg": "U' M: L' E L, U'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "OW"
       }
     ]
   },
@@ -135,7 +135,7 @@
         "alg": "U D': R' F' R, S'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "OZ"
       }
     ]
   },
@@ -145,7 +145,7 @@
         "alg": "U' M: L E' L', U'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "OU"
       }
     ]
   },
@@ -155,7 +155,7 @@
         "alg": "U D': R' F R, S'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "OH"
       }
     ]
   },
@@ -165,7 +165,7 @@
         "alg": "Lw: M',U' L' U",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "OB"
       }
     ]
   },
@@ -175,7 +175,7 @@
         "alg": "Rw': M', U R U'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "OC"
       }
     ]
   },
@@ -185,7 +185,7 @@
         "alg": "M, U' L U",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "MO"
       }
     ]
   },
@@ -195,7 +195,7 @@
         "alg": "L' U' L': L2, E",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "MN"
       }
     ]
   },
@@ -205,7 +205,7 @@
         "alg": "U D' R': R2, E",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "MD"
       }
     ]
   },
@@ -215,7 +215,7 @@
         "alg": "U D R': R2, E",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "MG"
       }
     ]
   },
@@ -225,7 +225,7 @@
         "alg": "U: R E R2 E' R S' L2 S L2",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "ME"
       }
     ]
   },
@@ -235,7 +235,7 @@
         "alg": "U R': R2, E",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "MF"
       }
     ]
   },
@@ -245,7 +245,7 @@
         "alg": "U': U' M' U, L",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "MK"
       }
     ]
   },
@@ -255,7 +255,7 @@
         "alg": "U R': R2 E' R2, E",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "MI"
       }
     ]
   },
@@ -265,7 +265,7 @@
         "alg": "R' U R': R2, E'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "MJ"
       }
     ]
   },
@@ -275,7 +275,7 @@
         "alg": "S' U R: E', R2",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "MT"
       }
     ]
   },
@@ -285,7 +285,7 @@
         "alg": "R' E2: R U R', E'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "MS"
       }
     ]
   },
@@ -295,7 +295,7 @@
         "alg": "L' U' E' L: E, L2",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "MP"
       }
     ]
   },
@@ -305,7 +305,7 @@
         "alg": "L U' L', E",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "MW"
       }
     ]
   },
@@ -315,7 +315,7 @@
         "alg": "R' E2: R U R', E",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "MZ"
       }
     ]
   },
@@ -325,7 +325,7 @@
         "alg": "L: U', L E' L'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "MU"
       }
     ]
   },
@@ -335,7 +335,7 @@
         "alg": "S U R: E', R2",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "MH"
       }
     ]
   },
@@ -345,7 +345,7 @@
         "alg": "U: U, R' E2 R",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "MB"
       }
     ]
   },
@@ -355,7 +355,7 @@
         "alg": "R' E2 R, U",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "MC"
       }
     ]
   },
@@ -365,7 +365,7 @@
         "alg": "M, U R' U'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "NO"
       }
     ]
   },
@@ -375,7 +375,7 @@
         "alg": "L' U' L': E, L2",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "NM"
       }
     ]
   },
@@ -385,7 +385,7 @@
         "alg": "U' D L: L2, E'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "ND"
       }
     ]
   },
@@ -395,7 +395,7 @@
         "alg": "U' D' L: L2, E",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "NG"
       }
     ]
   },
@@ -405,7 +405,7 @@
         "alg": "U' L: L2, E'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "NE"
       }
     ]
   },
@@ -415,7 +415,7 @@
         "alg": "U': L E' L2 E' L S L2 S' L2",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "NF"
       }
     ]
   },
@@ -425,7 +425,7 @@
         "alg": "U: U M' U', R'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "NK"
       }
     ]
   },
@@ -435,7 +435,7 @@
         "alg": "L U' L: L2, E",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "NI"
       }
     ]
   },
@@ -445,7 +445,7 @@
         "alg": "U' R': R2, S",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "NJ"
       }
     ]
   },
@@ -455,7 +455,7 @@
         "alg": "R' U R, E'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "NR"
       }
     ]
   },
@@ -465,7 +465,7 @@
         "alg": "L E2: L' U' L, E'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "NT"
       }
     ]
   },
@@ -475,7 +475,7 @@
         "alg": "R': U, R' E R",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "NS"
       }
     ]
   },
@@ -485,7 +485,7 @@
         "alg": "S' U' L': E, L2",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "NP"
       }
     ]
   },
@@ -495,7 +495,7 @@
         "alg": "S U L': E, L2",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "NZ"
       }
     ]
   },
@@ -505,7 +505,7 @@
         "alg": "L E2: L' U' L, E",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "NU"
       }
     ]
   },
@@ -515,7 +515,7 @@
         "alg": "R U E R': E', R2",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "NH"
       }
     ]
   },
@@ -525,7 +525,7 @@
         "alg": "L E2 L', U'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "NB"
       }
     ]
   },
@@ -535,7 +535,7 @@
         "alg": "U': U', L E2 L'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "NC"
       }
     ]
   },
@@ -545,7 +545,7 @@
         "alg": "U D' R': E, R2",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "DM"
       }
     ]
   },
@@ -555,7 +555,7 @@
         "alg": "U' D L: E', L2",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "DN"
       }
     ]
   },
@@ -565,7 +565,7 @@
         "alg": "M2: U2, M'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "DG"
       }
     ]
   },
@@ -575,7 +575,7 @@
         "alg": "Lw U': R E' R', U2",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "DE"
       }
     ]
   },
@@ -585,7 +585,7 @@
         "alg": "Rw' U: L' E L, U2",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "DF"
       }
     ]
   },
@@ -595,7 +595,7 @@
         "alg": "D: S', R' B' R",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "DK"
       }
     ]
   },
@@ -605,7 +605,7 @@
         "alg": "U D' R: E, R2",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "DI"
       }
     ]
   },
@@ -615,7 +615,7 @@
         "alg": "U' D L': E', L2",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "DJ"
       }
     ]
   },
@@ -625,7 +625,7 @@
         "alg": "L' Rw' U: S', L2",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "DR"
       }
     ]
   },
@@ -635,7 +635,7 @@
         "alg": "U': L B' L', S'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "DT"
       }
     ]
   },
@@ -645,7 +645,7 @@
         "alg": "Lw U: S', L2",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "DS"
       }
     ]
   },
@@ -655,7 +655,7 @@
         "alg": "U' D' R' F R: S, R2",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "DP"
       }
     ]
   },
@@ -665,7 +665,7 @@
         "alg": "R2 B': E', R2",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "DW"
       }
     ]
   },
@@ -675,7 +675,7 @@
         "alg": "R B': E', R2",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "DZ"
       }
     ]
   },
@@ -685,7 +685,7 @@
         "alg": "Rw' U': S, R2",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "DU"
       }
     ]
   },
@@ -695,7 +695,7 @@
         "alg": "R' B': E', R2",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "DH"
       }
     ]
   },
@@ -705,7 +705,7 @@
         "alg": "U, M' U2 M'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "DB"
       }
     ]
   },
@@ -715,7 +715,7 @@
         "alg": "U', M' U2 M'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "DC"
       }
     ]
   },
@@ -725,7 +725,7 @@
         "alg": "D': S', R' B' R",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "GO"
       }
     ]
   },
@@ -735,7 +735,7 @@
         "alg": "U D R': E, R2",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "GM"
       }
     ]
   },
@@ -745,7 +745,7 @@
         "alg": "U' D' L: E, L2",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "GN"
       }
     ]
   },
@@ -755,7 +755,7 @@
         "alg": "M2: M', U2",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "GD"
       }
     ]
   },
@@ -765,7 +765,7 @@
         "alg": "R' B' R: S', R F' R'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "GE"
       }
     ]
   },
@@ -775,7 +775,7 @@
         "alg": "R B' R': S', R' F' R",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "GF"
       }
     ]
   },
@@ -785,7 +785,7 @@
         "alg": "U D R: E, R2",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "GI"
       }
     ]
   },
@@ -795,7 +795,7 @@
         "alg": "U' D' L': E', L2",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "GJ"
       }
     ]
   },
@@ -805,7 +805,7 @@
         "alg": "L' U': L' F L, S'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "GR"
       }
     ]
   },
@@ -815,7 +815,7 @@
         "alg": "U': L' F L, S'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "GT"
       }
     ]
   },
@@ -825,7 +825,7 @@
         "alg": "L U': L' F L, S'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "GS"
       }
     ]
   },
@@ -835,7 +835,7 @@
         "alg": "U' D R' F R: S, R2",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "GP"
       }
     ]
   },
@@ -845,7 +845,7 @@
         "alg": "R U: R F' R', S",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "GW"
       }
     ]
   },
@@ -855,7 +855,7 @@
         "alg": "U: R F' R', S",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "GZ"
       }
     ]
   },
@@ -865,7 +865,7 @@
         "alg": "R' U: R F' R', S",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "GU"
       }
     ]
   },
@@ -875,7 +875,7 @@
         "alg": "R' U': F', R S R'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "GH"
       }
     ]
   },
@@ -885,7 +885,7 @@
         "alg": "R' F' R: R B' R', S",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "GB"
       }
     ]
   },
@@ -895,7 +895,7 @@
         "alg": "R F': E, R' U R",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "GC"
       }
     ]
   },
@@ -905,7 +905,7 @@
         "alg": "U R' B R: R2, S'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "EO"
       }
     ]
   },
@@ -915,7 +915,7 @@
         "alg": "U: R2 S' R2 S R' E' R2 E R'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "EM"
       }
     ]
   },
@@ -925,7 +925,7 @@
         "alg": "U' L: E', L2",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "EN"
       }
     ]
   },
@@ -935,7 +935,7 @@
         "alg": "Lw U': U2, R E' R'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "ED"
       }
     ]
   },
@@ -945,7 +945,7 @@
         "alg": "R' B' R: R F' R', S'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "EG"
       }
     ]
   },
@@ -955,7 +955,7 @@
         "alg": "U: R2, S'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "EF"
       }
     ]
   },
@@ -965,7 +965,7 @@
         "alg": "U L F' L': S', L2",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "EK"
       }
     ]
   },
@@ -975,7 +975,7 @@
         "alg": "U: R2 S' R2 S R E R2 E' R",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "EI"
       }
     ]
   },
@@ -985,7 +985,7 @@
         "alg": "U' L': E', L2",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "EJ"
       }
     ]
   },
@@ -995,7 +995,7 @@
         "alg": "U' E' L: E, L2",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "ER"
       }
     ]
   },
@@ -1005,7 +1005,7 @@
         "alg": "Uw' L': E', L2",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "ES"
       }
     ]
   },
@@ -1015,7 +1015,7 @@
         "alg": "S, L' B L",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "EP"
       }
     ]
   },
@@ -1025,7 +1025,7 @@
         "alg": "U' E' L': E', L2",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "EW"
       }
     ]
   },
@@ -1035,7 +1035,7 @@
         "alg": "S', R' B' R",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "EZ"
       }
     ]
   },
@@ -1045,7 +1045,7 @@
         "alg": "Uw' L: E, L2",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "EU"
       }
     ]
   },
@@ -1055,7 +1055,7 @@
         "alg": "U R F R: S', R2",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "EH"
       }
     ]
   },
@@ -1065,7 +1065,7 @@
         "alg": "R S' R2 S' R', U'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "EB"
       }
     ]
   },
@@ -1075,7 +1075,7 @@
         "alg": "R2 U: R2, S'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "EC"
       }
     ]
   },
@@ -1085,7 +1085,7 @@
         "alg": "U' R B R': S, R2",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "FO"
       }
     ]
   },
@@ -1095,7 +1095,7 @@
         "alg": "U R': E, R2",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "FM"
       }
     ]
   },
@@ -1105,7 +1105,7 @@
         "alg": "U': L2 S L2 S' L E' L2 E L",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "FN"
       }
     ]
   },
@@ -1115,7 +1115,7 @@
         "alg": "Rw' U: U2, L' E L",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "FD"
       }
     ]
   },
@@ -1125,7 +1125,7 @@
         "alg": "R B' R': R' F' R, S'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "FG"
       }
     ]
   },
@@ -1135,7 +1135,7 @@
         "alg": "U: S', R2",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "FE"
       }
     ]
   },
@@ -1145,7 +1145,7 @@
         "alg": "U' R' F' R: S, R2",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "FK"
       }
     ]
   },
@@ -1155,7 +1155,7 @@
         "alg": "U R: E, R2",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "FI"
       }
     ]
   },
@@ -1165,7 +1165,7 @@
         "alg": "U': L2 S L2 S' L' E' L2 E L'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "FJ"
       }
     ]
   },
@@ -1175,7 +1175,7 @@
         "alg": "U E R: E, R2",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "FR"
       }
     ]
   },
@@ -1185,7 +1185,7 @@
         "alg": "S, L B L'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "FT"
       }
     ]
   },
@@ -1195,7 +1195,7 @@
         "alg": "Uw R': E', R2",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "FS"
       }
     ]
   },
@@ -1205,7 +1205,7 @@
         "alg": "U' R' F R: S, R2",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "FP"
       }
     ]
   },
@@ -1215,7 +1215,7 @@
         "alg": "U E R': E', R2",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "FW"
       }
     ]
   },
@@ -1225,7 +1225,7 @@
         "alg": "",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "FZ"
       }
     ]
   },
@@ -1235,7 +1235,7 @@
         "alg": "Uw R: E, R2",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "FU"
       }
     ]
   },
@@ -1245,7 +1245,7 @@
         "alg": "S', R B' R'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "FH"
       }
     ]
   },
@@ -1255,7 +1255,7 @@
         "alg": "U: U, R' E R2 E' R",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "FB"
       }
     ]
   },
@@ -1265,7 +1265,7 @@
         "alg": "R' E R2 E' R', U",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "FC"
       }
     ]
   },
@@ -1275,7 +1275,7 @@
         "alg": "U M' U M U2 M U' M' U",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "KO"
       }
     ]
   },
@@ -1285,7 +1285,7 @@
         "alg": "U': L, U' M' U",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "KM"
       }
     ]
   },
@@ -1295,7 +1295,7 @@
         "alg": "U: R', U M' U'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "KN"
       }
     ]
   },
@@ -1305,7 +1305,7 @@
         "alg": "D: R' B' R, S'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "KD"
       }
     ]
   },
@@ -1315,7 +1315,7 @@
         "alg": "U L F' L': L2, S'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "KE"
       }
     ]
   },
@@ -1325,7 +1325,7 @@
         "alg": "U' R' F' R: S, R2",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "KF"
       }
     ]
   },
@@ -1335,7 +1335,7 @@
         "alg": "U': L', U' M' U",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "KI"
       }
     ]
   },
@@ -1345,7 +1345,7 @@
         "alg": "U: R, U M' U'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "KJ"
       }
     ]
   },
@@ -1355,7 +1355,7 @@
         "alg": "U r: E', R' U' R",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "KR"
       }
     ]
   },
@@ -1365,7 +1365,7 @@
         "alg": "U D: R' F' R, S'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "KT"
       }
     ]
   },
@@ -1375,7 +1375,7 @@
         "alg": "U R' E: F', R S' R'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "KS"
       }
     ]
   },
@@ -1385,7 +1385,7 @@
         "alg": "U' D': L F' L', S",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "KP"
       }
     ]
   },
@@ -1395,7 +1395,7 @@
         "alg": "R U: S', R' F' R",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "KW"
       }
     ]
   },
@@ -1405,7 +1405,7 @@
         "alg": "U: S', R' F' R",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "KZ"
       }
     ]
   },
@@ -1415,7 +1415,7 @@
         "alg": "R' U: S', R' F' R",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "KU"
       }
     ]
   },
@@ -1425,7 +1425,7 @@
         "alg": "U R F: R2, E",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "KH"
       }
     ]
   },
@@ -1435,7 +1435,7 @@
         "alg": "M' U' M U' M' U' M U'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "KB"
       }
     ]
   },
@@ -1445,7 +1445,7 @@
         "alg": "M' U M U M' U M U",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "KC"
       }
     ]
   },
@@ -1455,7 +1455,7 @@
         "alg": "M, U' L' U",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "IO"
       }
     ]
   },
@@ -1465,7 +1465,7 @@
         "alg": "U R': E, R2 E' R2",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "IM"
       }
     ]
   },
@@ -1475,7 +1475,7 @@
         "alg": "L U' L: E, L2",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "IN"
       }
     ]
   },
@@ -1485,7 +1485,7 @@
         "alg": "U D' R: R2, E",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "ID"
       }
     ]
   },
@@ -1495,7 +1495,7 @@
         "alg": "U D R: R2, E",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "IG"
       }
     ]
   },
@@ -1505,7 +1505,7 @@
         "alg": "U: R' E R2 E' R' S' R2 S R2",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "IE"
       }
     ]
   },
@@ -1515,7 +1515,7 @@
         "alg": "U R: R2, E",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "IF"
       }
     ]
   },
@@ -1525,7 +1525,7 @@
         "alg": "U': U' M' U, L'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "IK"
       }
     ]
   },
@@ -1535,7 +1535,7 @@
         "alg": "L U' L': E', L2",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "IJ"
       }
     ]
   },
@@ -1545,7 +1545,7 @@
         "alg": "R E': E', R' U R",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "IR"
       }
     ]
   },
@@ -1555,7 +1555,7 @@
         "alg": "S' U R': E, R2",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "IT"
       }
     ]
   },
@@ -1565,7 +1565,7 @@
         "alg": "U R' B': E, R2",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "IP"
       }
     ]
   },
@@ -1575,7 +1575,7 @@
         "alg": "L': U', L' E L",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "IW"
       }
     ]
   },
@@ -1585,7 +1585,7 @@
         "alg": "U: S', R' F2 R",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "IZ"
       }
     ]
   },
@@ -1595,7 +1595,7 @@
         "alg": "L' U' L, E'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "IU"
       }
     ]
   },
@@ -1605,7 +1605,7 @@
         "alg": "S U R': E, R2",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "IH"
       }
     ]
   },
@@ -1615,7 +1615,7 @@
         "alg": "Uw': U, L E' L'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "IB"
       }
     ]
   },
@@ -1625,7 +1625,7 @@
         "alg": "R E2 R', U",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "IC"
       }
     ]
   },
@@ -1635,7 +1635,7 @@
         "alg": "M, U R U'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "JO"
       }
     ]
   },
@@ -1645,7 +1645,7 @@
         "alg": "R' U R': E', R2",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "JM"
       }
     ]
   },
@@ -1655,7 +1655,7 @@
         "alg": "U' R': S, R2",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "JN"
       }
     ]
   },
@@ -1665,7 +1665,7 @@
         "alg": "U' D L': L2, E'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "JD"
       }
     ]
   },
@@ -1675,7 +1675,7 @@
         "alg": "U' D' L': L2, E'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "JG"
       }
     ]
   },
@@ -1685,7 +1685,7 @@
         "alg": "U' L': L2, E'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "JE"
       }
     ]
   },
@@ -1695,7 +1695,7 @@
         "alg": "U': L E' L2 E L S L2 S' L2",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "JF"
       }
     ]
   },
@@ -1705,7 +1705,7 @@
         "alg": "U: U M' U', R",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "JK"
       }
     ]
   },
@@ -1715,7 +1715,7 @@
         "alg": "L U' L': L2, E'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "JI"
       }
     ]
   },
@@ -1725,7 +1725,7 @@
         "alg": "R: U, R E' R'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "JR"
       }
     ]
   },
@@ -1735,7 +1735,7 @@
         "alg": "L' E2: L U' L', E",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "JT"
       }
     ]
   },
@@ -1745,7 +1745,7 @@
         "alg": "R U R', E",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "JS"
       }
     ]
   },
@@ -1755,7 +1755,7 @@
         "alg": "S' U' L: E', L2",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "JP"
       }
     ]
   },
@@ -1765,7 +1765,7 @@
         "alg": "R U R', E'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "JW"
       }
     ]
   },
@@ -1775,7 +1775,7 @@
         "alg": "S U' L: E', L2",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "JZ"
       }
     ]
   },
@@ -1785,7 +1785,7 @@
         "alg": "R' Uw R: E, R2",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "JH"
       }
     ]
   },
@@ -1795,7 +1795,7 @@
         "alg": "L' E2 L, U'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "JB"
       }
     ]
   },
@@ -1805,7 +1805,7 @@
         "alg": "Uw: U', R' E R",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "JC"
       }
     ]
   },
@@ -1815,7 +1815,7 @@
         "alg": "U M: U, R E' R'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "RO"
       }
     ]
   },
@@ -1825,7 +1825,7 @@
         "alg": "E', R' U R",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "RN"
       }
     ]
   },
@@ -1835,7 +1835,7 @@
         "alg": "L' Rw' U: L2, S'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "RD"
       }
     ]
   },
@@ -1845,7 +1845,7 @@
         "alg": "L' U': S', L' F L",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "RG"
       }
     ]
   },
@@ -1855,7 +1855,7 @@
         "alg": "U' E' L: L2, E",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "RE"
       }
     ]
   },
@@ -1865,7 +1865,7 @@
         "alg": "U E R: R2, E",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "RF"
       }
     ]
   },
@@ -1875,7 +1875,7 @@
         "alg": "U r: R' U' R, E'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "RK"
       }
     ]
   },
@@ -1885,7 +1885,7 @@
         "alg": "R E': R' U R, E'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "RI"
       }
     ]
   },
@@ -1895,7 +1895,7 @@
         "alg": "R: R E' R', U",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "RJ"
       }
     ]
   },
@@ -1905,7 +1905,7 @@
         "alg": "S U: U, R E' R'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "RT"
       }
     ]
   },
@@ -1915,7 +1915,7 @@
         "alg": "Rw' U' L': S', L2",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "RS"
       }
     ]
   },
@@ -1925,7 +1925,7 @@
         "alg": "S: R E' R', U",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "RP"
       }
     ]
   },
@@ -1935,7 +1935,7 @@
         "alg": "U' E' R: S, R2",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "RW"
       }
     ]
   },
@@ -1945,7 +1945,7 @@
         "alg": "S': R E' R', U",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "RZ"
       }
     ]
   },
@@ -1955,7 +1955,7 @@
         "alg": "Rw' U' R: E', R2",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "RU"
       }
     ]
   },
@@ -1965,7 +1965,7 @@
         "alg": "R' E' R U R: E, R2",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "RH"
       }
     ]
   },
@@ -1975,7 +1975,7 @@
         "alg": "U: U, R E' R'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "RB"
       }
     ]
   },
@@ -1985,7 +1985,7 @@
         "alg": "R E' R', U",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "RC"
       }
     ]
   },
@@ -1995,7 +1995,7 @@
         "alg": "U' D: S, L F L'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "TO"
       }
     ]
   },
@@ -2005,7 +2005,7 @@
         "alg": "S' U R: R2, E'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "TM"
       }
     ]
   },
@@ -2015,7 +2015,7 @@
         "alg": "L E2: E', L' U' L",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "TN"
       }
     ]
   },
@@ -2025,7 +2025,7 @@
         "alg": "U': S', L B' L'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "TD"
       }
     ]
   },
@@ -2035,7 +2035,7 @@
         "alg": "U': S', L' F L",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "TG"
       }
     ]
   },
@@ -2045,7 +2045,7 @@
         "alg": "L B L', S",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "TF"
       }
     ]
   },
@@ -2055,7 +2055,7 @@
         "alg": "U D: S', R' F' R",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "TK"
       }
     ]
   },
@@ -2065,7 +2065,7 @@
         "alg": "S' U R': R2, E",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "TI"
       }
     ]
   },
@@ -2075,7 +2075,7 @@
         "alg": "L' E2: E, L U' L'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "TJ"
       }
     ]
   },
@@ -2085,7 +2085,7 @@
         "alg": "S U: R E' R', U",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "TR"
       }
     ]
   },
@@ -2095,7 +2095,7 @@
         "alg": "S U: R' E R, U",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "TS"
       }
     ]
   },
@@ -2105,7 +2105,7 @@
         "alg": "S' U: S', R2",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "TP"
       }
     ]
   },
@@ -2115,7 +2115,7 @@
         "alg": "S: U', L' E L",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "TW"
       }
     ]
   },
@@ -2125,7 +2125,7 @@
         "alg": "M U': R2, S'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "TZ"
       }
     ]
   },
@@ -2135,7 +2135,7 @@
         "alg": "S: U', L E' L'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "TU"
       }
     ]
   },
@@ -2145,7 +2145,7 @@
         "alg": "R' B' R: S', R2",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "TH"
       }
     ]
   },
@@ -2155,7 +2155,7 @@
         "alg": "L E L', U'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "TB"
       }
     ]
   },
@@ -2165,7 +2165,7 @@
         "alg": "U': U', L E L'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "TC"
       }
     ]
   },
@@ -2175,7 +2175,7 @@
         "alg": "U M: U, R' E R",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "SO"
       }
     ]
   },
@@ -2185,7 +2185,7 @@
         "alg": "R' E2: E', R U R'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "SM"
       }
     ]
   },
@@ -2195,7 +2195,7 @@
         "alg": "R': R' E R, U",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "SN"
       }
     ]
   },
@@ -2205,7 +2205,7 @@
         "alg": "Lw U: L2, S'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "SD"
       }
     ]
   },
@@ -2215,7 +2215,7 @@
         "alg": "L U': S', L' F L",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "SG"
       }
     ]
   },
@@ -2225,7 +2225,7 @@
         "alg": "Uw' L': L2, E'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "SE"
       }
     ]
   },
@@ -2235,7 +2235,7 @@
         "alg": "Uw R': R2, E'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "SF"
       }
     ]
   },
@@ -2245,7 +2245,7 @@
         "alg": "U R' E: R S' R', F'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "SK"
       }
     ]
   },
@@ -2255,7 +2255,7 @@
         "alg": "E, R U R'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "SJ"
       }
     ]
   },
@@ -2265,7 +2265,7 @@
         "alg": "Rw' U' L': L2, S'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "SR"
       }
     ]
   },
@@ -2275,7 +2275,7 @@
         "alg": "S U: U, R' E R",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "ST"
       }
     ]
   },
@@ -2285,7 +2285,7 @@
         "alg": "S: R' E R, U",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "SP"
       }
     ]
   },
@@ -2295,7 +2295,7 @@
         "alg": "R2 B': R2, E",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "SW"
       }
     ]
   },
@@ -2305,7 +2305,7 @@
         "alg": "R B': R2, E",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "SZ"
       }
     ]
   },
@@ -2315,7 +2315,7 @@
         "alg": "B': R2, E",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "SU"
       }
     ]
   },
@@ -2325,7 +2325,7 @@
         "alg": "R' B': R2, E",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "SH"
       }
     ]
   },
@@ -2335,7 +2335,7 @@
         "alg": "U: U, R' E R",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "SB"
       }
     ]
   },
@@ -2345,7 +2345,7 @@
         "alg": "R' E R, U",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "SC"
       }
     ]
   },
@@ -2355,7 +2355,7 @@
         "alg": "U' D: S, L F' L'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "PO"
       }
     ]
   },
@@ -2365,7 +2365,7 @@
         "alg": "L' U' E' L: L2, E",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "PM"
       }
     ]
   },
@@ -2375,7 +2375,7 @@
         "alg": "S' U' L': L2, E",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "PN"
       }
     ]
   },
@@ -2385,7 +2385,7 @@
         "alg": "U' D' R' F R: R2, S",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "PD"
       }
     ]
   },
@@ -2395,7 +2395,7 @@
         "alg": "U' D R' F R: R2, S",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "PG"
       }
     ]
   },
@@ -2405,7 +2405,7 @@
         "alg": "L' B L, S",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "PE"
       }
     ]
   },
@@ -2415,7 +2415,7 @@
         "alg": "U' R' F R: R2, S",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "PF"
       }
     ]
   },
@@ -2425,7 +2425,7 @@
         "alg": "U' D': S, L F' L'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "PK"
       }
     ]
   },
@@ -2435,7 +2435,7 @@
         "alg": "U R' B': R2, E",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "PI"
       }
     ]
   },
@@ -2445,7 +2445,7 @@
         "alg": "S' U' L: L2, E'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "PJ"
       }
     ]
   },
@@ -2455,7 +2455,7 @@
         "alg": "S: U, R E' R'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "PR"
       }
     ]
   },
@@ -2465,7 +2465,7 @@
         "alg": "S' U: R2, S'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "PT"
       }
     ]
   },
@@ -2475,7 +2475,7 @@
         "alg": "S: U, R' E R",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "PS"
       }
     ]
   },
@@ -2485,7 +2485,7 @@
         "alg": "R2 B' R': S, R2",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "PW"
       }
     ]
   },
@@ -2495,7 +2495,7 @@
         "alg": "R B' R': S, R2",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "PZ"
       }
     ]
   },
@@ -2505,7 +2505,7 @@
         "alg": "B' R': S, R2",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "PU"
       }
     ]
   },
@@ -2515,7 +2515,7 @@
         "alg": "M' U': M, U2",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "PH"
       }
     ]
   },
@@ -2525,7 +2525,7 @@
         "alg": "L' B L, S'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "PC"
       }
     ]
   },
@@ -2535,7 +2535,7 @@
         "alg": "U' M: U', L' E L",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "WO"
       }
     ]
   },
@@ -2545,7 +2545,7 @@
         "alg": "E, L U' L'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "WM"
       }
     ]
   },
@@ -2555,7 +2555,7 @@
         "alg": "R2 B': R2, E'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "WD"
       }
     ]
   },
@@ -2565,7 +2565,7 @@
         "alg": "R U: S, R F' R'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "WG"
       }
     ]
   },
@@ -2575,7 +2575,7 @@
         "alg": "U' E' L': L2, E'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "WE"
       }
     ]
   },
@@ -2585,7 +2585,7 @@
         "alg": "U E R': R2, E'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "WF"
       }
     ]
   },
@@ -2595,7 +2595,7 @@
         "alg": "R U: R' F' R, S'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "WK"
       }
     ]
   },
@@ -2605,7 +2605,7 @@
         "alg": "L': L' E L, U'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "WI"
       }
     ]
   },
@@ -2615,7 +2615,7 @@
         "alg": "E', R U R'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "WJ"
       }
     ]
   },
@@ -2625,7 +2625,7 @@
         "alg": "U' E' R: R2, S",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "WR"
       }
     ]
   },
@@ -2635,7 +2635,7 @@
         "alg": "S: L' E L, U'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "WT"
       }
     ]
   },
@@ -2645,7 +2645,7 @@
         "alg": "R2 B': E, R2",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "WS"
       }
     ]
   },
@@ -2655,7 +2655,7 @@
         "alg": "R2 B' R': R2, S",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "WP"
       }
     ]
   },
@@ -2665,7 +2665,7 @@
         "alg": "S' U': U', L' E L",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "WZ"
       }
     ]
   },
@@ -2675,7 +2675,7 @@
         "alg": "Lw U R': R2, S",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "WU"
       }
     ]
   },
@@ -2685,7 +2685,7 @@
         "alg": "S': L' E L, U'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "WH"
       }
     ]
   },
@@ -2695,7 +2695,7 @@
         "alg": "L' E L, U'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "WB"
       }
     ]
   },
@@ -2705,7 +2705,7 @@
         "alg": "U': U, L' E L",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "WC"
       }
     ]
   },
@@ -2715,7 +2715,7 @@
         "alg": "U D': S', R' F' R",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "ZO"
       }
     ]
   },
@@ -2725,7 +2725,7 @@
         "alg": "R' E2: E, R U R'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "ZM"
       }
     ]
   },
@@ -2735,7 +2735,7 @@
         "alg": "S U L': L2, E",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "ZN"
       }
     ]
   },
@@ -2745,7 +2745,7 @@
         "alg": "R B': R2, E'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "ZD"
       }
     ]
   },
@@ -2755,7 +2755,7 @@
         "alg": "U: S, R F' R'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "ZG"
       }
     ]
   },
@@ -2765,7 +2765,7 @@
         "alg": "R' B' R, S'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "ZE"
       }
     ]
   },
@@ -2775,7 +2775,7 @@
         "alg": "",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "ZF"
       }
     ]
   },
@@ -2785,7 +2785,7 @@
         "alg": "U: R' F' R, S'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "ZK"
       }
     ]
   },
@@ -2795,7 +2795,7 @@
         "alg": "U: R' F2 R, S'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "ZI"
       }
     ]
   },
@@ -2805,7 +2805,7 @@
         "alg": "S U' L: L2, E'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "ZJ"
       }
     ]
   },
@@ -2815,7 +2815,7 @@
         "alg": "S': U, R E' R'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "ZR"
       }
     ]
   },
@@ -2825,7 +2825,7 @@
         "alg": "M U': S', R2",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "ZT"
       }
     ]
   },
@@ -2835,7 +2835,7 @@
         "alg": "R B': E, R2",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "ZS"
       }
     ]
   },
@@ -2845,7 +2845,7 @@
         "alg": "R B' R': R2, S",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "ZP"
       }
     ]
   },
@@ -2855,7 +2855,7 @@
         "alg": "S' U': L' E L, U'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "ZW"
       }
     ]
   },
@@ -2865,7 +2865,7 @@
         "alg": "S' U': L E' L', U'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "ZU"
       }
     ]
   },
@@ -2875,7 +2875,7 @@
         "alg": "S U: R2, S'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "ZH"
       }
     ]
   },
@@ -2885,7 +2885,7 @@
         "alg": "U: U, R' E' R",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "ZB"
       }
     ]
   },
@@ -2895,7 +2895,7 @@
         "alg": "R' E' R, U",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "ZC"
       }
     ]
   },
@@ -2905,7 +2905,7 @@
         "alg": "U' M: U', L E' L'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "UO"
       }
     ]
   },
@@ -2915,7 +2915,7 @@
         "alg": "L: L E' L', U'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "UM"
       }
     ]
   },
@@ -2925,7 +2925,7 @@
         "alg": "L E2: E, L' U' L",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "UN"
       }
     ]
   },
@@ -2935,7 +2935,7 @@
         "alg": "Rw' U': R2, S",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "UD"
       }
     ]
   },
@@ -2945,7 +2945,7 @@
         "alg": "R' U: S, R F' R'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "UG"
       }
     ]
   },
@@ -2955,7 +2955,7 @@
         "alg": "Uw' L: L2, E",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "UE"
       }
     ]
   },
@@ -2965,7 +2965,7 @@
         "alg": "Uw R: R2, E",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "UF"
       }
     ]
   },
@@ -2975,7 +2975,7 @@
         "alg": "R' U: R' F' R, S'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "UK"
       }
     ]
   },
@@ -2985,7 +2985,7 @@
         "alg": "E', L' U' L",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "UI"
       }
     ]
   },
@@ -2995,7 +2995,7 @@
         "alg": "Rw' U' R: R2, E'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "UR"
       }
     ]
   },
@@ -3005,7 +3005,7 @@
         "alg": "S: L E' L', U'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "UT"
       }
     ]
   },
@@ -3015,7 +3015,7 @@
         "alg": "B': E, R2",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "US"
       }
     ]
   },
@@ -3025,7 +3025,7 @@
         "alg": "B' R': R2, S",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "UP"
       }
     ]
   },
@@ -3035,7 +3035,7 @@
         "alg": "Lw U R': S, R2",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "UW"
       }
     ]
   },
@@ -3045,7 +3045,7 @@
         "alg": "S' U': U', L E' L'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "UZ"
       }
     ]
   },
@@ -3055,7 +3055,7 @@
         "alg": "S': L E' L', U'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "UH"
       }
     ]
   },
@@ -3065,7 +3065,7 @@
         "alg": "L E' L', U'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "UB"
       }
     ]
   },
@@ -3075,7 +3075,7 @@
         "alg": "U': U', L E' L'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "UC"
       }
     ]
   },
@@ -3085,7 +3085,7 @@
         "alg": "U D': S', R' F R",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "HO"
       }
     ]
   },
@@ -3095,7 +3095,7 @@
         "alg": "S U R: R2, E'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "HM"
       }
     ]
   },
@@ -3105,7 +3105,7 @@
         "alg": "R U E R': R2, E'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "HN"
       }
     ]
   },
@@ -3115,7 +3115,7 @@
         "alg": "R' B': R2, E'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "HD"
       }
     ]
   },
@@ -3125,7 +3125,7 @@
         "alg": "R' U': R S R', F'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "HG"
       }
     ]
   },
@@ -3135,7 +3135,7 @@
         "alg": "U R F R: R2, S'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "HE"
       }
     ]
   },
@@ -3145,7 +3145,7 @@
         "alg": "R B' R', S'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "HF"
       }
     ]
   },
@@ -3155,7 +3155,7 @@
         "alg": "U R F: E, R2",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "HK"
       }
     ]
   },
@@ -3165,7 +3165,7 @@
         "alg": "S U R': R2, E",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "HI"
       }
     ]
   },
@@ -3175,7 +3175,7 @@
         "alg": "R' Uw R: R2, E",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "HJ"
       }
     ]
   },
@@ -3185,7 +3185,7 @@
         "alg": "R' E' R U R: R2, E",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "HR"
       }
     ]
   },
@@ -3195,7 +3195,7 @@
         "alg": "R' B' R: R2, S'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "HT"
       }
     ]
   },
@@ -3205,7 +3205,7 @@
         "alg": "R' B': E, R2",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "HS"
       }
     ]
   },
@@ -3215,7 +3215,7 @@
         "alg": "M' U': U2, M",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "HP"
       }
     ]
   },
@@ -3225,7 +3225,7 @@
         "alg": "S': U', L' E L",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "HW"
       }
     ]
   },
@@ -3235,7 +3235,7 @@
         "alg": "S U: S', R2",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "HZ"
       }
     ]
   },
@@ -3245,7 +3245,7 @@
         "alg": "S': U', L E' L'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "HU"
       }
     ]
   },
@@ -3255,7 +3255,7 @@
         "alg": "R B' R', S",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "HB"
       }
     ]
   },
@@ -3265,7 +3265,7 @@
         "alg": "Lw: U' L' U, M'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "BO"
       }
     ]
   },
@@ -3275,7 +3275,7 @@
         "alg": "U: R' E2 R, U",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "BM"
       }
     ]
   },
@@ -3285,7 +3285,7 @@
         "alg": "U', L E2 L'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "BN"
       }
     ]
   },
@@ -3295,7 +3295,7 @@
         "alg": "M' U2 M', U",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "BD"
       }
     ]
   },
@@ -3305,7 +3305,7 @@
         "alg": "R B' R': R' F' R, S",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "BG"
       }
     ]
   },
@@ -3315,7 +3315,7 @@
         "alg": "U', R S' R2 S' R'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "BE"
       }
     ]
   },
@@ -3325,7 +3325,7 @@
         "alg": "U: R' E R2 E' R, U",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "BF"
       }
     ]
   },
@@ -3335,7 +3335,7 @@
         "alg": "U M' U M U M' U M",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "BK"
       }
     ]
   },
@@ -3345,7 +3345,7 @@
         "alg": "Uw': L E' L', U",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "BI"
       }
     ]
   },
@@ -3355,7 +3355,7 @@
         "alg": "U', L' E2 L",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "BJ"
       }
     ]
   },
@@ -3365,7 +3365,7 @@
         "alg": "U: R E' R', U",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "BR"
       }
     ]
   },
@@ -3375,7 +3375,7 @@
         "alg": "U', L E L'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "BT"
       }
     ]
   },
@@ -3385,7 +3385,7 @@
         "alg": "U: R' E R, U",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "BS"
       }
     ]
   },
@@ -3395,7 +3395,7 @@
         "alg": "U', L' E L",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "BW"
       }
     ]
   },
@@ -3405,7 +3405,7 @@
         "alg": "U: R' E' R, U",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "BZ"
       }
     ]
   },
@@ -3415,7 +3415,7 @@
         "alg": "U', L E' L'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "BU"
       }
     ]
   },
@@ -3425,7 +3425,7 @@
         "alg": "S, R B' R'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "BH"
       }
     ]
   },
@@ -3435,7 +3435,7 @@
         "alg": "M2 U: M', U2",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "BC"
       }
     ]
   },
@@ -3445,7 +3445,7 @@
         "alg": "Rw': U R U', M'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "CO"
       }
     ]
   },
@@ -3455,7 +3455,7 @@
         "alg": "U, R' E2 R",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "CM"
       }
     ]
   },
@@ -3465,7 +3465,7 @@
         "alg": "U': L E2 L', U'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "CN"
       }
     ]
   },
@@ -3475,7 +3475,7 @@
         "alg": "M' U2 M', U'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "CD"
       }
     ]
   },
@@ -3485,7 +3485,7 @@
         "alg": "R F': R' U R, E",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "CG"
       }
     ]
   },
@@ -3495,7 +3495,7 @@
         "alg": "R2 U: S', R2",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "CE"
       }
     ]
   },
@@ -3505,7 +3505,7 @@
         "alg": "U, R' E R2 E' R'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "CF"
       }
     ]
   },
@@ -3515,7 +3515,7 @@
         "alg": "U' M' U' M U' M' U' M",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "CK"
       }
     ]
   },
@@ -3525,7 +3525,7 @@
         "alg": "U, R E2 R'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "CI"
       }
     ]
   },
@@ -3535,7 +3535,7 @@
         "alg": "Uw: R' E R, U'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "CJ"
       }
     ]
   },
@@ -3545,7 +3545,7 @@
         "alg": "U, R E' R'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "CR"
       }
     ]
   },
@@ -3555,7 +3555,7 @@
         "alg": "U': L E L', U'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "CT"
       }
     ]
   },
@@ -3565,7 +3565,7 @@
         "alg": "U, R' E R",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "CS"
       }
     ]
   },
@@ -3575,7 +3575,7 @@
         "alg": "S', L' B L",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "CP"
       }
     ]
   },
@@ -3585,7 +3585,7 @@
         "alg": "U': L' E L, U",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "CW"
       }
     ]
   },
@@ -3595,7 +3595,7 @@
         "alg": "U, R' E' R",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "CZ"
       }
     ]
   },
@@ -3605,7 +3605,7 @@
         "alg": "U': L E' L', U'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "CU"
       }
     ]
   },
@@ -3615,7 +3615,7 @@
         "alg": "M2 U: U2, M'",
         "results": [],
         "latest": true,
-        "lp": ""
+        "lp": "CB"
       }
     ]
   }

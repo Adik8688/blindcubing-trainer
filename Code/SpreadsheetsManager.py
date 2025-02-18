@@ -3,6 +3,7 @@ import os
 import pandas as pd
 import numpy as np
 from pathlib import Path
+from project_paths import JSON_DIR
 
 
 class SpreadsheetsManager:
@@ -12,7 +13,6 @@ class SpreadsheetsManager:
 
     VALID_CHARS = " UDFBRLMESudfbrlw'/:,2xyz"
     project_root = Path(__file__).resolve().parent.parent
-    JSON_DIR = project_root / "Json3"
 
     def __init__(self, filepath):
         self.filepath = filepath
@@ -190,7 +190,7 @@ class SpreadsheetsManager:
 
         # Process each piece type's JSON file.
         for piece_type, cases in algs.items():
-            filepath = SpreadsheetsManager.JSON_DIR / f"{piece_type}.json"
+            filepath = JSON_DIR / f"{piece_type}.json"
             data = SpreadsheetsManager.get_data(str(filepath))
             
             # For each case key (e.g. "UF;UB;UL") in our new data:
@@ -238,11 +238,11 @@ class SpreadsheetsManager:
 
     @staticmethod
     def process_metadata(mapping, process_func):
-        for filename in os.listdir(SpreadsheetsManager.JSON_DIR):
+        for filename in os.listdir(JSON_DIR):
             if not filename.endswith('.json'):
                 continue
 
-            file_path = SpreadsheetsManager.JSON_DIR / filename
+            file_path = JSON_DIR / filename
             data = SpreadsheetsManager.get_data(str(file_path))
             
             for key, record in data.items():
@@ -314,6 +314,9 @@ class SpreadsheetsManager:
     def canonical_representation(piece_name):
         if not piece_name:
             return ""
+        
+        if piece_name.upper() != piece_name or piece_name != 3:
+            return piece_name
         
         order = ['U', 'D', 'F', 'B', 'R', 'L']
         order_index = {letter: index for index, letter in enumerate(order)}
