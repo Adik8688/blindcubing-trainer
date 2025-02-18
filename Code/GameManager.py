@@ -1,4 +1,4 @@
-from Code.SpreadsheetsManager import SpreadsheetsManager
+from SpreadsheetsManager import SpreadsheetsManager
 from pathlib import Path
 from random import shuffle
 
@@ -38,51 +38,33 @@ class GameManager:
         self.index = 0
         self.size = len(self.keys)
     
-    def remove_from_targets_map(self, key):
-        '''
-        Removes given key from the map
-        '''
-        self.targets_keys_map.pop(key)
 
     def get_game_attributes(self):
-        self.data = {k: v for k, v in self.data.items() if k.split in self.targets}
-        for k, v in self.targets_keys_map.items():
-            key = v['key']
-            alg = self.data[key]['alg']
+        data = {}
+
+        for k, v in self.data.items():
+            print(f"Key: {k} Value: {v}")
+            key_to_targets = " ".join(k.split(";")[1:3])
+            if key_to_targets not in self.targets:
+                continue
 
             # word > lp > pair of targets
-            if 'word' in self.data[key]:
-                memo = self.data[key]['word']
-
-            if 'lp' in self.data[key]:
-                memo = self.data[key]['lp']
-
-            else:
-                memo = k
+            memo = v.get('memo') or v.get('lp') or k
             
-            self.targets_keys_map[k]['alg'] = alg
-            self.targets_keys_map[k]['memo'] = memo
+            data[k] = {
+                'alg': v['alg'],
+                'memo': memo,
+            }
 
+        self.data = data
+        
     def get_shuffled_keys(self):
         '''
         Returns list of keys of targets map in random order
         '''
-        self.keys = list(self.targets_keys_map.keys())
+        self.keys = list(self.data.keys())
         shuffle(self.keys)
 
-
-    def filter_data(self, **attributes):
-        '''
-        Filters data on given attributes. Attrs values must be put in a list eg latest = [True]
-        '''
-        result = dict()
-        
-        for k, v in self.data.items():
-            if not any(v[k1] not in v1 for k1, v1 in attributes.items()):
-                result[k] = v
-        
-        self.data = result
-    
     
     def increment_index(self):
         '''
@@ -96,7 +78,7 @@ class GameManager:
         '''
         if self.index == self.size - 1:
             return ''
-        return self.targets_keys_map[self.keys[self.index + 1]]['memo'] 
+        return self.data[self.keys[self.index + 1]]['memo'] 
 
     def get_last_result(self):
         '''
@@ -104,20 +86,20 @@ class GameManager:
         '''
         if self.index == 0:
             return ''
-        return self.targets_keys_map[self.keys[self.index - 1]]['result']
+        return self.data[self.keys[self.index - 1]]['result']
             
 
     def get_current_alg(self):
         '''
         Returns current algorithm
         '''
-        return self.targets_keys_map[self.keys[self.index]]['alg']
+        return self.data[self.keys[self.index]]['alg']
     
     def get_current_case(self):
         '''
         Returns current case
         '''
-        return self.targets_keys_map[self.keys[self.index]]['memo']
+        return self.data[self.keys[self.index]]['memo']
 
     def get_current_case_no(self):
         '''
@@ -137,7 +119,7 @@ class GameManager:
         '''
 
         # access key from the list with index, then pass the key to the main map and save result to the values
-        self.targets_keys_map[self.keys[self.index]]['result'] = result
+        self.data[self.keys[self.index]]['result'] = result
 
     def is_game_finished(self):
         '''
@@ -150,9 +132,10 @@ class GameManager:
         Extracts results from targets map and sorts them by time
         '''
         output = []
-        for k, v in self.targets_keys_map.items():
+        for k, v in self.data.items():
             output.append(f'{k} {v["result"]}')
         
+        print(output)
         output = sorted(output, key=lambda x: float(x.split()[2]), reverse=True)
 
         return output
@@ -161,14 +144,18 @@ class GameManager:
         '''
         Saves results from the session to the json file
         '''
-        for v in self.targets_keys_map.values():
-            key = v['key']
+
+        all_records = SpreadsheetsManager.get_data(self.filepath) 
+
+        for k, v in self.data.items():
+            key = k
             result = v['result']
 
             # ignores results from double click
-            if result < 0.1:
+            if result < 0.2:
                 continue
             
-            self.data[key]['results'].append(result)
+            all_records[key]['algorithms'][0]['results'].append(result)
+
         
-        SpreadsheetsManager.save_data(self.data, self.filepath)
+        SpreadsheetsManager.save_data(all_records, self.filepath)
