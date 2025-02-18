@@ -8359,8 +8359,7 @@
           0.95
         ],
         "latest": true,
-        "lp": "AB",
-        "memo": "Arbuz"
+        "lp": "AB"
       }
     ]
   },
@@ -8389,8 +8388,7 @@
           1.29
         ],
         "latest": true,
-        "lp": "AC",
-        "memo": "Acid"
+        "lp": "AC"
       }
     ]
   },
@@ -8797,8 +8795,7 @@
           1.09
         ],
         "latest": true,
-        "lp": "BA",
-        "memo": "Bat"
+        "lp": "BA"
       }
     ]
   },
@@ -8820,8 +8817,7 @@
           0.92
         ],
         "latest": true,
-        "lp": "BC",
-        "memo": "Baca"
+        "lp": "BC"
       }
     ]
   },
@@ -9159,8 +9155,7 @@
           0.88
         ],
         "latest": true,
-        "lp": "CA",
-        "memo": "Czas"
+        "lp": "CA"
       }
     ]
   },
@@ -9178,8 +9173,7 @@
           1.0
         ],
         "latest": true,
-        "lp": "CB",
-        "memo": "Cable"
+        "lp": "CB"
       }
     ]
   }

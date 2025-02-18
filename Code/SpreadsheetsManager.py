@@ -272,7 +272,13 @@ class SpreadsheetsManager:
                         alg_record["memo"] = memo_word
 
         self.process_metadata(words_dict, update)
-            
+
+    def remove_memo(self):
+        def remove(record, parts, words_dict):
+            for alg in record['algorithms']:
+                alg.pop("memo", None)
+        
+        self.process_metadata({}, remove)
 
     def update_lps(self):
         # Load LP mapping(s) from Excel. Expecting a mapping of the form: { "UB": "A", "UL": "B", ... }
@@ -293,3 +299,10 @@ class SpreadsheetsManager:
                     alg_record["lp"] = lp_value
 
         self.process_metadata(lps_dict, update)
+    
+    def remove_lps(self):
+        def remove(record, parts, lps_dict):
+            for alg in record['algorithms']:
+                alg.pop("lp", None)
+        
+        self.process_metadata({}, remove)
