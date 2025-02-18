@@ -133,10 +133,11 @@ class GameManager:
         '''
         output = []
         for k, v in self.data.items():
-            output.append(f'{k} {v["result"]}')
+            b, t1, t2 = k.split(";")
+            output.append(f'{t1} {t2} {v["result"]}')
         
         print(output)
-        output = sorted(output, key=lambda x: float(x.split()[2]), reverse=True)
+        output = sorted(output, key=lambda x: float(x.split()[-1]), reverse=True)
 
         return output
     
