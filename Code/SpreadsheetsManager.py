@@ -12,7 +12,6 @@ class SpreadsheetsManager:
     '''
 
     VALID_CHARS = " UDFBRLMESudfbrlw'/:,2xyz"
-    project_root = Path(__file__).resolve().parent.parent
 
     def __init__(self, filepath):
         self.filepath = filepath
@@ -315,7 +314,7 @@ class SpreadsheetsManager:
         if not piece_name:
             return ""
         
-        if piece_name.upper() != piece_name or piece_name != 3:
+        if piece_name.upper() != piece_name or len(piece_name) != 3:
             return piece_name
         
         order = ['U', 'D', 'F', 'B', 'R', 'L']

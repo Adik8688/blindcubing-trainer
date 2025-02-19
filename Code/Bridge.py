@@ -381,7 +381,7 @@ class Bridge(QObject):
         '''
         Resets game attributes to the initial values
         '''
-        self.gm.set_game()
+        self.gm._set_game()
 
     @Slot ()
     def exportStats(self):
