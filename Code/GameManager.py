@@ -10,14 +10,10 @@ class GameManager:
 
     def __init__(self, pieceType, buffer, targets):
         
+        self.pieceType = pieceType
+        self.buffer = buffer
 
-        # path to the json file
-        self.filepath = JSON_DIR / f"{pieceType}_{buffer}.json"
-
-        # save .json to dict
-        self.data = SpreadsheetsManager.get_data(self.filepath)
-
-        self._get_latest_algs()
+        
         self.buffer = buffer
         # assign list of targets (subset of all algs)
         self.targets = targets
@@ -31,6 +27,11 @@ class GameManager:
         '''
         Calls all necessary submethods
         '''
+        self.filepath = JSON_DIR / f"{self.pieceType}_{self.buffer}.json"
+
+        self.data = SpreadsheetsManager.get_data(self.filepath)
+
+        self._get_latest_algs()
         self.get_game_attributes()
         self.get_shuffled_keys()
         self.index = 0
