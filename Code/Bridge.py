@@ -1,20 +1,17 @@
 import sys
-
 from pathlib import Path
 import os
 from typing import Optional
-from PySide6.QtCore import QObject, Slot
-from PySide6.QtQml import QmlElement
 from datetime import datetime
 
-sys.path.append('..')
-
-from Code.SpreadsheetsManager import SpreadsheetsManager
-from Code.GameManager import GameManager
-from Code.ExportManager import ExportManager
+from PySide6.QtCore import QObject, Slot
+from PySide6.QtQml import QmlElement
 import numpy as np
 
-from Code.project_paths import JSON_DIR
+from .SpreadsheetsManager import SpreadsheetsManager
+from .GameManager import GameManager
+from .ExportManager import ExportManager
+from .project_paths import JSON_DIR, STYLE_DIR
 
 QML_IMPORT_NAME = "io.qt.textproperties"
 QML_IMPORT_MAJOR_VERSION = 1 
@@ -30,7 +27,7 @@ class Style(QObject):
         super().__init__(None)
 
         # style file stores sizes, proportions etc
-        stylepath = Path().absolute().parent / 'Style' / 'style.json'
+        stylepath = STYLE_DIR / 'style.json'
         self.styleDict = SpreadsheetsManager.get_data(stylepath)
    
 
@@ -365,8 +362,8 @@ class Bridge(QObject):
         if onclick:
             key = ' '.join(key.split()[:2])
         
-
-        self.gm.remove_from_targets_map(key)
+        key = f"{self.buffer};{key.split()[0]};{key.split()[1]}"
+        self.gm.remove_pair(key)
         self.setFirstTargets()
         self.setSecondTargets()
 

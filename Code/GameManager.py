@@ -1,7 +1,7 @@
-from SpreadsheetsManager import SpreadsheetsManager
+from .SpreadsheetsManager import SpreadsheetsManager
 from pathlib import Path
 from random import shuffle
-from project_paths import JSON_DIR
+from .project_paths import JSON_DIR
 
 class GameManager:
     '''
@@ -41,7 +41,6 @@ class GameManager:
         data = {}
 
         for k, v in self.data.items():
-            print(f"Key: {k} Value: {v}")
             key_to_targets = " ".join(k.split(";")[1:3])
             if key_to_targets not in self.targets:
                 continue
@@ -63,6 +62,9 @@ class GameManager:
         self.keys = list(self.data.keys())
         shuffle(self.keys)
 
+    def remove_pair(self, key):
+        self.data.pop(key)
+
     
     def increment_index(self):
         '''
@@ -76,10 +78,6 @@ class GameManager:
         '''
         if self.index == self.size - 1:
             return ''
-        
-        print(self.data)
-        print(self.keys)
-        print(self.index)
 
         return self.data[self.keys[self.index + 1]]['memo'] 
 
@@ -139,7 +137,6 @@ class GameManager:
             b, t1, t2 = k.split(";")
             output.append(f'{t1} {t2} {v["result"]}')
         
-        print(output)
         output = sorted(output, key=lambda x: float(x.split()[-1]), reverse=True)
 
         return output

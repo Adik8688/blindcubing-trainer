@@ -203,7 +203,9 @@
     "algorithms": [
       {
         "alg": "U' M U R U R' F' R U R' U' R' F R2 U' R' U2 M' U",
-        "results": [],
+        "results": [
+          0.58
+        ],
         "latest": true,
         "lp": "O"
       }
@@ -213,7 +215,9 @@
     "algorithms": [
       {
         "alg": "L U' R' U2 R U2 R' F R U R' U' R' F' R2 L'",
-        "results": [],
+        "results": [
+          0.55
+        ],
         "latest": true,
         "lp": "M"
       }
@@ -233,7 +237,9 @@
     "algorithms": [
       {
         "alg": "R U2 R' U2 R' F R U R U2 R' U' R U R' F'",
-        "results": [],
+        "results": [
+          0.46
+        ],
         "latest": true,
         "lp": "L"
       }
@@ -253,7 +259,9 @@
     "algorithms": [
       {
         "alg": "Lw' R' U' F' R U R' U' R' F R2 U' R' U' R U R' U R Lw",
-        "results": [],
+        "results": [
+          0.37
+        ],
         "latest": true,
         "lp": "G"
       }
@@ -263,7 +271,9 @@
     "algorithms": [
       {
         "alg": "R' U' R2 U R2 D' R U' R D R' U R' F2 D F2 R",
-        "results": [],
+        "results": [
+          0.37
+        ],
         "latest": true,
         "lp": "E"
       }
@@ -273,7 +283,9 @@
     "algorithms": [
       {
         "alg": "R U R' S R2 S' R2 R U R' U' R' F R2 U' R' U'",
-        "results": [],
+        "results": [
+          1.88
+        ],
         "latest": true,
         "lp": "F"
       }
@@ -283,7 +295,9 @@
     "algorithms": [
       {
         "alg": "U F2 R U' R' F R U R' F U' F",
-        "results": [],
+        "results": [
+          0.39
+        ],
         "latest": true,
         "lp": "K"
       }
@@ -293,7 +307,9 @@
     "algorithms": [
       {
         "alg": "Rw U R' U' Rw' F R U2 R U' R' U' R U' R' F'",
-        "results": [],
+        "results": [
+          0.44
+        ],
         "latest": true,
         "lp": "I"
       }
@@ -303,7 +319,9 @@
     "algorithms": [
       {
         "alg": "U' R' U2 R' D' R U' R' U' D R' U R2",
-        "results": [],
+        "results": [
+          0.41
+        ],
         "latest": true,
         "lp": "J"
       }
@@ -313,7 +331,9 @@
     "algorithms": [
       {
         "alg": "R Uw R' F' R U R' U' R' F R2 U' R' U' R E R'",
-        "results": [],
+        "results": [
+          1.25
+        ],
         "latest": true,
         "lp": "R"
       }
@@ -333,7 +353,9 @@
     "algorithms": [
       {
         "alg": "x U' R' U' R U x'",
-        "results": [],
+        "results": [
+          0.45
+        ],
         "latest": true,
         "lp": "S"
       }
@@ -343,7 +365,9 @@
     "algorithms": [
       {
         "alg": "U M U' R U R' F' R U R' U' R' F R2 U' R' M' U'",
-        "results": [],
+        "results": [
+          0.41
+        ],
         "latest": true,
         "lp": "P"
       }
@@ -353,7 +377,9 @@
     "algorithms": [
       {
         "alg": "R2 D' F R U R' F U' F U F2 D R U' R",
-        "results": [],
+        "results": [
+          0.22
+        ],
         "latest": true,
         "lp": "W"
       }
@@ -373,7 +399,9 @@
     "algorithms": [
       {
         "alg": "x U' R2 U' R' U' R U R' F' R U R' U' R' F U x'",
-        "results": [],
+        "results": [
+          1.48
+        ],
         "latest": true,
         "lp": "U"
       }
@@ -383,7 +411,9 @@
     "algorithms": [
       {
         "alg": "M' U' R' U L' U2 R U' R' U2 R2",
-        "results": [],
+        "results": [
+          1.64
+        ],
         "latest": true,
         "lp": "H"
       }
@@ -393,7 +423,9 @@
     "algorithms": [
       {
         "alg": "R' U' F' R U R' U' R' F R2 U' R' U' R U R' U R",
-        "results": [],
+        "results": [
+          0.31
+        ],
         "latest": true,
         "lp": "A"
       }
@@ -463,7 +495,9 @@
     "algorithms": [
       {
         "alg": "D U R2 D' R U' R U R' D R D' R U' R2 D R2 D'",
-        "results": [],
+        "results": [
+          0.33
+        ],
         "latest": true,
         "lp": "CG"
       }
@@ -483,7 +517,9 @@
     "algorithms": [
       {
         "alg": "U R2 D' R U' R U R' D R D' R U' R2 D R2",
-        "results": [],
+        "results": [
+          0.27
+        ],
         "latest": true,
         "lp": "CF"
       }
@@ -493,7 +529,9 @@
     "algorithms": [
       {
         "alg": "x U R' F' R U R' U' R' F R2 U' R' U' Lw",
-        "results": [],
+        "results": [
+          0.53
+        ],
         "latest": true,
         "lp": "CK"
       }
@@ -523,7 +561,9 @@
     "algorithms": [
       {
         "alg": "U' R D' R2 U2 F' U' F U' R2 D B' R' U",
-        "results": [],
+        "results": [
+          0.34
+        ],
         "latest": true,
         "lp": "CR"
       }
@@ -543,7 +583,9 @@
     "algorithms": [
       {
         "alg": "R' F R F' R' D' F D R U' R U R'",
-        "results": [],
+        "results": [
+          0.22
+        ],
         "latest": true,
         "lp": "CS"
       }
@@ -553,7 +595,9 @@
     "algorithms": [
       {
         "alg": "R2 F R F' R B U B' R' U' R U",
-        "results": [],
+        "results": [
+          0.34
+        ],
         "latest": true,
         "lp": "CP"
       }
@@ -593,7 +637,9 @@
     "algorithms": [
       {
         "alg": "R U R' U' R' F R2 U' R' U' R U R' F'",
-        "results": [],
+        "results": [
+          0.37
+        ],
         "latest": true,
         "lp": "CB"
       }
