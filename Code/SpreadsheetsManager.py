@@ -296,7 +296,7 @@ class SpreadsheetsManager:
             lp_value = letter1 + letter2
 
             # Update each algorithm record in the 'algorithms' list with the LP.
-            if "algorithms" in record:
+            if "algorithms" in record and lp_value:
                 for alg_record in record["algorithms"]:
                     alg_record["lp"] = lp_value
 

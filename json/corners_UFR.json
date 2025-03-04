@@ -3,7 +3,21 @@
     "algorithms": [
       {
         "alg": "Lw U D: U2, R D' R'",
+<<<<<<< HEAD
+        "results": [
+          0.94,
+          1.36,
+          1.18,
+          1.19,
+          1.82,
+          1.17,
+          1.31,
+          1.85,
+          2.11
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "ON"
       }
@@ -13,7 +27,20 @@
     "algorithms": [
       {
         "alg": "R' D': D2, R' U R",
+<<<<<<< HEAD
+        "results": [
+          1.21,
+          1.16,
+          1.64,
+          1.16,
+          2.53,
+          1.51,
+          1.61,
+          1.57
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "OM"
       }
@@ -23,7 +50,22 @@
     "algorithms": [
       {
         "alg": "U R2 D' R2 U', R",
+<<<<<<< HEAD
+        "results": [
+          1.23,
+          1.95,
+          1.04,
+          1.07,
+          1.11,
+          1.17,
+          2.17,
+          1.14,
+          1.4,
+          1.55
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "OL"
       }
@@ -33,7 +75,22 @@
     "algorithms": [
       {
         "alg": "U R: D2, R U' R'",
+<<<<<<< HEAD
+        "results": [
+          1.11,
+          1.26,
+          1.75,
+          1.06,
+          1.84,
+          1.25,
+          1.25,
+          1.37,
+          1.46,
+          1.42
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "OF"
       }
@@ -43,7 +100,22 @@
     "algorithms": [
       {
         "alg": "U R' F R: U2, R D' R'",
+<<<<<<< HEAD
+        "results": [
+          1.92,
+          1.26,
+          1.38,
+          1.5,
+          1.03,
+          1.91,
+          1.42,
+          1.66,
+          1.57,
+          1.27
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "OE"
       }
@@ -53,7 +125,21 @@
     "algorithms": [
       {
         "alg": "U' D' R': R' D R, U",
+<<<<<<< HEAD
+        "results": [
+          1.21,
+          1.52,
+          1.23,
+          1.49,
+          1.87,
+          1.85,
+          1.28,
+          1.31,
+          1.42
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "OG"
       }
@@ -63,7 +149,22 @@
     "algorithms": [
       {
         "alg": "R' F' R D': U', R D R'",
+<<<<<<< HEAD
+        "results": [
+          1.17,
+          1.47,
+          1.38,
+          2.0,
+          1.97,
+          1.89,
+          2.39,
+          1.3,
+          1.36,
+          1.16
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "OI"
       }
@@ -73,7 +174,21 @@
     "algorithms": [
       {
         "alg": "U: D2, R U R'",
+<<<<<<< HEAD
+        "results": [
+          1.34,
+          0.97,
+          1.11,
+          1.31,
+          1.01,
+          1.46,
+          0.97,
+          1.42,
+          1.19
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "OK"
       }
@@ -83,7 +198,22 @@
     "algorithms": [
       {
         "alg": "D2 R': F2, R D' R' D",
+<<<<<<< HEAD
+        "results": [
+          1.46,
+          1.45,
+          1.23,
+          1.37,
+          1.3,
+          1.25,
+          1.28,
+          1.29,
+          1.35,
+          1.19
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "OQ"
       }
@@ -93,7 +223,22 @@
     "algorithms": [
       {
         "alg": "U' R B R': R' D R, U",
+<<<<<<< HEAD
+        "results": [
+          1.38,
+          1.15,
+          1.03,
+          1.2,
+          1.88,
+          1.06,
+          1.22,
+          1.23,
+          1.18,
+          1.26
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "OT"
       }
@@ -103,7 +248,22 @@
     "algorithms": [
       {
         "alg": "U D R': R' D R, U'",
+<<<<<<< HEAD
+        "results": [
+          1.58,
+          1.11,
+          1.35,
+          1.19,
+          1.27,
+          1.07,
+          1.38,
+          1.28,
+          1.49,
+          1.05
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "OP"
       }
@@ -113,7 +273,21 @@
     "algorithms": [
       {
         "alg": "x': D, R U2 R'",
+<<<<<<< HEAD
+        "results": [
+          1.27,
+          1.36,
+          0.89,
+          1.21,
+          1.31,
+          0.99,
+          1.14,
+          1.44,
+          1.14
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "OS"
       }
@@ -123,7 +297,22 @@
     "algorithms": [
       {
         "alg": "U': D', R' U' R",
+<<<<<<< HEAD
+        "results": [
+          1.32,
+          1.22,
+          1.78,
+          1.24,
+          1.44,
+          1.02,
+          1.07,
+          1.13,
+          1.06,
+          0.92
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "OZ"
       }
@@ -133,7 +322,22 @@
     "algorithms": [
       {
         "alg": "U' R' D2: R U R', D",
+<<<<<<< HEAD
+        "results": [
+          1.04,
+          0.9,
+          0.82,
+          1.13,
+          1.03,
+          0.98,
+          0.86,
+          0.86,
+          1.09,
+          1.03
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "OU"
       }
@@ -143,7 +347,21 @@
     "algorithms": [
       {
         "alg": "U' R' U: R D' R', U2",
+<<<<<<< HEAD
+        "results": [
+          1.57,
+          1.23,
+          1.36,
+          1.17,
+          1.5,
+          1.39,
+          2.03,
+          1.51,
+          1.38
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "OW"
       }
@@ -153,7 +371,22 @@
     "algorithms": [
       {
         "alg": "U' D': U2, R D R'",
+<<<<<<< HEAD
+        "results": [
+          1.19,
+          1.02,
+          1.59,
+          1.17,
+          1.0,
+          1.18,
+          0.76,
+          0.86,
+          0.98,
+          0.9
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "OC"
       }
@@ -163,7 +396,22 @@
     "algorithms": [
       {
         "alg": "D': R D R', U'",
+<<<<<<< HEAD
+        "results": [
+          0.77,
+          0.83,
+          1.32,
+          1.46,
+          0.74,
+          1.12,
+          0.87,
+          0.77,
+          0.85,
+          0.82
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "OA"
       }
@@ -173,7 +421,22 @@
     "algorithms": [
       {
         "alg": "D: U', R' D R,",
+<<<<<<< HEAD
+        "results": [
+          0.75,
+          1.09,
+          0.96,
+          1.02,
+          1.72,
+          0.85,
+          0.88,
+          0.94,
+          0.89,
+          0.79
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "OB"
       }
@@ -183,7 +446,24 @@
     "algorithms": [
       {
         "alg": "Lw U D: R D' R', U2",
+<<<<<<< HEAD
+        "results": [
+          1.86,
+          1.26,
+          1.64,
+          1.3,
+          1.57,
+          1.1,
+          1.17,
+          1.68,
+          1.46,
+          2.05,
+          1.77,
+          1.27
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "NO"
       }
@@ -193,7 +473,24 @@
     "algorithms": [
       {
         "alg": "R B' R' D: U', R D' R'",
+<<<<<<< HEAD
+        "results": [
+          1.39,
+          1.42,
+          1.54,
+          1.63,
+          1.56,
+          1.27,
+          1.9,
+          1.81,
+          1.21,
+          1.42,
+          1.33,
+          1.41
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "NM"
       }
@@ -203,7 +500,24 @@
     "algorithms": [
       {
         "alg": "R' D': U, R' D R",
+<<<<<<< HEAD
+        "results": [
+          1.08,
+          1.21,
+          0.82,
+          1.44,
+          1.26,
+          0.83,
+          0.85,
+          1.1,
+          1.15,
+          0.91,
+          0.83,
+          1.08
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "NL"
       }
@@ -213,7 +527,22 @@
     "algorithms": [
       {
         "alg": "U': U R2 D' R2 U', R'",
+<<<<<<< HEAD
+        "results": [
+          1.74,
+          1.63,
+          1.33,
+          1.84,
+          1.36,
+          1.26,
+          2.49,
+          1.57,
+          1.13,
+          1.63
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "ND"
       }
@@ -223,7 +552,24 @@
     "algorithms": [
       {
         "alg": "D' R: R D' R', U'",
+<<<<<<< HEAD
+        "results": [
+          1.97,
+          1.16,
+          1.57,
+          0.85,
+          1.27,
+          1.09,
+          1.09,
+          0.93,
+          1.14,
+          1.0,
+          1.18,
+          0.94
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "NE"
       }
@@ -233,7 +579,23 @@
     "algorithms": [
       {
         "alg": "R U' R' U: U2, R D R'",
+<<<<<<< HEAD
+        "results": [
+          1.37,
+          1.35,
+          1.65,
+          1.23,
+          1.63,
+          1.09,
+          1.38,
+          1.06,
+          1.31,
+          1.05,
+          1.15
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "NG"
       }
@@ -243,7 +605,24 @@
     "algorithms": [
       {
         "alg": "D: D2, R U R'",
+<<<<<<< HEAD
+        "results": [
+          1.9,
+          0.79,
+          1.31,
+          1.08,
+          0.98,
+          1.24,
+          0.75,
+          0.85,
+          0.81,
+          0.76,
+          1.47,
+          1.32
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "NI"
       }
@@ -253,7 +632,24 @@
     "algorithms": [
       {
         "alg": "R U R' U': R U R', D'",
+<<<<<<< HEAD
+        "results": [
+          1.51,
+          1.1,
+          1.5,
+          1.18,
+          1.77,
+          1.03,
+          1.18,
+          1.02,
+          1.21,
+          1.24,
+          1.2,
+          1.23
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "NK"
       }
@@ -263,7 +659,24 @@
     "algorithms": [
       {
         "alg": "R U: U2, R' D' R",
+<<<<<<< HEAD
+        "results": [
+          0.73,
+          1.14,
+          1.15,
+          1.39,
+          1.14,
+          0.77,
+          1.34,
+          1.36,
+          1.16,
+          0.74,
+          0.78,
+          0.82
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "NQ"
       }
@@ -273,7 +686,24 @@
     "algorithms": [
       {
         "alg": "D': R U R', D'",
+<<<<<<< HEAD
+        "results": [
+          0.87,
+          0.67,
+          0.81,
+          0.98,
+          0.79,
+          0.79,
+          0.77,
+          0.82,
+          0.94,
+          1.04,
+          1.14,
+          1.04
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "NR"
       }
@@ -283,7 +713,24 @@
     "algorithms": [
       {
         "alg": "R F R': U', R' D R",
+<<<<<<< HEAD
+        "results": [
+          1.08,
+          1.55,
+          1.05,
+          1.57,
+          1.2,
+          1.38,
+          0.92,
+          1.17,
+          1.06,
+          1.47,
+          1.5,
+          1.05
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "NT"
       }
@@ -293,7 +740,24 @@
     "algorithms": [
       {
         "alg": "R U: U, R' D' R",
+<<<<<<< HEAD
+        "results": [
+          0.8,
+          0.8,
+          0.99,
+          0.83,
+          0.79,
+          0.78,
+          1.43,
+          0.73,
+          0.95,
+          0.82,
+          0.82,
+          0.95
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "NP"
       }
@@ -303,7 +767,24 @@
     "algorithms": [
       {
         "alg": "F: R U R', D'",
+<<<<<<< HEAD
+        "results": [
+          0.86,
+          0.86,
+          1.26,
+          0.99,
+          0.94,
+          0.95,
+          1.57,
+          0.98,
+          1.24,
+          1.05,
+          0.98,
+          1.08
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "NS"
       }
@@ -313,7 +794,24 @@
     "algorithms": [
       {
         "alg": "D', R U R'",
+<<<<<<< HEAD
+        "results": [
+          0.89,
+          0.61,
+          0.7,
+          0.78,
+          0.62,
+          0.66,
+          0.57,
+          0.69,
+          0.65,
+          0.92,
+          0.74,
+          1.33
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "NU"
       }
@@ -323,7 +821,24 @@
     "algorithms": [
       {
         "alg": "U D R: R D' R', U2",
+<<<<<<< HEAD
+        "results": [
+          1.1,
+          1.55,
+          1.21,
+          1.55,
+          1.08,
+          1.67,
+          1.33,
+          1.23,
+          1.07,
+          1.14,
+          1.62,
+          1.12
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "NW"
       }
@@ -333,7 +848,23 @@
     "algorithms": [
       {
         "alg": "U' D: U2, R D' R'",
+<<<<<<< HEAD
+        "results": [
+          1.34,
+          1.03,
+          1.63,
+          1.39,
+          1.18,
+          1.07,
+          0.94,
+          1.07,
+          1.61,
+          1.65,
+          1.02
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "NC"
       }
@@ -343,7 +874,24 @@
     "algorithms": [
       {
         "alg": "D: R D' R', U'",
+<<<<<<< HEAD
+        "results": [
+          0.83,
+          1.03,
+          0.81,
+          0.79,
+          0.82,
+          0.73,
+          1.15,
+          0.74,
+          0.9,
+          0.8,
+          1.03,
+          0.73
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "NA"
       }
@@ -353,7 +901,24 @@
     "algorithms": [
       {
         "alg": "D': U', R' D' R",
+<<<<<<< HEAD
+        "results": [
+          0.83,
+          0.96,
+          1.26,
+          1.36,
+          1.2,
+          0.75,
+          0.72,
+          0.93,
+          0.93,
+          0.93,
+          0.82,
+          0.8
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "NB"
       }
@@ -363,7 +928,21 @@
     "algorithms": [
       {
         "alg": "R' D': R' U R, D2",
+<<<<<<< HEAD
+        "results": [
+          1.21,
+          1.18,
+          1.24,
+          2.02,
+          1.6,
+          1.37,
+          1.22,
+          1.13,
+          1.42
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "MO"
       }
@@ -373,7 +952,19 @@
     "algorithms": [
       {
         "alg": "R B' R' D: R D' R', U'",
+<<<<<<< HEAD
+        "results": [
+          2.05,
+          1.79,
+          1.24,
+          2.09,
+          2.35,
+          1.36,
+          1.37
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "MN"
       }
@@ -383,7 +974,21 @@
     "algorithms": [
       {
         "alg": "R U R' D': R' D R, U",
+<<<<<<< HEAD
+        "results": [
+          1.33,
+          1.41,
+          1.12,
+          1.23,
+          1.17,
+          1.35,
+          1.56,
+          1.29,
+          1.57
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "ML"
       }
@@ -393,7 +998,21 @@
     "algorithms": [
       {
         "alg": "U' D R': R' D R, U'",
+<<<<<<< HEAD
+        "results": [
+          1.46,
+          1.75,
+          1.66,
+          1.31,
+          1.09,
+          1.27,
+          1.15,
+          1.14,
+          1.42
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "MD"
       }
@@ -403,7 +1022,17 @@
     "algorithms": [
       {
         "alg": "U R' F R: R D R', U'",
+<<<<<<< HEAD
+        "results": [
+          1.39,
+          1.01,
+          1.69,
+          0.99,
+          1.65
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "MF"
       }
@@ -413,7 +1042,17 @@
     "algorithms": [
       {
         "alg": "U' R': R' D R, U'",
+<<<<<<< HEAD
+        "results": [
+          1.26,
+          1.23,
+          1.7,
+          0.81,
+          0.87
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "ME"
       }
@@ -423,7 +1062,16 @@
     "algorithms": [
       {
         "alg": "U' D' R': R' D R, U'",
+<<<<<<< HEAD
+        "results": [
+          1.78,
+          1.09,
+          1.5,
+          1.33
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "MG"
       }
@@ -433,7 +1081,17 @@
     "algorithms": [
       {
         "alg": "R: R' D R' D' R2, B'",
+<<<<<<< HEAD
+        "results": [
+          1.41,
+          1.53,
+          1.92,
+          1.25,
+          1.17
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "MI"
       }
@@ -443,7 +1101,17 @@
     "algorithms": [
       {
         "alg": "Lw D': R' D R, U'",
+<<<<<<< HEAD
+        "results": [
+          1.32,
+          1.32,
+          1.5,
+          1.72,
+          1.22
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "MK"
       }
@@ -453,7 +1121,17 @@
     "algorithms": [
       {
         "alg": "R U R' D': R' D R, U2",
+<<<<<<< HEAD
+        "results": [
+          1.56,
+          1.55,
+          1.5,
+          1.39,
+          1.23
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "MQ"
       }
@@ -463,7 +1141,16 @@
     "algorithms": [
       {
         "alg": "U2 R: U, R D' R'",
+<<<<<<< HEAD
+        "results": [
+          1.38,
+          1.13,
+          1.6,
+          1.44
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "MR"
       }
@@ -473,7 +1160,17 @@
     "algorithms": [
       {
         "alg": "R B' R': U, R' D R",
+<<<<<<< HEAD
+        "results": [
+          1.1,
+          1.85,
+          1.42,
+          1.21,
+          1.76
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "MT"
       }
@@ -483,7 +1180,17 @@
     "algorithms": [
       {
         "alg": "x': D, R U' R'",
+<<<<<<< HEAD
+        "results": [
+          1.02,
+          0.73,
+          1.1,
+          0.94,
+          0.99
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "MS"
       }
@@ -493,7 +1200,17 @@
     "algorithms": [
       {
         "alg": "R' U: U, R' D' R",
+<<<<<<< HEAD
+        "results": [
+          0.85,
+          0.86,
+          1.12,
+          0.99,
+          1.51
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "MZ"
       }
@@ -503,7 +1220,17 @@
     "algorithms": [
       {
         "alg": "R': R' U R, D",
+<<<<<<< HEAD
+        "results": [
+          0.83,
+          1.07,
+          0.91,
+          0.76,
+          1.05
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "MU"
       }
@@ -513,7 +1240,17 @@
     "algorithms": [
       {
         "alg": "U R: R D R', U2",
+<<<<<<< HEAD
+        "results": [
+          1.13,
+          2.13,
+          1.13,
+          1.14,
+          1.27
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "MW"
       }
@@ -523,7 +1260,17 @@
     "algorithms": [
       {
         "alg": "R': U2, R' D' R",
+<<<<<<< HEAD
+        "results": [
+          1.24,
+          0.76,
+          1.01,
+          0.73,
+          0.67
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "MA"
       }
@@ -533,7 +1280,17 @@
     "algorithms": [
       {
         "alg": "U' R': R' D' R, U'",
+<<<<<<< HEAD
+        "results": [
+          1.59,
+          0.99,
+          1.43,
+          1.39,
+          1.1
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "MB"
       }
@@ -543,7 +1300,20 @@
     "algorithms": [
       {
         "alg": "R, U R2 D' R2 U'",
+<<<<<<< HEAD
+        "results": [
+          1.41,
+          1.67,
+          1.13,
+          1.13,
+          1.07,
+          2.05,
+          0.82,
+          1.34
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "LO"
       }
@@ -553,7 +1323,20 @@
     "algorithms": [
       {
         "alg": "R' D': R' D R, U",
+<<<<<<< HEAD
+        "results": [
+          0.98,
+          1.08,
+          1.02,
+          0.87,
+          1.14,
+          1.05,
+          1.72,
+          1.99
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "LN"
       }
@@ -563,7 +1346,20 @@
     "algorithms": [
       {
         "alg": "R U R' D': U, R' D R",
+<<<<<<< HEAD
+        "results": [
+          1.37,
+          1.24,
+          1.81,
+          1.11,
+          1.22,
+          1.47,
+          1.51,
+          1.25
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "LM"
       }
@@ -573,7 +1369,19 @@
     "algorithms": [
       {
         "alg": "R U': R' U R, D'",
+<<<<<<< HEAD
+        "results": [
+          0.85,
+          1.01,
+          1.02,
+          0.93,
+          1.53,
+          1.14,
+          0.9
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "LD"
       }
@@ -583,7 +1391,20 @@
     "algorithms": [
       {
         "alg": "U D' R' U': R U R', D'",
+<<<<<<< HEAD
+        "results": [
+          1.27,
+          1.21,
+          1.0,
+          1.14,
+          0.98,
+          1.65,
+          1.27,
+          1.75
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "LF"
       }
@@ -593,7 +1414,20 @@
     "algorithms": [
       {
         "alg": "U D R' U': R U R', D'",
+<<<<<<< HEAD
+        "results": [
+          1.21,
+          1.29,
+          1.15,
+          1.34,
+          1.38,
+          1.2,
+          1.26,
+          1.29
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "LE"
       }
@@ -603,7 +1437,20 @@
     "algorithms": [
       {
         "alg": "U R' U': R U R', D'",
+<<<<<<< HEAD
+        "results": [
+          0.96,
+          1.07,
+          0.9,
+          0.96,
+          0.9,
+          0.86,
+          0.89,
+          0.95
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "LG"
       }
@@ -613,7 +1460,20 @@
     "algorithms": [
       {
         "alg": "R' F: D, R U' R'",
+<<<<<<< HEAD
+        "results": [
+          0.91,
+          1.21,
+          1.25,
+          1.29,
+          1.0,
+          0.89,
+          0.88,
+          0.96
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "LI"
       }
@@ -623,7 +1483,19 @@
     "algorithms": [
       {
         "alg": "D' R' U: D, R U' R'",
+<<<<<<< HEAD
+        "results": [
+          1.1,
+          1.23,
+          1.6,
+          1.18,
+          1.35,
+          1.22,
+          1.18
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "LK"
       }
@@ -633,7 +1505,19 @@
     "algorithms": [
       {
         "alg": "R D: U2, R D' R'",
+<<<<<<< HEAD
+        "results": [
+          1.01,
+          1.42,
+          0.91,
+          1.14,
+          1.03,
+          1.27,
+          1.01
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "LQ"
       }
@@ -643,7 +1527,20 @@
     "algorithms": [
       {
         "alg": "R, U L U'",
+<<<<<<< HEAD
+        "results": [
+          1.8,
+          1.33,
+          0.86,
+          1.37,
+          0.94,
+          0.91,
+          0.94,
+          1.39
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "LR"
       }
@@ -653,7 +1550,20 @@
     "algorithms": [
       {
         "alg": "R' U: D, R U' R'",
+<<<<<<< HEAD
+        "results": [
+          0.96,
+          0.94,
+          1.29,
+          0.83,
+          0.93,
+          1.03,
+          0.89,
+          0.86
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "LT"
       }
@@ -663,7 +1573,20 @@
     "algorithms": [
       {
         "alg": "U R': R' D' R, U'",
+<<<<<<< HEAD
+        "results": [
+          1.23,
+          0.81,
+          1.05,
+          0.95,
+          1.0,
+          1.09,
+          1.23,
+          1.04
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "LP"
       }
@@ -673,7 +1596,18 @@
     "algorithms": [
       {
         "alg": "R' F: D, R U R'",
+<<<<<<< HEAD
+        "results": [
+          1.41,
+          0.96,
+          1.15,
+          1.18,
+          1.14,
+          1.1
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "LS"
       }
@@ -683,7 +1617,16 @@
     "algorithms": [
       {
         "alg": "D2 R' U: D, R U' R'",
+<<<<<<< HEAD
+        "results": [
+          1.16,
+          1.27,
+          1.53,
+          1.45
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "LZ"
       }
@@ -693,7 +1636,20 @@
     "algorithms": [
       {
         "alg": "R' U: D', R U' R'",
+<<<<<<< HEAD
+        "results": [
+          0.65,
+          0.91,
+          0.79,
+          0.74,
+          0.91,
+          1.51,
+          0.88,
+          0.93
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "LU"
       }
@@ -703,7 +1659,18 @@
     "algorithms": [
       {
         "alg": "R' D U: U2, R D R'",
+<<<<<<< HEAD
+        "results": [
+          1.64,
+          1.19,
+          1.13,
+          1.39,
+          1.74,
+          1.32
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "LC"
       }
@@ -713,7 +1680,20 @@
     "algorithms": [
       {
         "alg": "R' D': R' D R, U'",
+<<<<<<< HEAD
+        "results": [
+          1.04,
+          0.92,
+          0.79,
+          1.06,
+          1.06,
+          0.84,
+          1.04,
+          0.97
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "LB"
       }
@@ -723,7 +1703,18 @@
     "algorithms": [
       {
         "alg": "U': R', U R2 D' R2 U'",
+<<<<<<< HEAD
+        "results": [
+          1.22,
+          1.93,
+          1.25,
+          1.58,
+          1.62,
+          1.36
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "DN"
       }
@@ -733,7 +1724,20 @@
     "algorithms": [
       {
         "alg": "U' D R': U', R' D R",
+<<<<<<< HEAD
+        "results": [
+          1.23,
+          1.06,
+          1.25,
+          1.12,
+          1.09,
+          0.95,
+          1.37,
+          1.23
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "DM"
       }
@@ -743,7 +1747,20 @@
     "algorithms": [
       {
         "alg": "R U': D', R' U R",
+<<<<<<< HEAD
+        "results": [
+          1.1,
+          0.87,
+          1.15,
+          1.48,
+          1.14,
+          0.92,
+          0.93,
+          1.53
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "DL"
       }
@@ -753,7 +1770,16 @@
     "algorithms": [
       {
         "alg": "R U' R': D', R' U R",
+<<<<<<< HEAD
+        "results": [
+          1.46,
+          1.02,
+          1.12,
+          1.26
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "DF"
       }
@@ -763,7 +1789,19 @@
     "algorithms": [
       {
         "alg": "R B R' U: U, R' D R",
+<<<<<<< HEAD
+        "results": [
+          1.35,
+          1.38,
+          1.31,
+          1.25,
+          1.77,
+          1.3,
+          1.37
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "DE"
       }
@@ -773,7 +1811,18 @@
     "algorithms": [
       {
         "alg": "R U' R' U': R D' R', U2",
+<<<<<<< HEAD
+        "results": [
+          1.45,
+          1.52,
+          1.38,
+          1.47,
+          1.82,
+          1.3
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "DG"
       }
@@ -783,7 +1832,20 @@
     "algorithms": [
       {
         "alg": "D R D: R' D' R, U",
+<<<<<<< HEAD
+        "results": [
+          1.0,
+          1.07,
+          1.07,
+          1.15,
+          1.07,
+          1.13,
+          0.95,
+          0.94
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "DI"
       }
@@ -793,7 +1855,20 @@
     "algorithms": [
       {
         "alg": "U' D R': U, R' D R",
+<<<<<<< HEAD
+        "results": [
+          1.02,
+          1.09,
+          1.17,
+          0.98,
+          0.99,
+          1.29,
+          1.73,
+          1.09
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "DK"
       }
@@ -803,7 +1878,20 @@
     "algorithms": [
       {
         "alg": "R: U2, R D' R'",
+<<<<<<< HEAD
+        "results": [
+          1.13,
+          0.94,
+          1.24,
+          1.2,
+          1.0,
+          0.79,
+          0.91,
+          1.15
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "DQ"
       }
@@ -813,7 +1901,19 @@
     "algorithms": [
       {
         "alg": "D R: F2, R' U R U'",
+<<<<<<< HEAD
+        "results": [
+          1.22,
+          1.32,
+          1.49,
+          1.1,
+          1.04,
+          1.33,
+          1.14
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "DT"
       }
@@ -823,7 +1923,20 @@
     "algorithms": [
       {
         "alg": "R: U, R D' R'",
+<<<<<<< HEAD
+        "results": [
+          0.88,
+          0.92,
+          0.79,
+          1.16,
+          0.68,
+          1.08,
+          0.98,
+          0.72
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "DP"
       }
@@ -833,7 +1946,20 @@
     "algorithms": [
       {
         "alg": "U': R, U R2 D' R2 U'",
+<<<<<<< HEAD
+        "results": [
+          0.93,
+          0.93,
+          0.9,
+          1.65,
+          1.32,
+          0.91,
+          1.26,
+          0.93
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "DS"
       }
@@ -843,7 +1969,20 @@
     "algorithms": [
       {
         "alg": "R' B: R U2 R', D'",
+<<<<<<< HEAD
+        "results": [
+          1.4,
+          0.9,
+          1.0,
+          1.16,
+          1.13,
+          0.88,
+          1.73,
+          0.93
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "DZ"
       }
@@ -853,7 +1992,20 @@
     "algorithms": [
       {
         "alg": "R: U', R D' R'",
+<<<<<<< HEAD
+        "results": [
+          1.5,
+          1.02,
+          1.0,
+          0.81,
+          0.72,
+          1.1,
+          0.68,
+          1.13
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "DU"
       }
@@ -863,7 +2015,19 @@
     "algorithms": [
       {
         "alg": "U' D R': U2, R' D R",
+<<<<<<< HEAD
+        "results": [
+          1.23,
+          1.31,
+          1.62,
+          1.2,
+          1.41,
+          1.23,
+          1.21
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "DW"
       }
@@ -873,7 +2037,20 @@
     "algorithms": [
       {
         "alg": "R' U' D' R: D, R U' R'",
+<<<<<<< HEAD
+        "results": [
+          1.26,
+          1.88,
+          1.29,
+          1.2,
+          1.48,
+          1.03,
+          1.51,
+          1.67
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "DC"
       }
@@ -883,7 +2060,20 @@
     "algorithms": [
       {
         "alg": "R' B: R U R', D'",
+<<<<<<< HEAD
+        "results": [
+          1.62,
+          0.92,
+          0.77,
+          1.1,
+          0.93,
+          1.26,
+          1.22,
+          0.99
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "DA"
       }
@@ -893,7 +2083,20 @@
     "algorithms": [
       {
         "alg": "R' B: R U' R', D'",
+<<<<<<< HEAD
+        "results": [
+          1.16,
+          0.83,
+          0.82,
+          0.88,
+          1.27,
+          1.56,
+          1.13,
+          0.79
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "DB"
       }
@@ -903,7 +2106,17 @@
     "algorithms": [
       {
         "alg": "U R: R U' R', D2",
+<<<<<<< HEAD
+        "results": [
+          1.23,
+          1.2,
+          1.17,
+          1.07,
+          1.22
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "FO"
       }
@@ -913,7 +2126,17 @@
     "algorithms": [
       {
         "alg": "U R' F R: U', R D R'",
+<<<<<<< HEAD
+        "results": [
+          0.98,
+          1.39,
+          1.01,
+          0.97,
+          1.01
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "FM"
       }
@@ -923,7 +2146,17 @@
     "algorithms": [
       {
         "alg": "U D' R' U': D', R U R'",
+<<<<<<< HEAD
+        "results": [
+          1.2,
+          1.94,
+          1.0,
+          1.07,
+          1.31
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "FL"
       }
@@ -933,7 +2166,17 @@
     "algorithms": [
       {
         "alg": "R U' R': R' U R, D'",
+<<<<<<< HEAD
+        "results": [
+          0.91,
+          1.16,
+          1.16,
+          1.56,
+          1.39
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "FD"
       }
@@ -943,7 +2186,16 @@
     "algorithms": [
       {
         "alg": "U R' F R: U2, R D R'",
+<<<<<<< HEAD
+        "results": [
+          1.21,
+          1.33,
+          1.13,
+          1.29
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "FE"
       }
@@ -953,7 +2205,17 @@
     "algorithms": [
       {
         "alg": "F' R U: R' D' R, U2",
+<<<<<<< HEAD
+        "results": [
+          1.55,
+          1.45,
+          1.05,
+          0.89,
+          1.07
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "FG"
       }
@@ -963,7 +2225,17 @@
     "algorithms": [
       {
         "alg": "D R: U', R D' R'",
+<<<<<<< HEAD
+        "results": [
+          0.86,
+          0.96,
+          0.8,
+          0.97,
+          1.28
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "FI"
       }
@@ -973,7 +2245,17 @@
     "algorithms": [
       {
         "alg": "U R D': R' D R, U'",
+<<<<<<< HEAD
+        "results": [
+          1.25,
+          1.02,
+          1.23,
+          1.19,
+          1.07
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "FK"
       }
@@ -983,7 +2265,17 @@
     "algorithms": [
       {
         "alg": "D R: U2, R D' R'",
+<<<<<<< HEAD
+        "results": [
+          1.08,
+          1.36,
+          1.28,
+          1.17,
+          1.23
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "FQ"
       }
@@ -993,7 +2285,16 @@
     "algorithms": [
       {
         "alg": "R D' R': U, R' D R",
+<<<<<<< HEAD
+        "results": [
+          1.37,
+          1.45,
+          1.06,
+          1.35
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "FR"
       }
@@ -1003,7 +2304,16 @@
     "algorithms": [
       {
         "alg": "F': D', R U' R'",
+<<<<<<< HEAD
+        "results": [
+          0.78,
+          1.23,
+          1.16,
+          1.16
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "FT"
       }
@@ -1013,7 +2323,16 @@
     "algorithms": [
       {
         "alg": "D R: U, R D' R'",
+<<<<<<< HEAD
+        "results": [
+          0.97,
+          1.75,
+          0.91,
+          1.06
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "FP"
       }
@@ -1023,7 +2342,17 @@
     "algorithms": [
       {
         "alg": "R U' R': R' U R, D",
+<<<<<<< HEAD
+        "results": [
+          0.87,
+          0.96,
+          1.02,
+          1.65,
+          1.12
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "FS"
       }
@@ -1033,7 +2362,17 @@
     "algorithms": [
       {
         "alg": "D' R U' R': U2, R' D R",
+<<<<<<< HEAD
+        "results": [
+          1.15,
+          1.29,
+          1.33,
+          1.71,
+          1.16
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "FU"
       }
@@ -1043,7 +2382,15 @@
     "algorithms": [
       {
         "alg": "D: D' R D R', U R' F R",
+<<<<<<< HEAD
+        "results": [
+          1.14,
+          1.42,
+          1.46
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "FW"
       }
@@ -1053,7 +2400,16 @@
     "algorithms": [
       {
         "alg": "R D' R': U2, R' D R",
+<<<<<<< HEAD
+        "results": [
+          1.41,
+          1.07,
+          1.56,
+          1.07
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "FC"
       }
@@ -1063,7 +2419,17 @@
     "algorithms": [
       {
         "alg": "R D' R' U R' D R, U'",
+<<<<<<< HEAD
+        "results": [
+          1.5,
+          1.88,
+          1.35,
+          1.62,
+          1.46
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "FA"
       }
@@ -1073,7 +2439,16 @@
     "algorithms": [
       {
         "alg": "R D' R': U', R' D R",
+<<<<<<< HEAD
+        "results": [
+          1.15,
+          1.31,
+          0.99,
+          1.55
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "FB"
       }
@@ -1083,7 +2458,18 @@
     "algorithms": [
       {
         "alg": "U R' F R: R D' R', U2",
+<<<<<<< HEAD
+        "results": [
+          1.29,
+          1.21,
+          1.83,
+          1.28,
+          1.53,
+          1.33
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "EO"
       }
@@ -1093,7 +2479,18 @@
     "algorithms": [
       {
         "alg": "D' R: U', R D' R'",
+<<<<<<< HEAD
+        "results": [
+          1.0,
+          1.45,
+          1.07,
+          1.58,
+          0.97,
+          1.22
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "EN"
       }
@@ -1103,7 +2500,18 @@
     "algorithms": [
       {
         "alg": "U' R': U', R' D R",
+<<<<<<< HEAD
+        "results": [
+          0.98,
+          1.81,
+          0.85,
+          0.89,
+          1.06,
+          1.07
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "EM"
       }
@@ -1113,7 +2521,18 @@
     "algorithms": [
       {
         "alg": "U D R' U': D', R U R'",
+<<<<<<< HEAD
+        "results": [
+          1.3,
+          1.25,
+          1.23,
+          1.36,
+          1.21,
+          1.19
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "EL"
       }
@@ -1123,7 +2542,16 @@
     "algorithms": [
       {
         "alg": "R B R' U: R' D R, U",
+<<<<<<< HEAD
+        "results": [
+          1.63,
+          1.26,
+          1.23,
+          1.17
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "ED"
       }
@@ -1133,7 +2561,16 @@
     "algorithms": [
       {
         "alg": "U R' F R: R D R', U2",
+<<<<<<< HEAD
+        "results": [
+          1.23,
+          1.86,
+          1.32,
+          1.58
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "EF"
       }
@@ -1143,7 +2580,17 @@
     "algorithms": [
       {
         "alg": "R U' R' D: R' D' R, U2",
+<<<<<<< HEAD
+        "results": [
+          1.43,
+          1.36,
+          1.24,
+          1.24,
+          1.73
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "EG"
       }
@@ -1153,7 +2600,18 @@
     "algorithms": [
       {
         "alg": "R: F2, R' U R U'",
+<<<<<<< HEAD
+        "results": [
+          1.13,
+          0.89,
+          1.26,
+          1.1,
+          1.3,
+          1.52
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "EK"
       }
@@ -1163,7 +2621,18 @@
     "algorithms": [
       {
         "alg": "R U' D: R' D' R, U2",
+<<<<<<< HEAD
+        "results": [
+          0.93,
+          1.03,
+          0.96,
+          0.88,
+          0.91,
+          1.24
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "EQ"
       }
@@ -1173,7 +2642,18 @@
     "algorithms": [
       {
         "alg": "D U: L' F2 L U' L' U F2 U' L",
+<<<<<<< HEAD
+        "results": [
+          1.58,
+          1.4,
+          1.21,
+          1.27,
+          1.63,
+          1.27
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "ER"
       }
@@ -1183,7 +2663,18 @@
     "algorithms": [
       {
         "alg": "R U2 D: R' D' R, U'",
+<<<<<<< HEAD
+        "results": [
+          1.15,
+          1.14,
+          1.68,
+          0.76,
+          2.04,
+          1.07
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "EP"
       }
@@ -1193,7 +2684,18 @@
     "algorithms": [
       {
         "alg": "U' R' U: D, R U' R'",
+<<<<<<< HEAD
+        "results": [
+          0.88,
+          1.15,
+          0.9,
+          1.46,
+          1.16,
+          0.97
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "ES"
       }
@@ -1203,7 +2705,18 @@
     "algorithms": [
       {
         "alg": "U' R': U, R' D R",
+<<<<<<< HEAD
+        "results": [
+          1.01,
+          0.72,
+          0.67,
+          0.74,
+          0.79,
+          0.79
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "EZ"
       }
@@ -1213,7 +2726,18 @@
     "algorithms": [
       {
         "alg": "R D: R' D' R, U",
+<<<<<<< HEAD
+        "results": [
+          0.9,
+          0.87,
+          0.98,
+          1.09,
+          0.81,
+          0.83
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "EU"
       }
@@ -1223,7 +2747,18 @@
     "algorithms": [
       {
         "alg": "U' R': U2, R' D R",
+<<<<<<< HEAD
+        "results": [
+          0.83,
+          2.26,
+          0.98,
+          1.05,
+          1.07,
+          0.82
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "EW"
       }
@@ -1233,7 +2768,18 @@
     "algorithms": [
       {
         "alg": "R F' R' U': U2, R D R'",
+<<<<<<< HEAD
+        "results": [
+          1.09,
+          1.52,
+          1.43,
+          1.4,
+          1.19,
+          1.44
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "EC"
       }
@@ -1243,7 +2789,18 @@
     "algorithms": [
       {
         "alg": "R' F2 R U: U2, R' D R",
+<<<<<<< HEAD
+        "results": [
+          1.31,
+          1.03,
+          1.89,
+          1.1,
+          1.55,
+          1.82
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "EA"
       }
@@ -1253,7 +2810,18 @@
     "algorithms": [
       {
         "alg": "R2 F R U: U2, R' D' R",
+<<<<<<< HEAD
+        "results": [
+          1.14,
+          1.71,
+          1.26,
+          1.6,
+          1.22,
+          1.54
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "EB"
       }
@@ -1263,7 +2831,18 @@
     "algorithms": [
       {
         "alg": "U' D' R': U, R' D R",
+<<<<<<< HEAD
+        "results": [
+          1.4,
+          1.7,
+          1.61,
+          1.01,
+          1.03,
+          0.94
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "GO"
       }
@@ -1273,7 +2852,18 @@
     "algorithms": [
       {
         "alg": "R U' R' U: R D R', U2",
+<<<<<<< HEAD
+        "results": [
+          1.31,
+          1.07,
+          0.92,
+          1.51,
+          0.97,
+          1.61
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "GN"
       }
@@ -1283,7 +2873,18 @@
     "algorithms": [
       {
         "alg": "U' D' R': U', R' D R",
+<<<<<<< HEAD
+        "results": [
+          1.18,
+          1.47,
+          0.99,
+          1.27,
+          1.14,
+          1.18
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "GM"
       }
@@ -1293,7 +2894,17 @@
     "algorithms": [
       {
         "alg": "U R' U': D', R U R'",
+<<<<<<< HEAD
+        "results": [
+          1.03,
+          1.13,
+          0.96,
+          1.58,
+          0.94
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "GL"
       }
@@ -1303,7 +2914,18 @@
     "algorithms": [
       {
         "alg": "R U' R' U': U2, R D' R'",
+<<<<<<< HEAD
+        "results": [
+          1.32,
+          1.41,
+          1.31,
+          1.39,
+          1.43,
+          1.29
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "GD"
       }
@@ -1313,7 +2935,18 @@
     "algorithms": [
       {
         "alg": "F' R U: U2, R' D' R",
+<<<<<<< HEAD
+        "results": [
+          1.0,
+          1.08,
+          1.27,
+          1.1,
+          0.95,
+          1.47
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "GF"
       }
@@ -1323,7 +2956,18 @@
     "algorithms": [
       {
         "alg": "R U' R' D: U2, R' D' R",
+<<<<<<< HEAD
+        "results": [
+          1.29,
+          1.85,
+          1.25,
+          1.53,
+          1.29,
+          1.48
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "GE"
       }
@@ -1333,7 +2977,18 @@
     "algorithms": [
       {
         "alg": "R U' R': U2, R' D R",
+<<<<<<< HEAD
+        "results": [
+          1.16,
+          1.13,
+          1.52,
+          1.2,
+          0.96,
+          0.97
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "GI"
       }
@@ -1343,7 +2998,17 @@
     "algorithms": [
       {
         "alg": "D' R U' D: R' D' R, U2",
+<<<<<<< HEAD
+        "results": [
+          1.16,
+          1.28,
+          1.06,
+          1.3,
+          1.62
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "GQ"
       }
@@ -1353,7 +3018,16 @@
     "algorithms": [
       {
         "alg": "R U' R' U D': R D R', U2",
+<<<<<<< HEAD
+        "results": [
+          1.54,
+          1.2,
+          1.24,
+          1.91
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "GR"
       }
@@ -1363,7 +3037,17 @@
     "algorithms": [
       {
         "alg": "U' R' D R: U', R D' R'",
+<<<<<<< HEAD
+        "results": [
+          1.31,
+          1.84,
+          1.32,
+          1.33,
+          1.03
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "GT"
       }
@@ -1373,7 +3057,18 @@
     "algorithms": [
       {
         "alg": "D' R U2 D: R' D' R, U'",
+<<<<<<< HEAD
+        "results": [
+          1.52,
+          1.38,
+          1.31,
+          1.23,
+          1.23,
+          1.2
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "GP"
       }
@@ -1383,7 +3078,17 @@
     "algorithms": [
       {
         "alg": "R U' R': U2, R' D' R",
+<<<<<<< HEAD
+        "results": [
+          0.93,
+          1.05,
+          1.08,
+          0.9,
+          0.95
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "GS"
       }
@@ -1393,7 +3098,18 @@
     "algorithms": [
       {
         "alg": "D' R: F2, R' U R U'",
+<<<<<<< HEAD
+        "results": [
+          1.29,
+          1.2,
+          1.71,
+          1.25,
+          1.3,
+          1.41
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "GZ"
       }
@@ -1403,7 +3119,16 @@
     "algorithms": [
       {
         "alg": "U' D' R': U2, R' D R",
+<<<<<<< HEAD
+        "results": [
+          1.6,
+          1.71,
+          1.35,
+          1.12
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "GW"
       }
@@ -1413,7 +3138,18 @@
     "algorithms": [
       {
         "alg": "U2, R' D R U' R D' R'",
+<<<<<<< HEAD
+        "results": [
+          1.94,
+          1.02,
+          1.07,
+          1.55,
+          1.27,
+          1.11
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "GC"
       }
@@ -1423,7 +3159,18 @@
     "algorithms": [
       {
         "alg": "U, R' D R U' R D' R'",
+<<<<<<< HEAD
+        "results": [
+          1.19,
+          1.32,
+          1.06,
+          1.3,
+          1.09,
+          1.01
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "GA"
       }
@@ -1433,7 +3180,18 @@
     "algorithms": [
       {
         "alg": "U', R' D R U' R D' R'",
+<<<<<<< HEAD
+        "results": [
+          1.05,
+          1.15,
+          1.69,
+          1.02,
+          1.2,
+          1.11
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "GB"
       }
@@ -1443,7 +3201,17 @@
     "algorithms": [
       {
         "alg": "R' F' R D': R D R', U'",
+<<<<<<< HEAD
+        "results": [
+          1.25,
+          1.5,
+          1.33,
+          1.27,
+          1.28
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "IO"
       }
@@ -1453,7 +3221,19 @@
     "algorithms": [
       {
         "alg": "D: R U R', D2",
+<<<<<<< HEAD
+        "results": [
+          0.74,
+          0.68,
+          0.62,
+          0.81,
+          0.88,
+          0.69,
+          0.72
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "IN"
       }
@@ -1463,7 +3243,19 @@
     "algorithms": [
       {
         "alg": "R: B', R' D R' D' R2",
+<<<<<<< HEAD
+        "results": [
+          0.9,
+          0.99,
+          1.06,
+          1.24,
+          1.62,
+          0.77,
+          0.79
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "IM"
       }
@@ -1473,7 +3265,19 @@
     "algorithms": [
       {
         "alg": "R' F: R U' R', D",
+<<<<<<< HEAD
+        "results": [
+          1.08,
+          0.95,
+          1.64,
+          1.33,
+          1.29,
+          0.85,
+          1.08
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "IL"
       }
@@ -1483,7 +3287,17 @@
     "algorithms": [
       {
         "alg": "D R D: U, R' D' R",
+<<<<<<< HEAD
+        "results": [
+          1.21,
+          1.31,
+          0.98,
+          0.95,
+          1.21
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "ID"
       }
@@ -1493,7 +3307,19 @@
     "algorithms": [
       {
         "alg": "D R: R D' R', U'",
+<<<<<<< HEAD
+        "results": [
+          0.88,
+          0.91,
+          0.83,
+          0.93,
+          0.86,
+          0.89,
+          0.89
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "IF"
       }
@@ -1503,7 +3329,19 @@
     "algorithms": [
       {
         "alg": "R U' R': R' D R, U2",
+<<<<<<< HEAD
+        "results": [
+          1.18,
+          1.01,
+          1.05,
+          0.87,
+          1.51,
+          1.06,
+          1.1
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "IG"
       }
@@ -1513,7 +3351,19 @@
     "algorithms": [
       {
         "alg": "R': R D' R' D, F'",
+<<<<<<< HEAD
+        "results": [
+          0.84,
+          0.87,
+          0.88,
+          0.9,
+          0.89,
+          1.09,
+          1.02
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "IK"
       }
@@ -1523,7 +3373,19 @@
     "algorithms": [
       {
         "alg": "R U: U2, R' D R",
+<<<<<<< HEAD
+        "results": [
+          0.85,
+          0.57,
+          0.75,
+          0.95,
+          1.09,
+          0.63,
+          0.6
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "IQ"
       }
@@ -1533,7 +3395,19 @@
     "algorithms": [
       {
         "alg": "D: R U R', D",
+<<<<<<< HEAD
+        "results": [
+          0.71,
+          0.82,
+          1.14,
+          1.28,
+          0.86,
+          0.68,
+          0.77
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "IR"
       }
@@ -1543,7 +3417,19 @@
     "algorithms": [
       {
         "alg": "R U: U, R' D R",
+<<<<<<< HEAD
+        "results": [
+          0.92,
+          0.74,
+          0.78,
+          0.92,
+          1.29,
+          0.96,
+          0.77
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "IP"
       }
@@ -1553,7 +3439,19 @@
     "algorithms": [
       {
         "alg": "D R' U': R U R', D'",
+<<<<<<< HEAD
+        "results": [
+          1.26,
+          0.98,
+          1.01,
+          1.05,
+          0.94,
+          1.24,
+          1.56
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "IS"
       }
@@ -1563,7 +3461,18 @@
     "algorithms": [
       {
         "alg": "R' F' R: R D R', U'",
+<<<<<<< HEAD
+        "results": [
+          0.98,
+          1.04,
+          1.03,
+          1.32,
+          1.1,
+          1.71
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "IZ"
       }
@@ -1573,7 +3482,19 @@
     "algorithms": [
       {
         "alg": "D, R U R'",
+<<<<<<< HEAD
+        "results": [
+          0.61,
+          0.58,
+          0.52,
+          0.66,
+          0.57,
+          0.54,
+          0.52
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "IU"
       }
@@ -1583,7 +3504,19 @@
     "algorithms": [
       {
         "alg": "U D' R: R D' R', U2",
+<<<<<<< HEAD
+        "results": [
+          1.2,
+          1.48,
+          1.43,
+          1.49,
+          1.24,
+          1.05,
+          1.43
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "IW"
       }
@@ -1593,7 +3526,19 @@
     "algorithms": [
       {
         "alg": "D: U2, R' D' R",
+<<<<<<< HEAD
+        "results": [
+          0.94,
+          0.86,
+          0.83,
+          0.97,
+          1.21,
+          1.5,
+          0.92
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "IC"
       }
@@ -1603,7 +3548,19 @@
     "algorithms": [
       {
         "alg": "D: U, R' D' R",
+<<<<<<< HEAD
+        "results": [
+          0.75,
+          0.71,
+          0.86,
+          0.68,
+          0.72,
+          0.81,
+          1.11
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "IA"
       }
@@ -1613,7 +3570,19 @@
     "algorithms": [
       {
         "alg": "D: U', R' D' R",
+<<<<<<< HEAD
+        "results": [
+          0.76,
+          0.78,
+          0.73,
+          0.83,
+          1.13,
+          0.92,
+          0.73
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "IB"
       }
@@ -1623,7 +3592,17 @@
     "algorithms": [
       {
         "alg": "U: R U R', D2",
+<<<<<<< HEAD
+        "results": [
+          1.17,
+          1.05,
+          0.97,
+          1.11,
+          1.03
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "KO"
       }
@@ -1633,7 +3612,18 @@
     "algorithms": [
       {
         "alg": "R U R' U': D', R U R'",
+<<<<<<< HEAD
+        "results": [
+          1.04,
+          1.52,
+          1.34,
+          1.55,
+          1.72,
+          1.54
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "KN"
       }
@@ -1643,7 +3633,16 @@
     "algorithms": [
       {
         "alg": "Lw D': U', R' D R",
+<<<<<<< HEAD
+        "results": [
+          1.37,
+          1.04,
+          0.94,
+          1.2
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "KM"
       }
@@ -1653,7 +3652,18 @@
     "algorithms": [
       {
         "alg": "D' R' U: R U' R', D",
+<<<<<<< HEAD
+        "results": [
+          1.28,
+          1.56,
+          1.96,
+          1.29,
+          1.32,
+          1.14
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "KL"
       }
@@ -1663,7 +3673,18 @@
     "algorithms": [
       {
         "alg": "U' D R': R' D R, U",
+<<<<<<< HEAD
+        "results": [
+          1.44,
+          1.31,
+          1.21,
+          1.22,
+          1.21,
+          1.19
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "KD"
       }
@@ -1673,7 +3694,18 @@
     "algorithms": [
       {
         "alg": "U R D': U', R' D R",
+<<<<<<< HEAD
+        "results": [
+          1.06,
+          0.98,
+          1.43,
+          1.07,
+          1.02,
+          0.94
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "KF"
       }
@@ -1683,7 +3715,18 @@
     "algorithms": [
       {
         "alg": "R: R' U R U', F2",
+<<<<<<< HEAD
+        "results": [
+          1.16,
+          1.52,
+          1.08,
+          1.45,
+          0.88,
+          1.12
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "KE"
       }
@@ -1693,7 +3736,17 @@
     "algorithms": [
       {
         "alg": "R': F', R D' R' D",
+<<<<<<< HEAD
+        "results": [
+          1.17,
+          0.89,
+          0.74,
+          0.82,
+          0.83
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "KI"
       }
@@ -1703,7 +3756,18 @@
     "algorithms": [
       {
         "alg": "R': F2, R D' R' D",
+<<<<<<< HEAD
+        "results": [
+          1.11,
+          1.66,
+          1.13,
+          1.18,
+          1.06,
+          0.9
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "KQ"
       }
@@ -1713,7 +3777,18 @@
     "algorithms": [
       {
         "alg": "U R U': U', R D' R'",
+<<<<<<< HEAD
+        "results": [
+          1.56,
+          1.16,
+          1.44,
+          1.08,
+          1.09,
+          1.44
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "KR"
       }
@@ -1723,7 +3798,18 @@
     "algorithms": [
       {
         "alg": "U: R U R', D",
+<<<<<<< HEAD
+        "results": [
+          0.79,
+          0.75,
+          0.65,
+          0.68,
+          1.02,
+          0.85
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "KT"
       }
@@ -1733,7 +3819,18 @@
     "algorithms": [
       {
         "alg": "R U R': U', R' D' R",
+<<<<<<< HEAD
+        "results": [
+          1.57,
+          1.02,
+          1.28,
+          0.95,
+          1.02,
+          1.0
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "KP"
       }
@@ -1743,7 +3840,18 @@
     "algorithms": [
       {
         "alg": "R: R' U R U', F",
+<<<<<<< HEAD
+        "results": [
+          1.04,
+          1.11,
+          1.55,
+          1.24,
+          1.07,
+          0.93
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "KS"
       }
@@ -1753,7 +3861,18 @@
     "algorithms": [
       {
         "alg": "U: R U' R', D'",
+<<<<<<< HEAD
+        "results": [
+          0.82,
+          0.76,
+          0.93,
+          0.88,
+          1.22,
+          0.83
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "KZ"
       }
@@ -1763,7 +3882,18 @@
     "algorithms": [
       {
         "alg": "R B R': R' D' R, U2",
+<<<<<<< HEAD
+        "results": [
+          1.21,
+          1.93,
+          1.31,
+          1.22,
+          1.46,
+          1.76
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "KW"
       }
@@ -1773,7 +3903,18 @@
     "algorithms": [
       {
         "alg": "D': U2, R' D R",
+<<<<<<< HEAD
+        "results": [
+          0.71,
+          0.93,
+          0.91,
+          1.0,
+          1.22,
+          1.28
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "KC"
       }
@@ -1783,7 +3924,18 @@
     "algorithms": [
       {
         "alg": "D': U, R' D R",
+<<<<<<< HEAD
+        "results": [
+          0.8,
+          0.85,
+          0.78,
+          0.87,
+          0.95,
+          0.72
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "KA"
       }
@@ -1793,7 +3945,17 @@
     "algorithms": [
       {
         "alg": "D': U', R' D R",
+<<<<<<< HEAD
+        "results": [
+          0.71,
+          1.47,
+          0.92,
+          0.84,
+          0.96
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "KB"
       }
@@ -1983,7 +4145,18 @@
     "algorithms": [
       {
         "alg": "D': D', R U R'",
+<<<<<<< HEAD
+        "results": [
+          0.8,
+          0.63,
+          0.66,
+          0.84,
+          0.9,
+          0.6
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "RN"
       }
@@ -1993,7 +4166,18 @@
     "algorithms": [
       {
         "alg": "U2 R: R D' R', U",
+<<<<<<< HEAD
+        "results": [
+          1.38,
+          1.47,
+          1.14,
+          1.22,
+          1.24,
+          1.37
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "RM"
       }
@@ -2003,7 +4187,18 @@
     "algorithms": [
       {
         "alg": "U L U', R",
+<<<<<<< HEAD
+        "results": [
+          0.93,
+          0.8,
+          0.97,
+          0.91,
+          0.72,
+          1.32
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "RL"
       }
@@ -2013,7 +4208,18 @@
     "algorithms": [
       {
         "alg": "R D' R': R' D R, U",
+<<<<<<< HEAD
+        "results": [
+          2.1,
+          1.33,
+          1.12,
+          1.51,
+          1.05,
+          1.4
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "RF"
       }
@@ -2023,7 +4229,18 @@
     "algorithms": [
       {
         "alg": "D: L' U F2 U' L U L' F2 L U'",
+<<<<<<< HEAD
+        "results": [
+          1.38,
+          1.21,
+          1.88,
+          1.64,
+          1.55,
+          1.29
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "RE"
       }
@@ -2033,7 +4250,18 @@
     "algorithms": [
       {
         "alg": "R U' R' U D': U2, R D R'",
+<<<<<<< HEAD
+        "results": [
+          1.92,
+          1.21,
+          1.34,
+          1.43,
+          1.63,
+          1.4
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "RG"
       }
@@ -2043,7 +4271,18 @@
     "algorithms": [
       {
         "alg": "D: D, R U R'",
+<<<<<<< HEAD
+        "results": [
+          0.97,
+          0.71,
+          0.94,
+          1.02,
+          0.75,
+          0.8
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "RI"
       }
@@ -2053,7 +4292,18 @@
     "algorithms": [
       {
         "alg": "U R U': R D' R', U'",
+<<<<<<< HEAD
+        "results": [
+          1.15,
+          1.71,
+          1.54,
+          1.12,
+          1.7,
+          1.14
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "RK"
       }
@@ -2063,7 +4313,18 @@
     "algorithms": [
       {
         "alg": "R D': U2, R D R'",
+<<<<<<< HEAD
+        "results": [
+          1.05,
+          0.96,
+          1.21,
+          1.01,
+          1.43,
+          1.02
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "RQ"
       }
@@ -2073,7 +4334,17 @@
     "algorithms": [
       {
         "alg": "R' D: F', D' R D R'",
+<<<<<<< HEAD
+        "results": [
+          1.11,
+          1.32,
+          1.26,
+          1.28,
+          1.17
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "RT"
       }
@@ -2083,7 +4354,18 @@
     "algorithms": [
       {
         "alg": "R D': U, R D R'",
+<<<<<<< HEAD
+        "results": [
+          1.01,
+          1.0,
+          1.24,
+          1.14,
+          0.69,
+          0.95
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "RP"
       }
@@ -2093,7 +4375,18 @@
     "algorithms": [
       {
         "alg": "R' U' R: R D' R', U'",
+<<<<<<< HEAD
+        "results": [
+          1.02,
+          1.11,
+          1.25,
+          1.17,
+          1.25,
+          1.07
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "RS"
       }
@@ -2103,7 +4396,18 @@
     "algorithms": [
       {
         "alg": "R' U R: R D' R', U'",
+<<<<<<< HEAD
+        "results": [
+          1.08,
+          1.2,
+          1.08,
+          1.29,
+          1.4,
+          1.52
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "RZ"
       }
@@ -2113,7 +4417,18 @@
     "algorithms": [
       {
         "alg": "D2, R U R'",
+<<<<<<< HEAD
+        "results": [
+          0.89,
+          0.75,
+          0.76,
+          0.91,
+          0.72,
+          0.73
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "RU"
       }
@@ -2123,7 +4438,18 @@
     "algorithms": [
       {
         "alg": "U R: R D' R', U2",
+<<<<<<< HEAD
+        "results": [
+          1.55,
+          2.22,
+          1.17,
+          1.21,
+          1.17,
+          1.08
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "RW"
       }
@@ -2133,7 +4459,18 @@
     "algorithms": [
       {
         "alg": "U': U2, R D' R'",
+<<<<<<< HEAD
+        "results": [
+          1.18,
+          1.18,
+          1.34,
+          1.63,
+          0.9,
+          1.18
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "RC"
       }
@@ -2143,7 +4480,18 @@
     "algorithms": [
       {
         "alg": "R D' R, U'",
+<<<<<<< HEAD
+        "results": [
+          0.62,
+          0.64,
+          0.67,
+          0.87,
+          0.79,
+          1.24
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "RA"
       }
@@ -2153,7 +4501,18 @@
     "algorithms": [
       {
         "alg": "U': U', R D' R'",
+<<<<<<< HEAD
+        "results": [
+          0.86,
+          0.96,
+          1.58,
+          1.46,
+          0.97,
+          0.91
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "RB"
       }
@@ -2163,7 +4522,17 @@
     "algorithms": [
       {
         "alg": "U' R B R': U, R' D R",
+<<<<<<< HEAD
+        "results": [
+          1.23,
+          0.88,
+          0.9,
+          1.12,
+          1.01
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "TO"
       }
@@ -2173,7 +4542,17 @@
     "algorithms": [
       {
         "alg": "R F R': R' D R, U'",
+<<<<<<< HEAD
+        "results": [
+          1.23,
+          1.19,
+          1.42,
+          1.01,
+          1.26
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "TN"
       }
@@ -2183,7 +4562,17 @@
     "algorithms": [
       {
         "alg": "R B' R': R' D R, U",
+<<<<<<< HEAD
+        "results": [
+          2.04,
+          1.41,
+          1.15,
+          1.31,
+          1.13
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "TM"
       }
@@ -2193,7 +4582,17 @@
     "algorithms": [
       {
         "alg": "R' U: R U' R', D",
+<<<<<<< HEAD
+        "results": [
+          1.03,
+          0.8,
+          1.24,
+          0.92,
+          0.91
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "TL"
       }
@@ -2203,7 +4602,16 @@
     "algorithms": [
       {
         "alg": "D R: R' U R U', F2",
+<<<<<<< HEAD
+        "results": [
+          1.24,
+          1.05,
+          1.15,
+          1.39
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "TD"
       }
@@ -2213,7 +4621,17 @@
     "algorithms": [
       {
         "alg": "F': R U' R', D'",
+<<<<<<< HEAD
+        "results": [
+          2.09,
+          0.91,
+          0.84,
+          0.98,
+          0.89
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "TF"
       }
@@ -2223,7 +4641,17 @@
     "algorithms": [
       {
         "alg": "U' R' D R: R D' R', U'",
+<<<<<<< HEAD
+        "results": [
+          1.08,
+          1.11,
+          1.37,
+          1.39,
+          0.97
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "TG"
       }
@@ -2233,7 +4661,17 @@
     "algorithms": [
       {
         "alg": "U: D, R U R'",
+<<<<<<< HEAD
+        "results": [
+          1.13,
+          0.9,
+          0.73,
+          1.28,
+          0.62
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "TK"
       }
@@ -2243,7 +4681,17 @@
     "algorithms": [
       {
         "alg": "R' D: D' R D R', F2",
+<<<<<<< HEAD
+        "results": [
+          1.11,
+          1.0,
+          1.17,
+          0.92,
+          1.48
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "TQ"
       }
@@ -2253,7 +4701,17 @@
     "algorithms": [
       {
         "alg": "R' D: D' R D R', F'",
+<<<<<<< HEAD
+        "results": [
+          1.03,
+          0.86,
+          1.18,
+          1.38,
+          0.7
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "TR"
       }
@@ -2263,7 +4721,17 @@
     "algorithms": [
       {
         "alg": "U R': R' D R, U'",
+<<<<<<< HEAD
+        "results": [
+          1.08,
+          1.36,
+          0.92,
+          0.87,
+          0.94
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "TP"
       }
@@ -2273,7 +4741,17 @@
     "algorithms": [
       {
         "alg": "R' U': R U R', D",
+<<<<<<< HEAD
+        "results": [
+          1.11,
+          0.76,
+          1.42,
+          0.9,
+          0.85
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "TS"
       }
@@ -2283,7 +4761,17 @@
     "algorithms": [
       {
         "alg": "U D: R U' R', D2",
+<<<<<<< HEAD
+        "results": [
+          0.89,
+          1.07,
+          0.7,
+          1.23,
+          0.86
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "TZ"
       }
@@ -2293,7 +4781,17 @@
     "algorithms": [
       {
         "alg": "U' R U' R': R' D R, U",
+<<<<<<< HEAD
+        "results": [
+          1.22,
+          1.17,
+          1.1,
+          1.11,
+          1.87
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "TU"
       }
@@ -2303,7 +4801,17 @@
     "algorithms": [
       {
         "alg": "U R U: R' D R, U2",
+<<<<<<< HEAD
+        "results": [
+          0.84,
+          0.92,
+          0.9,
+          0.95,
+          0.89
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "TW"
       }
@@ -2313,7 +4821,17 @@
     "algorithms": [
       {
         "alg": "U2, R' D R",
+<<<<<<< HEAD
+        "results": [
+          0.83,
+          1.17,
+          0.66,
+          1.96,
+          0.6
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "TC"
       }
@@ -2323,7 +4841,17 @@
     "algorithms": [
       {
         "alg": "U, R' D R",
+<<<<<<< HEAD
+        "results": [
+          0.6,
+          0.53,
+          0.48,
+          0.5,
+          0.53
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "TA"
       }
@@ -2333,7 +4861,17 @@
     "algorithms": [
       {
         "alg": "U', R' D R",
+<<<<<<< HEAD
+        "results": [
+          0.67,
+          0.47,
+          0.56,
+          0.79,
+          0.49
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "TB"
       }
@@ -2343,7 +4881,19 @@
     "algorithms": [
       {
         "alg": "U D R': U', R' D R",
+<<<<<<< HEAD
+        "results": [
+          1.11,
+          1.24,
+          1.55,
+          1.26,
+          2.23,
+          0.99,
+          1.25
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "PO"
       }
@@ -2353,7 +4903,19 @@
     "algorithms": [
       {
         "alg": "R U: R' D' R, U",
+<<<<<<< HEAD
+        "results": [
+          0.83,
+          0.8,
+          0.78,
+          0.78,
+          0.78,
+          0.83,
+          0.95
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "PN"
       }
@@ -2363,7 +4925,19 @@
     "algorithms": [
       {
         "alg": "U R': U', R' D' R",
+<<<<<<< HEAD
+        "results": [
+          1.12,
+          1.31,
+          1.51,
+          1.97,
+          1.17,
+          1.1,
+          1.48
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "PL"
       }
@@ -2373,7 +4947,19 @@
     "algorithms": [
       {
         "alg": "R: R D' R', U",
+<<<<<<< HEAD
+        "results": [
+          1.35,
+          1.01,
+          0.82,
+          0.88,
+          0.79,
+          1.63,
+          0.82
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "PD"
       }
@@ -2383,7 +4969,19 @@
     "algorithms": [
       {
         "alg": "D R: R D' R', U",
+<<<<<<< HEAD
+        "results": [
+          1.16,
+          1.06,
+          1.13,
+          1.35,
+          1.12,
+          0.83,
+          0.82
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "PF"
       }
@@ -2393,7 +4991,19 @@
     "algorithms": [
       {
         "alg": "R U2 D: U', R' D' R",
+<<<<<<< HEAD
+        "results": [
+          1.13,
+          0.97,
+          1.13,
+          1.38,
+          1.34,
+          1.14,
+          1.0
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "PE"
       }
@@ -2403,7 +5013,18 @@
     "algorithms": [
       {
         "alg": "D' R U2 D: U', R' D' R",
+<<<<<<< HEAD
+        "results": [
+          2.04,
+          1.29,
+          1.62,
+          1.4,
+          1.37,
+          1.6
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "PG"
       }
@@ -2413,7 +5034,19 @@
     "algorithms": [
       {
         "alg": "R U: R' D R, U",
+<<<<<<< HEAD
+        "results": [
+          0.94,
+          0.9,
+          0.87,
+          0.79,
+          1.01,
+          1.03,
+          0.74
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "PI"
       }
@@ -2423,7 +5056,19 @@
     "algorithms": [
       {
         "alg": "R U R': R' D' R, U'",
+<<<<<<< HEAD
+        "results": [
+          1.0,
+          2.08,
+          1.18,
+          0.87,
+          1.0,
+          1.32,
+          1.03
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "PK"
       }
@@ -2433,7 +5078,19 @@
     "algorithms": [
       {
         "alg": "U2 R': R' D' R, U2",
+<<<<<<< HEAD
+        "results": [
+          1.63,
+          1.26,
+          1.48,
+          1.61,
+          2.33,
+          1.49,
+          1.24
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "PQ"
       }
@@ -2443,7 +5100,19 @@
     "algorithms": [
       {
         "alg": "R D': R D R', U",
+<<<<<<< HEAD
+        "results": [
+          1.51,
+          1.25,
+          1.13,
+          1.31,
+          1.0,
+          0.84,
+          0.81
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "PR"
       }
@@ -2453,7 +5122,19 @@
     "algorithms": [
       {
         "alg": "U R': U', R' D R",
+<<<<<<< HEAD
+        "results": [
+          1.71,
+          0.97,
+          1.18,
+          1.51,
+          1.15,
+          1.02,
+          1.31
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "PT"
       }
@@ -2463,7 +5144,19 @@
     "algorithms": [
       {
         "alg": "R U' R' U': U', R' D' R",
+<<<<<<< HEAD
+        "results": [
+          1.2,
+          1.4,
+          1.69,
+          1.11,
+          1.32,
+          1.47,
+          1.32
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "PS"
       }
@@ -2473,7 +5166,19 @@
     "algorithms": [
       {
         "alg": "U' R' F R: U', R D R'",
+<<<<<<< HEAD
+        "results": [
+          2.14,
+          1.79,
+          2.02,
+          1.62,
+          1.26,
+          1.78,
+          1.2
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "PZ"
       }
@@ -2483,7 +5188,19 @@
     "algorithms": [
       {
         "alg": "D R U: R' D' R, U",
+<<<<<<< HEAD
+        "results": [
+          0.98,
+          0.95,
+          0.94,
+          0.95,
+          0.85,
+          1.45,
+          0.72
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "PU"
       }
@@ -2493,7 +5210,19 @@
     "algorithms": [
       {
         "alg": "R: R2 D R2 D' R2, U",
+<<<<<<< HEAD
+        "results": [
+          1.27,
+          1.13,
+          1.23,
+          1.28,
+          1.16,
+          1.27,
+          1.42
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "PW"
       }
@@ -2503,7 +5232,19 @@
     "algorithms": [
       {
         "alg": "R: R D R', U",
+<<<<<<< HEAD
+        "results": [
+          0.86,
+          0.97,
+          1.23,
+          0.82,
+          0.8,
+          0.72,
+          0.99
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "PA"
       }
@@ -2513,7 +5254,19 @@
     "algorithms": [
       {
         "alg": "R U R': R' D' R, U2",
+<<<<<<< HEAD
+        "results": [
+          1.29,
+          1.69,
+          1.45,
+          1.37,
+          1.6,
+          1.16,
+          1.04
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "PB"
       }
@@ -2523,7 +5276,22 @@
     "algorithms": [
       {
         "alg": "x': R U2 R', D",
+<<<<<<< HEAD
+        "results": [
+          0.75,
+          0.92,
+          1.3,
+          1.34,
+          1.0,
+          0.89,
+          0.82,
+          0.85,
+          0.83,
+          1.7
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "SO"
       }
@@ -2533,7 +5301,22 @@
     "algorithms": [
       {
         "alg": "F: D', R U R'",
+<<<<<<< HEAD
+        "results": [
+          0.86,
+          1.14,
+          1.19,
+          0.97,
+          0.96,
+          1.69,
+          1.03,
+          1.05,
+          0.81,
+          0.98
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "SN"
       }
@@ -2543,7 +5326,22 @@
     "algorithms": [
       {
         "alg": "x': R U' R', D",
+<<<<<<< HEAD
+        "results": [
+          1.3,
+          0.94,
+          0.49,
+          1.37,
+          0.97,
+          1.0,
+          1.4,
+          0.74,
+          0.94,
+          0.66
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "SM"
       }
@@ -2553,7 +5351,22 @@
     "algorithms": [
       {
         "alg": "R' F: R U R', D",
+<<<<<<< HEAD
+        "results": [
+          0.94,
+          1.02,
+          1.37,
+          1.16,
+          1.53,
+          0.86,
+          0.87,
+          1.21,
+          1.3,
+          1.38
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "SL"
       }
@@ -2563,7 +5376,22 @@
     "algorithms": [
       {
         "alg": "U': U R2 D' R2 U', R",
+<<<<<<< HEAD
+        "results": [
+          2.02,
+          1.18,
+          1.01,
+          1.33,
+          1.32,
+          1.31,
+          1.18,
+          1.8,
+          1.09,
+          1.04
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "SD"
       }
@@ -2573,7 +5401,21 @@
     "algorithms": [
       {
         "alg": "R U' R': D, R' U R",
+<<<<<<< HEAD
+        "results": [
+          1.66,
+          2.21,
+          1.24,
+          1.17,
+          1.14,
+          1.11,
+          1.28,
+          1.34,
+          1.06
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "SF"
       }
@@ -2583,7 +5425,22 @@
     "algorithms": [
       {
         "alg": "U' R' U: R U' R', D",
+<<<<<<< HEAD
+        "results": [
+          1.15,
+          1.6,
+          0.91,
+          1.51,
+          1.13,
+          1.18,
+          0.9,
+          1.06,
+          1.27,
+          1.11
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "SE"
       }
@@ -2593,7 +5450,22 @@
     "algorithms": [
       {
         "alg": "R U' R': R' D' R, U2",
+<<<<<<< HEAD
+        "results": [
+          1.17,
+          1.48,
+          1.2,
+          1.15,
+          1.27,
+          1.23,
+          2.4,
+          1.28,
+          1.16,
+          1.01
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "SG"
       }
@@ -2603,7 +5475,21 @@
     "algorithms": [
       {
         "alg": "D R' U': D', R U R'",
+<<<<<<< HEAD
+        "results": [
+          1.63,
+          1.37,
+          1.25,
+          1.13,
+          1.27,
+          1.07,
+          1.02,
+          1.07,
+          0.96
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "SI"
       }
@@ -2613,7 +5499,22 @@
     "algorithms": [
       {
         "alg": "R: F, R' U R U'",
+<<<<<<< HEAD
+        "results": [
+          0.98,
+          1.02,
+          1.0,
+          1.07,
+          2.53,
+          0.92,
+          1.36,
+          1.05,
+          0.73,
+          0.86
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "SK"
       }
@@ -2623,7 +5524,22 @@
     "algorithms": [
       {
         "alg": "R' U' R: U', R D' R'",
+<<<<<<< HEAD
+        "results": [
+          1.57,
+          1.12,
+          2.11,
+          1.57,
+          1.06,
+          1.06,
+          1.99,
+          1.43,
+          0.98,
+          1.13
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "SR"
       }
@@ -2633,7 +5549,22 @@
     "algorithms": [
       {
         "alg": "R' U': D, R U R'",
+<<<<<<< HEAD
+        "results": [
+          1.5,
+          0.69,
+          0.69,
+          0.8,
+          0.81,
+          0.77,
+          0.79,
+          1.0,
+          0.85,
+          0.88
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "ST"
       }
@@ -2643,7 +5574,22 @@
     "algorithms": [
       {
         "alg": "R U' R' U': R' D' R, U'",
+<<<<<<< HEAD
+        "results": [
+          1.37,
+          0.97,
+          1.18,
+          1.13,
+          1.93,
+          1.15,
+          1.11,
+          1.13,
+          1.04,
+          1.56
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "SP"
       }
@@ -2653,7 +5599,22 @@
     "algorithms": [
       {
         "alg": "R' U': R' D' R, U2",
+<<<<<<< HEAD
+        "results": [
+          0.81,
+          1.12,
+          1.1,
+          1.12,
+          1.17,
+          1.17,
+          0.97,
+          0.87,
+          1.12,
+          0.95
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "SZ"
       }
@@ -2663,7 +5624,22 @@
     "algorithms": [
       {
         "alg": "R' U': D', R U R'",
+<<<<<<< HEAD
+        "results": [
+          1.25,
+          1.23,
+          0.69,
+          0.96,
+          0.97,
+          0.83,
+          0.82,
+          0.73,
+          0.72,
+          1.35
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "SU"
       }
@@ -2673,7 +5649,22 @@
     "algorithms": [
       {
         "alg": "F' U: R' D R, U2",
+<<<<<<< HEAD
+        "results": [
+          1.48,
+          1.15,
+          2.0,
+          1.37,
+          1.65,
+          1.95,
+          1.39,
+          1.23,
+          1.51,
+          1.71
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "SW"
       }
@@ -2683,7 +5674,22 @@
     "algorithms": [
       {
         "alg": "F: R' D' R, U2",
+<<<<<<< HEAD
+        "results": [
+          1.24,
+          1.2,
+          1.22,
+          1.58,
+          1.16,
+          1.84,
+          1.83,
+          1.46,
+          1.25,
+          1.3
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "SC"
       }
@@ -2693,7 +5699,22 @@
     "algorithms": [
       {
         "alg": "R': U', R' D' R",
+<<<<<<< HEAD
+        "results": [
+          0.97,
+          0.78,
+          0.71,
+          0.66,
+          0.92,
+          1.17,
+          1.17,
+          0.88,
+          0.74,
+          0.84
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "SA"
       }
@@ -2703,7 +5724,22 @@
     "algorithms": [
       {
         "alg": "U': R' U' R, D'",
+<<<<<<< HEAD
+        "results": [
+          1.15,
+          0.94,
+          1.03,
+          0.87,
+          0.92,
+          0.91,
+          1.01,
+          1.11,
+          1.08,
+          1.39
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "ZO"
       }
@@ -2713,7 +5749,22 @@
     "algorithms": [
       {
         "alg": "R' U: R' D' R, U",
+<<<<<<< HEAD
+        "results": [
+          1.02,
+          0.84,
+          1.22,
+          0.82,
+          1.16,
+          0.8,
+          0.87,
+          0.95,
+          0.86,
+          1.56
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "ZM"
       }
@@ -2723,7 +5774,22 @@
     "algorithms": [
       {
         "alg": "D2 R' U: R U' R', D",
+<<<<<<< HEAD
+        "results": [
+          1.31,
+          1.5,
+          1.67,
+          1.3,
+          1.4,
+          1.69,
+          1.3,
+          1.54,
+          1.96,
+          1.82
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "ZL"
       }
@@ -2733,7 +5799,23 @@
     "algorithms": [
       {
         "alg": "R' B: D', R U2 R'",
+<<<<<<< HEAD
+        "results": [
+          0.81,
+          0.96,
+          0.96,
+          0.98,
+          0.84,
+          0.94,
+          1.65,
+          0.91,
+          0.86,
+          1.03,
+          1.02
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "ZD"
       }
@@ -2743,7 +5825,23 @@
     "algorithms": [
       {
         "alg": "U' R': R' D R, U",
+<<<<<<< HEAD
+        "results": [
+          1.09,
+          0.8,
+          0.91,
+          1.0,
+          1.08,
+          0.84,
+          0.89,
+          0.84,
+          1.46,
+          1.15,
+          1.16
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "ZE"
       }
@@ -2753,7 +5851,23 @@
     "algorithms": [
       {
         "alg": "D' R: R' U R U', F2",
+<<<<<<< HEAD
+        "results": [
+          1.2,
+          1.1,
+          1.23,
+          1.16,
+          1.35,
+          1.77,
+          1.36,
+          1.68,
+          1.36,
+          1.57,
+          1.25
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "ZG"
       }
@@ -2763,7 +5877,23 @@
     "algorithms": [
       {
         "alg": "R' F' R: U', R D R'",
+<<<<<<< HEAD
+        "results": [
+          1.36,
+          1.21,
+          1.4,
+          1.11,
+          1.63,
+          1.34,
+          1.38,
+          1.21,
+          1.05,
+          2.03,
+          1.34
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "ZI"
       }
@@ -2773,7 +5903,23 @@
     "algorithms": [
       {
         "alg": "U: D', R U' R'",
+<<<<<<< HEAD
+        "results": [
+          1.43,
+          0.7,
+          0.73,
+          0.95,
+          0.85,
+          0.73,
+          0.88,
+          0.94,
+          0.76,
+          1.13,
+          1.02
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "ZK"
       }
@@ -2783,7 +5929,23 @@
     "algorithms": [
       {
         "alg": "R U D': U2, R' D R",
+<<<<<<< HEAD
+        "results": [
+          1.05,
+          1.0,
+          0.88,
+          1.59,
+          0.82,
+          1.25,
+          0.92,
+          1.04,
+          0.85,
+          1.19,
+          0.88
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "ZQ"
       }
@@ -2793,7 +5955,23 @@
     "algorithms": [
       {
         "alg": "R' U R: U', R D' R'",
+<<<<<<< HEAD
+        "results": [
+          1.5,
+          1.1,
+          1.13,
+          1.63,
+          1.03,
+          1.06,
+          1.24,
+          1.65,
+          1.33,
+          1.2,
+          1.15
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "ZR"
       }
@@ -2803,7 +5981,23 @@
     "algorithms": [
       {
         "alg": "U D: D2, R U' R'",
+<<<<<<< HEAD
+        "results": [
+          0.97,
+          0.83,
+          0.82,
+          1.21,
+          0.94,
+          0.81,
+          0.93,
+          0.88,
+          1.31,
+          0.88,
+          0.97
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "ZT"
       }
@@ -2813,7 +6007,23 @@
     "algorithms": [
       {
         "alg": "U' R' F R: R D R', U'",
+<<<<<<< HEAD
+        "results": [
+          1.43,
+          1.21,
+          1.14,
+          1.17,
+          1.51,
+          1.28,
+          1.42,
+          1.6,
+          2.16,
+          1.12,
+          2.07
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "ZP"
       }
@@ -2823,7 +6033,23 @@
     "algorithms": [
       {
         "alg": "R' U': U2, R' D' R",
+<<<<<<< HEAD
+        "results": [
+          0.89,
+          0.84,
+          1.09,
+          0.89,
+          0.86,
+          0.89,
+          0.91,
+          0.98,
+          0.79,
+          0.89,
+          0.85
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "ZS"
       }
@@ -2833,7 +6059,23 @@
     "algorithms": [
       {
         "alg": "R D': R' D R, U",
+<<<<<<< HEAD
+        "results": [
+          0.64,
+          1.27,
+          0.84,
+          1.01,
+          0.86,
+          0.83,
+          1.36,
+          1.29,
+          0.8,
+          0.85,
+          0.95
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "ZU"
       }
@@ -2843,7 +6085,23 @@
     "algorithms": [
       {
         "alg": "U R U': U2, R' D' R",
+<<<<<<< HEAD
+        "results": [
+          1.27,
+          1.0,
+          1.19,
+          0.99,
+          1.06,
+          1.03,
+          0.97,
+          1.03,
+          1.52,
+          1.57,
+          0.94
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "ZW"
       }
@@ -2853,7 +6111,23 @@
     "algorithms": [
       {
         "alg": "U': U2, R D R'",
+<<<<<<< HEAD
+        "results": [
+          1.2,
+          1.0,
+          1.17,
+          1.08,
+          0.79,
+          0.76,
+          0.71,
+          0.73,
+          0.67,
+          0.99,
+          0.8
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "ZC"
       }
@@ -2863,7 +6137,23 @@
     "algorithms": [
       {
         "alg": "R D R', U'",
+<<<<<<< HEAD
+        "results": [
+          0.68,
+          0.52,
+          1.08,
+          0.9,
+          0.65,
+          1.25,
+          0.67,
+          0.52,
+          0.69,
+          0.61,
+          0.66
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "ZA"
       }
@@ -2873,7 +6163,23 @@
     "algorithms": [
       {
         "alg": "U': U', R D R'",
+<<<<<<< HEAD
+        "results": [
+          0.76,
+          0.82,
+          0.76,
+          0.94,
+          1.01,
+          0.67,
+          1.75,
+          0.9,
+          0.78,
+          0.99,
+          0.82
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "ZB"
       }
@@ -2883,7 +6189,19 @@
     "algorithms": [
       {
         "alg": "U' R' D2: D, R U R'",
+<<<<<<< HEAD
+        "results": [
+          0.99,
+          0.9,
+          0.97,
+          0.85,
+          0.95,
+          1.2,
+          0.97
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "UO"
       }
@@ -2893,7 +6211,19 @@
     "algorithms": [
       {
         "alg": "R U R', D'",
+<<<<<<< HEAD
+        "results": [
+          0.75,
+          0.62,
+          0.67,
+          0.43,
+          0.49,
+          0.46,
+          0.56
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "UN"
       }
@@ -2903,7 +6233,19 @@
     "algorithms": [
       {
         "alg": "R': D, R' U R",
+<<<<<<< HEAD
+        "results": [
+          2.48,
+          1.24,
+          0.72,
+          0.92,
+          0.94,
+          1.18,
+          1.38
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "UM"
       }
@@ -2913,7 +6255,19 @@
     "algorithms": [
       {
         "alg": "R' U: R U' R', D'",
+<<<<<<< HEAD
+        "results": [
+          1.37,
+          1.0,
+          1.06,
+          1.08,
+          0.82,
+          0.66,
+          0.79
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "UL"
       }
@@ -2923,7 +6277,19 @@
     "algorithms": [
       {
         "alg": "R: R D' R', U'",
+<<<<<<< HEAD
+        "results": [
+          0.74,
+          0.88,
+          0.85,
+          1.27,
+          0.67,
+          0.86,
+          0.62
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "UD"
       }
@@ -2933,7 +6299,18 @@
     "algorithms": [
       {
         "alg": "D' R U' R': R' D R, U2",
+<<<<<<< HEAD
+        "results": [
+          1.67,
+          1.38,
+          1.64,
+          1.11,
+          1.34,
+          1.12
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "UF"
       }
@@ -2943,7 +6320,16 @@
     "algorithms": [
       {
         "alg": "R D: U, R' D' R",
+<<<<<<< HEAD
+        "results": [
+          0.88,
+          0.77,
+          0.97,
+          1.2
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "UE"
       }
@@ -2953,7 +6339,19 @@
     "algorithms": [
       {
         "alg": "R U R', D",
+<<<<<<< HEAD
+        "results": [
+          0.56,
+          0.69,
+          0.6,
+          0.61,
+          0.53,
+          0.52,
+          0.75
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "UI"
       }
@@ -2963,7 +6361,19 @@
     "algorithms": [
       {
         "alg": "D R U: U2, R' D' R",
+<<<<<<< HEAD
+        "results": [
+          0.8,
+          0.76,
+          1.07,
+          1.12,
+          0.79,
+          0.74,
+          1.18
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "UQ"
       }
@@ -2973,7 +6383,19 @@
     "algorithms": [
       {
         "alg": "R U R', D2",
+<<<<<<< HEAD
+        "results": [
+          0.86,
+          0.83,
+          1.29,
+          0.84,
+          0.8,
+          1.12,
+          0.68
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "UR"
       }
@@ -2983,7 +6405,19 @@
     "algorithms": [
       {
         "alg": "U' R U' R': U, R' D R",
+<<<<<<< HEAD
+        "results": [
+          1.77,
+          2.04,
+          1.11,
+          1.13,
+          1.19,
+          0.94,
+          1.36
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "UT"
       }
@@ -2993,7 +6427,18 @@
     "algorithms": [
       {
         "alg": "D R U: U, R' D' R",
+<<<<<<< HEAD
+        "results": [
+          0.88,
+          0.76,
+          0.94,
+          0.82,
+          0.97,
+          1.01
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "UP"
       }
@@ -3003,7 +6448,19 @@
     "algorithms": [
       {
         "alg": "R' U': R U R', D'",
+<<<<<<< HEAD
+        "results": [
+          0.77,
+          0.82,
+          0.71,
+          0.7,
+          0.82,
+          1.06,
+          1.21
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "US"
       }
@@ -3013,7 +6470,19 @@
     "algorithms": [
       {
         "alg": "R D': U, R' D R",
+<<<<<<< HEAD
+        "results": [
+          0.94,
+          1.22,
+          0.76,
+          0.87,
+          0.64,
+          1.18,
+          0.81
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "UZ"
       }
@@ -3023,7 +6492,19 @@
     "algorithms": [
       {
         "alg": "R' F' R U': R' D' R, U2",
+<<<<<<< HEAD
+        "results": [
+          1.08,
+          0.86,
+          1.08,
+          1.26,
+          0.98,
+          1.05,
+          1.31
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "UW"
       }
@@ -3033,7 +6514,19 @@
     "algorithms": [
       {
         "alg": "U2, R' D' R",
+<<<<<<< HEAD
+        "results": [
+          0.68,
+          0.63,
+          0.7,
+          1.55,
+          1.24,
+          0.76,
+          0.68
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "UC"
       }
@@ -3043,7 +6536,19 @@
     "algorithms": [
       {
         "alg": "U, R' D' R",
+<<<<<<< HEAD
+        "results": [
+          0.55,
+          0.73,
+          0.53,
+          0.64,
+          0.61,
+          0.42,
+          0.57
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "UA"
       }
@@ -3053,7 +6558,19 @@
     "algorithms": [
       {
         "alg": "U', R' D' R",
+<<<<<<< HEAD
+        "results": [
+          0.79,
+          1.0,
+          0.69,
+          0.6,
+          0.53,
+          0.46,
+          0.58
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "UB"
       }
@@ -3063,7 +6580,18 @@
     "algorithms": [
       {
         "alg": "U' R' U: U2, R D' R'",
+<<<<<<< HEAD
+        "results": [
+          1.07,
+          1.37,
+          1.27,
+          1.65,
+          1.17,
+          1.14
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "WO"
       }
@@ -3073,7 +6601,18 @@
     "algorithms": [
       {
         "alg": "U D R: U2, R D' R'",
+<<<<<<< HEAD
+        "results": [
+          2.25,
+          1.52,
+          2.25,
+          1.65,
+          1.64,
+          1.43
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "WN"
       }
@@ -3083,7 +6622,18 @@
     "algorithms": [
       {
         "alg": "U R: U2, R D R'",
+<<<<<<< HEAD
+        "results": [
+          1.51,
+          1.07,
+          1.12,
+          2.24,
+          1.17,
+          1.04
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "WM"
       }
@@ -3093,7 +6643,18 @@
     "algorithms": [
       {
         "alg": "U' D R': U2, R' D R",
+<<<<<<< HEAD
+        "results": [
+          1.11,
+          1.31,
+          1.85,
+          1.34,
+          1.2,
+          1.73
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "WD"
       }
@@ -3103,7 +6664,18 @@
     "algorithms": [
       {
         "alg": "D: U R' F R, D' R D R'",
+<<<<<<< HEAD
+        "results": [
+          1.27,
+          1.91,
+          1.6,
+          1.36,
+          1.19,
+          1.65
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "WF"
       }
@@ -3113,7 +6685,18 @@
     "algorithms": [
       {
         "alg": "U' R': R' D R, U2",
+<<<<<<< HEAD
+        "results": [
+          0.96,
+          1.11,
+          0.87,
+          1.12,
+          1.11,
+          1.27
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "WE"
       }
@@ -3123,7 +6706,18 @@
     "algorithms": [
       {
         "alg": "U' D' R': R' D R, U2",
+<<<<<<< HEAD
+        "results": [
+          1.13,
+          1.21,
+          1.62,
+          1.46,
+          1.93,
+          1.22
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "WG"
       }
@@ -3133,7 +6727,18 @@
     "algorithms": [
       {
         "alg": "D R' D' R, U' R B' R'",
+<<<<<<< HEAD
+        "results": [
+          1.66,
+          1.46,
+          1.41,
+          2.26,
+          1.95,
+          1.57
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "WI"
       }
@@ -3143,7 +6748,18 @@
     "algorithms": [
       {
         "alg": "R B R': U2, R' D' R",
+<<<<<<< HEAD
+        "results": [
+          1.41,
+          1.15,
+          1.11,
+          1.08,
+          1.23,
+          1.34
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "WK"
       }
@@ -3153,7 +6769,18 @@
     "algorithms": [
       {
         "alg": "R': R2 D' R2 D R2, U'",
+<<<<<<< HEAD
+        "results": [
+          1.54,
+          1.36,
+          1.2,
+          1.53,
+          1.26,
+          1.28
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "WQ"
       }
@@ -3163,7 +6790,18 @@
     "algorithms": [
       {
         "alg": "U R: U2, R D' R'",
+<<<<<<< HEAD
+        "results": [
+          1.3,
+          1.47,
+          1.37,
+          1.31,
+          1.09,
+          1.1
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "WR"
       }
@@ -3173,7 +6811,18 @@
     "algorithms": [
       {
         "alg": "U R U: U2, R' D R",
+<<<<<<< HEAD
+        "results": [
+          1.08,
+          1.09,
+          1.17,
+          1.02,
+          1.15,
+          0.92
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "WT"
       }
@@ -3183,7 +6832,18 @@
     "algorithms": [
       {
         "alg": "R: U, R2 D R2 D' R2",
+<<<<<<< HEAD
+        "results": [
+          1.31,
+          1.34,
+          1.08,
+          1.01,
+          1.35,
+          1.08
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "WP"
       }
@@ -3193,7 +6853,18 @@
     "algorithms": [
       {
         "alg": "F' U: U2, R' D R",
+<<<<<<< HEAD
+        "results": [
+          0.99,
+          1.07,
+          1.07,
+          1.22,
+          1.67,
+          1.21
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "WS"
       }
@@ -3203,7 +6874,18 @@
     "algorithms": [
       {
         "alg": "U R U': R' D' R, U2",
+<<<<<<< HEAD
+        "results": [
+          0.98,
+          1.39,
+          1.03,
+          1.1,
+          1.06,
+          1.25
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "WZ"
       }
@@ -3213,7 +6895,18 @@
     "algorithms": [
       {
         "alg": "R' F' R U': U2, R' D' R",
+<<<<<<< HEAD
+        "results": [
+          1.03,
+          1.12,
+          1.01,
+          1.18,
+          1.06,
+          1.8
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "WU"
       }
@@ -3223,7 +6916,18 @@
     "algorithms": [
       {
         "alg": "R' U D R: D', R U' R'",
+<<<<<<< HEAD
+        "results": [
+          1.53,
+          1.18,
+          1.23,
+          1.66,
+          1.21,
+          1.87
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "WC"
       }
@@ -3233,7 +6937,18 @@
     "algorithms": [
       {
         "alg": "U' R': R' D' R, U2",
+<<<<<<< HEAD
+        "results": [
+          1.65,
+          1.66,
+          1.58,
+          1.0,
+          1.01,
+          1.81
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "WB"
       }
@@ -3243,7 +6958,21 @@
     "algorithms": [
       {
         "alg": "U' D': R D R', U2",
+<<<<<<< HEAD
+        "results": [
+          2.72,
+          0.74,
+          0.95,
+          1.06,
+          0.87,
+          0.9,
+          0.82,
+          1.17,
+          0.85
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "CO"
       }
@@ -3253,7 +6982,21 @@
     "algorithms": [
       {
         "alg": "U' D: R D' R', U2",
+<<<<<<< HEAD
+        "results": [
+          1.16,
+          0.94,
+          1.0,
+          0.99,
+          1.16,
+          1.29,
+          0.94,
+          0.94,
+          1.03
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "CN"
       }
@@ -3263,7 +7006,21 @@
     "algorithms": [
       {
         "alg": "R' D U: R D R', U2",
+<<<<<<< HEAD
+        "results": [
+          1.93,
+          1.78,
+          1.36,
+          1.33,
+          1.39,
+          1.23,
+          1.31,
+          1.66,
+          1.54
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "CL"
       }
@@ -3273,7 +7030,21 @@
     "algorithms": [
       {
         "alg": "R' U' D' R: R U' R', D",
+<<<<<<< HEAD
+        "results": [
+          1.21,
+          1.18,
+          1.19,
+          1.06,
+          1.02,
+          1.73,
+          1.37,
+          1.94,
+          1.14
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "CD"
       }
@@ -3283,7 +7054,21 @@
     "algorithms": [
       {
         "alg": "R D' R': R' D R, U2",
+<<<<<<< HEAD
+        "results": [
+          1.88,
+          1.16,
+          1.58,
+          1.15,
+          1.16,
+          1.36,
+          1.4,
+          1.12,
+          1.05
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "CF"
       }
@@ -3293,7 +7078,21 @@
     "algorithms": [
       {
         "alg": "R F' R' U': R D R', U2",
+<<<<<<< HEAD
+        "results": [
+          1.24,
+          1.8,
+          1.2,
+          1.55,
+          1.13,
+          3.38,
+          1.27,
+          1.72,
+          1.42
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "CE"
       }
@@ -3303,7 +7102,21 @@
     "algorithms": [
       {
         "alg": "R' D R U' R D' R', U2",
+<<<<<<< HEAD
+        "results": [
+          1.89,
+          1.58,
+          1.33,
+          1.23,
+          1.38,
+          1.27,
+          1.11,
+          1.3,
+          1.95
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "CG"
       }
@@ -3313,7 +7126,21 @@
     "algorithms": [
       {
         "alg": "D: R' D' R, U2",
+<<<<<<< HEAD
+        "results": [
+          0.92,
+          0.85,
+          0.91,
+          0.93,
+          0.97,
+          1.51,
+          1.58,
+          0.79,
+          0.85
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "CI"
       }
@@ -3323,7 +7150,20 @@
     "algorithms": [
       {
         "alg": "D': R' D R, U2",
+<<<<<<< HEAD
+        "results": [
+          0.94,
+          1.81,
+          0.85,
+          0.84,
+          0.78,
+          0.92,
+          1.05,
+          1.11
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "CK"
       }
@@ -3333,7 +7173,21 @@
     "algorithms": [
       {
         "alg": "Lw' U D': R D R', U2",
+<<<<<<< HEAD
+        "results": [
+          1.34,
+          1.89,
+          1.33,
+          1.1,
+          1.31,
+          1.05,
+          1.25,
+          1.32,
+          1.3
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "CQ"
       }
@@ -3343,7 +7197,21 @@
     "algorithms": [
       {
         "alg": "U': R D' R', U2",
+<<<<<<< HEAD
+        "results": [
+          0.68,
+          0.73,
+          0.58,
+          0.73,
+          0.85,
+          0.79,
+          0.85,
+          0.81,
+          0.97
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "CR"
       }
@@ -3353,7 +7221,21 @@
     "algorithms": [
       {
         "alg": "R' D R, U2",
+<<<<<<< HEAD
+        "results": [
+          0.55,
+          0.66,
+          0.69,
+          0.95,
+          0.7,
+          0.77,
+          1.78,
+          0.82,
+          0.63
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "CT"
       }
@@ -3363,7 +7245,21 @@
     "algorithms": [
       {
         "alg": "F: U2, R' D' R",
+<<<<<<< HEAD
+        "results": [
+          1.07,
+          1.22,
+          1.32,
+          1.3,
+          1.54,
+          1.19,
+          1.04,
+          1.69,
+          1.18
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "CS"
       }
@@ -3373,7 +7269,21 @@
     "algorithms": [
       {
         "alg": "U': R D R', U2",
+<<<<<<< HEAD
+        "results": [
+          1.1,
+          0.89,
+          0.89,
+          0.69,
+          1.27,
+          0.78,
+          0.96,
+          1.39,
+          0.94
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "CZ"
       }
@@ -3383,7 +7293,21 @@
     "algorithms": [
       {
         "alg": "R' D' R, U2",
+<<<<<<< HEAD
+        "results": [
+          0.73,
+          0.79,
+          0.7,
+          0.74,
+          0.91,
+          0.74,
+          1.07,
+          1.07,
+          0.79
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "CU"
       }
@@ -3393,7 +7317,20 @@
     "algorithms": [
       {
         "alg": "R' U D R: R U' R', D'",
+<<<<<<< HEAD
+        "results": [
+          1.56,
+          0.94,
+          0.99,
+          0.98,
+          1.3,
+          1.27,
+          1.4,
+          1.3
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "CW"
       }
@@ -3403,7 +7340,21 @@
     "algorithms": [
       {
         "alg": "R' D R U': U', R' D' R",
+<<<<<<< HEAD
+        "results": [
+          1.63,
+          1.13,
+          1.44,
+          0.85,
+          1.44,
+          0.94,
+          1.29,
+          0.96,
+          1.54
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "CA"
       }
@@ -3413,7 +7364,21 @@
     "algorithms": [
       {
         "alg": "R' D R U': U', R' D' R",
+<<<<<<< HEAD
+        "results": [
+          0.89,
+          1.25,
+          1.04,
+          0.85,
+          0.81,
+          1.24,
+          0.75,
+          1.08,
+          1.17
+        ],
+=======
         "results": [],
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         "latest": true,
         "lp": "CB"
       }
@@ -3439,7 +7404,17 @@
           0.77,
           0.87,
           0.99,
+<<<<<<< HEAD
+          0.68,
+          1.23,
+          0.73,
+          1.02,
+          0.85,
+          1.54,
+          0.67
+=======
           0.68
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         ],
         "latest": true,
         "lp": "AO"
@@ -3468,8 +7443,17 @@
           1.44,
           0.91,
           1.06,
+<<<<<<< HEAD
           0.73,
-          0.39
+          0.39,
+          1.18,
+          0.6,
+          0.84,
+          0.79,
+          0.87
+=======
+          0.73
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         ],
         "latest": true,
         "lp": "AN"
@@ -3498,7 +7482,17 @@
           1.02,
           0.79,
           1.07,
+<<<<<<< HEAD
+          1.04,
+          0.87,
+          0.78,
+          0.99,
+          0.88,
+          1.01,
+          1.15
+=======
           1.04
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         ],
         "latest": true,
         "lp": "AM"
@@ -3519,8 +7513,18 @@
           1.37,
           1.68,
           1.02,
+<<<<<<< HEAD
           0.87,
-          0.38
+          0.38,
+          0.91,
+          0.98,
+          1.05,
+          1.1,
+          1.38,
+          0.92
+=======
+          0.87
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         ],
         "latest": true,
         "lp": "AD"
@@ -3547,8 +7551,17 @@
           1.32,
           1.41,
           1.43,
+<<<<<<< HEAD
           2.33,
-          0.37
+          0.37,
+          1.33,
+          1.73,
+          1.03,
+          1.31,
+          1.33
+=======
+          2.33
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         ],
         "latest": true,
         "lp": "AF"
@@ -3577,6 +7590,13 @@
           1.42,
           1.78,
           1.44,
+<<<<<<< HEAD
+          1.29,
+          1.61,
+          1.85,
+          1.49,
+=======
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
           1.29
         ],
         "latest": true,
@@ -3606,8 +7626,17 @@
           0.95,
           1.17,
           1.43,
+<<<<<<< HEAD
           0.99,
-          0.36
+          0.36,
+          1.95,
+          1.15,
+          1.08,
+          1.27,
+          1.63
+=======
+          0.99
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         ],
         "latest": true,
         "lp": "AG"
@@ -3636,7 +7665,16 @@
           0.81,
           0.71,
           0.77,
+<<<<<<< HEAD
+          0.71,
+          1.14,
+          0.63,
+          0.62,
+          1.07,
+          0.51
+=======
           0.71
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         ],
         "latest": true,
         "lp": "AI"
@@ -3665,7 +7703,17 @@
           0.65,
           0.85,
           0.96,
+<<<<<<< HEAD
+          0.79,
+          0.72,
+          0.6,
+          1.25,
+          0.96,
+          0.62,
+          1.08
+=======
           0.79
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         ],
         "latest": true,
         "lp": "AK"
@@ -3694,8 +7742,18 @@
           0.86,
           0.77,
           0.94,
+<<<<<<< HEAD
           0.89,
-          0.2
+          0.2,
+          1.02,
+          1.02,
+          1.19,
+          0.71,
+          0.73,
+          0.72
+=======
+          0.89
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         ],
         "latest": true,
         "lp": "AQ"
@@ -3724,8 +7782,18 @@
           0.75,
           0.78,
           0.82,
+<<<<<<< HEAD
           0.65,
-          0.4
+          0.4,
+          0.69,
+          0.57,
+          0.55,
+          1.18,
+          0.56,
+          0.6
+=======
+          0.65
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         ],
         "latest": true,
         "lp": "AR"
@@ -3754,8 +7822,18 @@
           0.72,
           0.58,
           1.15,
+<<<<<<< HEAD
           0.62,
-          0.27
+          0.27,
+          0.5,
+          0.61,
+          0.51,
+          0.47,
+          0.43,
+          0.94
+=======
+          0.62
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         ],
         "latest": true,
         "lp": "AT"
@@ -3784,7 +7862,17 @@
           1.05,
           1.39,
           0.75,
+<<<<<<< HEAD
+          0.84,
+          0.77,
+          0.78,
+          0.92,
+          0.74,
+          0.58,
+          0.8
+=======
           0.84
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         ],
         "latest": true,
         "lp": "AP"
@@ -3813,7 +7901,17 @@
           0.82,
           0.86,
           0.65,
+<<<<<<< HEAD
+          0.86,
+          0.72,
+          1.03,
+          0.71,
+          0.98,
+          1.65,
+          0.92
+=======
           0.86
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         ],
         "latest": true,
         "lp": "AS"
@@ -3842,8 +7940,18 @@
           0.59,
           0.82,
           0.66,
+<<<<<<< HEAD
           0.58,
-          0.22
+          0.22,
+          0.58,
+          0.55,
+          0.51,
+          0.51,
+          0.54,
+          0.49
+=======
+          0.58
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         ],
         "latest": true,
         "lp": "AZ"
@@ -3872,8 +7980,18 @@
           0.67,
           0.53,
           0.67,
+<<<<<<< HEAD
           0.67,
-          0.39
+          0.39,
+          0.96,
+          0.55,
+          0.51,
+          0.56,
+          0.51,
+          0.56
+=======
+          0.67
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         ],
         "latest": true,
         "lp": "AU"
@@ -3902,7 +8020,17 @@
           2.46,
           1.05,
           1.03,
+<<<<<<< HEAD
+          1.05,
+          0.78,
+          0.91,
+          0.9,
+          0.92,
+          0.8,
+          0.97
+=======
           1.05
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         ],
         "latest": true,
         "lp": "AC"
@@ -3931,7 +8059,17 @@
           1.36,
           0.96,
           0.94,
+<<<<<<< HEAD
+          1.0,
+          1.07,
+          0.74,
+          0.9,
+          1.1,
+          1.03,
+          0.83
+=======
           1.0
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         ],
         "latest": true,
         "lp": "AB"
@@ -3945,7 +8083,18 @@
         "results": [
           1.1,
           1.43,
+<<<<<<< HEAD
+          0.76,
+          0.71,
+          0.67,
+          0.75,
+          0.73,
+          0.82,
+          0.8,
+          0.74
+=======
           0.76
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         ],
         "latest": true,
         "lp": "BO"
@@ -3959,7 +8108,18 @@
         "results": [
           1.09,
           1.13,
+<<<<<<< HEAD
+          0.71,
+          0.7,
+          0.74,
+          0.84,
+          1.08,
+          0.79,
+          1.82,
+          0.75
+=======
           0.71
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         ],
         "latest": true,
         "lp": "BN"
@@ -3973,7 +8133,18 @@
         "results": [
           1.1,
           0.96,
+<<<<<<< HEAD
+          0.99,
+          1.79,
+          1.04,
+          1.22,
+          1.57,
+          0.91,
+          1.08,
+          0.92
+=======
           0.99
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         ],
         "latest": true,
         "lp": "BM"
@@ -3987,7 +8158,18 @@
         "results": [
           1.02,
           0.9,
+<<<<<<< HEAD
+          0.9,
+          1.78,
+          1.24,
+          0.81,
+          0.79,
+          0.77,
+          1.44,
+          1.31
+=======
           0.9
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         ],
         "latest": true,
         "lp": "BL"
@@ -4001,7 +8183,18 @@
         "results": [
           1.04,
           1.05,
+<<<<<<< HEAD
+          1.96,
+          0.98,
+          1.03,
+          1.16,
+          0.77,
+          1.07,
+          1.26,
+          1.35
+=======
           1.96
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         ],
         "latest": true,
         "lp": "BD"
@@ -4015,7 +8208,18 @@
         "results": [
           0.84,
           1.16,
+<<<<<<< HEAD
+          1.02,
+          0.89,
+          0.92,
+          0.93,
+          1.0,
+          0.96,
+          1.21,
+          0.92
+=======
           1.02
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         ],
         "latest": true,
         "lp": "BF"
@@ -4027,7 +8231,18 @@
       {
         "alg": "R2 F R U: R' D' R, U2",
         "results": [
+<<<<<<< HEAD
+          2.04,
+          1.26,
+          1.82,
+          1.24,
+          1.09,
+          1.58,
+          1.74,
+          1.23
+=======
           2.04
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         ],
         "latest": true,
         "lp": "BE"
@@ -4041,7 +8256,18 @@
         "results": [
           1.02,
           0.98,
+<<<<<<< HEAD
+          1.47,
+          0.95,
+          1.27,
+          1.2,
+          1.63,
+          1.53,
+          1.1,
+          1.07
+=======
           1.47
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         ],
         "latest": true,
         "lp": "BG"
@@ -4055,7 +8281,18 @@
         "results": [
           0.76,
           1.05,
+<<<<<<< HEAD
+          0.62,
+          0.71,
+          0.74,
+          0.81,
+          0.67,
+          0.79,
+          0.73,
+          0.82
+=======
           0.62
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         ],
         "latest": true,
         "lp": "BI"
@@ -4069,7 +8306,18 @@
         "results": [
           0.77,
           0.64,
+<<<<<<< HEAD
+          0.7,
+          1.1,
+          0.91,
+          0.61,
+          0.8,
+          1.21,
+          0.74,
+          0.73
+=======
           0.7
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         ],
         "latest": true,
         "lp": "BK"
@@ -4083,7 +8331,18 @@
         "results": [
           1.25,
           0.75,
+<<<<<<< HEAD
+          1.01,
+          1.38,
+          1.25,
+          1.71,
+          0.78,
+          0.82,
+          0.65,
+          0.84
+=======
           1.01
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         ],
         "latest": true,
         "lp": "BR"
@@ -4097,7 +8356,18 @@
         "results": [
           0.68,
           0.62,
+<<<<<<< HEAD
+          0.71,
+          0.51,
+          0.85,
+          0.62,
+          0.58,
+          0.62,
+          0.56,
+          0.61
+=======
           0.71
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         ],
         "latest": true,
         "lp": "BT"
@@ -4110,7 +8380,18 @@
         "alg": "R U R': U2, R' D' R",
         "results": [
           2.2,
+<<<<<<< HEAD
+          1.17,
+          1.27,
+          1.06,
+          1.08,
+          1.23,
+          1.09,
+          1.07,
+          0.92
+=======
           1.17
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         ],
         "latest": true,
         "lp": "BP"
@@ -4124,7 +8405,17 @@
         "results": [
           0.72,
           1.25,
+<<<<<<< HEAD
+          1.44,
+          0.73,
+          1.1,
+          0.72,
+          1.44,
+          0.84,
+          0.99
+=======
           1.44
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         ],
         "latest": true,
         "lp": "BZ"
@@ -4138,7 +8429,18 @@
         "results": [
           0.64,
           0.58,
+<<<<<<< HEAD
+          0.67,
+          0.56,
+          0.5,
+          0.6,
+          1.06,
+          0.6,
+          0.42,
+          1.3
+=======
           0.67
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         ],
         "latest": true,
         "lp": "BU"
@@ -4152,7 +8454,18 @@
         "results": [
           1.3,
           1.18,
+<<<<<<< HEAD
+          0.99,
+          1.01,
+          1.22,
+          1.25,
+          0.89,
+          1.02,
+          0.9,
+          0.96
+=======
           0.99
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         ],
         "latest": true,
         "lp": "BW"
@@ -4166,7 +8479,18 @@
         "results": [
           1.01,
           0.94,
+<<<<<<< HEAD
+          1.06,
+          0.79,
+          0.89,
+          0.89,
+          1.01,
+          1.84,
+          1.46,
+          0.94
+=======
           1.06
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         ],
         "latest": true,
         "lp": "BC"
@@ -4180,7 +8504,18 @@
         "results": [
           0.82,
           0.88,
+<<<<<<< HEAD
+          1.6,
+          1.71,
+          0.92,
+          0.72,
+          0.93,
+          0.86,
+          0.94,
+          0.79
+=======
           1.6
+>>>>>>> 99a03e729bbf32addd3c5a6459f828fde6bc8c3d
         ],
         "latest": true,
         "lp": "BA"

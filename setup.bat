@@ -1,8 +1,6 @@
 @echo off
-cd /d "%~dp0"  REM Change to the script's directory
+cd /d "%~dp0" || echo Failed to change directory.
 
-call venv\Scripts\activate
+call venv\Scripts\activate.bat || echo Failed to activate venv.
 
-cd Code
-
-python main.py
+python -m Code.main || echo Failed to run script.
