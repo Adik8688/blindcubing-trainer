@@ -1,0 +1,42 @@
+{
+  "DFL;BDL;DBL": {
+    "algorithms": [
+      {
+        "alg": "D: D, R U' R' U R U' D'",
+        "results": [],
+        "latest": true,
+        "lp": "OD"
+      }
+    ]
+  },
+  "DFL;BDR;DBR": {
+    "algorithms": [
+      {
+        "alg": "D: R U' R' U R U' D', D2",
+        "results": [],
+        "latest": true,
+        "lp": "NF"
+      }
+    ]
+  },
+  "DFL;LDB;DBL": {
+    "algorithms": [
+      {
+        "alg": "D: R U' R' U R U' D', D",
+        "results": [],
+        "latest": true,
+        "lp": "RD"
+      }
+    ]
+  },
+  "DFL;RDB;DBR": {
+    "algorithms": [
+      {
+        "alg": "D: D2, R U' R' U R U' D'",
+        "results": [],
+        "latest": true,
+        "lp": "ZF"
+      }
+    ]
+  }
+}

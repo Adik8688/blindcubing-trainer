@@ -1,0 +1,184 @@
+{
+  "UFR;BDL;DBL": {
+    "algorithms": [
+      {
+        "alg": "R U R' D2 R U' R' U R U' R' D2 R U R' U'",
+        "results": [
+          1.22,
+          1.24
+        ],
+        "latest": true,
+        "lp": "OD"
+      }
+    ]
+  },
+  "UFR;BDR;DBR": {
+    "algorithms": [
+      {
+        "alg": "U R U' R' D' R U R' U' R U R' D R U' R'",
+        "results": [
+          1.1,
+          1.22
+        ],
+        "latest": true,
+        "lp": "NF"
+      }
+    ]
+  },
+  "UFR;BUL;UBL": {
+    "algorithms": [
+      {
+        "alg": "U2, R' D R D' R' D R",
+        "results": [
+          1.6,
+          1.2
+        ],
+        "latest": true,
+        "lp": "MC"
+      }
+    ]
+  },
+  "UFR;BUR;UBR": {
+    "algorithms": [
+      {
+        "alg": "R' D R D' R' D R, U",
+        "results": [
+          1.28,
+          1.21
+        ],
+        "latest": true,
+        "lp": "LA"
+      }
+    ]
+  },
+  "UFR;FDL;DFL": {
+    "algorithms": [
+      {
+        "alg": "U R U' R' D R U R' U' R U R' D' R U' R'",
+        "results": [
+          1.58,
+          2.21
+        ],
+        "latest": true,
+        "lp": "IE"
+      }
+    ]
+  },
+  "UFR;FDR;DFR": {
+    "algorithms": [
+      {
+        "alg": "U R' U' R U R' D' R U' R' U R U' R' D R",
+        "results": [
+          3.54,
+          1.35
+        ],
+        "latest": true,
+        "lp": "KG"
+      }
+    ]
+  },
+  "UFR;FUL;UFL": {
+    "algorithms": [
+      {
+        "alg": "R' D R D' R' D R, U'",
+        "results": [
+          1.72,
+          1.45
+        ],
+        "latest": true,
+        "lp": "QB"
+      }
+    ]
+  },
+  "UFR;LDB;DBL": {
+    "algorithms": [
+      {
+        "alg": "U R U' R' D2 R U R' U' R U R' D2 R U' R'",
+        "results": [
+          1.74,
+          1.64
+        ],
+        "latest": true,
+        "lp": "RD"
+      }
+    ]
+  },
+  "UFR;LDF;DFL": {
+    "algorithms": [
+      {
+        "alg": "R U R' D R U' R' U R U' R' D' R U R' U'",
+        "results": [
+          1.41,
+          1.45
+        ],
+        "latest": true,
+        "lp": "TE"
+      }
+    ]
+  },
+  "UFR;LUB;UBL": {
+    "algorithms": [
+      {
+        "alg": "R' D R D' R' D R, U2",
+        "results": [
+          2.11,
+          1.59
+        ],
+        "latest": true,
+        "lp": "PC"
+      }
+    ]
+  },
+  "UFR;LUF;UFL": {
+    "algorithms": [
+      {
+        "alg": "U', R' D R D' R' D R",
+        "results": [
+          1.56,
+          1.05
+        ],
+        "latest": true,
+        "lp": "SB"
+      }
+    ]
+  },
+  "UFR;RDB;DBR": {
+    "algorithms": [
+      {
+        "alg": "R U R' D' R U' R' U R U' R' D R U R' U'",
+        "results": [
+          1.1,
+          1.08
+        ],
+        "latest": true,
+        "lp": "ZF"
+      }
+    ]
+  },
+  "UFR;RDF;DFR": {
+    "algorithms": [
+      {
+        "alg": "R' D' R U R' U' R U R' D R U' R' U R U'",
+        "results": [
+          1.14,
+          1.08
+        ],
+        "latest": true,
+        "lp": "UG"
+      }
+    ]
+  },
+  "UFR;RUB;UBR": {
+    "algorithms": [
+      {
+        "alg": "U, R' D R D' R' D R",
+        "results": [
+          1.24,
+          1.32
+        ],
+        "latest": true,
+        "lp": "WA"
+      }
+    ]
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "UFL;BDL;DBL": {
+    "algorithms": [
+      {
+        "alg": "U' R U R' D2 R U' R' U R U' R' D2 R U R'",
+        "results": [],
+        "latest": true,
+        "lp": "OD"
+      }
+    ]
+  },
+  "UFL;BDR;DBR": {
+    "algorithms": [
+      {
+        "alg": "R U' R' D' R U R' U' R U R' D R U' R' U",
+        "results": [],
+        "latest": true,
+        "lp": "NF"
+      }
+    ]
+  },
+  "UFL;BUL;UBL": {
+    "algorithms": [
+      {
+        "alg": "U: U, R' D R D' R' D R",
+        "results": [],
+        "latest": true,
+        "lp": "MC"
+      }
+    ]
+  },
+  "UFL;BUR;UBR": {
+    "algorithms": [
+      {
+        "alg": "U': R' D R D' R' D R, U2",
+        "results": [],
+        "latest": true,
+        "lp": "LA"
+      }
+    ]
+  },
+  "UFL;FDL;DFL": {
+    "algorithms": [
+      {
+        "alg": "R U' R' D R U R' U' R U R' D' R U' R' U",
+        "results": [],
+        "latest": true,
+        "lp": "IE"
+      }
+    ]
+  },
+  "UFL;FDR;DFR": {
+    "algorithms": [
+      {
+        "alg": "R' U' R U R' D' R U' R' U R U' R' D R U",
+        "results": [],
+        "latest": true,
+        "lp": "KG"
+      }
+    ]
+  },
+  "UFL;LDB;DBL": {
+    "algorithms": [
+      {
+        "alg": "R U' R' D2 R U R' U' R U R' D2 R U' R' U",
+        "results": [],
+        "latest": true,
+        "lp": "RD"
+      }
+    ]
+  },
+  "UFL;LDF;DFL": {
+    "algorithms": [
+      {
+        "alg": "U' R U R' D R U' R' U R U' R' D' R U R'",
+        "results": [],
+        "latest": true,
+        "lp": "TE"
+      }
+    ]
+  },
+  "UFL;LUB;UBL": {
+    "algorithms": [
+      {
+        "alg": "U': R' D R D' R' D R, U'",
+        "results": [],
+        "latest": true,
+        "lp": "PC"
+      }
+    ]
+  },
+  "UFL;RDB;DBR": {
+    "algorithms": [
+      {
+        "alg": "U' R U R' D' R U' R' U R U' R' D R U R'",
+        "results": [],
+        "latest": true,
+        "lp": "ZF"
+      }
+    ]
+  },
+  "UFL;RDF;DFR": {
+    "algorithms": [
+      {
+        "alg": "U' R' D' R U R' U' R U R' D R U' R' U R",
+        "results": [],
+        "latest": true,
+        "lp": "UG"
+      }
+    ]
+  },
+  "UFL;RUB;UBR": {
+    "algorithms": [
+      {
+        "alg": "U': U2, R' D R D' R' D R",
+        "results": [],
+        "latest": true,
+        "lp": "WA"
+      }
+    ]
+  }
+}

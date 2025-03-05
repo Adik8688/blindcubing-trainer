@@ -76,9 +76,9 @@ ColumnLayout {
                 Layout.fillWidth: true
                 Layout.fillHeight: true
                 MyButtonDeeper {
-                    text: "Wings"
+                    text: "Twists"
                     onClicked: {
-                        bridge.setPieceType('wings')
+                        bridge.setPieceType('twists')
                         stackview.push( "BufferChoice.qml" )
                     }
                 }

@@ -1,0 +1,22 @@
+{
+  "DBR;BDL;DBL": {
+    "algorithms": [
+      {
+        "alg": "D': D', R U' R' U R U' D'",
+        "results": [],
+        "latest": true,
+        "lp": "OD"
+      }
+    ]
+  },
+  "DBR;LDB;DBL": {
+    "algorithms": [
+      {
+        "alg": "D': R U' R' U R U' D', D'",
+        "results": [],
+        "latest": true,
+        "lp": "RD"
+      }
+    ]
+  }
+}
