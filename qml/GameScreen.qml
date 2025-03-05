@@ -55,7 +55,7 @@ ColumnLayout {
             // remove in production
             TopText {
                 text: bridge.getCurrentAlg()
-                font.pointSize: 60
+                font.pointSize: Math.max(20, Math.min(60, parent.width * 1.5 / text.length))
             }
         }
 
