@@ -1,4 +1,4 @@
-from .SpreadsheetsManager import SpreadsheetsManager
+from Code.SpreadsheetsManager import SpreadsheetsManager
 from pathlib import Path
 from random import shuffle
 from .project_paths import JSON_DIR
@@ -9,63 +9,31 @@ class GameManager:
     '''
 
     def __init__(self, pieceType, buffer, targets):
-        
-        self.pieceType = pieceType
-        self.buffer = buffer
 
-        
         self.buffer = buffer
-        # assign list of targets (subset of all algs)
-        self.targets = targets
+        self.filepath = JSON_DIR / f"{pieceType}_{self.buffer}.json"
+        self.data = SpreadsheetsManager.get_data(self.filepath)
+        
+        self.keys = [f"{buffer};{";".join(t.split())}" for t in targets]
+        self.shuffled_keys = self.keys.copy()
+
 
         self._set_game()
 
-    def _get_latest_algs(self):
-        self.data = {k: v['algorithms'][0] for k, v in self.data.items()}
 
     def _set_game(self):
         '''
         Calls all necessary submethods
         '''
-        self.filepath = JSON_DIR / f"{self.pieceType}_{self.buffer}.json"
 
-        self.data = SpreadsheetsManager.get_data(self.filepath)
+        shuffle(self.shuffled_keys)
+        self.new_results = dict()
 
-        self._get_latest_algs()
-        self.get_game_attributes()
-        self.get_shuffled_keys()
         self.index = 0
         self.size = len(self.keys)
-    
-
-    def get_game_attributes(self):
-        data = {}
-
-        for k, v in self.data.items():
-            key_to_targets = " ".join(k.split(";")[1:3])
-            if key_to_targets not in self.targets:
-                continue
-
-            # word > lp > pair of targets
-            memo = v.get('memo') or v.get('lp') or k
-            
-            data[k] = {
-                'alg': v['alg'],
-                'memo': memo,
-            }
-
-        self.data = data
-        
-    def get_shuffled_keys(self):
-        '''
-        Returns list of keys of targets map in random order
-        '''
-        self.keys = list(self.data.keys())
-        shuffle(self.keys)
 
     def remove_pair(self, key):
-        self.data.pop(key)
-
+        self.new_results.pop(key)
     
     def increment_index(self):
         '''
@@ -73,14 +41,44 @@ class GameManager:
         '''
         self.index += 1
     
+  
+    def get_case(self, key):
+        memo = self.data[key].get('memo', '')
+        if memo:
+            return memo
+        
+        memo = self.data[key].get('lp', '')
+        if memo:
+            return memo
+        
+        return " ".join(key.split(";"))
+
+
+    def get_current_key(self):
+        '''
+        Returns current key
+        '''
+        return self.shuffled_keys[self.index]
+
+
+    def get_current_case(self):
+        '''
+        Returns current case
+        '''
+        key = self.get_current_key()
+        return self.get_case(key)
+
+
     def get_next_case(self):
         '''
         Returns next case (if exists)
         '''
         if self.index == self.size - 1:
             return ''
+        
+        key = self.shuffled_keys[self.index + 1]
+        return self.get_case(key)
 
-        return self.data[self.keys[self.index + 1]]['memo'] 
 
     def get_last_result(self):
         '''
@@ -88,20 +86,18 @@ class GameManager:
         '''
         if self.index == 0:
             return ''
-        return self.data[self.keys[self.index - 1]]['result']
+        
+        key = self.shuffled_keys[self.index - 1]
+        return self.new_results.get(key)
             
 
     def get_current_alg(self):
         '''
         Returns current algorithm
         '''
-        return self.data[self.keys[self.index]]['alg']
+        key = self.shuffled_keys[self.index]
+        return self.data[key]['algorithms'][0]['alg']
     
-    def get_current_case(self):
-        '''
-        Returns current case
-        '''
-        return self.data[self.keys[self.index]]['memo']
 
     def get_current_case_no(self):
         '''
@@ -119,9 +115,8 @@ class GameManager:
         '''
         Save result to the main dictionary
         '''
-
-        # access key from the list with index, then pass the key to the main map and save result to the values
-        self.data[self.keys[self.index]]['result'] = result
+        key = self.get_current_key()
+        self.new_results[key] = result
 
     def is_game_finished(self):
         '''
@@ -134,30 +129,46 @@ class GameManager:
         Extracts results from targets map and sorts them by time
         '''
         output = []
-        for k, v in self.data.items():
-            b, t1, t2 = k.split(";")
-            output.append(f'{t1} {t2} {v["result"]}')
+        for k, v in self.new_results.items():
+            _, t1, t2 = k.split(";")
+            output.append(f'{t1} {t2} {v}')
         
         output = sorted(output, key=lambda x: float(x.split()[-1]), reverse=True)
 
         return output
     
+    def get_difficulty(self):
+        '''
+        Get difficulty flag of current case alg
+        '''
+        key = self.get_current_key()
+        diff = self.data[key]['difficult']
+        print(f"Current difficulty: {diff}")
+        return 
+    
+    def flip_difficulty(self):
+        '''
+        Set difficulty flag to opposite
+        '''
+
+        key = self.get_current_key()
+        diff = self.data[key]['difficult']
+        self.data[key]['difficult'] = not diff
+        print(f"Difficulty after change: {self.data[key]['difficult']}")
+
+
     def save_results(self):
         '''
         Saves results from the session to the json file
         '''
-
-        all_records = SpreadsheetsManager.get_data(self.filepath) 
-
-        for k, v in self.data.items():
-            key = k
-            result = v['result']
+        
+        for k in self.shuffled_keys:
+            new_res = self.new_results[k]
 
             # ignores results from double click
-            if result < 0.2:
+            if new_res < 0.2:
                 continue
-            
-            all_records[key]['algorithms'][0]['results'].append(result)
 
+            self.data[k]['algorithms'][0]['results'].append(new_res)
         
-        SpreadsheetsManager.save_data(all_records, self.filepath)
+        SpreadsheetsManager.save_data(self.data, self.filepath)

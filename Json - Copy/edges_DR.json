@@ -9,16 +9,16 @@
           0.8794964978574492,
           0.5748147304323052
         ],
-        "latest": true
+        "latest": true,
+        "lp": "MN"
       },
       {
         "alg": "E' S R': R2, S",
         "results": [],
-        "latest": false
+        "latest": false,
+        "lp": "MN"
       }
-    ],
-    "lp": "MN",
-    "difficult": false
+    ]
   },
   "DR;BL;DL": {
     "algorithms": [
@@ -27,92 +27,88 @@
         "results": [
           2.8586847485100737
         ],
-        "latest": true
+        "latest": true,
+        "lp": "ME"
       }
-    ],
-    "lp": "ME",
-    "difficult": false
+    ]
   },
   "DR;BL;LD": {
     "algorithms": [
       {
         "alg": "R' E' R: S', R2",
         "results": [],
-        "latest": true
+        "latest": true,
+        "lp": "MT"
       }
-    ],
-    "lp": "MT",
-    "difficult": false
+    ]
   },
   "DR;BL;RB": {
     "algorithms": [
       {
         "alg": "R' U F: E', R2",
         "results": [],
-        "latest": true
+        "latest": true,
+        "lp": "MW"
       },
       {
         "alg": "S' R S R' E' R' E R",
         "results": [],
-        "latest": false
+        "latest": false,
+        "lp": "MW"
       }
-    ],
-    "lp": "MW",
-    "difficult": false
+    ]
   },
   "DR;BR;BL": {
     "algorithms": [
       {
         "alg": "R' U R U' R: E', R2",
         "results": [],
-        "latest": true
+        "latest": true,
+        "lp": "NM"
       },
       {
         "alg": "E' S R': S, R2",
         "results": [],
-        "latest": false
+        "latest": false,
+        "lp": "NM"
       }
-    ],
-    "lp": "NM",
-    "difficult": false
+    ]
   },
   "DR;BR;DL": {
     "algorithms": [
       {
         "alg": "S R2 S R S' R2 S' R'",
         "results": [],
-        "latest": true
+        "latest": true,
+        "lp": "NE"
       }
-    ],
-    "lp": "NE",
-    "difficult": false
+    ]
   },
   "DR;BR;LB": {
     "algorithms": [
       {
         "alg": "R2 U' R: U, R E' R'",
         "results": [],
-        "latest": true
+        "latest": true,
+        "lp": "NR"
       },
       {
         "alg": "R S' R: E', R2",
         "results": [],
-        "latest": false
+        "latest": false,
+        "lp": "NR"
       }
-    ],
-    "lp": "NR",
-    "difficult": false
+    ]
   },
   "DR;BR;LD": {
     "algorithms": [
       {
         "alg": "R' E R S' R S R' E'",
         "results": [],
-        "latest": true
+        "latest": true,
+        "lp": "NT"
       }
-    ],
-    "lp": "NT",
-    "difficult": false
+    ]
   },
   "DR;DL;BL": {
     "algorithms": [
@@ -121,195 +117,183 @@
         "results": [
           1.849281085167139
         ],
-        "latest": true
+        "latest": true,
+        "lp": "EM"
       }
-    ],
-    "lp": "EM",
-    "difficult": false
+    ]
   },
   "DR;DL;BR": {
     "algorithms": [
       {
         "alg": "R S R2 S R' S' R2 S'",
         "results": [],
-        "latest": true
+        "latest": true,
+        "lp": "EN"
       }
-    ],
-    "lp": "EN",
-    "difficult": false
+    ]
   },
   "DR;DL;LB": {
     "algorithms": [
       {
         "alg": "S' R': E', R2",
         "results": [],
-        "latest": true
+        "latest": true,
+        "lp": "ER"
       }
-    ],
-    "lp": "ER",
-    "difficult": false
+    ]
   },
   "DR;DL;RB": {
     "algorithms": [
       {
         "alg": "S L': E, L2",
         "results": [],
-        "latest": true
+        "latest": true,
+        "lp": "EW"
       }
-    ],
-    "lp": "EW",
-    "difficult": false
+    ]
   },
   "DR;LB;BR": {
     "algorithms": [
       {
         "alg": "R2 U' R: R E' R', U",
         "results": [],
-        "latest": true
+        "latest": true,
+        "lp": "RN"
       },
       {
         "alg": "R S' R: R2, E'",
         "results": [],
-        "latest": false
+        "latest": false,
+        "lp": "RN"
       }
-    ],
-    "lp": "RN",
-    "difficult": false
+    ]
   },
   "DR;LB;DL": {
     "algorithms": [
       {
         "alg": "S' R': R2, E'",
         "results": [],
-        "latest": true
+        "latest": true,
+        "lp": "RE"
       }
-    ],
-    "lp": "RE",
-    "difficult": false
+    ]
   },
   "DR;LB;LD": {
     "algorithms": [
       {
         "alg": "U' L' U, S",
         "results": [],
-        "latest": true
+        "latest": true,
+        "lp": "RT"
       }
-    ],
-    "lp": "RT",
-    "difficult": false
+    ]
   },
   "DR;LB;RB": {
     "algorithms": [
       {
         "alg": "Uw' L': S, L2",
         "results": [],
-        "latest": true
+        "latest": true,
+        "lp": "RW"
       },
       {
         "alg": "u R': S', R2",
         "results": [],
-        "latest": false
+        "latest": false,
+        "lp": "RW"
       }
-    ],
-    "lp": "RW",
-    "difficult": false
+    ]
   },
   "DR;LD;BL": {
     "algorithms": [
       {
         "alg": "R' E' R: R2, S'",
         "results": [],
-        "latest": true
+        "latest": true,
+        "lp": "TM"
       }
-    ],
-    "lp": "TM",
-    "difficult": false
+    ]
   },
   "DR;LD;BR": {
     "algorithms": [
       {
         "alg": "E R S' R' S R' E' R",
         "results": [],
-        "latest": true
+        "latest": true,
+        "lp": "TN"
       }
-    ],
-    "lp": "TN",
-    "difficult": false
+    ]
   },
   "DR;LD;LB": {
     "algorithms": [
       {
         "alg": "S, U' L' U",
         "results": [],
-        "latest": true
+        "latest": true,
+        "lp": "TR"
       }
-    ],
-    "lp": "TR",
-    "difficult": false
+    ]
   },
   "DR;LD;RB": {
     "algorithms": [
       {
         "alg": "S, L B2 L'",
         "results": [],
-        "latest": true
+        "latest": true,
+        "lp": "TW"
       }
-    ],
-    "lp": "TW",
-    "difficult": false
+    ]
   },
   "DR;RB;BL": {
     "algorithms": [
       {
         "alg": "R' U F: R2, E'",
         "results": [],
-        "latest": true
+        "latest": true,
+        "lp": "WM"
       },
       {
         "alg": "R' E' R E R S' R' S",
         "results": [],
-        "latest": false
+        "latest": false,
+        "lp": "WM"
       }
-    ],
-    "lp": "WM",
-    "difficult": false
+    ]
   },
   "DR;RB;DL": {
     "algorithms": [
       {
         "alg": "S L': L2, E",
         "results": [],
-        "latest": true
+        "latest": true,
+        "lp": "WE"
       }
-    ],
-    "lp": "WE",
-    "difficult": false
+    ]
   },
   "DR;RB;LB": {
     "algorithms": [
       {
         "alg": "Uw' L': L2, S",
         "results": [],
-        "latest": true
+        "latest": true,
+        "lp": "WR"
       },
       {
         "alg": "u R': R2, S'",
         "results": [],
-        "latest": false
+        "latest": false,
+        "lp": "WR"
       }
-    ],
-    "lp": "WR",
-    "difficult": false
+    ]
   },
   "DR;RB;LD": {
     "algorithms": [
       {
         "alg": "L B2 L', S",
         "results": [],
-        "latest": true
+        "latest": true,
+        "lp": "WT"
       }
-    ],
-    "lp": "WT",
-    "difficult": false
+    ]
   }
 }

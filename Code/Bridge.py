@@ -412,3 +412,11 @@ class Bridge(QObject):
     def getGlobalAvg(self):
         em = ExportManager()
         return em.get_global_avg()
+    
+    @Slot (result=bool)
+    def getDiff(self):
+        self.gm.get_difficulty()
+    
+    @Slot ()
+    def flipDiff(self):
+        self.gm.flip_difficulty()

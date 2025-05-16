@@ -51,10 +51,11 @@
           1.07,
           1.1
         ],
-        "latest": true,
-        "lp": "ON"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "ON",
+    "difficult": false
   },
   "UFR;BDL;BUL": {
     "algorithms": [
@@ -108,10 +109,11 @@
           1.42,
           1.2
         ],
-        "latest": true,
-        "lp": "OM"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "OM",
+    "difficult": false
   },
   "UFR;BDL;BUR": {
     "algorithms": [
@@ -163,10 +165,11 @@
           1.59,
           1.08
         ],
-        "latest": true,
-        "lp": "OL"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "OL",
+    "difficult": false
   },
   "UFR;BDL;DBR": {
     "algorithms": [
@@ -220,10 +223,11 @@
           1.24,
           2.1
         ],
-        "latest": true,
-        "lp": "OF"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "OF",
+    "difficult": false
   },
   "UFR;BDL;DFL": {
     "algorithms": [
@@ -274,10 +278,11 @@
           1.65,
           1.83
         ],
-        "latest": true,
-        "lp": "OE"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "OE",
+    "difficult": false
   },
   "UFR;BDL;DFR": {
     "algorithms": [
@@ -329,10 +334,11 @@
           1.3,
           1.39
         ],
-        "latest": true,
-        "lp": "OG"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "OG",
+    "difficult": false
   },
   "UFR;BDL;FDL": {
     "algorithms": [
@@ -383,10 +389,11 @@
           1.48,
           1.31
         ],
-        "latest": true,
-        "lp": "OI"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "OI",
+    "difficult": false
   },
   "UFR;BDL;FDR": {
     "algorithms": [
@@ -437,10 +444,11 @@
           1.93,
           1.22
         ],
-        "latest": true,
-        "lp": "OK"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "OK",
+    "difficult": false
   },
   "UFR;BDL;FUL": {
     "algorithms": [
@@ -490,10 +498,11 @@
           1.49,
           1.97
         ],
-        "latest": true,
-        "lp": "OQ"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "OQ",
+    "difficult": false
   },
   "UFR;BDL;LDF": {
     "algorithms": [
@@ -544,10 +553,11 @@
           1.33,
           1.36
         ],
-        "latest": true,
-        "lp": "OT"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "OT",
+    "difficult": false
   },
   "UFR;BDL;LUB": {
     "algorithms": [
@@ -598,10 +608,11 @@
           1.68,
           1.52
         ],
-        "latest": true,
-        "lp": "OP"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "OP",
+    "difficult": false
   },
   "UFR;BDL;LUF": {
     "algorithms": [
@@ -651,10 +662,11 @@
           0.99,
           1.06
         ],
-        "latest": true,
-        "lp": "OS"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "OS",
+    "difficult": false
   },
   "UFR;BDL;RDB": {
     "algorithms": [
@@ -706,10 +718,11 @@
           1.28,
           1.07
         ],
-        "latest": true,
-        "lp": "OZ"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "OZ",
+    "difficult": false
   },
   "UFR;BDL;RDF": {
     "algorithms": [
@@ -760,10 +773,11 @@
           1.69,
           1.42
         ],
-        "latest": true,
-        "lp": "OU"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "OU",
+    "difficult": false
   },
   "UFR;BDL;RUB": {
     "algorithms": [
@@ -814,10 +828,11 @@
           1.63,
           2.23
         ],
-        "latest": true,
-        "lp": "OW"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "OW",
+    "difficult": false
   },
   "UFR;BDL;UBL": {
     "algorithms": [
@@ -869,10 +884,11 @@
           1.37,
           1.2
         ],
-        "latest": true,
-        "lp": "OC"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "OC",
+    "difficult": false
   },
   "UFR;BDL;UBR": {
     "algorithms": [
@@ -922,10 +938,11 @@
           0.72,
           1.27
         ],
-        "latest": true,
-        "lp": "OA"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "OA",
+    "difficult": false
   },
   "UFR;BDL;UFL": {
     "algorithms": [
@@ -977,10 +994,11 @@
           0.77,
           0.81
         ],
-        "latest": true,
-        "lp": "OB"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "OB",
+    "difficult": false
   },
   "UFR;BDR;BDL": {
     "algorithms": [
@@ -1030,10 +1048,11 @@
           1.18,
           2.59
         ],
-        "latest": true,
-        "lp": "NO"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "NO",
+    "difficult": false
   },
   "UFR;BDR;BUL": {
     "algorithms": [
@@ -1082,10 +1101,11 @@
           1.42,
           1.68
         ],
-        "latest": true,
-        "lp": "NM"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "NM",
+    "difficult": false
   },
   "UFR;BDR;BUR": {
     "algorithms": [
@@ -1134,10 +1154,11 @@
           1.46,
           1.34
         ],
-        "latest": true,
-        "lp": "NL"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "NL",
+    "difficult": false
   },
   "UFR;BDR;DBL": {
     "algorithms": [
@@ -1184,10 +1205,11 @@
           1.33,
           1.62
         ],
-        "latest": true,
-        "lp": "ND"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "ND",
+    "difficult": false
   },
   "UFR;BDR;DFL": {
     "algorithms": [
@@ -1237,10 +1259,11 @@
           1.48,
           1.17
         ],
-        "latest": true,
-        "lp": "NE"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "NE",
+    "difficult": false
   },
   "UFR;BDR;DFR": {
     "algorithms": [
@@ -1289,10 +1312,11 @@
           1.09,
           1.17
         ],
-        "latest": true,
-        "lp": "NG"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "NG",
+    "difficult": false
   },
   "UFR;BDR;FDL": {
     "algorithms": [
@@ -1342,10 +1366,11 @@
           0.91,
           0.88
         ],
-        "latest": true,
-        "lp": "NI"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "NI",
+    "difficult": false
   },
   "UFR;BDR;FDR": {
     "algorithms": [
@@ -1395,10 +1420,11 @@
           1.57,
           1.75
         ],
-        "latest": true,
-        "lp": "NK"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "NK",
+    "difficult": false
   },
   "UFR;BDR;FUL": {
     "algorithms": [
@@ -1447,10 +1473,11 @@
           2.11,
           1.39
         ],
-        "latest": true,
-        "lp": "NQ"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "NQ",
+    "difficult": false
   },
   "UFR;BDR;LDB": {
     "algorithms": [
@@ -1500,10 +1527,11 @@
           0.66,
           0.85
         ],
-        "latest": true,
-        "lp": "NR"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "NR",
+    "difficult": false
   },
   "UFR;BDR;LDF": {
     "algorithms": [
@@ -1553,10 +1581,11 @@
           1.08,
           1.62
         ],
-        "latest": true,
-        "lp": "NT"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "NT",
+    "difficult": false
   },
   "UFR;BDR;LUB": {
     "algorithms": [
@@ -1606,10 +1635,11 @@
           0.97,
           0.9
         ],
-        "latest": true,
-        "lp": "NP"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "NP",
+    "difficult": false
   },
   "UFR;BDR;LUF": {
     "algorithms": [
@@ -1657,10 +1687,11 @@
           1.21,
           0.79
         ],
-        "latest": true,
-        "lp": "NS"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "NS",
+    "difficult": false
   },
   "UFR;BDR;RDF": {
     "algorithms": [
@@ -1710,10 +1741,11 @@
           0.67,
           0.79
         ],
-        "latest": true,
-        "lp": "NU"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "NU",
+    "difficult": false
   },
   "UFR;BDR;RUB": {
     "algorithms": [
@@ -1762,10 +1794,11 @@
           1.45,
           1.36
         ],
-        "latest": true,
-        "lp": "NW"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "NW",
+    "difficult": false
   },
   "UFR;BDR;UBL": {
     "algorithms": [
@@ -1814,10 +1847,11 @@
           1.28,
           1.31
         ],
-        "latest": true,
-        "lp": "NC"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "NC",
+    "difficult": false
   },
   "UFR;BDR;UBR": {
     "algorithms": [
@@ -1867,10 +1901,11 @@
           1.01,
           0.88
         ],
-        "latest": true,
-        "lp": "NA"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "NA",
+    "difficult": false
   },
   "UFR;BDR;UFL": {
     "algorithms": [
@@ -1917,10 +1952,11 @@
           1.08,
           0.95
         ],
-        "latest": true,
-        "lp": "NB"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "NB",
+    "difficult": false
   },
   "UFR;BUL;BDL": {
     "algorithms": [
@@ -1970,10 +2006,11 @@
           1.45,
           1.34
         ],
-        "latest": true,
-        "lp": "MO"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "MO",
+    "difficult": false
   },
   "UFR;BUL;BDR": {
     "algorithms": [
@@ -2023,10 +2060,11 @@
           1.68,
           2.48
         ],
-        "latest": true,
-        "lp": "MN"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "MN",
+    "difficult": false
   },
   "UFR;BUL;BUR": {
     "algorithms": [
@@ -2077,10 +2115,11 @@
           1.21,
           1.52
         ],
-        "latest": true,
-        "lp": "ML"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "ML",
+    "difficult": false
   },
   "UFR;BUL;DBL": {
     "algorithms": [
@@ -2131,10 +2170,11 @@
           1.25,
           1.24
         ],
-        "latest": true,
-        "lp": "MD"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "MD",
+    "difficult": false
   },
   "UFR;BUL;DBR": {
     "algorithms": [
@@ -2183,10 +2223,11 @@
           1.1,
           1.53
         ],
-        "latest": true,
-        "lp": "MF"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "MF",
+    "difficult": false
   },
   "UFR;BUL;DFL": {
     "algorithms": [
@@ -2236,10 +2277,11 @@
           1.29,
           1.09
         ],
-        "latest": true,
-        "lp": "ME"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "ME",
+    "difficult": false
   },
   "UFR;BUL;DFR": {
     "algorithms": [
@@ -2289,10 +2331,11 @@
           1.18,
           1.27
         ],
-        "latest": true,
-        "lp": "MG"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "MG",
+    "difficult": false
   },
   "UFR;BUL;FDL": {
     "algorithms": [
@@ -2341,10 +2384,11 @@
           2.04,
           1.19
         ],
-        "latest": true,
-        "lp": "MI"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "MI",
+    "difficult": false
   },
   "UFR;BUL;FDR": {
     "algorithms": [
@@ -2392,10 +2436,11 @@
           1.95,
           1.26
         ],
-        "latest": true,
-        "lp": "MK"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "MK",
+    "difficult": false
   },
   "UFR;BUL;FUL": {
     "algorithms": [
@@ -2443,10 +2488,11 @@
           1.48,
           1.27
         ],
-        "latest": true,
-        "lp": "MQ"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "MQ",
+    "difficult": false
   },
   "UFR;BUL;LDB": {
     "algorithms": [
@@ -2496,10 +2542,11 @@
           1.35,
           1.89
         ],
-        "latest": true,
-        "lp": "MR"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "MR",
+    "difficult": false
   },
   "UFR;BUL;LDF": {
     "algorithms": [
@@ -2549,10 +2596,11 @@
           1.24,
           1.28
         ],
-        "latest": true,
-        "lp": "MT"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "MT",
+    "difficult": false
   },
   "UFR;BUL;LUF": {
     "algorithms": [
@@ -2603,10 +2651,11 @@
           0.94,
           1.17
         ],
-        "latest": true,
-        "lp": "MS"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "MS",
+    "difficult": false
   },
   "UFR;BUL;RDB": {
     "algorithms": [
@@ -2657,10 +2706,11 @@
           1.48,
           0.88
         ],
-        "latest": true,
-        "lp": "MZ"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "MZ",
+    "difficult": false
   },
   "UFR;BUL;RDF": {
     "algorithms": [
@@ -2711,10 +2761,11 @@
           1.41,
           0.91
         ],
-        "latest": true,
-        "lp": "MU"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "MU",
+    "difficult": false
   },
   "UFR;BUL;RUB": {
     "algorithms": [
@@ -2765,10 +2816,11 @@
           1.28,
           1.94
         ],
-        "latest": true,
-        "lp": "MW"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "MW",
+    "difficult": false
   },
   "UFR;BUL;UBR": {
     "algorithms": [
@@ -2819,10 +2871,11 @@
           0.97,
           0.98
         ],
-        "latest": true,
-        "lp": "MA"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "MA",
+    "difficult": false
   },
   "UFR;BUL;UFL": {
     "algorithms": [
@@ -2872,10 +2925,11 @@
           1.46,
           1.39
         ],
-        "latest": true,
-        "lp": "MB"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "MB",
+    "difficult": false
   },
   "UFR;BUR;BDL": {
     "algorithms": [
@@ -2925,10 +2979,11 @@
           1.14,
           1.96
         ],
-        "latest": true,
-        "lp": "LO"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "LO",
+    "difficult": false
   },
   "UFR;BUR;BDR": {
     "algorithms": [
@@ -2980,10 +3035,11 @@
           1.15,
           1.02
         ],
-        "latest": true,
-        "lp": "LN"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "LN",
+    "difficult": false
   },
   "UFR;BUR;BUL": {
     "algorithms": [
@@ -3035,10 +3091,11 @@
           1.79,
           1.31
         ],
-        "latest": true,
-        "lp": "LM"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "LM",
+    "difficult": false
   },
   "UFR;BUR;DBL": {
     "algorithms": [
@@ -3089,10 +3146,11 @@
           1.03,
           1.31
         ],
-        "latest": true,
-        "lp": "LD"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "LD",
+    "difficult": false
   },
   "UFR;BUR;DBR": {
     "algorithms": [
@@ -3140,10 +3198,11 @@
           1.58,
           1.38
         ],
-        "latest": true,
-        "lp": "LF"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "LF",
+    "difficult": false
   },
   "UFR;BUR;DFL": {
     "algorithms": [
@@ -3195,10 +3254,11 @@
           1.24,
           1.25
         ],
-        "latest": true,
-        "lp": "LE"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "LE",
+    "difficult": false
   },
   "UFR;BUR;DFR": {
     "algorithms": [
@@ -3249,10 +3309,11 @@
           1.13,
           1.52
         ],
-        "latest": true,
-        "lp": "LG"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "LG",
+    "difficult": false
   },
   "UFR;BUR;FDL": {
     "algorithms": [
@@ -3304,10 +3365,11 @@
           1.08,
           1.12
         ],
-        "latest": true,
-        "lp": "LI"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "LI",
+    "difficult": false
   },
   "UFR;BUR;FDR": {
     "algorithms": [
@@ -3358,10 +3420,11 @@
           1.62,
           1.49
         ],
-        "latest": true,
-        "lp": "LK"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "LK",
+    "difficult": false
   },
   "UFR;BUR;FUL": {
     "algorithms": [
@@ -3413,10 +3476,11 @@
           1.15,
           1.44
         ],
-        "latest": true,
-        "lp": "LQ"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "LQ",
+    "difficult": false
   },
   "UFR;BUR;LDB": {
     "algorithms": [
@@ -3467,10 +3531,11 @@
           1.37,
           0.97
         ],
-        "latest": true,
-        "lp": "LR"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "LR",
+    "difficult": false
   },
   "UFR;BUR;LDF": {
     "algorithms": [
@@ -3521,10 +3586,11 @@
           1.28,
           1.13
         ],
-        "latest": true,
-        "lp": "LT"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "LT",
+    "difficult": false
   },
   "UFR;BUR;LUB": {
     "algorithms": [
@@ -3573,10 +3639,11 @@
           0.92,
           1.15
         ],
-        "latest": true,
-        "lp": "LP"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "LP",
+    "difficult": false
   },
   "UFR;BUR;LUF": {
     "algorithms": [
@@ -3628,10 +3695,11 @@
           1.13,
           1.15
         ],
-        "latest": true,
-        "lp": "LS"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "LS",
+    "difficult": false
   },
   "UFR;BUR;RDB": {
     "algorithms": [
@@ -3683,10 +3751,11 @@
           1.52,
           1.57
         ],
-        "latest": true,
-        "lp": "LZ"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "LZ",
+    "difficult": false
   },
   "UFR;BUR;RDF": {
     "algorithms": [
@@ -3737,10 +3806,11 @@
           2.1,
           1.56
         ],
-        "latest": true,
-        "lp": "LU"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "LU",
+    "difficult": false
   },
   "UFR;BUR;UBL": {
     "algorithms": [
@@ -3792,10 +3862,11 @@
           1.43,
           1.58
         ],
-        "latest": true,
-        "lp": "LC"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "LC",
+    "difficult": false
   },
   "UFR;BUR;UFL": {
     "algorithms": [
@@ -3847,10 +3918,11 @@
           1.72,
           1.74
         ],
-        "latest": true,
-        "lp": "LB"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "LB",
+    "difficult": false
   },
   "UFR;DBL;BDR": {
     "algorithms": [
@@ -3900,10 +3972,11 @@
           1.64,
           1.39
         ],
-        "latest": true,
-        "lp": "DN"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "DN",
+    "difficult": false
   },
   "UFR;DBL;BUL": {
     "algorithms": [
@@ -3952,10 +4025,11 @@
           1.09,
           1.79
         ],
-        "latest": true,
-        "lp": "DM"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "DM",
+    "difficult": false
   },
   "UFR;DBL;BUR": {
     "algorithms": [
@@ -4004,10 +4078,11 @@
           1.34,
           0.92
         ],
-        "latest": true,
-        "lp": "DL"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "DL",
+    "difficult": false
   },
   "UFR;DBL;DBR": {
     "algorithms": [
@@ -4055,10 +4130,11 @@
           1.1,
           1.29
         ],
-        "latest": true,
-        "lp": "DF"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "DF",
+    "difficult": false
   },
   "UFR;DBL;DFL": {
     "algorithms": [
@@ -4106,10 +4182,11 @@
           1.53,
           2.22
         ],
-        "latest": true,
-        "lp": "DE"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "DE",
+    "difficult": false
   },
   "UFR;DBL;DFR": {
     "algorithms": [
@@ -4156,10 +4233,11 @@
           1.81,
           1.98
         ],
-        "latest": true,
-        "lp": "DG"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "DG",
+    "difficult": false
   },
   "UFR;DBL;FDL": {
     "algorithms": [
@@ -4207,10 +4285,11 @@
           1.3,
           1.06
         ],
-        "latest": true,
-        "lp": "DI"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "DI",
+    "difficult": false
   },
   "UFR;DBL;FDR": {
     "algorithms": [
@@ -4258,10 +4337,11 @@
           1.27,
           1.34
         ],
-        "latest": true,
-        "lp": "DK"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "DK",
+    "difficult": false
   },
   "UFR;DBL;FUL": {
     "algorithms": [
@@ -4310,10 +4390,11 @@
           0.92,
           0.97
         ],
-        "latest": true,
-        "lp": "DQ"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "DQ",
+    "difficult": false
   },
   "UFR;DBL;LDF": {
     "algorithms": [
@@ -4360,10 +4441,11 @@
           1.21,
           2.13
         ],
-        "latest": true,
-        "lp": "DT"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "DT",
+    "difficult": false
   },
   "UFR;DBL;LUB": {
     "algorithms": [
@@ -4412,10 +4494,11 @@
           0.82,
           1.25
         ],
-        "latest": true,
-        "lp": "DP"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "DP",
+    "difficult": false
   },
   "UFR;DBL;LUF": {
     "algorithms": [
@@ -4464,10 +4547,11 @@
           1.44,
           1.25
         ],
-        "latest": true,
-        "lp": "DS"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "DS",
+    "difficult": false
   },
   "UFR;DBL;RDB": {
     "algorithms": [
@@ -4513,10 +4597,11 @@
           1.26,
           1.32
         ],
-        "latest": true,
-        "lp": "DZ"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "DZ",
+    "difficult": false
   },
   "UFR;DBL;RDF": {
     "algorithms": [
@@ -4565,10 +4650,11 @@
           0.74,
           1.0
         ],
-        "latest": true,
-        "lp": "DU"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "DU",
+    "difficult": false
   },
   "UFR;DBL;RUB": {
     "algorithms": [
@@ -4617,10 +4703,11 @@
           1.03,
           1.23
         ],
-        "latest": true,
-        "lp": "DW"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "DW",
+    "difficult": false
   },
   "UFR;DBL;UBL": {
     "algorithms": [
@@ -4666,10 +4753,11 @@
           1.41,
           1.32
         ],
-        "latest": true,
-        "lp": "DC"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "DC",
+    "difficult": false
   },
   "UFR;DBL;UBR": {
     "algorithms": [
@@ -4718,10 +4806,11 @@
           1.01,
           1.44
         ],
-        "latest": true,
-        "lp": "DA"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "DA",
+    "difficult": false
   },
   "UFR;DBL;UFL": {
     "algorithms": [
@@ -4770,10 +4859,11 @@
           1.17,
           1.57
         ],
-        "latest": true,
-        "lp": "DB"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "DB",
+    "difficult": false
   },
   "UFR;DBR;BDL": {
     "algorithms": [
@@ -4822,10 +4912,11 @@
           1.21,
           1.56
         ],
-        "latest": true,
-        "lp": "FO"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "FO",
+    "difficult": false
   },
   "UFR;DBR;BUL": {
     "algorithms": [
@@ -4873,10 +4964,11 @@
           1.55,
           1.27
         ],
-        "latest": true,
-        "lp": "FM"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "FM",
+    "difficult": false
   },
   "UFR;DBR;BUR": {
     "algorithms": [
@@ -4925,10 +5017,11 @@
           2.18,
           1.43
         ],
-        "latest": true,
-        "lp": "FL"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "FL",
+    "difficult": false
   },
   "UFR;DBR;DBL": {
     "algorithms": [
@@ -4975,10 +5068,11 @@
           1.73,
           1.45
         ],
-        "latest": true,
-        "lp": "FD"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "FD",
+    "difficult": false
   },
   "UFR;DBR;DFL": {
     "algorithms": [
@@ -5027,10 +5121,11 @@
           1.27,
           1.68
         ],
-        "latest": true,
-        "lp": "FE"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "FE",
+    "difficult": false
   },
   "UFR;DBR;DFR": {
     "algorithms": [
@@ -5078,10 +5173,11 @@
           1.68,
           1.46
         ],
-        "latest": true,
-        "lp": "FG"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "FG",
+    "difficult": false
   },
   "UFR;DBR;FDL": {
     "algorithms": [
@@ -5131,10 +5227,11 @@
           1.41,
           0.96
         ],
-        "latest": true,
-        "lp": "FI"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "FI",
+    "difficult": false
   },
   "UFR;DBR;FDR": {
     "algorithms": [
@@ -5183,10 +5280,11 @@
           1.26,
           1.09
         ],
-        "latest": true,
-        "lp": "FK"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "FK",
+    "difficult": false
   },
   "UFR;DBR;FUL": {
     "algorithms": [
@@ -5236,10 +5334,11 @@
           1.41,
           1.34
         ],
-        "latest": true,
-        "lp": "FQ"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "FQ",
+    "difficult": false
   },
   "UFR;DBR;LDB": {
     "algorithms": [
@@ -5288,10 +5387,11 @@
           1.56,
           1.39
         ],
-        "latest": true,
-        "lp": "FR"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "FR",
+    "difficult": false
   },
   "UFR;DBR;LDF": {
     "algorithms": [
@@ -5339,10 +5439,11 @@
           1.33,
           1.02
         ],
-        "latest": true,
-        "lp": "FT"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "FT",
+    "difficult": false
   },
   "UFR;DBR;LUB": {
     "algorithms": [
@@ -5392,10 +5493,11 @@
           0.96,
           0.98
         ],
-        "latest": true,
-        "lp": "FP"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "FP",
+    "difficult": false
   },
   "UFR;DBR;LUF": {
     "algorithms": [
@@ -5445,10 +5547,11 @@
           1.78,
           1.54
         ],
-        "latest": true,
-        "lp": "FS"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "FS",
+    "difficult": false
   },
   "UFR;DBR;RDF": {
     "algorithms": [
@@ -5497,10 +5600,11 @@
           1.22,
           1.35
         ],
-        "latest": true,
-        "lp": "FU"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "FU",
+    "difficult": false
   },
   "UFR;DBR;RUB": {
     "algorithms": [
@@ -5548,10 +5652,11 @@
           1.22,
           1.66
         ],
-        "latest": true,
-        "lp": "FW"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "FW",
+    "difficult": false
   },
   "UFR;DBR;UBL": {
     "algorithms": [
@@ -5600,10 +5705,11 @@
           0.97,
           1.48
         ],
-        "latest": true,
-        "lp": "FC"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "FC",
+    "difficult": false
   },
   "UFR;DBR;UBR": {
     "algorithms": [
@@ -5653,10 +5759,11 @@
           1.35,
           1.14
         ],
-        "latest": true,
-        "lp": "FA"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "FA",
+    "difficult": false
   },
   "UFR;DBR;UFL": {
     "algorithms": [
@@ -5703,10 +5810,11 @@
           1.89,
           1.52
         ],
-        "latest": true,
-        "lp": "FB"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "FB",
+    "difficult": false
   },
   "UFR;DFL;BDL": {
     "algorithms": [
@@ -5754,10 +5862,11 @@
           1.63,
           1.54
         ],
-        "latest": true,
-        "lp": "EO"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "EO",
+    "difficult": false
   },
   "UFR;DFL;BDR": {
     "algorithms": [
@@ -5806,10 +5915,11 @@
           1.28,
           1.34
         ],
-        "latest": true,
-        "lp": "EN"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "EN",
+    "difficult": false
   },
   "UFR;DFL;BUL": {
     "algorithms": [
@@ -5858,10 +5968,11 @@
           0.87,
           1.19
         ],
-        "latest": true,
-        "lp": "EM"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "EM",
+    "difficult": false
   },
   "UFR;DFL;BUR": {
     "algorithms": [
@@ -5908,10 +6019,11 @@
           1.99,
           1.4
         ],
-        "latest": true,
-        "lp": "EL"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "EL",
+    "difficult": false
   },
   "UFR;DFL;DBL": {
     "algorithms": [
@@ -5959,10 +6071,11 @@
           2.27,
           1.4
         ],
-        "latest": true,
-        "lp": "ED"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "ED",
+    "difficult": false
   },
   "UFR;DFL;DBR": {
     "algorithms": [
@@ -6011,10 +6124,11 @@
           1.28,
           2.17
         ],
-        "latest": true,
-        "lp": "EF"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "EF",
+    "difficult": false
   },
   "UFR;DFL;DFR": {
     "algorithms": [
@@ -6061,10 +6175,11 @@
           1.48,
           1.56
         ],
-        "latest": true,
-        "lp": "EG"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "EG",
+    "difficult": false
   },
   "UFR;DFL;FDR": {
     "algorithms": [
@@ -6113,10 +6228,11 @@
           1.54,
           1.31
         ],
-        "latest": true,
-        "lp": "EK"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "EK",
+    "difficult": false
   },
   "UFR;DFL;FUL": {
     "algorithms": [
@@ -6166,10 +6282,11 @@
           2.22,
           1.05
         ],
-        "latest": true,
-        "lp": "EQ"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "EQ",
+    "difficult": false
   },
   "UFR;DFL;LDB": {
     "algorithms": [
@@ -6217,10 +6334,11 @@
           2.0,
           1.24
         ],
-        "latest": true,
-        "lp": "ER"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "ER",
+    "difficult": false
   },
   "UFR;DFL;LUB": {
     "algorithms": [
@@ -6269,10 +6387,11 @@
           1.57,
           2.16
         ],
-        "latest": true,
-        "lp": "EP"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "EP",
+    "difficult": false
   },
   "UFR;DFL;LUF": {
     "algorithms": [
@@ -6321,10 +6440,11 @@
           1.02,
           1.06
         ],
-        "latest": true,
-        "lp": "ES"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "ES",
+    "difficult": false
   },
   "UFR;DFL;RDB": {
     "algorithms": [
@@ -6374,10 +6494,11 @@
           1.2,
           1.78
         ],
-        "latest": true,
-        "lp": "EZ"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "EZ",
+    "difficult": false
   },
   "UFR;DFL;RDF": {
     "algorithms": [
@@ -6426,10 +6547,11 @@
           0.75,
           0.78
         ],
-        "latest": true,
-        "lp": "EU"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "EU",
+    "difficult": false
   },
   "UFR;DFL;RUB": {
     "algorithms": [
@@ -6479,10 +6601,11 @@
           1.31,
           1.25
         ],
-        "latest": true,
-        "lp": "EW"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "EW",
+    "difficult": false
   },
   "UFR;DFL;UBL": {
     "algorithms": [
@@ -6531,10 +6654,11 @@
           1.13,
           1.1
         ],
-        "latest": true,
-        "lp": "EC"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "EC",
+    "difficult": false
   },
   "UFR;DFL;UBR": {
     "algorithms": [
@@ -6583,10 +6707,11 @@
           1.91,
           1.81
         ],
-        "latest": true,
-        "lp": "EA"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "EA",
+    "difficult": false
   },
   "UFR;DFL;UFL": {
     "algorithms": [
@@ -6635,10 +6760,11 @@
           1.36,
           1.78
         ],
-        "latest": true,
-        "lp": "EB"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "EB",
+    "difficult": false
   },
   "UFR;DFR;BDL": {
     "algorithms": [
@@ -6689,10 +6815,11 @@
           1.57,
           1.99
         ],
-        "latest": true,
-        "lp": "GO"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "GO",
+    "difficult": false
   },
   "UFR;DFR;BDR": {
     "algorithms": [
@@ -6739,10 +6866,11 @@
           2.02,
           1.14
         ],
-        "latest": true,
-        "lp": "GN"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "GN",
+    "difficult": false
   },
   "UFR;DFR;BUL": {
     "algorithms": [
@@ -6792,10 +6920,11 @@
           1.12,
           1.0
         ],
-        "latest": true,
-        "lp": "GM"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "GM",
+    "difficult": false
   },
   "UFR;DFR;BUR": {
     "algorithms": [
@@ -6846,10 +6975,11 @@
           1.0,
           1.71
         ],
-        "latest": true,
-        "lp": "GL"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "GL",
+    "difficult": false
   },
   "UFR;DFR;DBL": {
     "algorithms": [
@@ -6899,10 +7029,11 @@
           1.63,
           1.57
         ],
-        "latest": true,
-        "lp": "GD"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "GD",
+    "difficult": false
   },
   "UFR;DFR;DBR": {
     "algorithms": [
@@ -6951,10 +7082,11 @@
           1.2,
           1.44
         ],
-        "latest": true,
-        "lp": "GF"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "GF",
+    "difficult": false
   },
   "UFR;DFR;DFL": {
     "algorithms": [
@@ -7004,10 +7136,11 @@
           1.41,
           1.17
         ],
-        "latest": true,
-        "lp": "GE"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "GE",
+    "difficult": false
   },
   "UFR;DFR;FDL": {
     "algorithms": [
@@ -7058,10 +7191,11 @@
           1.07,
           1.17
         ],
-        "latest": true,
-        "lp": "GI"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "GI",
+    "difficult": false
   },
   "UFR;DFR;FUL": {
     "algorithms": [
@@ -7111,10 +7245,11 @@
           1.9,
           1.52
         ],
-        "latest": true,
-        "lp": "GQ"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "GQ",
+    "difficult": false
   },
   "UFR;DFR;LDB": {
     "algorithms": [
@@ -7164,10 +7299,11 @@
           1.56,
           1.67
         ],
-        "latest": true,
-        "lp": "GR"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "GR",
+    "difficult": false
   },
   "UFR;DFR;LDF": {
     "algorithms": [
@@ -7214,10 +7350,11 @@
           1.42,
           1.31
         ],
-        "latest": true,
-        "lp": "GT"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "GT",
+    "difficult": false
   },
   "UFR;DFR;LUB": {
     "algorithms": [
@@ -7267,10 +7404,11 @@
           1.71,
           1.56
         ],
-        "latest": true,
-        "lp": "GP"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "GP",
+    "difficult": false
   },
   "UFR;DFR;LUF": {
     "algorithms": [
@@ -7319,10 +7457,11 @@
           1.19,
           1.23
         ],
-        "latest": true,
-        "lp": "GS"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "GS",
+    "difficult": false
   },
   "UFR;DFR;RDB": {
     "algorithms": [
@@ -7372,10 +7511,11 @@
           1.42,
           1.15
         ],
-        "latest": true,
-        "lp": "GZ"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "GZ",
+    "difficult": false
   },
   "UFR;DFR;RUB": {
     "algorithms": [
@@ -7424,10 +7564,11 @@
           1.47,
           1.48
         ],
-        "latest": true,
-        "lp": "GW"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "GW",
+    "difficult": false
   },
   "UFR;DFR;UBL": {
     "algorithms": [
@@ -7478,10 +7619,11 @@
           1.2,
           1.15
         ],
-        "latest": true,
-        "lp": "GC"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "GC",
+    "difficult": false
   },
   "UFR;DFR;UBR": {
     "algorithms": [
@@ -7532,10 +7674,11 @@
           1.39,
           1.39
         ],
-        "latest": true,
-        "lp": "GA"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "GA",
+    "difficult": false
   },
   "UFR;DFR;UFL": {
     "algorithms": [
@@ -7585,10 +7728,11 @@
           1.33,
           1.94
         ],
-        "latest": true,
-        "lp": "GB"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "GB",
+    "difficult": false
   },
   "UFR;FDL;BDL": {
     "algorithms": [
@@ -7640,10 +7784,11 @@
           1.64,
           1.86
         ],
-        "latest": true,
-        "lp": "IO"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "IO",
+    "difficult": false
   },
   "UFR;FDL;BDR": {
     "algorithms": [
@@ -7697,10 +7842,11 @@
           1.2,
           0.95
         ],
-        "latest": true,
-        "lp": "IN"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "IN",
+    "difficult": false
   },
   "UFR;FDL;BUL": {
     "algorithms": [
@@ -7752,10 +7898,11 @@
           1.01,
           1.7
         ],
-        "latest": true,
-        "lp": "IM"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "IM",
+    "difficult": false
   },
   "UFR;FDL;BUR": {
     "algorithms": [
@@ -7809,10 +7956,11 @@
           0.91,
           1.37
         ],
-        "latest": true,
-        "lp": "IL"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "IL",
+    "difficult": false
   },
   "UFR;FDL;DBL": {
     "algorithms": [
@@ -7865,10 +8013,11 @@
           1.8,
           1.41
         ],
-        "latest": true,
-        "lp": "ID"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "ID",
+    "difficult": false
   },
   "UFR;FDL;DBR": {
     "algorithms": [
@@ -7922,10 +8071,11 @@
           1.42,
           0.8
         ],
-        "latest": true,
-        "lp": "IF"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "IF",
+    "difficult": false
   },
   "UFR;FDL;DFR": {
     "algorithms": [
@@ -7978,10 +8128,11 @@
           1.11,
           1.85
         ],
-        "latest": true,
-        "lp": "IG"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "IG",
+    "difficult": false
   },
   "UFR;FDL;FDR": {
     "algorithms": [
@@ -8031,10 +8182,11 @@
           1.08,
           1.06
         ],
-        "latest": true,
-        "lp": "IK"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "IK",
+    "difficult": false
   },
   "UFR;FDL;FUL": {
     "algorithms": [
@@ -8087,10 +8239,11 @@
           0.9,
           0.84
         ],
-        "latest": true,
-        "lp": "IQ"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "IQ",
+    "difficult": false
   },
   "UFR;FDL;LDB": {
     "algorithms": [
@@ -8144,10 +8297,11 @@
           0.71,
           0.8
         ],
-        "latest": true,
-        "lp": "IR"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "IR",
+    "difficult": false
   },
   "UFR;FDL;LUB": {
     "algorithms": [
@@ -8201,10 +8355,11 @@
           1.09,
           1.08
         ],
-        "latest": true,
-        "lp": "IP"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "IP",
+    "difficult": false
   },
   "UFR;FDL;LUF": {
     "algorithms": [
@@ -8258,10 +8413,11 @@
           1.42,
           1.5
         ],
-        "latest": true,
-        "lp": "IS"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "IS",
+    "difficult": false
   },
   "UFR;FDL;RDB": {
     "algorithms": [
@@ -8314,10 +8470,11 @@
           1.13,
           1.83
         ],
-        "latest": true,
-        "lp": "IZ"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "IZ",
+    "difficult": false
   },
   "UFR;FDL;RDF": {
     "algorithms": [
@@ -8371,10 +8528,11 @@
           1.27,
           0.7
         ],
-        "latest": true,
-        "lp": "IU"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "IU",
+    "difficult": false
   },
   "UFR;FDL;RUB": {
     "algorithms": [
@@ -8428,10 +8586,11 @@
           2.12,
           1.54
         ],
-        "latest": true,
-        "lp": "IW"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "IW",
+    "difficult": false
   },
   "UFR;FDL;UBL": {
     "algorithms": [
@@ -8482,10 +8641,11 @@
           1.76,
           0.96
         ],
-        "latest": true,
-        "lp": "IC"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "IC",
+    "difficult": false
   },
   "UFR;FDL;UBR": {
     "algorithms": [
@@ -8538,10 +8698,11 @@
           0.98,
           0.75
         ],
-        "latest": true,
-        "lp": "IA"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "IA",
+    "difficult": false
   },
   "UFR;FDL;UFL": {
     "algorithms": [
@@ -8595,10 +8756,11 @@
           0.78,
           0.99
         ],
-        "latest": true,
-        "lp": "IB"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "IB",
+    "difficult": false
   },
   "UFR;FDR;BDL": {
     "algorithms": [
@@ -8648,10 +8810,11 @@
           0.92,
           1.68
         ],
-        "latest": true,
-        "lp": "KO"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "KO",
+    "difficult": false
   },
   "UFR;FDR;BDR": {
     "algorithms": [
@@ -8699,10 +8862,11 @@
           1.33,
           1.41
         ],
-        "latest": true,
-        "lp": "KN"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "KN",
+    "difficult": false
   },
   "UFR;FDR;BUL": {
     "algorithms": [
@@ -8752,10 +8916,11 @@
           1.54,
           1.33
         ],
-        "latest": true,
-        "lp": "KM"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "KM",
+    "difficult": false
   },
   "UFR;FDR;BUR": {
     "algorithms": [
@@ -8805,10 +8970,11 @@
           2.34,
           1.57
         ],
-        "latest": true,
-        "lp": "KL"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "KL",
+    "difficult": false
   },
   "UFR;FDR;DBL": {
     "algorithms": [
@@ -8855,10 +9021,11 @@
           1.59,
           1.27
         ],
-        "latest": true,
-        "lp": "KD"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "KD",
+    "difficult": false
   },
   "UFR;FDR;DBR": {
     "algorithms": [
@@ -8908,10 +9075,11 @@
           1.47,
           1.93
         ],
-        "latest": true,
-        "lp": "KF"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "KF",
+    "difficult": false
   },
   "UFR;FDR;DFL": {
     "algorithms": [
@@ -8962,10 +9130,11 @@
           1.1,
           1.1
         ],
-        "latest": true,
-        "lp": "KE"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "KE",
+    "difficult": false
   },
   "UFR;FDR;FDL": {
     "algorithms": [
@@ -9016,10 +9185,11 @@
           1.46,
           1.51
         ],
-        "latest": true,
-        "lp": "KI"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "KI",
+    "difficult": false
   },
   "UFR;FDR;FUL": {
     "algorithms": [
@@ -9070,10 +9240,11 @@
           1.9,
           1.45
         ],
-        "latest": true,
-        "lp": "KQ"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "KQ",
+    "difficult": false
   },
   "UFR;FDR;LDB": {
     "algorithms": [
@@ -9123,10 +9294,11 @@
           1.43,
           1.96
         ],
-        "latest": true,
-        "lp": "KR"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "KR",
+    "difficult": false
   },
   "UFR;FDR;LDF": {
     "algorithms": [
@@ -9177,10 +9349,11 @@
           0.8,
           0.89
         ],
-        "latest": true,
-        "lp": "KT"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "KT",
+    "difficult": false
   },
   "UFR;FDR;LUB": {
     "algorithms": [
@@ -9229,10 +9402,11 @@
           1.01,
           2.13
         ],
-        "latest": true,
-        "lp": "KP"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "KP",
+    "difficult": false
   },
   "UFR;FDR;LUF": {
     "algorithms": [
@@ -9281,10 +9455,11 @@
           0.89,
           1.09
         ],
-        "latest": true,
-        "lp": "KS"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "KS",
+    "difficult": false
   },
   "UFR;FDR;RDB": {
     "algorithms": [
@@ -9334,10 +9509,11 @@
           0.94,
           0.92
         ],
-        "latest": true,
-        "lp": "KZ"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "KZ",
+    "difficult": false
   },
   "UFR;FDR;RUB": {
     "algorithms": [
@@ -9384,10 +9560,11 @@
           1.35,
           2.04
         ],
-        "latest": true,
-        "lp": "KW"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "KW",
+    "difficult": false
   },
   "UFR;FDR;UBL": {
     "algorithms": [
@@ -9438,10 +9615,11 @@
           1.84,
           1.54
         ],
-        "latest": true,
-        "lp": "KC"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "KC",
+    "difficult": false
   },
   "UFR;FDR;UBR": {
     "algorithms": [
@@ -9492,10 +9670,11 @@
           1.2,
           1.07
         ],
-        "latest": true,
-        "lp": "KA"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "KA",
+    "difficult": false
   },
   "UFR;FDR;UFL": {
     "algorithms": [
@@ -9546,10 +9725,11 @@
           1.12,
           1.6
         ],
-        "latest": true,
-        "lp": "KB"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "KB",
+    "difficult": false
   },
   "UFR;FUL;BDL": {
     "algorithms": [
@@ -9598,10 +9778,11 @@
           1.42,
           1.66
         ],
-        "latest": true,
-        "lp": "QO"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "QO",
+    "difficult": false
   },
   "UFR;FUL;BDR": {
     "algorithms": [
@@ -9651,10 +9832,11 @@
           0.83,
           1.23
         ],
-        "latest": true,
-        "lp": "QN"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "QN",
+    "difficult": false
   },
   "UFR;FUL;BUL": {
     "algorithms": [
@@ -9704,10 +9886,11 @@
           2.63,
           1.85
         ],
-        "latest": true,
-        "lp": "QM"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "QM",
+    "difficult": false
   },
   "UFR;FUL;BUR": {
     "algorithms": [
@@ -9757,10 +9940,11 @@
           1.06,
           1.2
         ],
-        "latest": true,
-        "lp": "QL"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "QL",
+    "difficult": false
   },
   "UFR;FUL;DBL": {
     "algorithms": [
@@ -9809,10 +9993,11 @@
           1.39,
           2.27
         ],
-        "latest": true,
-        "lp": "QD"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "QD",
+    "difficult": false
   },
   "UFR;FUL;DBR": {
     "algorithms": [
@@ -9862,10 +10047,11 @@
           1.16,
           1.82
         ],
-        "latest": true,
-        "lp": "QF"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "QF",
+    "difficult": false
   },
   "UFR;FUL;DFL": {
     "algorithms": [
@@ -9915,10 +10101,11 @@
           1.19,
           1.69
         ],
-        "latest": true,
-        "lp": "QE"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "QE",
+    "difficult": false
   },
   "UFR;FUL;DFR": {
     "algorithms": [
@@ -9967,10 +10154,11 @@
           1.36,
           1.41
         ],
-        "latest": true,
-        "lp": "QG"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "QG",
+    "difficult": false
   },
   "UFR;FUL;FDL": {
     "algorithms": [
@@ -10019,10 +10207,11 @@
           0.94,
           0.85
         ],
-        "latest": true,
-        "lp": "QI"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "QI",
+    "difficult": false
   },
   "UFR;FUL;FDR": {
     "algorithms": [
@@ -10071,10 +10260,11 @@
           1.09,
           1.84
         ],
-        "latest": true,
-        "lp": "QK"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "QK",
+    "difficult": false
   },
   "UFR;FUL;LDB": {
     "algorithms": [
@@ -10122,10 +10312,11 @@
           1.45,
           1.58
         ],
-        "latest": true,
-        "lp": "QR"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "QR",
+    "difficult": false
   },
   "UFR;FUL;LDF": {
     "algorithms": [
@@ -10173,10 +10364,11 @@
           1.33,
           1.03
         ],
-        "latest": true,
-        "lp": "QT"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "QT",
+    "difficult": false
   },
   "UFR;FUL;LUB": {
     "algorithms": [
@@ -10226,10 +10418,11 @@
           1.26,
           1.24
         ],
-        "latest": true,
-        "lp": "QP"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "QP",
+    "difficult": false
   },
   "UFR;FUL;RDB": {
     "algorithms": [
@@ -10279,10 +10472,11 @@
           1.33,
           1.39
         ],
-        "latest": true,
-        "lp": "QZ"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "QZ",
+    "difficult": false
   },
   "UFR;FUL;RDF": {
     "algorithms": [
@@ -10332,10 +10526,11 @@
           1.05,
           0.8
         ],
-        "latest": true,
-        "lp": "QU"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "QU",
+    "difficult": false
   },
   "UFR;FUL;RUB": {
     "algorithms": [
@@ -10384,10 +10579,11 @@
           1.6,
           1.58
         ],
-        "latest": true,
-        "lp": "QW"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "QW",
+    "difficult": false
   },
   "UFR;FUL;UBL": {
     "algorithms": [
@@ -10437,10 +10633,11 @@
           1.48,
           1.86
         ],
-        "latest": true,
-        "lp": "QC"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "QC",
+    "difficult": false
   },
   "UFR;FUL;UBR": {
     "algorithms": [
@@ -10490,10 +10687,11 @@
           1.36,
           1.02
         ],
-        "latest": true,
-        "lp": "QA"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "QA",
+    "difficult": false
   },
   "UFR;LDB;BDR": {
     "algorithms": [
@@ -10546,10 +10744,11 @@
           1.59,
           0.87
         ],
-        "latest": true,
-        "lp": "RN"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "RN",
+    "difficult": false
   },
   "UFR;LDB;BUL": {
     "algorithms": [
@@ -10600,10 +10799,11 @@
           1.31,
           1.51
         ],
-        "latest": true,
-        "lp": "RM"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "RM",
+    "difficult": false
   },
   "UFR;LDB;BUR": {
     "algorithms": [
@@ -10656,10 +10856,11 @@
           1.36,
           0.91
         ],
-        "latest": true,
-        "lp": "RL"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "RL",
+    "difficult": false
   },
   "UFR;LDB;DBR": {
     "algorithms": [
@@ -10712,10 +10913,11 @@
           1.28,
           1.9
         ],
-        "latest": true,
-        "lp": "RF"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "RF",
+    "difficult": false
   },
   "UFR;LDB;DFL": {
     "algorithms": [
@@ -10766,10 +10968,11 @@
           1.77,
           1.34
         ],
-        "latest": true,
-        "lp": "RE"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "RE",
+    "difficult": false
   },
   "UFR;LDB;DFR": {
     "algorithms": [
@@ -10818,10 +11021,11 @@
           1.39,
           1.45
         ],
-        "latest": true,
-        "lp": "RG"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "RG",
+    "difficult": false
   },
   "UFR;LDB;FDL": {
     "algorithms": [
@@ -10874,10 +11078,11 @@
           1.01,
           1.12
         ],
-        "latest": true,
-        "lp": "RI"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "RI",
+    "difficult": false
   },
   "UFR;LDB;FDR": {
     "algorithms": [
@@ -10930,10 +11135,11 @@
           1.09,
           1.26
         ],
-        "latest": true,
-        "lp": "RK"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "RK",
+    "difficult": false
   },
   "UFR;LDB;FUL": {
     "algorithms": [
@@ -10986,10 +11192,11 @@
           1.84,
           1.82
         ],
-        "latest": true,
-        "lp": "RQ"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "RQ",
+    "difficult": false
   },
   "UFR;LDB;LDF": {
     "algorithms": [
@@ -11042,10 +11249,11 @@
           1.39,
           1.61
         ],
-        "latest": true,
-        "lp": "RT"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "RT",
+    "difficult": false
   },
   "UFR;LDB;LUB": {
     "algorithms": [
@@ -11097,10 +11305,11 @@
           1.38,
           1.12
         ],
-        "latest": true,
-        "lp": "RP"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "RP",
+    "difficult": false
   },
   "UFR;LDB;LUF": {
     "algorithms": [
@@ -11152,10 +11361,11 @@
           1.62,
           1.88
         ],
-        "latest": true,
-        "lp": "RS"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "RS",
+    "difficult": false
   },
   "UFR;LDB;RDB": {
     "algorithms": [
@@ -11208,10 +11418,11 @@
           1.31,
           1.21
         ],
-        "latest": true,
-        "lp": "RZ"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "RZ",
+    "difficult": false
   },
   "UFR;LDB;RDF": {
     "algorithms": [
@@ -11264,10 +11475,11 @@
           0.79,
           0.83
         ],
-        "latest": true,
-        "lp": "RU"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "RU",
+    "difficult": false
   },
   "UFR;LDB;RUB": {
     "algorithms": [
@@ -11320,10 +11532,11 @@
           0.96,
           1.21
         ],
-        "latest": true,
-        "lp": "RW"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "RW",
+    "difficult": false
   },
   "UFR;LDB;UBL": {
     "algorithms": [
@@ -11376,10 +11589,11 @@
           0.78,
           0.88
         ],
-        "latest": true,
-        "lp": "RC"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "RC",
+    "difficult": false
   },
   "UFR;LDB;UBR": {
     "algorithms": [
@@ -11432,10 +11646,11 @@
           0.61,
           0.84
         ],
-        "latest": true,
-        "lp": "RA"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "RA",
+    "difficult": false
   },
   "UFR;LDB;UFL": {
     "algorithms": [
@@ -11488,10 +11703,11 @@
           1.66,
           1.38
         ],
-        "latest": true,
-        "lp": "RB"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "RB",
+    "difficult": false
   },
   "UFR;LDF;BDL": {
     "algorithms": [
@@ -11538,10 +11754,11 @@
           1.38,
           1.78
         ],
-        "latest": true,
-        "lp": "TO"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "TO",
+    "difficult": false
   },
   "UFR;LDF;BDR": {
     "algorithms": [
@@ -11591,10 +11808,11 @@
           1.65,
           1.23
         ],
-        "latest": true,
-        "lp": "TN"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "TN",
+    "difficult": false
   },
   "UFR;LDF;BUL": {
     "algorithms": [
@@ -11644,10 +11862,11 @@
           1.19,
           1.41
         ],
-        "latest": true,
-        "lp": "TM"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "TM",
+    "difficult": false
   },
   "UFR;LDF;BUR": {
     "algorithms": [
@@ -11697,10 +11916,11 @@
           1.0,
           1.03
         ],
-        "latest": true,
-        "lp": "TL"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "TL",
+    "difficult": false
   },
   "UFR;LDF;DBL": {
     "algorithms": [
@@ -11748,10 +11968,11 @@
           1.15,
           1.86
         ],
-        "latest": true,
-        "lp": "TD"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "TD",
+    "difficult": false
   },
   "UFR;LDF;DBR": {
     "algorithms": [
@@ -11801,10 +12022,11 @@
           0.88,
           0.9
         ],
-        "latest": true,
-        "lp": "TF"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "TF",
+    "difficult": false
   },
   "UFR;LDF;DFR": {
     "algorithms": [
@@ -11854,10 +12076,11 @@
           0.98,
           1.26
         ],
-        "latest": true,
-        "lp": "TG"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "TG",
+    "difficult": false
   },
   "UFR;LDF;FDR": {
     "algorithms": [
@@ -11907,10 +12130,11 @@
           1.1,
           0.82
         ],
-        "latest": true,
-        "lp": "TK"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "TK",
+    "difficult": false
   },
   "UFR;LDF;FUL": {
     "algorithms": [
@@ -11960,10 +12184,11 @@
           1.02,
           1.02
         ],
-        "latest": true,
-        "lp": "TQ"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "TQ",
+    "difficult": false
   },
   "UFR;LDF;LDB": {
     "algorithms": [
@@ -12012,10 +12237,11 @@
           0.87,
           0.83
         ],
-        "latest": true,
-        "lp": "TR"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "TR",
+    "difficult": false
   },
   "UFR;LDF;LUB": {
     "algorithms": [
@@ -12064,10 +12290,11 @@
           1.95,
           1.31
         ],
-        "latest": true,
-        "lp": "TP"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "TP",
+    "difficult": false
   },
   "UFR;LDF;LUF": {
     "algorithms": [
@@ -12116,10 +12343,11 @@
           0.97,
           1.13
         ],
-        "latest": true,
-        "lp": "TS"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "TS",
+    "difficult": false
   },
   "UFR;LDF;RDB": {
     "algorithms": [
@@ -12167,10 +12395,11 @@
           1.62,
           0.94
         ],
-        "latest": true,
-        "lp": "TZ"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "TZ",
+    "difficult": false
   },
   "UFR;LDF;RDF": {
     "algorithms": [
@@ -12218,10 +12447,11 @@
           2.49,
           1.78
         ],
-        "latest": true,
-        "lp": "TU"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "TU",
+    "difficult": false
   },
   "UFR;LDF;RUB": {
     "algorithms": [
@@ -12271,10 +12501,11 @@
           0.88,
           1.21
         ],
-        "latest": true,
-        "lp": "TW"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "TW",
+    "difficult": false
   },
   "UFR;LDF;UBL": {
     "algorithms": [
@@ -12324,10 +12555,11 @@
           0.7,
           0.9
         ],
-        "latest": true,
-        "lp": "TC"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "TC",
+    "difficult": false
   },
   "UFR;LDF;UBR": {
     "algorithms": [
@@ -12377,10 +12609,11 @@
           0.6,
           0.73
         ],
-        "latest": true,
-        "lp": "TA"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "TA",
+    "difficult": false
   },
   "UFR;LDF;UFL": {
     "algorithms": [
@@ -12430,10 +12663,11 @@
           0.86,
           0.78
         ],
-        "latest": true,
-        "lp": "TB"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "TB",
+    "difficult": false
   },
   "UFR;LUB;BDL": {
     "algorithms": [
@@ -12482,10 +12716,11 @@
           1.27,
           1.33
         ],
-        "latest": true,
-        "lp": "PO"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "PO",
+    "difficult": false
   },
   "UFR;LUB;BDR": {
     "algorithms": [
@@ -12533,10 +12768,11 @@
           1.04,
           1.47
         ],
-        "latest": true,
-        "lp": "PN"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "PN",
+    "difficult": false
   },
   "UFR;LUB;BUR": {
     "algorithms": [
@@ -12584,10 +12820,11 @@
           2.02,
           0.86
         ],
-        "latest": true,
-        "lp": "PL"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "PL",
+    "difficult": false
   },
   "UFR;LUB;DBL": {
     "algorithms": [
@@ -12636,10 +12873,11 @@
           1.48,
           1.4
         ],
-        "latest": true,
-        "lp": "PD"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "PD",
+    "difficult": false
   },
   "UFR;LUB;DBR": {
     "algorithms": [
@@ -12688,10 +12926,11 @@
           1.3,
           1.69
         ],
-        "latest": true,
-        "lp": "PF"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "PF",
+    "difficult": false
   },
   "UFR;LUB;DFL": {
     "algorithms": [
@@ -12740,10 +12979,11 @@
           1.06,
           1.47
         ],
-        "latest": true,
-        "lp": "PE"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "PE",
+    "difficult": false
   },
   "UFR;LUB;DFR": {
     "algorithms": [
@@ -12790,10 +13030,11 @@
           1.7,
           2.14
         ],
-        "latest": true,
-        "lp": "PG"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "PG",
+    "difficult": false
   },
   "UFR;LUB;FDL": {
     "algorithms": [
@@ -12840,10 +13081,11 @@
           0.97,
           0.82
         ],
-        "latest": true,
-        "lp": "PI"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "PI",
+    "difficult": false
   },
   "UFR;LUB;FDR": {
     "algorithms": [
@@ -12891,10 +13133,11 @@
           1.15,
           1.16
         ],
-        "latest": true,
-        "lp": "PK"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "PK",
+    "difficult": false
   },
   "UFR;LUB;FUL": {
     "algorithms": [
@@ -12943,10 +13186,11 @@
           1.52,
           1.05
         ],
-        "latest": true,
-        "lp": "PQ"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "PQ",
+    "difficult": false
   },
   "UFR;LUB;LDB": {
     "algorithms": [
@@ -12995,10 +13239,11 @@
           1.4,
           1.0
         ],
-        "latest": true,
-        "lp": "PR"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "PR",
+    "difficult": false
   },
   "UFR;LUB;LDF": {
     "algorithms": [
@@ -13047,10 +13292,11 @@
           1.28,
           1.6
         ],
-        "latest": true,
-        "lp": "PT"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "PT",
+    "difficult": false
   },
   "UFR;LUB;LUF": {
     "algorithms": [
@@ -13099,10 +13345,11 @@
           1.22,
           1.67
         ],
-        "latest": true,
-        "lp": "PS"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "PS",
+    "difficult": false
   },
   "UFR;LUB;RDB": {
     "algorithms": [
@@ -13151,10 +13398,11 @@
           1.21,
           1.67
         ],
-        "latest": true,
-        "lp": "PZ"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "PZ",
+    "difficult": false
   },
   "UFR;LUB;RDF": {
     "algorithms": [
@@ -13203,10 +13451,11 @@
           1.35,
           1.11
         ],
-        "latest": true,
-        "lp": "PU"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "PU",
+    "difficult": false
   },
   "UFR;LUB;RUB": {
     "algorithms": [
@@ -13251,10 +13500,11 @@
           1.88,
           1.32
         ],
-        "latest": true,
-        "lp": "PW"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "PW",
+    "difficult": false
   },
   "UFR;LUB;UBR": {
     "algorithms": [
@@ -13302,10 +13552,11 @@
           0.86,
           0.71
         ],
-        "latest": true,
-        "lp": "PA"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "PA",
+    "difficult": false
   },
   "UFR;LUB;UFL": {
     "algorithms": [
@@ -13353,10 +13604,11 @@
           1.21,
           1.72
         ],
-        "latest": true,
-        "lp": "PB"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "PB",
+    "difficult": false
   },
   "UFR;LUF;BDL": {
     "algorithms": [
@@ -13408,10 +13660,11 @@
           1.08,
           0.95
         ],
-        "latest": true,
-        "lp": "SO"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "SO",
+    "difficult": false
   },
   "UFR;LUF;BDR": {
     "algorithms": [
@@ -13461,10 +13714,11 @@
           1.22,
           2.13
         ],
-        "latest": true,
-        "lp": "SN"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "SN",
+    "difficult": false
   },
   "UFR;LUF;BUL": {
     "algorithms": [
@@ -13516,10 +13770,11 @@
           0.91,
           1.62
         ],
-        "latest": true,
-        "lp": "SM"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "SM",
+    "difficult": false
   },
   "UFR;LUF;BUR": {
     "algorithms": [
@@ -13570,10 +13825,11 @@
           0.94,
           1.37
         ],
-        "latest": true,
-        "lp": "SL"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "SL",
+    "difficult": false
   },
   "UFR;LUF;DBL": {
     "algorithms": [
@@ -13624,10 +13880,11 @@
           1.44,
           1.71
         ],
-        "latest": true,
-        "lp": "SD"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "SD",
+    "difficult": false
   },
   "UFR;LUF;DBR": {
     "algorithms": [
@@ -13678,10 +13935,11 @@
           1.25,
           1.91
         ],
-        "latest": true,
-        "lp": "SF"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "SF",
+    "difficult": false
   },
   "UFR;LUF;DFL": {
     "algorithms": [
@@ -13733,10 +13991,11 @@
           1.19,
           1.08
         ],
-        "latest": true,
-        "lp": "SE"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "SE",
+    "difficult": false
   },
   "UFR;LUF;DFR": {
     "algorithms": [
@@ -13787,10 +14046,11 @@
           1.07,
           1.11
         ],
-        "latest": true,
-        "lp": "SG"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "SG",
+    "difficult": false
   },
   "UFR;LUF;FDL": {
     "algorithms": [
@@ -13841,10 +14101,11 @@
           0.9,
           1.27
         ],
-        "latest": true,
-        "lp": "SI"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "SI",
+    "difficult": false
   },
   "UFR;LUF;FDR": {
     "algorithms": [
@@ -13893,10 +14154,11 @@
           1.0,
           1.27
         ],
-        "latest": true,
-        "lp": "SK"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "SK",
+    "difficult": false
   },
   "UFR;LUF;LDB": {
     "algorithms": [
@@ -13946,10 +14208,11 @@
           2.37,
           1.51
         ],
-        "latest": true,
-        "lp": "SR"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "SR",
+    "difficult": false
   },
   "UFR;LUF;LDF": {
     "algorithms": [
@@ -14000,10 +14263,11 @@
           1.22,
           1.25
         ],
-        "latest": true,
-        "lp": "ST"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "ST",
+    "difficult": false
   },
   "UFR;LUF;LUB": {
     "algorithms": [
@@ -14055,10 +14319,11 @@
           1.19,
           1.89
         ],
-        "latest": true,
-        "lp": "SP"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "SP",
+    "difficult": false
   },
   "UFR;LUF;RDB": {
     "algorithms": [
@@ -14109,10 +14374,11 @@
           1.66,
           1.25
         ],
-        "latest": true,
-        "lp": "SZ"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "SZ",
+    "difficult": false
   },
   "UFR;LUF;RDF": {
     "algorithms": [
@@ -14164,10 +14430,11 @@
           1.16,
           0.9
         ],
-        "latest": true,
-        "lp": "SU"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "SU",
+    "difficult": false
   },
   "UFR;LUF;RUB": {
     "algorithms": [
@@ -14218,10 +14485,11 @@
           2.4,
           1.33
         ],
-        "latest": true,
-        "lp": "SW"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "SW",
+    "difficult": false
   },
   "UFR;LUF;UBL": {
     "algorithms": [
@@ -14271,10 +14539,11 @@
           1.06,
           1.47
         ],
-        "latest": true,
-        "lp": "SC"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "SC",
+    "difficult": false
   },
   "UFR;LUF;UBR": {
     "algorithms": [
@@ -14326,10 +14595,11 @@
           1.33,
           1.49
         ],
-        "latest": true,
-        "lp": "SA"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "SA",
+    "difficult": false
   },
   "UFR;RDB;BDL": {
     "algorithms": [
@@ -14378,10 +14648,11 @@
           1.32,
           1.41
         ],
-        "latest": true,
-        "lp": "ZO"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "ZO",
+    "difficult": false
   },
   "UFR;RDB;BUL": {
     "algorithms": [
@@ -14431,10 +14702,11 @@
           1.29,
           1.04
         ],
-        "latest": true,
-        "lp": "ZM"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "ZM",
+    "difficult": false
   },
   "UFR;RDB;BUR": {
     "algorithms": [
@@ -14482,10 +14754,11 @@
           2.13,
           1.56
         ],
-        "latest": true,
-        "lp": "ZL"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "ZL",
+    "difficult": false
   },
   "UFR;RDB;DBL": {
     "algorithms": [
@@ -14534,10 +14807,11 @@
           0.87,
           0.91
         ],
-        "latest": true,
-        "lp": "ZD"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "ZD",
+    "difficult": false
   },
   "UFR;RDB;DFL": {
     "algorithms": [
@@ -14587,10 +14861,11 @@
           1.77,
           1.25
         ],
-        "latest": true,
-        "lp": "ZE"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "ZE",
+    "difficult": false
   },
   "UFR;RDB;DFR": {
     "algorithms": [
@@ -14639,10 +14914,11 @@
           1.48,
           1.33
         ],
-        "latest": true,
-        "lp": "ZG"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "ZG",
+    "difficult": false
   },
   "UFR;RDB;FDL": {
     "algorithms": [
@@ -14692,10 +14968,11 @@
           1.54,
           1.14
         ],
-        "latest": true,
-        "lp": "ZI"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "ZI",
+    "difficult": false
   },
   "UFR;RDB;FDR": {
     "algorithms": [
@@ -14745,10 +15022,11 @@
           0.9,
           0.89
         ],
-        "latest": true,
-        "lp": "ZK"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "ZK",
+    "difficult": false
   },
   "UFR;RDB;FUL": {
     "algorithms": [
@@ -14798,10 +15076,11 @@
           1.14,
           0.99
         ],
-        "latest": true,
-        "lp": "ZQ"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "ZQ",
+    "difficult": false
   },
   "UFR;RDB;LDB": {
     "algorithms": [
@@ -14848,10 +15127,11 @@
           1.87,
           1.9
         ],
-        "latest": true,
-        "lp": "ZR"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "ZR",
+    "difficult": false
   },
   "UFR;RDB;LDF": {
     "algorithms": [
@@ -14901,10 +15181,11 @@
           1.28,
           1.16
         ],
-        "latest": true,
-        "lp": "ZT"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "ZT",
+    "difficult": false
   },
   "UFR;RDB;LUB": {
     "algorithms": [
@@ -14951,10 +15232,11 @@
           2.0,
           1.11
         ],
-        "latest": true,
-        "lp": "ZP"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "ZP",
+    "difficult": false
   },
   "UFR;RDB;LUF": {
     "algorithms": [
@@ -15003,10 +15285,11 @@
           1.8,
           0.94
         ],
-        "latest": true,
-        "lp": "ZS"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "ZS",
+    "difficult": false
   },
   "UFR;RDB;RDF": {
     "algorithms": [
@@ -15056,10 +15339,11 @@
           0.82,
           1.01
         ],
-        "latest": true,
-        "lp": "ZU"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "ZU",
+    "difficult": false
   },
   "UFR;RDB;RUB": {
     "algorithms": [
@@ -15109,10 +15393,11 @@
           1.15,
           1.01
         ],
-        "latest": true,
-        "lp": "ZW"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "ZW",
+    "difficult": false
   },
   "UFR;RDB;UBL": {
     "algorithms": [
@@ -15161,10 +15446,11 @@
           0.73,
           1.09
         ],
-        "latest": true,
-        "lp": "ZC"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "ZC",
+    "difficult": false
   },
   "UFR;RDB;UBR": {
     "algorithms": [
@@ -15214,10 +15500,11 @@
           0.7,
           0.73
         ],
-        "latest": true,
-        "lp": "ZA"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "ZA",
+    "difficult": false
   },
   "UFR;RDB;UFL": {
     "algorithms": [
@@ -15267,10 +15554,11 @@
           0.96,
           0.8
         ],
-        "latest": true,
-        "lp": "ZB"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "ZB",
+    "difficult": false
   },
   "UFR;RDF;BDL": {
     "algorithms": [
@@ -15320,10 +15608,11 @@
           0.97,
           1.47
         ],
-        "latest": true,
-        "lp": "UO"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "UO",
+    "difficult": false
   },
   "UFR;RDF;BDR": {
     "algorithms": [
@@ -15373,10 +15662,11 @@
           0.63,
           0.73
         ],
-        "latest": true,
-        "lp": "UN"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "UN",
+    "difficult": false
   },
   "UFR;RDF;BUL": {
     "algorithms": [
@@ -15425,10 +15715,11 @@
           0.95,
           1.01
         ],
-        "latest": true,
-        "lp": "UM"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "UM",
+    "difficult": false
   },
   "UFR;RDF;BUR": {
     "algorithms": [
@@ -15478,10 +15769,11 @@
           1.9,
           0.99
         ],
-        "latest": true,
-        "lp": "UL"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "UL",
+    "difficult": false
   },
   "UFR;RDF;DBL": {
     "algorithms": [
@@ -15531,10 +15823,11 @@
           1.04,
           0.93
         ],
-        "latest": true,
-        "lp": "UD"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "UD",
+    "difficult": false
   },
   "UFR;RDF;DBR": {
     "algorithms": [
@@ -15584,10 +15877,11 @@
           1.51,
           1.54
         ],
-        "latest": true,
-        "lp": "UF"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "UF",
+    "difficult": false
   },
   "UFR;RDF;DFL": {
     "algorithms": [
@@ -15635,10 +15929,11 @@
           0.99,
           1.69
         ],
-        "latest": true,
-        "lp": "UE"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "UE",
+    "difficult": false
   },
   "UFR;RDF;FDL": {
     "algorithms": [
@@ -15688,10 +15983,11 @@
           0.59,
           0.64
         ],
-        "latest": true,
-        "lp": "UI"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "UI",
+    "difficult": false
   },
   "UFR;RDF;FUL": {
     "algorithms": [
@@ -15741,10 +16037,11 @@
           1.0,
           1.22
         ],
-        "latest": true,
-        "lp": "UQ"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "UQ",
+    "difficult": false
   },
   "UFR;RDF;LDB": {
     "algorithms": [
@@ -15794,10 +16091,11 @@
           0.69,
           0.78
         ],
-        "latest": true,
-        "lp": "UR"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "UR",
+    "difficult": false
   },
   "UFR;RDF;LDF": {
     "algorithms": [
@@ -15846,10 +16144,11 @@
           1.02,
           1.16
         ],
-        "latest": true,
-        "lp": "UT"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "UT",
+    "difficult": false
   },
   "UFR;RDF;LUB": {
     "algorithms": [
@@ -15898,10 +16197,11 @@
           1.0,
           1.35
         ],
-        "latest": true,
-        "lp": "UP"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "UP",
+    "difficult": false
   },
   "UFR;RDF;LUF": {
     "algorithms": [
@@ -15951,10 +16251,11 @@
           1.22,
           1.3
         ],
-        "latest": true,
-        "lp": "US"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "US",
+    "difficult": false
   },
   "UFR;RDF;RDB": {
     "algorithms": [
@@ -16004,10 +16305,11 @@
           1.01,
           0.88
         ],
-        "latest": true,
-        "lp": "UZ"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "UZ",
+    "difficult": false
   },
   "UFR;RDF;RUB": {
     "algorithms": [
@@ -16057,10 +16359,11 @@
           1.2,
           1.09
         ],
-        "latest": true,
-        "lp": "UW"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "UW",
+    "difficult": false
   },
   "UFR;RDF;UBL": {
     "algorithms": [
@@ -16110,10 +16413,11 @@
           1.03,
           1.14
         ],
-        "latest": true,
-        "lp": "UC"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "UC",
+    "difficult": false
   },
   "UFR;RDF;UBR": {
     "algorithms": [
@@ -16163,10 +16467,11 @@
           1.06,
           0.76
         ],
-        "latest": true,
-        "lp": "UA"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "UA",
+    "difficult": false
   },
   "UFR;RDF;UFL": {
     "algorithms": [
@@ -16215,10 +16520,11 @@
           0.95,
           0.75
         ],
-        "latest": true,
-        "lp": "UB"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "UB",
+    "difficult": false
   },
   "UFR;RUB;BDL": {
     "algorithms": [
@@ -16266,10 +16572,11 @@
           1.17,
           1.46
         ],
-        "latest": true,
-        "lp": "WO"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "WO",
+    "difficult": false
   },
   "UFR;RUB;BDR": {
     "algorithms": [
@@ -16317,10 +16624,11 @@
           1.53,
           1.44
         ],
-        "latest": true,
-        "lp": "WN"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "WN",
+    "difficult": false
   },
   "UFR;RUB;BUL": {
     "algorithms": [
@@ -16369,10 +16677,11 @@
           1.63,
           1.37
         ],
-        "latest": true,
-        "lp": "WM"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "WM",
+    "difficult": false
   },
   "UFR;RUB;DBL": {
     "algorithms": [
@@ -16420,10 +16729,11 @@
           1.82,
           1.09
         ],
-        "latest": true,
-        "lp": "WD"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "WD",
+    "difficult": false
   },
   "UFR;RUB;DBR": {
     "algorithms": [
@@ -16472,10 +16782,11 @@
           1.81,
           1.58
         ],
-        "latest": true,
-        "lp": "WF"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "WF",
+    "difficult": false
   },
   "UFR;RUB;DFL": {
     "algorithms": [
@@ -16524,10 +16835,11 @@
           1.2,
           1.14
         ],
-        "latest": true,
-        "lp": "WE"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "WE",
+    "difficult": false
   },
   "UFR;RUB;DFR": {
     "algorithms": [
@@ -16574,10 +16886,11 @@
           1.44,
           1.24
         ],
-        "latest": true,
-        "lp": "WG"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "WG",
+    "difficult": false
   },
   "UFR;RUB;FDL": {
     "algorithms": [
@@ -16626,10 +16939,11 @@
           1.4,
           1.53
         ],
-        "latest": true,
-        "lp": "WI"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "WI",
+    "difficult": false
   },
   "UFR;RUB;FDR": {
     "algorithms": [
@@ -16677,10 +16991,11 @@
           1.79,
           1.78
         ],
-        "latest": true,
-        "lp": "WK"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "WK",
+    "difficult": false
   },
   "UFR;RUB;FUL": {
     "algorithms": [
@@ -16729,10 +17044,11 @@
           2.25,
           1.82
         ],
-        "latest": true,
-        "lp": "WQ"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "WQ",
+    "difficult": false
   },
   "UFR;RUB;LDB": {
     "algorithms": [
@@ -16781,10 +17097,11 @@
           1.11,
           1.5
         ],
-        "latest": true,
-        "lp": "WR"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "WR",
+    "difficult": false
   },
   "UFR;RUB;LDF": {
     "algorithms": [
@@ -16833,10 +17150,11 @@
           1.29,
           1.1
         ],
-        "latest": true,
-        "lp": "WT"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "WT",
+    "difficult": false
   },
   "UFR;RUB;LUB": {
     "algorithms": [
@@ -16883,10 +17201,11 @@
           1.81,
           1.55
         ],
-        "latest": true,
-        "lp": "WP"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "WP",
+    "difficult": false
   },
   "UFR;RUB;LUF": {
     "algorithms": [
@@ -16935,10 +17254,11 @@
           1.99,
           1.96
         ],
-        "latest": true,
-        "lp": "WS"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "WS",
+    "difficult": false
   },
   "UFR;RUB;RDB": {
     "algorithms": [
@@ -16987,10 +17307,11 @@
           1.38,
           1.44
         ],
-        "latest": true,
-        "lp": "WZ"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "WZ",
+    "difficult": false
   },
   "UFR;RUB;RDF": {
     "algorithms": [
@@ -17038,10 +17359,11 @@
           0.87,
           1.08
         ],
-        "latest": true,
-        "lp": "WU"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "WU",
+    "difficult": false
   },
   "UFR;RUB;UBL": {
     "algorithms": [
@@ -17090,10 +17412,11 @@
           2.13,
           1.05
         ],
-        "latest": true,
-        "lp": "WC"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "WC",
+    "difficult": false
   },
   "UFR;RUB;UFL": {
     "algorithms": [
@@ -17140,10 +17463,11 @@
           1.57,
           1.27
         ],
-        "latest": true,
-        "lp": "WB"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "WB",
+    "difficult": false
   },
   "UFR;UBL;BDL": {
     "algorithms": [
@@ -17191,10 +17515,11 @@
           1.01,
           1.8
         ],
-        "latest": true,
-        "lp": "CO"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "CO",
+    "difficult": false
   },
   "UFR;UBL;BDR": {
     "algorithms": [
@@ -17244,10 +17569,11 @@
           1.51,
           1.25
         ],
-        "latest": true,
-        "lp": "CN"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "CN",
+    "difficult": false
   },
   "UFR;UBL;BUR": {
     "algorithms": [
@@ -17293,10 +17619,11 @@
           1.65,
           1.3
         ],
-        "latest": true,
-        "lp": "CL"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "CL",
+    "difficult": false
   },
   "UFR;UBL;DBL": {
     "algorithms": [
@@ -17346,10 +17673,11 @@
           1.45,
           1.14
         ],
-        "latest": true,
-        "lp": "CD"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "CD",
+    "difficult": false
   },
   "UFR;UBL;DBR": {
     "algorithms": [
@@ -17398,10 +17726,11 @@
           1.11,
           1.28
         ],
-        "latest": true,
-        "lp": "CF"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "CF",
+    "difficult": false
   },
   "UFR;UBL;DFL": {
     "algorithms": [
@@ -17447,10 +17776,11 @@
           1.56,
           1.93
         ],
-        "latest": true,
-        "lp": "CE"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "CE",
+    "difficult": false
   },
   "UFR;UBL;DFR": {
     "algorithms": [
@@ -17500,10 +17830,11 @@
           1.27,
           1.27
         ],
-        "latest": true,
-        "lp": "CG"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "CG",
+    "difficult": false
   },
   "UFR;UBL;FDL": {
     "algorithms": [
@@ -17551,10 +17882,11 @@
           0.94,
           1.12
         ],
-        "latest": true,
-        "lp": "CI"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "CI",
+    "difficult": false
   },
   "UFR;UBL;FDR": {
     "algorithms": [
@@ -17604,10 +17936,11 @@
           0.93,
           1.19
         ],
-        "latest": true,
-        "lp": "CK"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "CK",
+    "difficult": false
   },
   "UFR;UBL;FUL": {
     "algorithms": [
@@ -17655,10 +17988,11 @@
           1.13,
           1.35
         ],
-        "latest": true,
-        "lp": "CQ"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "CQ",
+    "difficult": false
   },
   "UFR;UBL;LDB": {
     "algorithms": [
@@ -17708,10 +18042,11 @@
           0.74,
           0.75
         ],
-        "latest": true,
-        "lp": "CR"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "CR",
+    "difficult": false
   },
   "UFR;UBL;LDF": {
     "algorithms": [
@@ -17761,10 +18096,11 @@
           0.79,
           0.84
         ],
-        "latest": true,
-        "lp": "CT"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "CT",
+    "difficult": false
   },
   "UFR;UBL;LUF": {
     "algorithms": [
@@ -17812,10 +18148,11 @@
           1.03,
           1.49
         ],
-        "latest": true,
-        "lp": "CS"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "CS",
+    "difficult": false
   },
   "UFR;UBL;RDB": {
     "algorithms": [
@@ -17864,10 +18201,11 @@
           0.82,
           0.83
         ],
-        "latest": true,
-        "lp": "CZ"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "CZ",
+    "difficult": false
   },
   "UFR;UBL;RDF": {
     "algorithms": [
@@ -17916,10 +18254,11 @@
           1.1,
           0.73
         ],
-        "latest": true,
-        "lp": "CU"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "CU",
+    "difficult": false
   },
   "UFR;UBL;RUB": {
     "algorithms": [
@@ -17969,10 +18308,11 @@
           1.88,
           1.65
         ],
-        "latest": true,
-        "lp": "CW"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "CW",
+    "difficult": false
   },
   "UFR;UBL;UBR": {
     "algorithms": [
@@ -18022,10 +18362,11 @@
           0.99,
           1.47
         ],
-        "latest": true,
-        "lp": "CA"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "CA",
+    "difficult": false
   },
   "UFR;UBL;UFL": {
     "algorithms": [
@@ -18075,10 +18416,11 @@
           1.1,
           1.43
         ],
-        "latest": true,
-        "lp": "CB"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "CB",
+    "difficult": false
   },
   "UFR;UBR;BDL": {
     "algorithms": [
@@ -18144,10 +18486,11 @@
           0.89,
           0.93
         ],
-        "latest": true,
-        "lp": "AO"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "AO",
+    "difficult": false
   },
   "UFR;UBR;BDR": {
     "algorithms": [
@@ -18215,10 +18558,11 @@
           0.93,
           1.04
         ],
-        "latest": true,
-        "lp": "AN"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "AN",
+    "difficult": false
   },
   "UFR;UBR;BUL": {
     "algorithms": [
@@ -18285,10 +18629,11 @@
           0.99,
           0.98
         ],
-        "latest": true,
-        "lp": "AM"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "AM",
+    "difficult": false
   },
   "UFR;UBR;DBL": {
     "algorithms": [
@@ -18349,10 +18694,11 @@
           1.13,
           1.1
         ],
-        "latest": true,
-        "lp": "AD"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "AD",
+    "difficult": false
   },
   "UFR;UBR;DBR": {
     "algorithms": [
@@ -18417,10 +18763,11 @@
           1.89,
           1.28
         ],
-        "latest": true,
-        "lp": "AF"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "AF",
+    "difficult": false
   },
   "UFR;UBR;DFL": {
     "algorithms": [
@@ -18488,10 +18835,11 @@
           1.36,
           1.94
         ],
-        "latest": true,
-        "lp": "AE"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "AE",
+    "difficult": false
   },
   "UFR;UBR;DFR": {
     "algorithms": [
@@ -18559,10 +18907,11 @@
           1.21,
           1.07
         ],
-        "latest": true,
-        "lp": "AG"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "AG",
+    "difficult": false
   },
   "UFR;UBR;FDL": {
     "algorithms": [
@@ -18630,10 +18979,11 @@
           0.81,
           0.72
         ],
-        "latest": true,
-        "lp": "AI"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "AI",
+    "difficult": false
   },
   "UFR;UBR;FDR": {
     "algorithms": [
@@ -18701,10 +19051,11 @@
           1.16,
           1.59
         ],
-        "latest": true,
-        "lp": "AK"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "AK",
+    "difficult": false
   },
   "UFR;UBR;FUL": {
     "algorithms": [
@@ -18772,10 +19123,11 @@
           1.1,
           1.78
         ],
-        "latest": true,
-        "lp": "AQ"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "AQ",
+    "difficult": false
   },
   "UFR;UBR;LDB": {
     "algorithms": [
@@ -18844,10 +19196,11 @@
           0.8,
           0.72
         ],
-        "latest": true,
-        "lp": "AR"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "AR",
+    "difficult": false
   },
   "UFR;UBR;LDF": {
     "algorithms": [
@@ -18914,10 +19267,11 @@
           0.59,
           0.86
         ],
-        "latest": true,
-        "lp": "AT"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "AT",
+    "difficult": false
   },
   "UFR;UBR;LUB": {
     "algorithms": [
@@ -18985,10 +19339,11 @@
           1.08,
           1.01
         ],
-        "latest": true,
-        "lp": "AP"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "AP",
+    "difficult": false
   },
   "UFR;UBR;LUF": {
     "algorithms": [
@@ -19056,10 +19411,11 @@
           0.92,
           1.06
         ],
-        "latest": true,
-        "lp": "AS"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "AS",
+    "difficult": false
   },
   "UFR;UBR;RDB": {
     "algorithms": [
@@ -19127,10 +19483,11 @@
           0.75,
           0.78
         ],
-        "latest": true,
-        "lp": "AZ"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "AZ",
+    "difficult": false
   },
   "UFR;UBR;RDF": {
     "algorithms": [
@@ -19199,10 +19556,11 @@
           0.71,
           0.78
         ],
-        "latest": true,
-        "lp": "AU"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "AU",
+    "difficult": false
   },
   "UFR;UBR;UBL": {
     "algorithms": [
@@ -19270,10 +19628,11 @@
           1.12,
           0.9
         ],
-        "latest": true,
-        "lp": "AC"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "AC",
+    "difficult": false
   },
   "UFR;UBR;UFL": {
     "algorithms": [
@@ -19341,10 +19700,11 @@
           1.22,
           1.27
         ],
-        "latest": true,
-        "lp": "AB"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "AB",
+    "difficult": false
   },
   "UFR;UFL;BDL": {
     "algorithms": [
@@ -19397,10 +19757,11 @@
           0.93,
           2.32
         ],
-        "latest": true,
-        "lp": "BO"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "BO",
+    "difficult": false
   },
   "UFR;UFL;BDR": {
     "algorithms": [
@@ -19454,10 +19815,11 @@
           0.9,
           0.97
         ],
-        "latest": true,
-        "lp": "BN"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "BN",
+    "difficult": false
   },
   "UFR;UFL;BUL": {
     "algorithms": [
@@ -19510,10 +19872,11 @@
           0.91,
           1.01
         ],
-        "latest": true,
-        "lp": "BM"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "BM",
+    "difficult": false
   },
   "UFR;UFL;BUR": {
     "algorithms": [
@@ -19567,10 +19930,11 @@
           1.53,
           0.98
         ],
-        "latest": true,
-        "lp": "BL"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "BL",
+    "difficult": false
   },
   "UFR;UFL;DBL": {
     "algorithms": [
@@ -19622,10 +19986,11 @@
           1.76,
           1.08
         ],
-        "latest": true,
-        "lp": "BD"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "BD",
+    "difficult": false
   },
   "UFR;UFL;DBR": {
     "algorithms": [
@@ -19679,10 +20044,11 @@
           1.05,
           1.39
         ],
-        "latest": true,
-        "lp": "BF"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "BF",
+    "difficult": false
   },
   "UFR;UFL;DFL": {
     "algorithms": [
@@ -19732,10 +20098,11 @@
           1.17,
           1.2
         ],
-        "latest": true,
-        "lp": "BE"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "BE",
+    "difficult": false
   },
   "UFR;UFL;DFR": {
     "algorithms": [
@@ -19788,10 +20155,11 @@
           1.86,
           0.96
         ],
-        "latest": true,
-        "lp": "BG"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "BG",
+    "difficult": false
   },
   "UFR;UFL;FDL": {
     "algorithms": [
@@ -19845,10 +20213,11 @@
           1.44,
           1.25
         ],
-        "latest": true,
-        "lp": "BI"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "BI",
+    "difficult": false
   },
   "UFR;UFL;FDR": {
     "algorithms": [
@@ -19901,10 +20270,11 @@
           1.33,
           1.32
         ],
-        "latest": true,
-        "lp": "BK"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "BK",
+    "difficult": false
   },
   "UFR;UFL;LDB": {
     "algorithms": [
@@ -19958,10 +20328,11 @@
           1.57,
           0.81
         ],
-        "latest": true,
-        "lp": "BR"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "BR",
+    "difficult": false
   },
   "UFR;UFL;LDF": {
     "algorithms": [
@@ -20015,10 +20386,11 @@
           0.66,
           0.89
         ],
-        "latest": true,
-        "lp": "BT"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "BT",
+    "difficult": false
   },
   "UFR;UFL;LUB": {
     "algorithms": [
@@ -20071,10 +20443,11 @@
           1.17,
           1.63
         ],
-        "latest": true,
-        "lp": "BP"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "BP",
+    "difficult": false
   },
   "UFR;UFL;RDB": {
     "algorithms": [
@@ -20127,10 +20500,11 @@
           0.78,
           1.14
         ],
-        "latest": true,
-        "lp": "BZ"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "BZ",
+    "difficult": false
   },
   "UFR;UFL;RDF": {
     "algorithms": [
@@ -20184,10 +20558,11 @@
           1.13,
           0.94
         ],
-        "latest": true,
-        "lp": "BU"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "BU",
+    "difficult": false
   },
   "UFR;UFL;RUB": {
     "algorithms": [
@@ -20241,10 +20616,11 @@
           1.04,
           1.76
         ],
-        "latest": true,
-        "lp": "BW"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "BW",
+    "difficult": false
   },
   "UFR;UFL;UBL": {
     "algorithms": [
@@ -20297,10 +20673,11 @@
           0.9,
           0.91
         ],
-        "latest": true,
-        "lp": "BC"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "BC",
+    "difficult": false
   },
   "UFR;UFL;UBR": {
     "algorithms": [
@@ -20353,9 +20730,10 @@
           0.94,
           1.15
         ],
-        "latest": true,
-        "lp": "BA"
+        "latest": true
       }
-    ]
+    ],
+    "lp": "BA",
+    "difficult": false
   }
 }

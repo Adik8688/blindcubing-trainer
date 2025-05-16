@@ -23,11 +23,10 @@
           1.97,
           1.73
         ],
-        "latest": true
+        "latest": true,
+        "lp": "AO"
       }
-    ],
-    "lp": "AO",
-    "difficult": false
+    ]
   },
   "UFR-UBR;UB;BL": {
     "algorithms": [
@@ -54,11 +53,10 @@
           1.67,
           2.52
         ],
-        "latest": true
+        "latest": true,
+        "lp": "AM"
       }
-    ],
-    "lp": "AM",
-    "difficult": false
+    ]
   },
   "UFR-UBR;UB;BR": {
     "algorithms": [
@@ -86,11 +84,10 @@
           2.28,
           2.17
         ],
-        "latest": true
+        "latest": true,
+        "lp": "AN"
       }
-    ],
-    "lp": "AN",
-    "difficult": false
+    ]
   },
   "UFR-UBR;UB;DB": {
     "algorithms": [
@@ -117,11 +114,10 @@
           2.21,
           1.64
         ],
-        "latest": true
+        "latest": true,
+        "lp": "AD"
       }
-    ],
-    "lp": "AD",
-    "difficult": false
+    ]
   },
   "UFR-UBR;UB;DF": {
     "algorithms": [
@@ -146,11 +142,10 @@
           2.19,
           1.93
         ],
-        "latest": true
+        "latest": true,
+        "lp": "AG"
       }
-    ],
-    "lp": "AG",
-    "difficult": false
+    ]
   },
   "UFR-UBR;UB;DL": {
     "algorithms": [
@@ -178,11 +173,10 @@
           1.67,
           1.79
         ],
-        "latest": true
+        "latest": true,
+        "lp": "AE"
       }
-    ],
-    "lp": "AE",
-    "difficult": false
+    ]
   },
   "UFR-UBR;UB;DR": {
     "algorithms": [
@@ -210,11 +204,10 @@
           1.68,
           2.25
         ],
-        "latest": true
+        "latest": true,
+        "lp": "AF"
       }
-    ],
-    "lp": "AF",
-    "difficult": false
+    ]
   },
   "UFR-UBR;UB;FD": {
     "algorithms": [
@@ -242,11 +235,10 @@
           1.91,
           1.83
         ],
-        "latest": true
+        "latest": true,
+        "lp": "AK"
       }
-    ],
-    "lp": "AK",
-    "difficult": false
+    ]
   },
   "UFR-UBR;UB;FL": {
     "algorithms": [
@@ -274,11 +266,10 @@
           2.74,
           2.38
         ],
-        "latest": true
+        "latest": true,
+        "lp": "AI"
       }
-    ],
-    "lp": "AI",
-    "difficult": false
+    ]
   },
   "UFR-UBR;UB;FR": {
     "algorithms": [
@@ -298,11 +289,10 @@
           2.19,
           1.92
         ],
-        "latest": true
+        "latest": true,
+        "lp": "AJ"
       }
-    ],
-    "lp": "AJ",
-    "difficult": false
+    ]
   },
   "UFR-UBR;UB;LB": {
     "algorithms": [
@@ -329,11 +319,10 @@
           2.27,
           1.85
         ],
-        "latest": true
+        "latest": true,
+        "lp": "AR"
       }
-    ],
-    "lp": "AR",
-    "difficult": false
+    ]
   },
   "UFR-UBR;UB;LD": {
     "algorithms": [
@@ -360,11 +349,10 @@
           1.64,
           1.78
         ],
-        "latest": true
+        "latest": true,
+        "lp": "AT"
       }
-    ],
-    "lp": "AT",
-    "difficult": false
+    ]
   },
   "UFR-UBR;UB;LF": {
     "algorithms": [
@@ -388,11 +376,10 @@
           1.9,
           1.46
         ],
-        "latest": true
+        "latest": true,
+        "lp": "AS"
       }
-    ],
-    "lp": "AS",
-    "difficult": false
+    ]
   },
   "UFR-UBR;UB;LU": {
     "algorithms": [
@@ -419,11 +406,10 @@
           2.11,
           2.24
         ],
-        "latest": true
+        "latest": true,
+        "lp": "AP"
       }
-    ],
-    "lp": "AP",
-    "difficult": false
+    ]
   },
   "UFR-UBR;UB;RB": {
     "algorithms": [
@@ -449,11 +435,10 @@
           1.88,
           2.09
         ],
-        "latest": true
+        "latest": true,
+        "lp": "AW"
       }
-    ],
-    "lp": "AW",
-    "difficult": false
+    ]
   },
   "UFR-UBR;UB;RD": {
     "algorithms": [
@@ -481,11 +466,10 @@
           1.42,
           2.03
         ],
-        "latest": true
+        "latest": true,
+        "lp": "AZ"
       }
-    ],
-    "lp": "AZ",
-    "difficult": false
+    ]
   },
   "UFR-UBR;UB;RF": {
     "algorithms": [
@@ -513,11 +497,10 @@
           1.99,
           1.72
         ],
-        "latest": true
+        "latest": true,
+        "lp": "AU"
       }
-    ],
-    "lp": "AU",
-    "difficult": false
+    ]
   },
   "UFR-UBR;UB;RU": {
     "algorithms": [
@@ -544,11 +527,10 @@
           1.23,
           1.45
         ],
-        "latest": true
+        "latest": true,
+        "lp": "AH"
       }
-    ],
-    "lp": "AH",
-    "difficult": false
+    ]
   },
   "UFR-UBR;UB;UL": {
     "algorithms": [
@@ -575,11 +557,10 @@
           1.97,
           2.43
         ],
-        "latest": true
+        "latest": true,
+        "lp": "AB"
       }
-    ],
-    "lp": "AB",
-    "difficult": false
+    ]
   },
   "UFR-UBR;UB;UR": {
     "algorithms": [
@@ -606,11 +587,10 @@
           1.28,
           1.44
         ],
-        "latest": true
+        "latest": true,
+        "lp": "AC"
       }
-    ],
-    "lp": "AC",
-    "difficult": false
+    ]
   },
   "UFR-UBR;UF;BD": {
     "algorithms": [
@@ -632,11 +612,10 @@
           2.91,
           2.42
         ],
-        "latest": true
+        "latest": true,
+        "lp": "O"
       }
-    ],
-    "lp": "O",
-    "difficult": false
+    ]
   },
   "UFR-UBR;UF;BL": {
     "algorithms": [
@@ -657,11 +636,10 @@
           2.18,
           1.66
         ],
-        "latest": true
+        "latest": true,
+        "lp": "M"
       }
-    ],
-    "lp": "M",
-    "difficult": false
+    ]
   },
   "UFR-UBR;UF;BR": {
     "algorithms": [
@@ -682,11 +660,10 @@
           1.78,
           1.61
         ],
-        "latest": true
+        "latest": true,
+        "lp": "N"
       }
-    ],
-    "lp": "N",
-    "difficult": false
+    ]
   },
   "UFR-UBR;UF;BU": {
     "algorithms": [
@@ -707,11 +684,10 @@
           1.69,
           1.53
         ],
-        "latest": true
+        "latest": true,
+        "lp": "L"
       }
-    ],
-    "lp": "L",
-    "difficult": false
+    ]
   },
   "UFR-UBR;UF;DB": {
     "algorithms": [
@@ -733,11 +709,10 @@
           1.69,
           1.65
         ],
-        "latest": true
+        "latest": true,
+        "lp": "D"
       }
-    ],
-    "lp": "D",
-    "difficult": false
+    ]
   },
   "UFR-UBR;UF;DF": {
     "algorithms": [
@@ -758,11 +733,10 @@
           2.9,
           1.84
         ],
-        "latest": true
+        "latest": true,
+        "lp": "G"
       }
-    ],
-    "lp": "G",
-    "difficult": false
+    ]
   },
   "UFR-UBR;UF;DL": {
     "algorithms": [
@@ -783,11 +757,10 @@
           1.51,
           2.65
         ],
-        "latest": true
+        "latest": true,
+        "lp": "E"
       }
-    ],
-    "lp": "E",
-    "difficult": false
+    ]
   },
   "UFR-UBR;UF;DR": {
     "algorithms": [
@@ -809,11 +782,10 @@
           2.3,
           1.38
         ],
-        "latest": true
+        "latest": true,
+        "lp": "F"
       }
-    ],
-    "lp": "F",
-    "difficult": false
+    ]
   },
   "UFR-UBR;UF;FD": {
     "algorithms": [
@@ -835,11 +807,10 @@
           1.13,
           1.32
         ],
-        "latest": true
+        "latest": true,
+        "lp": "K"
       }
-    ],
-    "lp": "K",
-    "difficult": false
+    ]
   },
   "UFR-UBR;UF;FL": {
     "algorithms": [
@@ -861,11 +832,10 @@
           2.33,
           1.21
         ],
-        "latest": true
+        "latest": true,
+        "lp": "I"
       }
-    ],
-    "lp": "I",
-    "difficult": false
+    ]
   },
   "UFR-UBR;UF;FR": {
     "algorithms": [
@@ -887,11 +857,10 @@
           1.16,
           1.34
         ],
-        "latest": true
+        "latest": true,
+        "lp": "J"
       }
-    ],
-    "lp": "J",
-    "difficult": false
+    ]
   },
   "UFR-UBR;UF;LB": {
     "algorithms": [
@@ -912,11 +881,10 @@
           1.66,
           1.36
         ],
-        "latest": true
+        "latest": true,
+        "lp": "R"
       }
-    ],
-    "lp": "R",
-    "difficult": false
+    ]
   },
   "UFR-UBR;UF;LD": {
     "algorithms": [
@@ -938,11 +906,10 @@
           1.23,
           1.39
         ],
-        "latest": true
+        "latest": true,
+        "lp": "T"
       }
-    ],
-    "lp": "T",
-    "difficult": false
+    ]
   },
   "UFR-UBR;UF;LF": {
     "algorithms": [
@@ -964,11 +931,10 @@
           1.65,
           1.58
         ],
-        "latest": true
+        "latest": true,
+        "lp": "S"
       }
-    ],
-    "lp": "S",
-    "difficult": false
+    ]
   },
   "UFR-UBR;UF;LU": {
     "algorithms": [
@@ -990,11 +956,10 @@
           1.72,
           2.59
         ],
-        "latest": true
+        "latest": true,
+        "lp": "P"
       }
-    ],
-    "lp": "P",
-    "difficult": false
+    ]
   },
   "UFR-UBR;UF;RB": {
     "algorithms": [
@@ -1015,11 +980,10 @@
           2.26,
           1.55
         ],
-        "latest": true
+        "latest": true,
+        "lp": "W"
       }
-    ],
-    "lp": "W",
-    "difficult": false
+    ]
   },
   "UFR-UBR;UF;RD": {
     "algorithms": [
@@ -1040,11 +1004,10 @@
           1.72,
           1.37
         ],
-        "latest": true
+        "latest": true,
+        "lp": "Z"
       }
-    ],
-    "lp": "Z",
-    "difficult": false
+    ]
   },
   "UFR-UBR;UF;RF": {
     "algorithms": [
@@ -1066,11 +1029,10 @@
           1.98,
           1.66
         ],
-        "latest": true
+        "latest": true,
+        "lp": "U"
       }
-    ],
-    "lp": "U",
-    "difficult": false
+    ]
   },
   "UFR-UBR;UF;RU": {
     "algorithms": [
@@ -1091,11 +1053,10 @@
           1.56,
           1.58
         ],
-        "latest": true
+        "latest": true,
+        "lp": "H"
       }
-    ],
-    "lp": "H",
-    "difficult": false
+    ]
   },
   "UFR-UBR;UF;UB": {
     "algorithms": [
@@ -1117,11 +1078,10 @@
           1.35,
           3.63
         ],
-        "latest": true
+        "latest": true,
+        "lp": "A"
       }
-    ],
-    "lp": "A",
-    "difficult": false
+    ]
   },
   "UFR-UBR;UF;UL": {
     "algorithms": [
@@ -1143,11 +1103,10 @@
           1.48,
           1.31
         ],
-        "latest": true
+        "latest": true,
+        "lp": "B"
       }
-    ],
-    "lp": "B",
-    "difficult": false
+    ]
   },
   "UFR-UBR;UF;UR": {
     "algorithms": [
@@ -1168,11 +1127,10 @@
           0.95,
           1.26
         ],
-        "latest": true
+        "latest": true,
+        "lp": "C"
       }
-    ],
-    "lp": "C",
-    "difficult": false
+    ]
   },
   "UFR-UBR;UR;BD": {
     "algorithms": [
@@ -1186,11 +1144,10 @@
           2.64,
           1.71
         ],
-        "latest": true
+        "latest": true,
+        "lp": "CO"
       }
-    ],
-    "lp": "CO",
-    "difficult": false
+    ]
   },
   "UFR-UBR;UR;BL": {
     "algorithms": [
@@ -1204,11 +1161,10 @@
           1.56,
           1.48
         ],
-        "latest": true
+        "latest": true,
+        "lp": "CM"
       }
-    ],
-    "lp": "CM",
-    "difficult": false
+    ]
   },
   "UFR-UBR;UR;BR": {
     "algorithms": [
@@ -1222,11 +1178,10 @@
           1.32,
           0.98
         ],
-        "latest": true
+        "latest": true,
+        "lp": "CN"
       }
-    ],
-    "lp": "CN",
-    "difficult": false
+    ]
   },
   "UFR-UBR;UR;DB": {
     "algorithms": [
@@ -1239,11 +1194,10 @@
           1.65,
           1.93
         ],
-        "latest": true
+        "latest": true,
+        "lp": "CD"
       }
-    ],
-    "lp": "CD",
-    "difficult": false
+    ]
   },
   "UFR-UBR;UR;DF": {
     "algorithms": [
@@ -1255,11 +1209,10 @@
           2.51,
           2.8
         ],
-        "latest": true
+        "latest": true,
+        "lp": "CG"
       }
-    ],
-    "lp": "CG",
-    "difficult": false
+    ]
   },
   "UFR-UBR;UR;DL": {
     "algorithms": [
@@ -1273,11 +1226,10 @@
           1.66,
           1.56
         ],
-        "latest": true
+        "latest": true,
+        "lp": "CE"
       }
-    ],
-    "lp": "CE",
-    "difficult": false
+    ]
   },
   "UFR-UBR;UR;DR": {
     "algorithms": [
@@ -1288,11 +1240,10 @@
           2.68,
           2.01
         ],
-        "latest": true
+        "latest": true,
+        "lp": "CF"
       }
-    ],
-    "lp": "CF",
-    "difficult": false
+    ]
   },
   "UFR-UBR;UR;FD": {
     "algorithms": [
@@ -1307,11 +1258,10 @@
           2.3,
           1.12
         ],
-        "latest": true
+        "latest": true,
+        "lp": "CK"
       }
-    ],
-    "lp": "CK",
-    "difficult": false
+    ]
   },
   "UFR-UBR;UR;FL": {
     "algorithms": [
@@ -1325,11 +1275,10 @@
           2.67,
           1.59
         ],
-        "latest": true
+        "latest": true,
+        "lp": "CI"
       }
-    ],
-    "lp": "CI",
-    "difficult": false
+    ]
   },
   "UFR-UBR;UR;FR": {
     "algorithms": [
@@ -1343,11 +1292,10 @@
           1.59,
           1.71
         ],
-        "latest": true
+        "latest": true,
+        "lp": "CJ"
       }
-    ],
-    "lp": "CJ",
-    "difficult": false
+    ]
   },
   "UFR-UBR;UR;LB": {
     "algorithms": [
@@ -1356,11 +1304,10 @@
         "results": [
           2.78
         ],
-        "latest": true
+        "latest": true,
+        "lp": "CR"
       }
-    ],
-    "lp": "CR",
-    "difficult": false
+    ]
   },
   "UFR-UBR;UR;LD": {
     "algorithms": [
@@ -1374,11 +1321,10 @@
           1.68,
           2.24
         ],
-        "latest": true
+        "latest": true,
+        "lp": "CT"
       }
-    ],
-    "lp": "CT",
-    "difficult": false
+    ]
   },
   "UFR-UBR;UR;LF": {
     "algorithms": [
@@ -1390,11 +1336,10 @@
           1.98,
           2.17
         ],
-        "latest": true
+        "latest": true,
+        "lp": "CS"
       }
-    ],
-    "lp": "CS",
-    "difficult": false
+    ]
   },
   "UFR-UBR;UR;LU": {
     "algorithms": [
@@ -1406,11 +1351,10 @@
           2.45,
           1.87
         ],
-        "latest": true
+        "latest": true,
+        "lp": "CP"
       }
-    ],
-    "lp": "CP",
-    "difficult": false
+    ]
   },
   "UFR-UBR;UR;RB": {
     "algorithms": [
@@ -1423,11 +1367,10 @@
           2.39,
           2.24
         ],
-        "latest": true
+        "latest": true,
+        "lp": "CW"
       }
-    ],
-    "lp": "CW",
-    "difficult": false
+    ]
   },
   "UFR-UBR;UR;RD": {
     "algorithms": [
@@ -1436,11 +1379,10 @@
         "results": [
           5.05
         ],
-        "latest": true
+        "latest": true,
+        "lp": "CZ"
       }
-    ],
-    "lp": "CZ",
-    "difficult": false
+    ]
   },
   "UFR-UBR;UR;RF": {
     "algorithms": [
@@ -1451,11 +1393,10 @@
           2.67,
           2.47
         ],
-        "latest": true
+        "latest": true,
+        "lp": "CU"
       }
-    ],
-    "lp": "CU",
-    "difficult": false
+    ]
   },
   "UFR-UBR;UR;UL": {
     "algorithms": [
@@ -1470,10 +1411,9 @@
           1.07,
           1.24
         ],
-        "latest": true
+        "latest": true,
+        "lp": "CB"
       }
-    ],
-    "lp": "CB",
-    "difficult": false
+    ]
   }
 }

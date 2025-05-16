@@ -203,9 +203,10 @@ class SpreadsheetsManager:
                                 "alg": new_alg,
                                 "results": [],
                                 "latest": True,
-                                "lp": ""
                             }
-                        ]
+                        ],
+                        "lp": "",
+                        "difficult": False
                     }
                 else:
                     # Case exists: update the existing algorithms list.
@@ -267,17 +268,13 @@ class SpreadsheetsManager:
             target_key = f"{parts[1]};{parts[2]}"
             if target_key in words_dict:
                 memo_word = words_dict[target_key]
-                # Update every algorithm record in this case with the 'memo'
-                if "algorithms" in record:
-                    for alg_record in record["algorithms"]:
-                        alg_record["memo"] = memo_word
+                record['memo'] = memo_word
 
         self.process_metadata(words_dict, update)
 
     def remove_memo(self):
         def remove(record, parts, words_dict):
-            for alg in record['algorithms']:
-                alg.pop("memo", None)
+            record.pop("memo", None)
         
         self.process_metadata({}, remove)
 
@@ -294,17 +291,13 @@ class SpreadsheetsManager:
             letter2 = lps_dict.get(second_target, "")
             lp_value = letter1 + letter2
 
-            # Update each algorithm record in the 'algorithms' list with the LP.
-            if "algorithms" in record and lp_value:
-                for alg_record in record["algorithms"]:
-                    alg_record["lp"] = lp_value
+            record["lp"] = lp_value
 
         self.process_metadata(lps_dict, update)
     
     def remove_lps(self):
         def remove(record, parts, lps_dict):
-            for alg in record['algorithms']:
-                alg.pop("lp", None)
+            record.pop("lp", None)
         
         self.process_metadata({}, remove)
 

@@ -4,43 +4,39 @@
       {
         "alg": "D: D, R U' R' U R U' D'",
         "results": [],
-        "latest": true
+        "latest": true,
+        "lp": "OD"
       }
-    ],
-    "lp": "OD",
-    "difficult": false
+    ]
   },
   "DFL;BDR;DBR": {
     "algorithms": [
       {
         "alg": "D: R U' R' U R U' D', D2",
         "results": [],
-        "latest": true
+        "latest": true,
+        "lp": "NF"
       }
-    ],
-    "lp": "NF",
-    "difficult": false
+    ]
   },
   "DFL;LDB;DBL": {
     "algorithms": [
       {
         "alg": "D: R U' R' U R U' D', D",
         "results": [],
-        "latest": true
+        "latest": true,
+        "lp": "RD"
       }
-    ],
-    "lp": "RD",
-    "difficult": false
+    ]
   },
   "DFL;RDB;DBR": {
     "algorithms": [
       {
         "alg": "D: D2, R U' R' U R U' D'",
         "results": [],
-        "latest": true
+        "latest": true,
+        "lp": "ZF"
       }
-    ],
-    "lp": "ZF",
-    "difficult": false
+    ]
   }
 }

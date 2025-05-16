@@ -4,87 +4,79 @@
       {
         "alg": "E' S R': R2, S",
         "results": [],
-        "latest": true
+        "latest": true,
+        "lp": "MN"
       }
-    ],
-    "lp": "MN",
-    "difficult": false
+    ]
   },
   "DL;BL;RB": {
     "algorithms": [
       {
         "alg": "S' R S R' E' R' E R",
         "results": [],
-        "latest": true
+        "latest": true,
+        "lp": "MW"
       }
-    ],
-    "lp": "MW",
-    "difficult": false
+    ]
   },
   "DL;BR;BL": {
     "algorithms": [
       {
         "alg": "E' S R': S, R2",
         "results": [],
-        "latest": true
+        "latest": true,
+        "lp": "NM"
       }
-    ],
-    "lp": "NM",
-    "difficult": false
+    ]
   },
   "DL;BR;LB": {
     "algorithms": [
       {
         "alg": "R S' R: E', R2",
         "results": [],
-        "latest": true
+        "latest": true,
+        "lp": "NR"
       }
-    ],
-    "lp": "NR",
-    "difficult": false
+    ]
   },
   "DL;LB;BR": {
     "algorithms": [
       {
         "alg": "R S' R: R2, E'",
         "results": [],
-        "latest": true
+        "latest": true,
+        "lp": "RN"
       }
-    ],
-    "lp": "RN",
-    "difficult": false
+    ]
   },
   "DL;LB;RB": {
     "algorithms": [
       {
         "alg": "u R': S', R2",
         "results": [],
-        "latest": true
+        "latest": true,
+        "lp": "RW"
       }
-    ],
-    "lp": "RW",
-    "difficult": false
+    ]
   },
   "DL;RB;BL": {
     "algorithms": [
       {
         "alg": "R' E' R E R S' R' S",
         "results": [],
-        "latest": true
+        "latest": true,
+        "lp": "WM"
       }
-    ],
-    "lp": "WM",
-    "difficult": false
+    ]
   },
   "DL;RB;LB": {
     "algorithms": [
       {
         "alg": "u R': R2, S'",
         "results": [],
-        "latest": true
+        "latest": true,
+        "lp": "WR"
       }
-    ],
-    "lp": "WR",
-    "difficult": false
+    ]
   }
 }

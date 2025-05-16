@@ -42,11 +42,10 @@
           1.57,
           2.31
         ],
-        "latest": true
+        "latest": true,
+        "lp": "OM"
       }
-    ],
-    "lp": "OM",
-    "difficult": false
+    ]
   },
   "DF;BD;BR": {
     "algorithms": [
@@ -102,11 +101,10 @@
           1.86,
           1.01
         ],
-        "latest": true
+        "latest": true,
+        "lp": "ON"
       }
-    ],
-    "lp": "ON",
-    "difficult": false
+    ]
   },
   "DF;BD;DL": {
     "algorithms": [
@@ -154,11 +152,10 @@
           1.73,
           1.43
         ],
-        "latest": true
+        "latest": true,
+        "lp": "OE"
       }
-    ],
-    "lp": "OE",
-    "difficult": false
+    ]
   },
   "DF;BD;DR": {
     "algorithms": [
@@ -216,11 +213,10 @@
           1.29,
           1.71
         ],
-        "latest": true
+        "latest": true,
+        "lp": "OF"
       }
-    ],
-    "lp": "OF",
-    "difficult": false
+    ]
   },
   "DF;BD;FL": {
     "algorithms": [
@@ -255,11 +251,10 @@
           1.06,
           1.55
         ],
-        "latest": true
+        "latest": true,
+        "lp": "OI"
       }
-    ],
-    "lp": "OI",
-    "difficult": false
+    ]
   },
   "DF;BD;FR": {
     "algorithms": [
@@ -317,11 +312,10 @@
           2.07,
           1.92
         ],
-        "latest": true
+        "latest": true,
+        "lp": "OJ"
       }
-    ],
-    "lp": "OJ",
-    "difficult": false
+    ]
   },
   "DF;BD;LB": {
     "algorithms": [
@@ -381,11 +375,10 @@
           1.39,
           1.59
         ],
-        "latest": true
+        "latest": true,
+        "lp": "OR"
       }
-    ],
-    "lp": "OR",
-    "difficult": false
+    ]
   },
   "DF;BD;LD": {
     "algorithms": [
@@ -427,11 +420,10 @@
           1.12,
           2.2
         ],
-        "latest": true
+        "latest": true,
+        "lp": "OT"
       }
-    ],
-    "lp": "OT",
-    "difficult": false
+    ]
   },
   "DF;BD;LF": {
     "algorithms": [
@@ -492,11 +484,10 @@
           1.28,
           1.17
         ],
-        "latest": true
+        "latest": true,
+        "lp": "OS"
       }
-    ],
-    "lp": "OS",
-    "difficult": false
+    ]
   },
   "DF;BD;RB": {
     "algorithms": [
@@ -554,11 +545,10 @@
           1.6,
           1.02
         ],
-        "latest": true
+        "latest": true,
+        "lp": "OW"
       }
-    ],
-    "lp": "OW",
-    "difficult": false
+    ]
   },
   "DF;BD;RD": {
     "algorithms": [
@@ -606,11 +596,10 @@
           1.03,
           1.36
         ],
-        "latest": true
+        "latest": true,
+        "lp": "OZ"
       }
-    ],
-    "lp": "OZ",
-    "difficult": false
+    ]
   },
   "DF;BD;RF": {
     "algorithms": [
@@ -674,11 +663,10 @@
           0.95,
           0.97
         ],
-        "latest": true
+        "latest": true,
+        "lp": "OU"
       }
-    ],
-    "lp": "OU",
-    "difficult": false
+    ]
   },
   "DF;BL;BD": {
     "algorithms": [
@@ -748,11 +736,10 @@
           1.3,
           1.52
         ],
-        "latest": true
+        "latest": true,
+        "lp": "MO"
       }
-    ],
-    "lp": "MO",
-    "difficult": false
+    ]
   },
   "DF;BL;BR": {
     "algorithms": [
@@ -815,11 +802,10 @@
           2.14,
           1.23
         ],
-        "latest": true
+        "latest": true,
+        "lp": "MN"
       }
-    ],
-    "lp": "MN",
-    "difficult": false
+    ]
   },
   "DF;BL;DB": {
     "algorithms": [
@@ -849,11 +835,10 @@
           2.1,
           1.3
         ],
-        "latest": true
+        "latest": true,
+        "lp": "MD"
       }
-    ],
-    "lp": "MD",
-    "difficult": false
+    ]
   },
   "DF;BL;DL": {
     "algorithms": [
@@ -923,11 +908,10 @@
           1.12,
           1.56
         ],
-        "latest": true
+        "latest": true,
+        "lp": "ME"
       }
-    ],
-    "lp": "ME",
-    "difficult": false
+    ]
   },
   "DF;BL;DR": {
     "algorithms": [
@@ -1000,11 +984,10 @@
           0.97,
           1.0
         ],
-        "latest": true
+        "latest": true,
+        "lp": "MF"
       }
-    ],
-    "lp": "MF",
-    "difficult": false
+    ]
   },
   "DF;BL;FL": {
     "algorithms": [
@@ -1081,11 +1064,10 @@
           0.87,
           1.41
         ],
-        "latest": true
+        "latest": true,
+        "lp": "MI"
       }
-    ],
-    "lp": "MI",
-    "difficult": false
+    ]
   },
   "DF;BL;FR": {
     "algorithms": [
@@ -1155,11 +1137,10 @@
           1.21,
           1.62
         ],
-        "latest": true
+        "latest": true,
+        "lp": "MJ"
       }
-    ],
-    "lp": "MJ",
-    "difficult": false
+    ]
   },
   "DF;BL;LD": {
     "algorithms": [
@@ -1226,11 +1207,10 @@
           1.61,
           1.88
         ],
-        "latest": true
+        "latest": true,
+        "lp": "MT"
       }
-    ],
-    "lp": "MT",
-    "difficult": false
+    ]
   },
   "DF;BL;LF": {
     "algorithms": [
@@ -1309,11 +1289,10 @@
           1.03,
           1.36
         ],
-        "latest": true
+        "latest": true,
+        "lp": "MS"
       }
-    ],
-    "lp": "MS",
-    "difficult": false
+    ]
   },
   "DF;BL;RB": {
     "algorithms": [
@@ -1371,11 +1350,10 @@
           1.36,
           1.63
         ],
-        "latest": true
+        "latest": true,
+        "lp": "MW"
       }
-    ],
-    "lp": "MW",
-    "difficult": false
+    ]
   },
   "DF;BL;RD": {
     "algorithms": [
@@ -1428,11 +1406,10 @@
           1.23,
           1.79
         ],
-        "latest": true
+        "latest": true,
+        "lp": "MZ"
       }
-    ],
-    "lp": "MZ",
-    "difficult": false
+    ]
   },
   "DF;BL;RF": {
     "algorithms": [
@@ -1501,11 +1478,10 @@
           1.15,
           1.34
         ],
-        "latest": true
+        "latest": true,
+        "lp": "MU"
       }
-    ],
-    "lp": "MU",
-    "difficult": false
+    ]
   },
   "DF;BR;BD": {
     "algorithms": [
@@ -1554,11 +1530,10 @@
           1.38,
           1.27
         ],
-        "latest": true
+        "latest": true,
+        "lp": "NO"
       }
-    ],
-    "lp": "NO",
-    "difficult": false
+    ]
   },
   "DF;BR;BL": {
     "algorithms": [
@@ -1609,11 +1584,10 @@
           1.19,
           1.29
         ],
-        "latest": true
+        "latest": true,
+        "lp": "NM"
       }
-    ],
-    "lp": "NM",
-    "difficult": false
+    ]
   },
   "DF;BR;DB": {
     "algorithms": [
@@ -1666,11 +1640,10 @@
           1.19,
           1.39
         ],
-        "latest": true
+        "latest": true,
+        "lp": "ND"
       }
-    ],
-    "lp": "ND",
-    "difficult": false
+    ]
   },
   "DF;BR;DL": {
     "algorithms": [
@@ -1721,11 +1694,10 @@
           1.22,
           1.58
         ],
-        "latest": true
+        "latest": true,
+        "lp": "NE"
       }
-    ],
-    "lp": "NE",
-    "difficult": false
+    ]
   },
   "DF;BR;DR": {
     "algorithms": [
@@ -1776,11 +1748,10 @@
           1.4,
           1.63
         ],
-        "latest": true
+        "latest": true,
+        "lp": "NF"
       }
-    ],
-    "lp": "NF",
-    "difficult": false
+    ]
   },
   "DF;BR;FL": {
     "algorithms": [
@@ -1827,11 +1798,10 @@
           1.11,
           1.15
         ],
-        "latest": true
+        "latest": true,
+        "lp": "NI"
       }
-    ],
-    "lp": "NI",
-    "difficult": false
+    ]
   },
   "DF;BR;FR": {
     "algorithms": [
@@ -1880,11 +1850,10 @@
           1.0,
           2.38
         ],
-        "latest": true
+        "latest": true,
+        "lp": "NJ"
       }
-    ],
-    "lp": "NJ",
-    "difficult": false
+    ]
   },
   "DF;BR;LB": {
     "algorithms": [
@@ -1930,11 +1899,10 @@
           1.78,
           1.42
         ],
-        "latest": true
+        "latest": true,
+        "lp": "NR"
       }
-    ],
-    "lp": "NR",
-    "difficult": false
+    ]
   },
   "DF;BR;LD": {
     "algorithms": [
@@ -1983,11 +1951,10 @@
           1.16,
           1.42
         ],
-        "latest": true
+        "latest": true,
+        "lp": "NT"
       }
-    ],
-    "lp": "NT",
-    "difficult": false
+    ]
   },
   "DF;BR;LF": {
     "algorithms": [
@@ -2035,11 +2002,10 @@
           1.17,
           1.88
         ],
-        "latest": true
+        "latest": true,
+        "lp": "NS"
       }
-    ],
-    "lp": "NS",
-    "difficult": false
+    ]
   },
   "DF;BR;RD": {
     "algorithms": [
@@ -2083,11 +2049,10 @@
           1.26,
           1.61
         ],
-        "latest": true
+        "latest": true,
+        "lp": "NZ"
       }
-    ],
-    "lp": "NZ",
-    "difficult": false
+    ]
   },
   "DF;BR;RF": {
     "algorithms": [
@@ -2140,11 +2105,10 @@
           0.86,
           1.11
         ],
-        "latest": true
+        "latest": true,
+        "lp": "NU"
       }
-    ],
-    "lp": "NU",
-    "difficult": false
+    ]
   },
   "DF;DB;BL": {
     "algorithms": [
@@ -2203,11 +2167,10 @@
           1.93,
           1.59
         ],
-        "latest": true
+        "latest": true,
+        "lp": "DM"
       }
-    ],
-    "lp": "DM",
-    "difficult": false
+    ]
   },
   "DF;DB;BR": {
     "algorithms": [
@@ -2304,11 +2267,10 @@
           1.13,
           1.27
         ],
-        "latest": true
+        "latest": true,
+        "lp": "DN"
       }
-    ],
-    "lp": "DN",
-    "difficult": false
+    ]
   },
   "DF;DB;DL": {
     "algorithms": [
@@ -2398,11 +2360,10 @@
           1.33,
           0.96
         ],
-        "latest": true
+        "latest": true,
+        "lp": "DE"
       }
-    ],
-    "lp": "DE",
-    "difficult": false
+    ]
   },
   "DF;DB;DR": {
     "algorithms": [
@@ -2495,11 +2456,10 @@
           1.42,
           1.54
         ],
-        "latest": true
+        "latest": true,
+        "lp": "DF"
       }
-    ],
-    "lp": "DF",
-    "difficult": false
+    ]
   },
   "DF;DB;FL": {
     "algorithms": [
@@ -2568,11 +2528,10 @@
           1.91,
           1.27
         ],
-        "latest": true
+        "latest": true,
+        "lp": "DI"
       }
-    ],
-    "lp": "DI",
-    "difficult": false
+    ]
   },
   "DF;DB;FR": {
     "algorithms": [
@@ -2674,11 +2633,10 @@
           0.71,
           1.17
         ],
-        "latest": true
+        "latest": true,
+        "lp": "DJ"
       }
-    ],
-    "lp": "DJ",
-    "difficult": false
+    ]
   },
   "DF;DB;LB": {
     "algorithms": [
@@ -2748,11 +2706,10 @@
           1.65,
           1.38
         ],
-        "latest": true
+        "latest": true,
+        "lp": "DR"
       }
-    ],
-    "lp": "DR",
-    "difficult": false
+    ]
   },
   "DF;DB;LD": {
     "algorithms": [
@@ -2845,11 +2802,10 @@
           1.17,
           1.34
         ],
-        "latest": true
+        "latest": true,
+        "lp": "DT"
       }
-    ],
-    "lp": "DT",
-    "difficult": false
+    ]
   },
   "DF;DB;LF": {
     "algorithms": [
@@ -2920,11 +2876,10 @@
           2.42,
           1.13
         ],
-        "latest": true
+        "latest": true,
+        "lp": "DS"
       }
-    ],
-    "lp": "DS",
-    "difficult": false
+    ]
   },
   "DF;DB;RB": {
     "algorithms": [
@@ -3008,11 +2963,10 @@
           1.31,
           2.32
         ],
-        "latest": true
+        "latest": true,
+        "lp": "DW"
       }
-    ],
-    "lp": "DW",
-    "difficult": false
+    ]
   },
   "DF;DB;RD": {
     "algorithms": [
@@ -3100,11 +3054,10 @@
           1.16,
           1.38
         ],
-        "latest": true
+        "latest": true,
+        "lp": "DZ"
       }
-    ],
-    "lp": "DZ",
-    "difficult": false
+    ]
   },
   "DF;DB;RF": {
     "algorithms": [
@@ -3195,11 +3148,10 @@
           0.84,
           1.54
         ],
-        "latest": true
+        "latest": true,
+        "lp": "DU"
       }
-    ],
-    "lp": "DU",
-    "difficult": false
+    ]
   },
   "DF;DL;BD": {
     "algorithms": [
@@ -3311,11 +3263,10 @@
           1.25,
           1.47
         ],
-        "latest": true
+        "latest": true,
+        "lp": "EO"
       }
-    ],
-    "lp": "EO",
-    "difficult": false
+    ]
   },
   "DF;DL;BL": {
     "algorithms": [
@@ -3429,11 +3380,10 @@
           1.25,
           1.73
         ],
-        "latest": true
+        "latest": true,
+        "lp": "EM"
       }
-    ],
-    "lp": "EM",
-    "difficult": false
+    ]
   },
   "DF;DL;BR": {
     "algorithms": [
@@ -3555,11 +3505,10 @@
           0.97,
           1.36
         ],
-        "latest": true
+        "latest": true,
+        "lp": "EN"
       }
-    ],
-    "lp": "EN",
-    "difficult": false
+    ]
   },
   "DF;DL;DB": {
     "algorithms": [
@@ -3673,11 +3622,10 @@
           1.65,
           1.59
         ],
-        "latest": true
+        "latest": true,
+        "lp": "ED"
       }
-    ],
-    "lp": "ED",
-    "difficult": false
+    ]
   },
   "DF;DL;DR": {
     "algorithms": [
@@ -3794,11 +3742,10 @@
           1.27,
           1.17
         ],
-        "latest": true
+        "latest": true,
+        "lp": "EF"
       }
-    ],
-    "lp": "EF",
-    "difficult": false
+    ]
   },
   "DF;DL;FL": {
     "algorithms": [
@@ -3920,11 +3867,10 @@
           2.39,
           1.52
         ],
-        "latest": true
+        "latest": true,
+        "lp": "EI"
       }
-    ],
-    "lp": "EI",
-    "difficult": false
+    ]
   },
   "DF;DL;FR": {
     "algorithms": [
@@ -4056,11 +4002,10 @@
           1.37,
           1.11
         ],
-        "latest": true
+        "latest": true,
+        "lp": "EJ"
       }
-    ],
-    "lp": "EJ",
-    "difficult": false
+    ]
   },
   "DF;DL;LB": {
     "algorithms": [
@@ -4177,11 +4122,10 @@
           1.61,
           1.46
         ],
-        "latest": true
+        "latest": true,
+        "lp": "ER"
       }
-    ],
-    "lp": "ER",
-    "difficult": false
+    ]
   },
   "DF;DL;LF": {
     "algorithms": [
@@ -4304,11 +4248,10 @@
           0.84,
           1.19
         ],
-        "latest": true
+        "latest": true,
+        "lp": "ES"
       }
-    ],
-    "lp": "ES",
-    "difficult": false
+    ]
   },
   "DF;DL;RB": {
     "algorithms": [
@@ -4425,11 +4368,10 @@
           0.9,
           1.56
         ],
-        "latest": true
+        "latest": true,
+        "lp": "EW"
       }
-    ],
-    "lp": "EW",
-    "difficult": false
+    ]
   },
   "DF;DL;RD": {
     "algorithms": [
@@ -4561,11 +4503,10 @@
           0.67,
           1.01
         ],
-        "latest": true
+        "latest": true,
+        "lp": "EZ"
       }
-    ],
-    "lp": "EZ",
-    "difficult": false
+    ]
   },
   "DF;DL;RF": {
     "algorithms": [
@@ -4686,11 +4627,10 @@
           1.1,
           1.11
         ],
-        "latest": true
+        "latest": true,
+        "lp": "EU"
       }
-    ],
-    "lp": "EU",
-    "difficult": false
+    ]
   },
   "DF;DR;BD": {
     "algorithms": [
@@ -4752,11 +4692,10 @@
           0.98,
           2.06
         ],
-        "latest": true
+        "latest": true,
+        "lp": "FO"
       }
-    ],
-    "lp": "FO",
-    "difficult": false
+    ]
   },
   "DF;DR;BL": {
     "algorithms": [
@@ -4820,11 +4759,10 @@
           1.2,
           1.33
         ],
-        "latest": true
+        "latest": true,
+        "lp": "FM"
       }
-    ],
-    "lp": "FM",
-    "difficult": false
+    ]
   },
   "DF;DR;BR": {
     "algorithms": [
@@ -4884,11 +4822,10 @@
           2.36,
           1.32
         ],
-        "latest": true
+        "latest": true,
+        "lp": "FN"
       }
-    ],
-    "lp": "FN",
-    "difficult": false
+    ]
   },
   "DF;DR;DB": {
     "algorithms": [
@@ -4959,11 +4896,10 @@
           1.4,
           1.16
         ],
-        "latest": true
+        "latest": true,
+        "lp": "FD"
       }
-    ],
-    "lp": "FD",
-    "difficult": false
+    ]
   },
   "DF;DR;DL": {
     "algorithms": [
@@ -5034,11 +4970,10 @@
           1.49,
           1.29
         ],
-        "latest": true
+        "latest": true,
+        "lp": "FE"
       }
-    ],
-    "lp": "FE",
-    "difficult": false
+    ]
   },
   "DF;DR;FL": {
     "algorithms": [
@@ -5106,11 +5041,10 @@
           1.71,
           1.91
         ],
-        "latest": true
+        "latest": true,
+        "lp": "FI"
       }
-    ],
-    "lp": "FI",
-    "difficult": false
+    ]
   },
   "DF;DR;FR": {
     "algorithms": [
@@ -5174,11 +5108,10 @@
           1.54,
           1.22
         ],
-        "latest": true
+        "latest": true,
+        "lp": "FJ"
       }
-    ],
-    "lp": "FJ",
-    "difficult": false
+    ]
   },
   "DF;DR;LB": {
     "algorithms": [
@@ -5236,11 +5169,10 @@
           1.48,
           1.9
         ],
-        "latest": true
+        "latest": true,
+        "lp": "FR"
       }
-    ],
-    "lp": "FR",
-    "difficult": false
+    ]
   },
   "DF;DR;LD": {
     "algorithms": [
@@ -5308,11 +5240,10 @@
           1.06,
           0.82
         ],
-        "latest": true
+        "latest": true,
+        "lp": "FT"
       }
-    ],
-    "lp": "FT",
-    "difficult": false
+    ]
   },
   "DF;DR;LF": {
     "algorithms": [
@@ -5375,11 +5306,10 @@
           0.91,
           1.08
         ],
-        "latest": true
+        "latest": true,
+        "lp": "FS"
       }
-    ],
-    "lp": "FS",
-    "difficult": false
+    ]
   },
   "DF;DR;RB": {
     "algorithms": [
@@ -5445,11 +5375,10 @@
           1.17,
           1.62
         ],
-        "latest": true
+        "latest": true,
+        "lp": "FW"
       }
-    ],
-    "lp": "FW",
-    "difficult": false
+    ]
   },
   "DF;DR;RF": {
     "algorithms": [
@@ -5509,11 +5438,10 @@
           1.34,
           1.06
         ],
-        "latest": true
+        "latest": true,
+        "lp": "FU"
       }
-    ],
-    "lp": "FU",
-    "difficult": false
+    ]
   },
   "DF;FL;BD": {
     "algorithms": [
@@ -5573,11 +5501,10 @@
           1.75,
           1.41
         ],
-        "latest": true
+        "latest": true,
+        "lp": "IO"
       }
-    ],
-    "lp": "IO",
-    "difficult": false
+    ]
   },
   "DF;FL;BL": {
     "algorithms": [
@@ -5673,11 +5600,10 @@
           0.88,
           1.35
         ],
-        "latest": true
+        "latest": true,
+        "lp": "IM"
       }
-    ],
-    "lp": "IM",
-    "difficult": false
+    ]
   },
   "DF;FL;BR": {
     "algorithms": [
@@ -5769,11 +5695,10 @@
           1.06,
           1.27
         ],
-        "latest": true
+        "latest": true,
+        "lp": "IN"
       }
-    ],
-    "lp": "IN",
-    "difficult": false
+    ]
   },
   "DF;FL;DB": {
     "algorithms": [
@@ -5823,11 +5748,10 @@
           1.6,
           1.43
         ],
-        "latest": true
+        "latest": true,
+        "lp": "ID"
       }
-    ],
-    "lp": "ID",
-    "difficult": false
+    ]
   },
   "DF;FL;DL": {
     "algorithms": [
@@ -5929,11 +5853,10 @@
           1.12,
           1.37
         ],
-        "latest": true
+        "latest": true,
+        "lp": "IE"
       }
-    ],
-    "lp": "IE",
-    "difficult": false
+    ]
   },
   "DF;FL;DR": {
     "algorithms": [
@@ -6030,11 +5953,10 @@
           1.0,
           1.19
         ],
-        "latest": true
+        "latest": true,
+        "lp": "IF"
       }
-    ],
-    "lp": "IF",
-    "difficult": false
+    ]
   },
   "DF;FL;FR": {
     "algorithms": [
@@ -6122,11 +6044,10 @@
           1.6,
           1.98
         ],
-        "latest": true
+        "latest": true,
+        "lp": "IJ"
       }
-    ],
-    "lp": "IJ",
-    "difficult": false
+    ]
   },
   "DF;FL;LB": {
     "algorithms": [
@@ -6222,11 +6143,10 @@
           2.21,
           1.21
         ],
-        "latest": true
+        "latest": true,
+        "lp": "IR"
       }
-    ],
-    "lp": "IR",
-    "difficult": false
+    ]
   },
   "DF;FL;LD": {
     "algorithms": [
@@ -6315,11 +6235,10 @@
           1.79,
           1.69
         ],
-        "latest": true
+        "latest": true,
+        "lp": "IT"
       }
-    ],
-    "lp": "IT",
-    "difficult": false
+    ]
   },
   "DF;FL;RD": {
     "algorithms": [
@@ -6398,11 +6317,10 @@
           1.13,
           1.81
         ],
-        "latest": true
+        "latest": true,
+        "lp": "IZ"
       }
-    ],
-    "lp": "IZ",
-    "difficult": false
+    ]
   },
   "DF;FL;RF": {
     "algorithms": [
@@ -6508,11 +6426,10 @@
           0.98,
           1.54
         ],
-        "latest": true
+        "latest": true,
+        "lp": "IU"
       }
-    ],
-    "lp": "IU",
-    "difficult": false
+    ]
   },
   "DF;FR;BD": {
     "algorithms": [
@@ -6611,11 +6528,10 @@
           0.92,
           1.07
         ],
-        "latest": true
+        "latest": true,
+        "lp": "JO"
       }
-    ],
-    "lp": "JO",
-    "difficult": false
+    ]
   },
   "DF;FR;BL": {
     "algorithms": [
@@ -6714,11 +6630,10 @@
           1.3,
           1.33
         ],
-        "latest": true
+        "latest": true,
+        "lp": "JM"
       }
-    ],
-    "lp": "JM",
-    "difficult": false
+    ]
   },
   "DF;FR;BR": {
     "algorithms": [
@@ -6821,11 +6736,10 @@
           1.05,
           2.04
         ],
-        "latest": true
+        "latest": true,
+        "lp": "JN"
       }
-    ],
-    "lp": "JN",
-    "difficult": false
+    ]
   },
   "DF;FR;DB": {
     "algorithms": [
@@ -6930,11 +6844,10 @@
           0.95,
           0.96
         ],
-        "latest": true
+        "latest": true,
+        "lp": "JD"
       }
-    ],
-    "lp": "JD",
-    "difficult": false
+    ]
   },
   "DF;FR;DL": {
     "algorithms": [
@@ -7032,11 +6945,10 @@
           1.68,
           1.54
         ],
-        "latest": true
+        "latest": true,
+        "lp": "JE"
       }
-    ],
-    "lp": "JE",
-    "difficult": false
+    ]
   },
   "DF;FR;DR": {
     "algorithms": [
@@ -7143,11 +7055,10 @@
           1.17,
           1.06
         ],
-        "latest": true
+        "latest": true,
+        "lp": "JF"
       }
-    ],
-    "lp": "JF",
-    "difficult": false
+    ]
   },
   "DF;FR;FL": {
     "algorithms": [
@@ -7247,11 +7158,10 @@
           1.1,
           1.41
         ],
-        "latest": true
+        "latest": true,
+        "lp": "JI"
       }
-    ],
-    "lp": "JI",
-    "difficult": false
+    ]
   },
   "DF;FR;LB": {
     "algorithms": [
@@ -7332,18 +7242,18 @@
           1.75,
           1.32
         ],
-        "latest": true
+        "latest": true,
+        "lp": "JR"
       }
-    ],
-    "lp": "JR",
-    "difficult": false
+    ]
   },
   "DF;FR;LD": {
     "algorithms": [
       {
         "alg": "S R U': M', U2",
         "results": [],
-        "latest": true
+        "latest": true,
+        "lp": "JT"
       },
       {
         "alg": "E F' R: S', R2",
@@ -7439,11 +7349,10 @@
           1.69,
           1.48
         ],
-        "latest": false
+        "latest": false,
+        "lp": "JT"
       }
-    ],
-    "lp": "JT",
-    "difficult": false
+    ]
   },
   "DF;FR;LF": {
     "algorithms": [
@@ -7546,11 +7455,10 @@
           1.1,
           1.46
         ],
-        "latest": true
+        "latest": true,
+        "lp": "JS"
       }
-    ],
-    "lp": "JS",
-    "difficult": false
+    ]
   },
   "DF;FR;RB": {
     "algorithms": [
@@ -7659,11 +7567,10 @@
           0.99,
           1.31
         ],
-        "latest": true
+        "latest": true,
+        "lp": "JW"
       }
-    ],
-    "lp": "JW",
-    "difficult": false
+    ]
   },
   "DF;FR;RD": {
     "algorithms": [
@@ -7745,11 +7652,10 @@
           1.71,
           1.29
         ],
-        "latest": true
+        "latest": true,
+        "lp": "JZ"
       }
-    ],
-    "lp": "JZ",
-    "difficult": false
+    ]
   },
   "DF;LB;BD": {
     "algorithms": [
@@ -7831,11 +7737,10 @@
           1.3,
           1.3
         ],
-        "latest": true
+        "latest": true,
+        "lp": "RO"
       }
-    ],
-    "lp": "RO",
-    "difficult": false
+    ]
   },
   "DF;LB;BR": {
     "algorithms": [
@@ -7921,11 +7826,10 @@
           1.43,
           1.33
         ],
-        "latest": true
+        "latest": true,
+        "lp": "RN"
       }
-    ],
-    "lp": "RN",
-    "difficult": false
+    ]
   },
   "DF;LB;DB": {
     "algorithms": [
@@ -7979,11 +7883,10 @@
           1.46,
           1.45
         ],
-        "latest": true
+        "latest": true,
+        "lp": "RD"
       }
-    ],
-    "lp": "RD",
-    "difficult": false
+    ]
   },
   "DF;LB;DL": {
     "algorithms": [
@@ -8063,11 +7966,10 @@
           1.34,
           1.79
         ],
-        "latest": true
+        "latest": true,
+        "lp": "RE"
       }
-    ],
-    "lp": "RE",
-    "difficult": false
+    ]
   },
   "DF;LB;DR": {
     "algorithms": [
@@ -8117,11 +8019,10 @@
           2.07,
           1.3
         ],
-        "latest": true
+        "latest": true,
+        "lp": "RF"
       }
-    ],
-    "lp": "RF",
-    "difficult": false
+    ]
   },
   "DF;LB;FL": {
     "algorithms": [
@@ -8194,11 +8095,10 @@
           1.71,
           1.24
         ],
-        "latest": true
+        "latest": true,
+        "lp": "RI"
       }
-    ],
-    "lp": "RI",
-    "difficult": false
+    ]
   },
   "DF;LB;FR": {
     "algorithms": [
@@ -8252,11 +8152,10 @@
           1.87,
           1.76
         ],
-        "latest": true
+        "latest": true,
+        "lp": "RJ"
       }
-    ],
-    "lp": "RJ",
-    "difficult": false
+    ]
   },
   "DF;LB;LD": {
     "algorithms": [
@@ -8355,11 +8254,10 @@
           1.13,
           1.45
         ],
-        "latest": true
+        "latest": true,
+        "lp": "RT"
       }
-    ],
-    "lp": "RT",
-    "difficult": false
+    ]
   },
   "DF;LB;LF": {
     "algorithms": [
@@ -8459,11 +8357,10 @@
           1.43,
           0.88
         ],
-        "latest": true
+        "latest": true,
+        "lp": "RS"
       }
-    ],
-    "lp": "RS",
-    "difficult": false
+    ]
   },
   "DF;LB;RB": {
     "algorithms": [
@@ -8560,11 +8457,10 @@
           1.1,
           1.06
         ],
-        "latest": true
+        "latest": true,
+        "lp": "RW"
       }
-    ],
-    "lp": "RW",
-    "difficult": false
+    ]
   },
   "DF;LB;RD": {
     "algorithms": [
@@ -8658,11 +8554,10 @@
           1.2,
           1.27
         ],
-        "latest": true
+        "latest": true,
+        "lp": "RZ"
       }
-    ],
-    "lp": "RZ",
-    "difficult": false
+    ]
   },
   "DF;LB;RF": {
     "algorithms": [
@@ -8756,11 +8651,10 @@
           1.33,
           1.96
         ],
-        "latest": true
+        "latest": true,
+        "lp": "RU"
       }
-    ],
-    "lp": "RU",
-    "difficult": false
+    ]
   },
   "DF;LD;BD": {
     "algorithms": [
@@ -8794,11 +8688,10 @@
           1.52,
           1.83
         ],
-        "latest": true
+        "latest": true,
+        "lp": "TO"
       }
-    ],
-    "lp": "TO",
-    "difficult": false
+    ]
   },
   "DF;LD;BL": {
     "algorithms": [
@@ -8836,11 +8729,10 @@
           1.73,
           1.57
         ],
-        "latest": true
+        "latest": true,
+        "lp": "TM"
       }
-    ],
-    "lp": "TM",
-    "difficult": false
+    ]
   },
   "DF;LD;BR": {
     "algorithms": [
@@ -8886,11 +8778,10 @@
           1.64,
           1.3
         ],
-        "latest": true
+        "latest": true,
+        "lp": "TN"
       }
-    ],
-    "lp": "TN",
-    "difficult": false
+    ]
   },
   "DF;LD;DB": {
     "algorithms": [
@@ -8935,11 +8826,10 @@
           1.0,
           1.55
         ],
-        "latest": true
+        "latest": true,
+        "lp": "TD"
       }
-    ],
-    "lp": "TD",
-    "difficult": false
+    ]
   },
   "DF;LD;DR": {
     "algorithms": [
@@ -8988,11 +8878,10 @@
           2.06,
           0.91
         ],
-        "latest": true
+        "latest": true,
+        "lp": "TF"
       }
-    ],
-    "lp": "TF",
-    "difficult": false
+    ]
   },
   "DF;LD;FL": {
     "algorithms": [
@@ -9031,11 +8920,10 @@
           1.47,
           1.86
         ],
-        "latest": true
+        "latest": true,
+        "lp": "TI"
       }
-    ],
-    "lp": "TI",
-    "difficult": false
+    ]
   },
   "DF;LD;FR": {
     "algorithms": [
@@ -9082,11 +8970,10 @@
           1.71,
           1.82
         ],
-        "latest": true
+        "latest": true,
+        "lp": "TJ"
       }
-    ],
-    "lp": "TJ",
-    "difficult": false
+    ]
   },
   "DF;LD;LB": {
     "algorithms": [
@@ -9128,11 +9015,10 @@
           1.43,
           1.87
         ],
-        "latest": true
+        "latest": true,
+        "lp": "TR"
       }
-    ],
-    "lp": "TR",
-    "difficult": false
+    ]
   },
   "DF;LD;LF": {
     "algorithms": [
@@ -9180,18 +9066,18 @@
           1.56,
           1.95
         ],
-        "latest": true
+        "latest": true,
+        "lp": "TS"
       }
-    ],
-    "lp": "TS",
-    "difficult": false
+    ]
   },
   "DF;LD;RB": {
     "algorithms": [
       {
         "alg": "M' U L: E, L2",
         "results": [],
-        "latest": true
+        "latest": true,
+        "lp": "TW"
       },
       {
         "alg": "F' R': S', R2",
@@ -9236,11 +9122,10 @@
           1.67,
           1.15
         ],
-        "latest": false
+        "latest": false,
+        "lp": "TW"
       }
-    ],
-    "lp": "TW",
-    "difficult": false
+    ]
   },
   "DF;LD;RD": {
     "algorithms": [
@@ -9288,18 +9173,18 @@
           0.78,
           1.16
         ],
-        "latest": true
+        "latest": true,
+        "lp": "TZ"
       }
-    ],
-    "lp": "TZ",
-    "difficult": false
+    ]
   },
   "DF;LD;RF": {
     "algorithms": [
       {
         "alg": "M' U L': E', L2",
         "results": [],
-        "latest": true
+        "latest": true,
+        "lp": "TU"
       },
       {
         "alg": "R2 F' R': S', R2",
@@ -9344,11 +9229,10 @@
           0.97,
           1.46
         ],
-        "latest": false
+        "latest": false,
+        "lp": "TU"
       }
-    ],
-    "lp": "TU",
-    "difficult": false
+    ]
   },
   "DF;LF;BD": {
     "algorithms": [
@@ -9406,11 +9290,10 @@
           1.61,
           2.4
         ],
-        "latest": true
+        "latest": true,
+        "lp": "SO"
       }
-    ],
-    "lp": "SO",
-    "difficult": false
+    ]
   },
   "DF;LF;BL": {
     "algorithms": [
@@ -9468,11 +9351,10 @@
           1.4,
           1.35
         ],
-        "latest": true
+        "latest": true,
+        "lp": "SM"
       }
-    ],
-    "lp": "SM",
-    "difficult": false
+    ]
   },
   "DF;LF;BR": {
     "algorithms": [
@@ -9528,11 +9410,10 @@
           0.83,
           1.38
         ],
-        "latest": true
+        "latest": true,
+        "lp": "SN"
       }
-    ],
-    "lp": "SN",
-    "difficult": false
+    ]
   },
   "DF;LF;DB": {
     "algorithms": [
@@ -9573,11 +9454,10 @@
           1.62,
           2.19
         ],
-        "latest": true
+        "latest": true,
+        "lp": "SD"
       }
-    ],
-    "lp": "SD",
-    "difficult": false
+    ]
   },
   "DF;LF;DL": {
     "algorithms": [
@@ -9627,11 +9507,10 @@
           1.17,
           1.28
         ],
-        "latest": true
+        "latest": true,
+        "lp": "SE"
       }
-    ],
-    "lp": "SE",
-    "difficult": false
+    ]
   },
   "DF;LF;DR": {
     "algorithms": [
@@ -9687,11 +9566,10 @@
           1.41,
           1.41
         ],
-        "latest": true
+        "latest": true,
+        "lp": "SF"
       }
-    ],
-    "lp": "SF",
-    "difficult": false
+    ]
   },
   "DF;LF;FR": {
     "algorithms": [
@@ -9750,11 +9628,10 @@
           1.33,
           1.33
         ],
-        "latest": true
+        "latest": true,
+        "lp": "SJ"
       }
-    ],
-    "lp": "SJ",
-    "difficult": false
+    ]
   },
   "DF;LF;LB": {
     "algorithms": [
@@ -9812,11 +9689,10 @@
           1.28,
           1.06
         ],
-        "latest": true
+        "latest": true,
+        "lp": "SR"
       }
-    ],
-    "lp": "SR",
-    "difficult": false
+    ]
   },
   "DF;LF;LD": {
     "algorithms": [
@@ -9870,11 +9746,10 @@
           1.18,
           1.27
         ],
-        "latest": true
+        "latest": true,
+        "lp": "ST"
       }
-    ],
-    "lp": "ST",
-    "difficult": false
+    ]
   },
   "DF;LF;RB": {
     "algorithms": [
@@ -9932,11 +9807,10 @@
           0.93,
           1.41
         ],
-        "latest": true
+        "latest": true,
+        "lp": "SW"
       }
-    ],
-    "lp": "SW",
-    "difficult": false
+    ]
   },
   "DF;LF;RD": {
     "algorithms": [
@@ -9995,11 +9869,10 @@
           1.09,
           0.88
         ],
-        "latest": true
+        "latest": true,
+        "lp": "SZ"
       }
-    ],
-    "lp": "SZ",
-    "difficult": false
+    ]
   },
   "DF;LF;RF": {
     "algorithms": [
@@ -10028,11 +9901,10 @@
           2.08,
           1.78
         ],
-        "latest": true
+        "latest": true,
+        "lp": "SU"
       }
-    ],
-    "lp": "SU",
-    "difficult": false
+    ]
   },
   "DF;RB;BD": {
     "algorithms": [
@@ -10069,11 +9941,10 @@
           1.07,
           1.28
         ],
-        "latest": true
+        "latest": true,
+        "lp": "WO"
       }
-    ],
-    "lp": "WO",
-    "difficult": false
+    ]
   },
   "DF;RB;BL": {
     "algorithms": [
@@ -10108,11 +9979,10 @@
           1.26,
           1.89
         ],
-        "latest": true
+        "latest": true,
+        "lp": "WM"
       }
-    ],
-    "lp": "WM",
-    "difficult": false
+    ]
   },
   "DF;RB;DB": {
     "algorithms": [
@@ -10142,11 +10012,10 @@
           2.36,
           1.47
         ],
-        "latest": true
+        "latest": true,
+        "lp": "WD"
       }
-    ],
-    "lp": "WD",
-    "difficult": false
+    ]
   },
   "DF;RB;DL": {
     "algorithms": [
@@ -10176,11 +10045,10 @@
           2.01,
           2.11
         ],
-        "latest": true
+        "latest": true,
+        "lp": "WE"
       }
-    ],
-    "lp": "WE",
-    "difficult": false
+    ]
   },
   "DF;RB;DR": {
     "algorithms": [
@@ -10221,11 +10089,10 @@
           1.41,
           1.17
         ],
-        "latest": true
+        "latest": true,
+        "lp": "WF"
       }
-    ],
-    "lp": "WF",
-    "difficult": false
+    ]
   },
   "DF;RB;FR": {
     "algorithms": [
@@ -10264,11 +10131,10 @@
           1.02,
           1.42
         ],
-        "latest": true
+        "latest": true,
+        "lp": "WJ"
       }
-    ],
-    "lp": "WJ",
-    "difficult": false
+    ]
   },
   "DF;RB;LB": {
     "algorithms": [
@@ -10305,11 +10171,10 @@
           1.04,
           1.05
         ],
-        "latest": true
+        "latest": true,
+        "lp": "WR"
       }
-    ],
-    "lp": "WR",
-    "difficult": false
+    ]
   },
   "DF;RB;LD": {
     "algorithms": [
@@ -10350,11 +10215,10 @@
           0.87,
           1.42
         ],
-        "latest": true
+        "latest": true,
+        "lp": "WT"
       }
-    ],
-    "lp": "WT",
-    "difficult": false
+    ]
   },
   "DF;RB;LF": {
     "algorithms": [
@@ -10388,11 +10252,10 @@
           1.69,
           1.37
         ],
-        "latest": true
+        "latest": true,
+        "lp": "WS"
       }
-    ],
-    "lp": "WS",
-    "difficult": false
+    ]
   },
   "DF;RB;RD": {
     "algorithms": [
@@ -10432,11 +10295,10 @@
           1.05,
           2.14
         ],
-        "latest": true
+        "latest": true,
+        "lp": "WZ"
       }
-    ],
-    "lp": "WZ",
-    "difficult": false
+    ]
   },
   "DF;RB;RF": {
     "algorithms": [
@@ -10475,11 +10337,10 @@
           0.94,
           1.45
         ],
-        "latest": true
+        "latest": true,
+        "lp": "WU"
       }
-    ],
-    "lp": "WU",
-    "difficult": false
+    ]
   },
   "DF;RD;BD": {
     "algorithms": [
@@ -10507,11 +10368,10 @@
           1.79,
           1.3
         ],
-        "latest": true
+        "latest": true,
+        "lp": "ZO"
       }
-    ],
-    "lp": "ZO",
-    "difficult": false
+    ]
   },
   "DF;RD;BL": {
     "algorithms": [
@@ -10557,11 +10417,10 @@
           1.51,
           1.61
         ],
-        "latest": true
+        "latest": true,
+        "lp": "ZM"
       }
-    ],
-    "lp": "ZM",
-    "difficult": false
+    ]
   },
   "DF;RD;BR": {
     "algorithms": [
@@ -10601,11 +10460,10 @@
           1.89,
           2.17
         ],
-        "latest": true
+        "latest": true,
+        "lp": "ZN"
       }
-    ],
-    "lp": "ZN",
-    "difficult": false
+    ]
   },
   "DF;RD;DB": {
     "algorithms": [
@@ -10658,11 +10516,10 @@
           1.07,
           1.03
         ],
-        "latest": true
+        "latest": true,
+        "lp": "ZD"
       }
-    ],
-    "lp": "ZD",
-    "difficult": false
+    ]
   },
   "DF;RD;DL": {
     "algorithms": [
@@ -10716,11 +10573,10 @@
           0.58,
           0.95
         ],
-        "latest": true
+        "latest": true,
+        "lp": "ZE"
       }
-    ],
-    "lp": "ZE",
-    "difficult": false
+    ]
   },
   "DF;RD;FL": {
     "algorithms": [
@@ -10757,11 +10613,10 @@
           0.97,
           1.57
         ],
-        "latest": true
+        "latest": true,
+        "lp": "ZI"
       }
-    ],
-    "lp": "ZI",
-    "difficult": false
+    ]
   },
   "DF;RD;FR": {
     "algorithms": [
@@ -10802,11 +10657,10 @@
           1.31,
           1.47
         ],
-        "latest": true
+        "latest": true,
+        "lp": "ZJ"
       }
-    ],
-    "lp": "ZJ",
-    "difficult": false
+    ]
   },
   "DF;RD;LB": {
     "algorithms": [
@@ -10853,11 +10707,10 @@
           1.44,
           1.66
         ],
-        "latest": true
+        "latest": true,
+        "lp": "ZR"
       }
-    ],
-    "lp": "ZR",
-    "difficult": false
+    ]
   },
   "DF;RD;LD": {
     "algorithms": [
@@ -10911,11 +10764,10 @@
           0.93,
           1.07
         ],
-        "latest": true
+        "latest": true,
+        "lp": "ZT"
       }
-    ],
-    "lp": "ZT",
-    "difficult": false
+    ]
   },
   "DF;RD;LF": {
     "algorithms": [
@@ -10970,11 +10822,10 @@
           1.15,
           1.22
         ],
-        "latest": true
+        "latest": true,
+        "lp": "ZS"
       }
-    ],
-    "lp": "ZS",
-    "difficult": false
+    ]
   },
   "DF;RD;RB": {
     "algorithms": [
@@ -11026,11 +10877,10 @@
           1.2,
           1.26
         ],
-        "latest": true
+        "latest": true,
+        "lp": "ZW"
       }
-    ],
-    "lp": "ZW",
-    "difficult": false
+    ]
   },
   "DF;RD;RF": {
     "algorithms": [
@@ -11084,11 +10934,10 @@
           2.18,
           1.29
         ],
-        "latest": true
+        "latest": true,
+        "lp": "ZU"
       }
-    ],
-    "lp": "ZU",
-    "difficult": false
+    ]
   },
   "DF;RF;BD": {
     "algorithms": [
@@ -11130,11 +10979,10 @@
           1.64,
           1.26
         ],
-        "latest": true
+        "latest": true,
+        "lp": "UO"
       }
-    ],
-    "lp": "UO",
-    "difficult": false
+    ]
   },
   "DF;RF;BL": {
     "algorithms": [
@@ -11176,11 +11024,10 @@
           1.0,
           0.79
         ],
-        "latest": true
+        "latest": true,
+        "lp": "UM"
       }
-    ],
-    "lp": "UM",
-    "difficult": false
+    ]
   },
   "DF;RF;BR": {
     "algorithms": [
@@ -11225,11 +11072,10 @@
           0.58,
           1.21
         ],
-        "latest": true
+        "latest": true,
+        "lp": "UN"
       }
-    ],
-    "lp": "UN",
-    "difficult": false
+    ]
   },
   "DF;RF;DB": {
     "algorithms": [
@@ -11255,11 +11101,10 @@
           1.23,
           1.64
         ],
-        "latest": true
+        "latest": true,
+        "lp": "UD"
       }
-    ],
-    "lp": "UD",
-    "difficult": false
+    ]
   },
   "DF;RF;DL": {
     "algorithms": [
@@ -11304,11 +11149,10 @@
           1.34,
           1.92
         ],
-        "latest": true
+        "latest": true,
+        "lp": "UE"
       }
-    ],
-    "lp": "UE",
-    "difficult": false
+    ]
   },
   "DF;RF;DR": {
     "algorithms": [
@@ -11347,11 +11191,10 @@
           1.74,
           1.39
         ],
-        "latest": true
+        "latest": true,
+        "lp": "UF"
       }
-    ],
-    "lp": "UF",
-    "difficult": false
+    ]
   },
   "DF;RF;FL": {
     "algorithms": [
@@ -11396,11 +11239,10 @@
           0.93,
           0.87
         ],
-        "latest": true
+        "latest": true,
+        "lp": "UI"
       }
-    ],
-    "lp": "UI",
-    "difficult": false
+    ]
   },
   "DF;RF;LB": {
     "algorithms": [
@@ -11444,18 +11286,18 @@
           1.6,
           1.22
         ],
-        "latest": true
+        "latest": true,
+        "lp": "UR"
       }
-    ],
-    "lp": "UR",
-    "difficult": false
+    ]
   },
   "DF;RF;LD": {
     "algorithms": [
       {
         "alg": "M' U L': L2, E'",
         "results": [],
-        "latest": true
+        "latest": true,
+        "lp": "UT"
       },
       {
         "alg": "R2 F' R': R2, S'",
@@ -11498,11 +11340,10 @@
           1.63,
           1.62
         ],
-        "latest": false
+        "latest": false,
+        "lp": "UT"
       }
-    ],
-    "lp": "UT",
-    "difficult": false
+    ]
   },
   "DF;RF;LF": {
     "algorithms": [
@@ -11524,11 +11365,10 @@
           1.83,
           2.01
         ],
-        "latest": true
+        "latest": true,
+        "lp": "US"
       }
-    ],
-    "lp": "US",
-    "difficult": false
+    ]
   },
   "DF;RF;RB": {
     "algorithms": [
@@ -11572,11 +11412,10 @@
           1.25,
           1.0
         ],
-        "latest": true
+        "latest": true,
+        "lp": "UW"
       }
-    ],
-    "lp": "UW",
-    "difficult": false
+    ]
   },
   "DF;RF;RD": {
     "algorithms": [
@@ -11621,10 +11460,9 @@
           0.96,
           0.91
         ],
-        "latest": true
+        "latest": true,
+        "lp": "UZ"
       }
-    ],
-    "lp": "UZ",
-    "difficult": false
+    ]
   }
 }
