@@ -3205,6 +3205,12 @@
   "UB;DF;UL": {
     "algorithms": [
       {
+        "alg": "R B' R': S, R' F' R",
+        "results": [],
+        "latest": true,
+        "lp": "GB"
+      },
+      {
         "alg": "R' F' R: R B' R', S",
         "results": [
           2.04,
@@ -3228,7 +3234,7 @@
           0.83,
           0.91
         ],
-        "latest": true,
+        "latest": false,
         "lp": "GB"
       }
     ]
@@ -5344,6 +5350,12 @@
   "UB;FL;BL": {
     "algorithms": [
       {
+        "alg": "U L: S', L2",
+        "results": [],
+        "latest": true,
+        "lp": "IM"
+      },
+      {
         "alg": "U R': E, R2 E' R2",
         "results": [
           0.89,
@@ -5369,7 +5381,7 @@
           0.8,
           0.91
         ],
-        "latest": true,
+        "latest": false,
         "lp": "IM"
       }
     ]
@@ -5691,6 +5703,12 @@
   "UB;FL;LU": {
     "algorithms": [
       {
+        "alg": "L Uw' L': E', L2",
+        "results": [],
+        "latest": true,
+        "lp": "IP"
+      },
+      {
         "alg": "U R' B': E, R2",
         "results": [
           0.86,
@@ -5718,7 +5736,7 @@
           0.85,
           1.22
         ],
-        "latest": true,
+        "latest": false,
         "lp": "IP"
       }
     ]

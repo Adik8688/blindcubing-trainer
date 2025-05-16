@@ -203,7 +203,7 @@ class ComutatorAnalyzer:
         return ' '.join([i._get_move() for i in self.alg])
     
     def get_move_count(self):
-        return sum([(2 if i._get_base_move() in "MES" else 1) for i in self.alg])
+        return sum([1 for _ in self.alg])
 
     def get_tps(self, time):
         mc = self.get_move_count()

@@ -2,13 +2,13 @@
   "DR;BL;BR": {
     "algorithms": [
       {
-        "alg": "E' S R': R2, S",
+        "alg": "R' U R U' R: R2, E'",
         "results": [],
         "latest": true,
         "lp": "MN"
       },
       {
-        "alg": "R' U R U' R: R2, E'",
+        "alg": "E' S R': R2, S",
         "results": [],
         "latest": false,
         "lp": "MN"
@@ -40,13 +40,13 @@
       {
         "alg": "R' U F: E', R2",
         "results": [],
-        "latest": false,
+        "latest": true,
         "lp": "MW"
       },
       {
         "alg": "S' R S R' E' R' E R",
         "results": [],
-        "latest": true,
+        "latest": false,
         "lp": "MW"
       }
     ]
@@ -54,13 +54,13 @@
   "DR;BR;BL": {
     "algorithms": [
       {
-        "alg": "E' S R': S, R2",
+        "alg": "R' U R U' R: E', R2",
         "results": [],
         "latest": true,
         "lp": "NM"
       },
       {
-        "alg": "R' U R U' R: E', R2",
+        "alg": "E' S R': S, R2",
         "results": [],
         "latest": false,
         "lp": "NM"
@@ -80,13 +80,13 @@
   "DR;BR;LB": {
     "algorithms": [
       {
-        "alg": "R S' R: E', R2",
+        "alg": "R2 U' R: U, R E' R'",
         "results": [],
         "latest": true,
         "lp": "NR"
       },
       {
-        "alg": "R2 U' R: U, R E' R'",
+        "alg": "R S' R: E', R2",
         "results": [],
         "latest": false,
         "lp": "NR"
@@ -146,13 +146,13 @@
   "DR;LB;BR": {
     "algorithms": [
       {
-        "alg": "R S' R: R2, E'",
+        "alg": "R2 U' R: R E' R', U",
         "results": [],
         "latest": true,
         "lp": "RN"
       },
       {
-        "alg": "R2 U' R: R E' R', U",
+        "alg": "R S' R: R2, E'",
         "results": [],
         "latest": false,
         "lp": "RN"
@@ -184,13 +184,13 @@
       {
         "alg": "Uw' L': S, L2",
         "results": [],
-        "latest": false,
+        "latest": true,
         "lp": "RW"
       },
       {
         "alg": "u R': S', R2",
         "results": [],
-        "latest": true,
+        "latest": false,
         "lp": "RW"
       }
     ]
@@ -238,13 +238,13 @@
   "DR;RB;BL": {
     "algorithms": [
       {
-        "alg": "R' E' R E R S' R' S",
+        "alg": "R' U F: R2, E'",
         "results": [],
         "latest": true,
         "lp": "WM"
       },
       {
-        "alg": "R' U F: R2, E'",
+        "alg": "R' E' R E R S' R' S",
         "results": [],
         "latest": false,
         "lp": "WM"
@@ -266,13 +266,13 @@
       {
         "alg": "Uw' L': L2, S",
         "results": [],
-        "latest": false,
+        "latest": true,
         "lp": "WR"
       },
       {
         "alg": "u R': R2, S'",
         "results": [],
-        "latest": true,
+        "latest": false,
         "lp": "WR"
       }
     ]

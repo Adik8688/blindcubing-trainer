@@ -1,9 +1,7 @@
 import json
 import os
-from pathlib import Path
 import pandas as pd
 import numpy as np
-from datetime import datetime
 from scipy import stats
 
 from .ComutatorAnalyzer import ComutatorAnalyzer
@@ -121,6 +119,8 @@ class ExportManager:
         Different piece types (or buffers) are saved as different sheets in the same Excel file.
         """
         for filename in os.listdir(JSON_DIR):
+            if filename.startswith('wings'):
+                continue
             # Initialize a dict-of-lists for the temporary DataFrame.
             self.temp_df = {col: [] for col in ExportManager.COLUMNS}
             self.process_file(JSON_DIR / filename, latest_only)
@@ -164,7 +164,8 @@ class ExportManager:
         for filename in os.listdir(JSON_DIR):
             data = ExportManager.get_data(JSON_DIR / filename)
             for v in data.values():
-                result += len(v.get('results', []))
+                for alg in v['algorithms']:
+                    result += len(alg.get('results', []))
         return result
 
     def get_time_spent(self):
@@ -175,7 +176,8 @@ class ExportManager:
         for filename in os.listdir(JSON_DIR):
             data = ExportManager.get_data(JSON_DIR / filename)
             for v in data.values():
-                total += sum(v.get('results', []))
+                for alg in v['algorithms']:
+                    total += sum(alg.get('results', []))
         h = total // 3600
         total %= 3600
         m, s = total // 60, total % 60
@@ -190,8 +192,9 @@ class ExportManager:
         for filename in os.listdir(JSON_DIR):
             data = ExportManager.get_data(JSON_DIR / filename)
             for v in data.values():
-                total += sum(v.get('results', []))
-                count += len(v.get('results', []))
+                for alg in v['algorithms']:
+                    total += sum(alg.get('results', []))
+                    count += len(alg.get('results', []))
         return f"{total / count:.2f}" if count > 0 else "N/A"
 
     def export_top_n_to_file(self, df, filename, colname, n=40, asc=True):

@@ -123,7 +123,6 @@ class Bridge(QObject):
         '''
         Produces lists of first and second targets for given piece type and buffer.
         '''
-
         filepath = JSON_DIR / f'{self.pieceType}_{self.buffer}.json'
         data = SpreadsheetsManager.get_data(filepath)
 

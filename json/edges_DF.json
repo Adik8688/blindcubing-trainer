@@ -7250,6 +7250,12 @@
   "DF;FR;LD": {
     "algorithms": [
       {
+        "alg": "S R U': M', U2",
+        "results": [],
+        "latest": true,
+        "lp": "JT"
+      },
+      {
         "alg": "E F' R: S', R2",
         "results": [
           1.44,
@@ -7343,7 +7349,7 @@
           1.69,
           1.48
         ],
-        "latest": true,
+        "latest": false,
         "lp": "JT"
       }
     ]
@@ -9068,6 +9074,12 @@
   "DF;LD;RB": {
     "algorithms": [
       {
+        "alg": "M' U L: E, L2",
+        "results": [],
+        "latest": true,
+        "lp": "TW"
+      },
+      {
         "alg": "F' R': S', R2",
         "results": [
           1.21,
@@ -9110,7 +9122,7 @@
           1.67,
           1.15
         ],
-        "latest": true,
+        "latest": false,
         "lp": "TW"
       }
     ]
@@ -9169,6 +9181,12 @@
   "DF;LD;RF": {
     "algorithms": [
       {
+        "alg": "M' U L': E', L2",
+        "results": [],
+        "latest": true,
+        "lp": "TU"
+      },
+      {
         "alg": "R2 F' R': S', R2",
         "results": [
           1.23,
@@ -9211,7 +9229,7 @@
           0.97,
           1.46
         ],
-        "latest": true,
+        "latest": false,
         "lp": "TU"
       }
     ]
@@ -11276,6 +11294,12 @@
   "DF;RF;LD": {
     "algorithms": [
       {
+        "alg": "M' U L': L2, E'",
+        "results": [],
+        "latest": true,
+        "lp": "UT"
+      },
+      {
         "alg": "R2 F' R': R2, S'",
         "results": [
           1.1,
@@ -11316,7 +11340,7 @@
           1.63,
           1.62
         ],
-        "latest": true,
+        "latest": false,
         "lp": "UT"
       }
     ]
