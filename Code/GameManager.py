@@ -15,6 +15,7 @@ class GameManager:
         self.data = SpreadsheetsManager.get_data(self.filepath)
         
         self.keys = [f"{buffer};{";".join(t.split())}" for t in targets]
+        self.keys = [k for k in self.keys if k in self.data]
         self.shuffled_keys = self.keys.copy()
 
 

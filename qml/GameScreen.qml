@@ -36,6 +36,12 @@ ColumnLayout {
         id: top
         Layout.preferredHeight: style.getInt('topHeight')
         Layout.fillWidth: true
+        // Switch {
+        //         anchors.right: parent.right
+        //         id: studySwitch
+        //         checked: bridge.getDiff()
+        //         text: 'Difficult'
+        //     }
     }
     ColumnLayout {
         id: mid
