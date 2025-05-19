@@ -1,7 +1,6 @@
-from Code.SpreadsheetsManager import SpreadsheetsManager
-from pathlib import Path
 from random import shuffle
 from .project_paths import JSON_DIR
+from .utils import get_data, save_data
 
 class GameManager:
     '''
@@ -12,7 +11,7 @@ class GameManager:
 
         self.buffer = buffer
         self.filepath = JSON_DIR / f"{pieceType}_{self.buffer}.json"
-        self.data = SpreadsheetsManager.get_data(self.filepath)
+        self.data = get_data(self.filepath)
         
         self.keys = [f"{buffer};{";".join(t.split())}" for t in targets]
         self.keys = [k for k in self.keys if k in self.data]
@@ -172,4 +171,4 @@ class GameManager:
 
             self.data[k]['algorithms'][0]['results'].append(new_res)
         
-        SpreadsheetsManager.save_data(self.data, self.filepath)
+        save_data(self.data, self.filepath)

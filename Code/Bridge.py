@@ -12,6 +12,7 @@ from .SpreadsheetsManager import SpreadsheetsManager
 from .GameManager import GameManager
 from .ExportManager import ExportManager
 from .project_paths import JSON_DIR, STYLE_DIR
+from .utils import get_data, save_data
 
 QML_IMPORT_NAME = "io.qt.textproperties"
 QML_IMPORT_MAJOR_VERSION = 1 
@@ -28,7 +29,7 @@ class Style(QObject):
 
         # style file stores sizes, proportions etc
         stylepath = STYLE_DIR / 'style.json'
-        self.styleDict = SpreadsheetsManager.get_data(stylepath)
+        self.styleDict = get_data(stylepath)
    
 
     @Slot (str, result=int)
@@ -124,7 +125,7 @@ class Bridge(QObject):
         Produces lists of first and second targets for given piece type and buffer.
         '''
         filepath = JSON_DIR / f'{self.pieceType}_{self.buffer}.json'
-        data = SpreadsheetsManager.get_data(filepath)
+        data = get_data(filepath)
 
         first_targets = set()
         second_targets = set()
@@ -226,19 +227,45 @@ class Bridge(QObject):
             for line in f:
                 targets.add(line.strip())
 
+        print("From file: ")
+        print(targets)
         # store set in the field
         self.cases_set = targets
 
         # return list to update UI
         return list(targets)
+    
+    @Slot (str, result=list)
+    def getPredefinedCasesSet(self, option="slow"):
+        '''
+        Sets subset based on the chosen option
+        '''
 
-    @Slot (list, int)
-    def startGame(self, targets, study_mode):
+        filename = f"Json/{self.pieceType}_{self.buffer}.json"
+        em = ExportManager()
+
+        functions_map = {
+            'slow': em.get_top_n_cases(filename, 40, np.mean, True),
+            'unstable': em.get_top_n_cases(filename, 40, np.std, True),
+            'fast': em.get_top_n_cases(filename, 40, np.mean),
+            'stable': em.get_top_n_cases(filename, 40, np.std),
+        }
+
+        targets = functions_map.get(option, [])
+
+        if targets:
+            self.cases_set = set(targets)
+
+        # return list to update UI
+        return list(self.cases_set)
+
+    @Slot (list)
+    def startGame(self, targets):
         '''
         Initializes GameManager with proper json file
         '''
         self.gm = GameManager(self.pieceType, self.buffer, targets)
-        self.study_mode = study_mode
+        self.study_mode = False
 
     @Slot ()
     def incrementGameIndex(self):

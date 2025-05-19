@@ -1,8 +1,8 @@
-import json
 import os
 import pandas as pd
 import numpy as np
 from .project_paths import JSON_DIR
+from .utils import get_data, save_data
 
 
 class SpreadsheetsManager:
@@ -15,27 +15,6 @@ class SpreadsheetsManager:
     def __init__(self, filepath):
         self.filepath = filepath
 
-    @staticmethod
-    def get_data(filepath):
-        '''
-        Returns content of json file
-        '''
-        if not os.path.exists(filepath):
-            return {}
-
-        with open(filepath, "r") as f:
-            return json.load(f)
-
-    @staticmethod
-    def save_data(data, filepath):
-        '''
-        Saves data to the json file
-        '''
-
-        data = dict(sorted(data.items()))
-
-        with open(filepath, "w") as f:
-            json.dump(data, f, indent=2)
 
     @staticmethod
     def clean_alg_entry(alg):
@@ -189,7 +168,7 @@ class SpreadsheetsManager:
         # Process each piece type's JSON file.
         for piece_type, cases in algs.items():
             filepath = JSON_DIR / f"{piece_type}.json"
-            data = SpreadsheetsManager.get_data(str(filepath))
+            data = get_data(str(filepath))
             
             # For each case key (e.g. "UF;UB;UL") in our new data:
             for case_key, new_record in cases.items():
@@ -233,7 +212,7 @@ class SpreadsheetsManager:
                         })
                     data[case_key]["algorithms"] = sorted(alg_list, key=lambda x: not x['latest'])
 
-            SpreadsheetsManager.save_data(data, str(filepath))
+            save_data(data, str(filepath))
 
     @staticmethod
     def process_metadata(mapping, process_func):
@@ -242,7 +221,7 @@ class SpreadsheetsManager:
                 continue
 
             file_path = JSON_DIR / filename
-            data = SpreadsheetsManager.get_data(str(file_path))
+            data = get_data(str(file_path))
             
             for key, record in data.items():
                 parts = key.split(";")
@@ -250,7 +229,7 @@ class SpreadsheetsManager:
                     continue
                 process_func(record, parts, mapping)
             
-            SpreadsheetsManager.save_data(data, str(file_path))
+            save_data(data, str(file_path))
     
     def get_df_to_dict(self, df, option):
         excel = self.excel_to_dict_of_dfs()
