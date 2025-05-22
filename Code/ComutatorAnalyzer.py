@@ -3,34 +3,34 @@ import re
 class Move:
     def __init__(self, move):
         self.move = move
-        self.set_base_move()
-        self.set_suffix(''.join([i for i in self.move if not i.isalpha()]))
-        self.set_axis()
+        self._set_base_move()
+        self._set_suffix(''.join([i for i in self.move if not i.isalpha()]))
+        self._set_axis()
 
 
-    def get_move(self):
+    def _get_move(self):
         return self.base_move + self.suffix
 
-    def set_base_move(self):
+    def _set_base_move(self):
         self.base_move = ''.join([i for i in self.move if i not in "'2"])
 
-    def get_base_move(self):
+    def _get_base_move(self):
         return self.base_move
 
-    def set_suffix(self, suff):
+    def _set_suffix(self, suff):
         self.suffix = suff 
 
-    def get_suffix(self):
+    def _get_suffix(self):
         return self.suffix
     
-    def get_inv_suffix(self):
+    def _get_inv_suffix(self):
         if self.suffix == "'":
             return ''
         if self.suffix == '':
             return "'"
         return self.suffix
 
-    def set_axis(self):
+    def _set_axis(self):
         
         def axis_check(moves):
             return self.base_move[0] in moves
@@ -44,10 +44,10 @@ class Move:
         else:
             self.axis = 'z'
 
-    def get_axis(self):
+    def _get_axis(self):
         return self.axis
 
-    def inverse_move(self):
+    def _inverse_move(self):
         if self.suffix == "'":
             self.suffix = ''
 
@@ -61,35 +61,35 @@ class Move:
 class ComutatorAnalyzer:
     def __init__(self, comm):
         self.comm = comm
-        self.alg = self.expandComm()
+        self.alg = self._expandComm()
     
     @staticmethod
-    def list_to_alg(alg, inv=False):
+    def _list_to_alg(alg, inv=False):
         alg = [Move(i) for i in alg]
 
         if inv:
             alg = alg[::-1]
             for i in alg:
-                i.inverse_move()
+                i._inverse_move()
 
         return alg
 
     @staticmethod
-    def splitted_comm_to_alg(a, b, c=''):
-        base = ComutatorAnalyzer.list_to_alg(a) + ComutatorAnalyzer.list_to_alg(b) + ComutatorAnalyzer.list_to_alg(a, True) + ComutatorAnalyzer.list_to_alg(b, True)
+    def _splitted_comm_to_alg(a, b, c=''):
+        base = ComutatorAnalyzer._list_to_alg(a) + ComutatorAnalyzer._list_to_alg(b) + ComutatorAnalyzer._list_to_alg(a, True) + ComutatorAnalyzer._list_to_alg(b, True)
 
         if c:
-            return ComutatorAnalyzer.list_to_alg(c) + base + ComutatorAnalyzer.list_to_alg(c, True)
+            return ComutatorAnalyzer._list_to_alg(c) + base + ComutatorAnalyzer._list_to_alg(c, True)
         
         return base
 
-    def split_comm(self):
+    def _split_comm(self):
         split_by_sep = [i.strip() for i in re.split(':|,', self.comm)]
         return [i.split() for i in split_by_sep]
 
     @staticmethod
-    def reduce_moves(m1, m2):
-        if m1.get_axis() != m2.get_axis():
+    def _reduce_moves(m1, m2):
+        if m1._get_axis() != m2._get_axis():
             return [m1, m2]
         
         def suff_to_pos(suffix):
@@ -113,51 +113,51 @@ class ComutatorAnalyzer:
             return Move(base_move + "'")
 
 
-        if m1.get_base_move() == m2.get_base_move():
+        if m1._get_base_move() == m2._get_base_move():
 
-            pos = suff_sum(m1.get_suffix(), m2.get_suffix())
+            pos = suff_sum(m1._get_suffix(), m2._get_suffix())
             
-            return [pos_to_move(m1.get_base_move(), pos)]
+            return [pos_to_move(m1._get_base_move(), pos)]
         
-        if m1.get_axis() == 'x':
+        if m1._get_axis() == 'x':
             order = ['R', 'Rw', 'M', 'Lw', 'L']
 
-        elif m1.get_axis() == 'y':
+        elif m1._get_axis() == 'y':
             order = ['U', 'Uw', 'E', 'Dw', 'D']
         
         else:
             order = ['B', 'Bw', 'S', 'Fw', 'F']
 
 
-        if order.index(m1.get_base_move()) > order.index(m2.get_base_move()):
+        if order.index(m1._get_base_move()) > order.index(m2._get_base_move()):
             m1, m2 = m2, m1
         
-        b1, b2 = m1.get_base_move(), m2.get_base_move()
-        s1, s2 = m1.get_suffix(), m2.get_suffix()
+        b1, b2 = m1._get_base_move(), m2._get_base_move()
+        s1, s2 = m1._get_suffix(), m2._get_suffix()
 
         if b1 == order[0]:
-            if s1 == m2.get_inv_suffix():
+            if s1 == m2._get_inv_suffix():
                 if b2 == order[1]:
-                    return [Move(order[2] + m2.get_inv_suffix())]
+                    return [Move(order[2] + m2._get_inv_suffix())]
                 if b2 == order[2]:
                     return [Move(order[1] + s1)]
             
             if b2 == order[1]:
                 pos = suff_sum(s1, s2)
-                return [pos_to_move(b1, pos), Move(order[2] + m2.get_inv_suffix())]
+                return [pos_to_move(b1, pos), Move(order[2] + m2._get_inv_suffix())]
 
         if b1 == order[1] and b2 == order[2]:
             if s1 == s2:
                 return [Move(order[0] + s1)]
             
             else:
-                pos = suff_sum(m1.get_inv_suffix(), s2)
+                pos = suff_sum(m1._get_inv_suffix(), s2)
                 return [Move(order[0] + s1), pos_to_move(b2, pos)]
 
         
         if b1 == order[2] and b2 == order[3]:
-            if s1 == m2.get_inv_suffix():
-                return [Move(order[4] + m2.get_inv_suffix())]
+            if s1 == m2._get_inv_suffix():
+                return [Move(order[4] + m2._get_inv_suffix())]
             else:
                 pos = suff_sum(s1, s2)
                 return [Move(order[4] + s2), pos_to_move(b1, pos)]
@@ -167,7 +167,7 @@ class ComutatorAnalyzer:
             return [Move(order[3] + s2)]
         
         if b1 == order[3] and b2 == order[4]:
-            if s1 == m2.get_inv_suffix():
+            if s1 == m2._get_inv_suffix():
                 return [Move(order[2] + s1)]
             else:
                 pos = suff_sum(s1, s2)
@@ -176,17 +176,17 @@ class ComutatorAnalyzer:
         return [m1, m2]
  
 
-    def expandComm(self):
-        splitted_comm = self.split_comm()   
+    def _expandComm(self):
+        splitted_comm = self._split_comm()   
 
         a, b = splitted_comm[-2], splitted_comm[-1]
         c = splitted_comm[0] if splitted_comm[0] != splitted_comm[-2] else ''
 
-        alg = ComutatorAnalyzer.splitted_comm_to_alg(a, b, c)
+        alg = ComutatorAnalyzer._splitted_comm_to_alg(a, b, c)
 
         i = 0
         while i < len(alg) - 1:
-            reduced_pair = ComutatorAnalyzer.reduce_moves(alg[i], alg[i + 1])
+            reduced_pair = ComutatorAnalyzer._reduce_moves(alg[i], alg[i + 1])
 
             if reduced_pair != alg[i : i + 2] and reduced_pair != alg[i : i + 2][::-1]:
                 if not reduced_pair[0]: 
@@ -200,10 +200,10 @@ class ComutatorAnalyzer:
         return alg
 
     def get_alg_str(self):
-        return ' '.join([i.get_move() for i in self.alg])
+        return ' '.join([i._get_move() for i in self.alg])
     
     def get_move_count(self):
-        return sum([(2 if i.get_base_move() in "MES" else 1) for i in self.alg])
+        return sum([1 for _ in self.alg])
 
     def get_tps(self, time):
         mc = self.get_move_count()

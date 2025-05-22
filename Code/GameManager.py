@@ -1,105 +1,39 @@
-from Code.SpreadsheetsManager import SpreadsheetsManager
-from pathlib import Path
 from random import shuffle
-
+from .project_paths import JSON_DIR
+from .utils import get_data, save_data
 
 class GameManager:
     '''
     This class handles game backend
     '''
 
-    def __init__(self, filename, targets):
+    def __init__(self, pieceType, buffer, targets):
 
-        # path to the json file
-        self.filepath = Path().absolute().parent / 'Json' / filename
+        self.buffer = buffer
+        self.filepath = JSON_DIR / f"{pieceType}_{self.buffer}.json"
+        self.data = get_data(self.filepath)
+        
+        self.keys = [f"{buffer};{";".join(t.split())}" for t in targets]
+        self.keys = [k for k in self.keys if k in self.data]
+        self.shuffled_keys = self.keys.copy()
 
-        # save .json to dict
-        self.data = SpreadsheetsManager.get_data(self.filepath)
 
-        # get only latest algorithms
-        self.filter_data(latest = [True])
+        self._set_game()
 
-        # assign list of targets (subset of all algs)
-        self.targets = targets
 
-        self.set_game()
-
-    def set_game(self):
+    def _set_game(self):
         '''
         Calls all necessary submethods
         '''
-        self.map_targets_to_keys()
-        self.get_game_attributes()
-        self.get_shuffled_keys()
+
+        shuffle(self.shuffled_keys)
+        self.new_results = dict()
+
         self.index = 0
         self.size = len(self.keys)
 
-    def map_targets_to_keys(self):
-        '''
-        Maps target pair to the main key to allow simpler access to the data
-        '''
-        self.targets_keys_map = dict()
-        targets = self.targets
-
-        while targets:
-            t, targets = targets[0], targets[1:]
-
-            for k in self.data.keys():
-
-                # 1 and 2 elements of the key are first and second target
-                d_targets = k.split(';')[1:3]
-
-                if t == " ".join(d_targets):
-                    self.targets_keys_map[t] = {'key': k}
-                    break
-    
-    def remove_from_targets_map(self, key):
-        '''
-        Removes given key from the map
-        '''
-        self.targets_keys_map.pop(key)
-
-    def get_game_attributes(self):
-        '''
-        Transfers information about alg and memo to the targets map
-        '''
-        for k, v in self.targets_keys_map.items():
-            key = v['key']
-            alg = self.data[key]['alg']
-
-            # word > lp > pair of targets
-            if 'word' in self.data[key]:
-                memo = self.data[key]['word']
-
-            if 'lp' in self.data[key]:
-                memo = self.data[key]['lp']
-
-            else:
-                memo = k
-            
-            self.targets_keys_map[k]['alg'] = alg
-            self.targets_keys_map[k]['memo'] = memo
-
-    def get_shuffled_keys(self):
-        '''
-        Returns list of keys of targets map in random order
-        '''
-        self.keys = list(self.targets_keys_map.keys())
-        shuffle(self.keys)
-
-
-    def filter_data(self, **attributes):
-        '''
-        Filters data on given attributes. Attrs values must be put in a list eg latest = [True]
-        '''
-        result = dict()
-        
-        for k, v in self.data.items():
-            if not any(v[k1] not in v1 for k1, v1 in attributes.items()):
-                result[k] = v
-        
-        self.data = result
-    
+    def remove_pair(self, key):
+        self.new_results.pop(key)
     
     def increment_index(self):
         '''
@@ -107,13 +41,44 @@ class GameManager:
         '''
         self.index += 1
     
+  
+    def get_case(self, key):
+        memo = self.data[key].get('memo', '')
+        if memo:
+            return memo
+        
+        memo = self.data[key].get('lp', '')
+        if memo:
+            return memo
+        
+        return " ".join(key.split(";"))
+
+
+    def get_current_key(self):
+        '''
+        Returns current key
+        '''
+        return self.shuffled_keys[self.index]
+
+
+    def get_current_case(self):
+        '''
+        Returns current case
+        '''
+        key = self.get_current_key()
+        return self.get_case(key)
+
+
     def get_next_case(self):
         '''
         Returns next case (if exists)
         '''
         if self.index == self.size - 1:
             return ''
-        return self.targets_keys_map[self.keys[self.index + 1]]['memo'] 
+        
+        key = self.shuffled_keys[self.index + 1]
+        return self.get_case(key)
+
 
     def get_last_result(self):
         '''
@@ -121,20 +86,18 @@ class GameManager:
         '''
         if self.index == 0:
             return ''
-        return self.targets_keys_map[self.keys[self.index - 1]]['result']
+        
+        key = self.shuffled_keys[self.index - 1]
+        return self.new_results.get(key)
             
 
     def get_current_alg(self):
         '''
         Returns current algorithm
         '''
-        return self.targets_keys_map[self.keys[self.index]]['alg']
+        key = self.shuffled_keys[self.index]
+        return self.data[key]['algorithms'][0]['alg']
     
-    def get_current_case(self):
-        '''
-        Returns current case
-        '''
-        return self.targets_keys_map[self.keys[self.index]]['memo']
 
     def get_current_case_no(self):
         '''
@@ -152,9 +115,8 @@ class GameManager:
         '''
         Save result to the main dictionary
         '''
-
-        # access key from the list with index, then pass the key to the main map and save result to the values
-        self.targets_keys_map[self.keys[self.index]]['result'] = result
+        key = self.get_current_key()
+        self.new_results[key] = result
 
     def is_game_finished(self):
         '''
@@ -167,25 +129,49 @@ class GameManager:
         Extracts results from targets map and sorts them by time
         '''
         output = []
-        for k, v in self.targets_keys_map.items():
-            output.append(f'{k} {v["result"]}')
+        for k, v in self.new_results.items():
+            _, t1, t2 = k.split(";")
+            output.append(f'{t1} {t2} {v}')
         
-        output = sorted(output, key=lambda x: float(x.split()[2]), reverse=True)
+        output = sorted(output, key=lambda x: float(x.split()[-1]), reverse=True)
 
         return output
     
+    def get_difficulty(self):
+        '''
+        Get difficulty flag of current case alg
+        '''
+        key = self.get_current_key()
+        diff = self.data[key]['difficult']
+        print(f"Current difficulty: {diff}")
+        return 
+    
+    def flip_difficulty(self):
+        '''
+        Set difficulty flag to opposite
+        '''
+
+        key = self.get_current_key()
+        diff = self.data[key]['difficult']
+        self.data[key]['difficult'] = not diff
+        print(f"Difficulty after change: {self.data[key]['difficult']}")
+
+
     def save_results(self):
         '''
         Saves results from the session to the json file
         '''
-        for v in self.targets_keys_map.values():
-            key = v['key']
-            result = v['result']
-
-            # ignores results from double click
-            if result < 0.1:
+        for k in self.shuffled_keys:
+            
+            if k not in self.new_results:
                 continue
             
-            self.data[key]['results'].append(result)
+            new_res = self.new_results[k]
+
+            # ignores results from double click
+            if new_res < 0.2:
+                continue
+
+            self.data[k]['algorithms'][0]['results'].append(new_res)
         
-        SpreadsheetsManager.save_data(self.data, self.filepath)
+        save_data(self.data, self.filepath)

@@ -55,7 +55,10 @@ ColumnLayout {
             Layout.fillHeight: true
             MyButtonDeeper {
                 text: "Remove memo"
-                onClicked: stackview.push("RemoveMemo.qml")
+                onClicked: {
+                    bridge.updateData("", 'memo_remove') 
+                    stackview.pop()
+                }
             }
         }
         RectangleBox {
@@ -63,7 +66,10 @@ ColumnLayout {
             Layout.fillHeight: true
             MyButtonDeeper {
                 text: "Remove LPs"
-                onClicked: stackview.push("RemoveLPs.qml")
+                onClicked: {
+                    bridge.updateData("", 'lps_remove') 
+                    stackview.pop()
+                }
             }
         }
     }

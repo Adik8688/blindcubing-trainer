@@ -42,11 +42,7 @@ ColumnLayout {
         RectangleBox {
             Layout.fillWidth: true
             Layout.preferredHeight: 100
-            Button {
-                id: fileButton
-                text: "From file"
-                onClicked: fileDialog.open()
-                }
+        
             RowLayout {
                 Layout.fillWidth: true
                 Layout.fillHeight: true
@@ -70,33 +66,67 @@ ColumnLayout {
                     onClicked: casesList.model = bridge.modifyList('Remove', firstTarget.currentValue, secondTarget.currentValue)
                 }
             }
-            Switch {
-                anchors.right: parent.right
-                id: studySwitch
-                text: 'Study mode'
-            }
+            // Switch {
+            //     anchors.right: parent.right
+            //     id: studySwitch
+            //     text: 'Study mode'
+            // }
         }
         RectangleBox {
             Layout.fillWidth: true
             Layout.preferredHeight: 15
         }
-        RectangleBox {
+        RowLayout {
             Layout.fillWidth: true
-            Layout.preferredHeight: 270
-            ListView {
-                anchors.horizontalCenter: parent.horizontalCenter
-                id: casesList
-                width: 160
-                height: parent.height
+            Layout.fillHeight: true
 
-                model: ['Click + to add comms']
+            ColumnLayout {
+                spacing: 10
+                Layout.preferredWidth: 100
+                Layout.alignment: Qt.AlignTop
 
-                delegate: ItemDelegate {
-                    text: modelData
-                    onClicked: console.log("clicked:", modelData)
-                    required property string modelData
+                Button {
+                    id: fileButton
+                    text: "From file"
+                    onClicked: fileDialog.open()
+                    }
+                    
+                Button {
+                    text: "Add slow"
+                    onClicked: casesList.model = bridge.getPredefinedCasesSet('slow')
                 }
-                ScrollIndicator.vertical: ScrollIndicator { }
+                Button {
+                    text: "Add unstable"
+                    onClicked: casesList.model = bridge.getPredefinedCasesSet('unstable')
+                }
+                Button {
+                    text: "Add fast"
+                    onClicked: casesList.model = bridge.getPredefinedCasesSet('fast')
+                }
+                Button {
+                    text: "Add stable"
+                    onClicked: casesList.model = bridge.getPredefinedCasesSet('stable')
+                }
+            }
+
+            RectangleBox {
+                Layout.preferredWidth: 700
+                Layout.preferredHeight: 270
+                ListView {
+                    anchors.horizontalCenter: parent.horizontalCenter
+                    id: casesList
+                    width: 160
+                    height: parent.height
+
+                    model: ['Click + to add comms']
+
+                    delegate: ItemDelegate {
+                        text: modelData
+                        onClicked: console.log("clicked:", modelData)
+                        required property string modelData
+                    }
+                    ScrollIndicator.vertical: ScrollIndicator { }
+                }
             }
         }
     }
@@ -119,7 +149,7 @@ ColumnLayout {
                 text: "Submit"
                 onClicked: {
                     if (casesList.model){
-                        bridge.startGame(casesList.model, studySwitch.position)
+                        bridge.startGame(casesList.model)
                         mainLoader.source = 'WaitingScreen.qml'
                     }
                 }

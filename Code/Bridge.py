@@ -1,18 +1,18 @@
 import sys
-
 from pathlib import Path
 import os
 from typing import Optional
-from PySide6.QtCore import QObject, Slot
-from PySide6.QtQml import QmlElement
 from datetime import datetime
 
-sys.path.append('..')
-
-from Code.SpreadsheetsManager import SpreadsheetsManager
-from Code.GameManager import GameManager
-from Code.ExportManager import ExportManager
+from PySide6.QtCore import QObject, Slot
+from PySide6.QtQml import QmlElement
 import numpy as np
+
+from .SpreadsheetsManager import SpreadsheetsManager
+from .GameManager import GameManager
+from .ExportManager import ExportManager
+from .project_paths import JSON_DIR, STYLE_DIR
+from .utils import get_data, save_data
 
 QML_IMPORT_NAME = "io.qt.textproperties"
 QML_IMPORT_MAJOR_VERSION = 1 
@@ -28,8 +28,8 @@ class Style(QObject):
         super().__init__(None)
 
         # style file stores sizes, proportions etc
-        stylepath = Path().absolute().parent / 'Style' / 'style.json'
-        self.styleDict = SpreadsheetsManager.get_data(stylepath)
+        stylepath = STYLE_DIR / 'style.json'
+        self.styleDict = get_data(stylepath)
    
 
     @Slot (str, result=int)
@@ -65,12 +65,16 @@ class Bridge(QObject):
 
         sm = SpreadsheetsManager(filepath)
 
-        if update_option == 'algs':
-            sm.update_algs()
-        elif update_option == 'memo':
-            sm.update_memo()
-        else:
-            sm.update_lps()
+        functions_map = {
+            "algs": sm.update_algs,
+            "memo": sm.update_memo,
+            "lps": sm.update_lps,
+            "memo_remove": sm.remove_memo,
+            "lps_remove": sm.remove_lps
+        }
+
+        functions_map[update_option]()
+        
 
     @Slot (str)
     def setPieceType(self, piece):
@@ -91,11 +95,10 @@ class Bridge(QObject):
         '''
         Produces list of available buffers for given piece type
         '''
-        path_to_jsons = Path().absolute().parent / "Json"
 
         jsons = []
 
-        for filename in os.listdir(path_to_jsons):
+        for filename in os.listdir(JSON_DIR):
             if filename.startswith(self.pieceType):
                 jsons.append(filename)
 
@@ -121,12 +124,18 @@ class Bridge(QObject):
         '''
         Produces lists of first and second targets for given piece type and buffer.
         '''
+        filepath = JSON_DIR / f'{self.pieceType}_{self.buffer}.json'
+        data = get_data(filepath)
 
-        filepath = Path().absolute().parent / 'json' / f'{self.pieceType}_{self.buffer}.json'
-        data = SpreadsheetsManager.get_data(filepath)
+        first_targets = set()
+        second_targets = set()
+        for k in data.keys():
+            b, t1, t2 = k.split(";")
+            first_targets.add(t1)
+            second_targets.add(t2)
 
-        self.first_targets = ['All'] + sorted(list(set([v['first_target'] for v in data.values()])))
-        self.second_targets = ['All'] + sorted(list(set([v['second_target'] for v in data.values()])))
+        self.first_targets = ['All'] + sorted(list(first_targets))
+        self.second_targets = ['All'] + sorted(list(second_targets))
         self.cases_set = set()
 
     @Slot (result=list)
@@ -218,19 +227,45 @@ class Bridge(QObject):
             for line in f:
                 targets.add(line.strip())
 
+        print("From file: ")
+        print(targets)
         # store set in the field
         self.cases_set = targets
 
         # return list to update UI
         return list(targets)
+    
+    @Slot (str, result=list)
+    def getPredefinedCasesSet(self, option="slow"):
+        '''
+        Sets subset based on the chosen option
+        '''
 
-    @Slot (list, int)
-    def startGame(self, targets, study_mode):
+        filename = f"Json/{self.pieceType}_{self.buffer}.json"
+        em = ExportManager()
+
+        functions_map = {
+            'slow': em.get_top_n_cases(filename, 40, np.mean, True),
+            'unstable': em.get_top_n_cases(filename, 40, np.std, True),
+            'fast': em.get_top_n_cases(filename, 40, np.mean),
+            'stable': em.get_top_n_cases(filename, 40, np.std),
+        }
+
+        targets = functions_map.get(option, [])
+
+        if targets:
+            self.cases_set = set(targets)
+
+        # return list to update UI
+        return list(self.cases_set)
+
+    @Slot (list)
+    def startGame(self, targets):
         '''
         Initializes GameManager with proper json file
         '''
-        self.gm = GameManager(f'{self.pieceType}_{self.buffer}.json', targets)
-        self.study_mode = study_mode
+        self.gm = GameManager(self.pieceType, self.buffer, targets)
+        self.study_mode = False
 
     @Slot ()
     def incrementGameIndex(self):
@@ -353,8 +388,8 @@ class Bridge(QObject):
         if onclick:
             key = ' '.join(key.split()[:2])
         
-
-        self.gm.remove_from_targets_map(key)
+        key = f"{self.buffer};{key.split()[0]};{key.split()[1]}"
+        self.gm.remove_pair(key)
         self.setFirstTargets()
         self.setSecondTargets()
 
@@ -372,7 +407,7 @@ class Bridge(QObject):
         '''
         Resets game attributes to the initial values
         '''
-        self.gm.set_game()
+        self.gm._set_game()
 
     @Slot ()
     def exportStats(self):
@@ -404,3 +439,11 @@ class Bridge(QObject):
     def getGlobalAvg(self):
         em = ExportManager()
         return em.get_global_avg()
+    
+    @Slot (result=bool)
+    def getDiff(self):
+        self.gm.get_difficulty()
+    
+    @Slot ()
+    def flipDiff(self):
+        self.gm.flip_difficulty()

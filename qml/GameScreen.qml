@@ -36,6 +36,12 @@ ColumnLayout {
         id: top
         Layout.preferredHeight: style.getInt('topHeight')
         Layout.fillWidth: true
+        // Switch {
+        //         anchors.right: parent.right
+        //         id: studySwitch
+        //         checked: bridge.getDiff()
+        //         text: 'Difficult'
+        //     }
     }
     ColumnLayout {
         id: mid
@@ -55,7 +61,7 @@ ColumnLayout {
             // remove in production
             TopText {
                 text: bridge.getCurrentAlg()
-                font.pointSize: 60
+                font.pointSize: Math.max(20, Math.min(60, parent.width * 1.5 / text.length))
             }
         }
 

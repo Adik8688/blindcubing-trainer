@@ -5,9 +5,7 @@ from PySide6.QtGui import QGuiApplication
 from PySide6.QtQml import QQmlApplicationEngine, QmlElement
 from PySide6.QtQuickControls2 import QQuickStyle
 
-import Bridge
-
-
+from Code import Bridge
 
 
 if __name__ == '__main__':
