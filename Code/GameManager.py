@@ -161,8 +161,11 @@ class GameManager:
         '''
         Saves results from the session to the json file
         '''
-        
         for k in self.shuffled_keys:
+            
+            if k not in self.new_results:
+                continue
+            
             new_res = self.new_results[k]
 
             # ignores results from double click
