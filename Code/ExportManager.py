@@ -190,17 +190,6 @@ class ExportManager:
             for x, y in zip(df_sorted['1st target'], df_sorted['2nd target']):
                 f.write(f"{x} {y}\n")
 
-    def save_alg_sets(self):
-        """
-        Exports various top-N algorithm sets to text files.
-        """
-        for sheet, df in self.df_dict.items():
-            self.export_top_n_to_file(df, f"Training_subsets/{sheet}_unstable_cases.txt", "Skew")
-            self.export_top_n_to_file(df, f"Training_subsets/{sheet}_slow_cases.txt", "Mean", asc=False)
-            self.export_top_n_to_file(df, f"Training_subsets/{sheet}_fast_cases.txt", "Mean")
-            self.export_top_n_to_file(df, f"Training_subsets/{sheet}_low_count.txt", "Count")
-
-
     def get_top_n_cases(self, filename, n, func, reverse=False):
         raw_data = get_data(filename)
 
