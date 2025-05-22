@@ -5,3 +5,7 @@ venv
 Exports/*
 Files/*
 Json/*
+
+!Json/.gitkeep
+!Exports/.gitkeep
+!Files/.gitkeep
