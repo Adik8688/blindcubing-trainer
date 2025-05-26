@@ -17,28 +17,6 @@ class SpreadsheetsManager:
 
 
     @staticmethod
-    def clean_alg_entry(alg):
-        '''
-        Filters out invalid chars and extra whitespaces before using alg
-        '''
-
-        # filtering out invalid chars
-        alg = "".join([i for i in alg if i in SpreadsheetsManager.VALID_CHARS])
-
-        # cleaning multiple spaces
-        alg = " ".join(alg.split())
-
-        # cleaning whitespaces before , : '
-        i = 0
-        while i < len(alg):
-            if alg[i] in "':," and i > 0 and alg[i - 1] == " ":
-                alg = alg[: i - 1] + alg[i:]
-            else:
-                i += 1
-
-        return alg
-     
-    @staticmethod
     def keys_with_different_algs(data, key):
         '''
         Returns list of records which covers the same case, but might have different algorithm
@@ -124,7 +102,7 @@ class SpreadsheetsManager:
     
     @staticmethod
     def df_to_alg(entries, first_target, second_target, cell_value):
-        alg = SpreadsheetsManager.clean_alg_entry(cell_value)
+        alg = cell_value
         key = ";".join([str(first_target), str(second_target)])
         entries[key] = {"alg": alg}
 

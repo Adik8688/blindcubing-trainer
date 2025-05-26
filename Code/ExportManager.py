@@ -6,7 +6,9 @@ from scipy import stats
 from .ComutatorAnalyzer import ComutatorAnalyzer
 from .project_paths import JSON_DIR, EXPORTS_DIR, FILES_DIR
 from .utils import get_data
+import re
 
+VALID_CHARS = " UDFBRLMESudfbrlw'/:,2xyz[]()"
 
 class ExportManager:
     """
@@ -78,25 +80,42 @@ class ExportManager:
                 get_stat(stats.skew),
                 r.get('latest')
             ]
+            alg = r.get('alg', '')
 
-            # If the algorithm string contains a comma, try analyzing with ComutatorAnalyzer.
-            if "," in r.get('alg', ""):
-                try:
-                    ca = ComutatorAnalyzer(r['alg'])
-                    record[4] = ca.get_alg_str()
-                    record[7] = ca.get_move_count()
-                    record[8] = ca.get_tps(get_stat(np.mean))
-                except Exception as e:
-                    # Log the error or print more detailed information.
-                    print(f"Error processing alg '{r['alg']}': {e}")
-            
-            else:
-                record[4] = r.get('alg')
-                record[7] = len(r.get('alg').split())
-                record[8] = len(r.get('alg').split()) / get_stat(np.mean) if get_stat(np.mean) != np.nan else np.nan
+            if self._is_commutator(alg):
+                ca = ComutatorAnalyzer(r['alg'])
+                record[4] = ca.get_alg_str()
+                record[7] = ca.get_move_count()
+                record[8] = ca.get_tps(get_stat(np.mean))
 
+            elif self._is_alg(alg):
+                record[4] = alg
+                record[7] = len(alg.split())
+                if get_stat(np.mean) != np.nan:
+                    record[8] = record[7] / get_stat(np.mean)
 
             self.add_to_df(record)
+
+    def _is_alg(self, alg):
+        token_pattern = r"[\[\(\)]*([UDFBRLMESudfbrlxyz](w)?('?2?)|[xyz]('?2?'))[\]\)]*"
+        splitter = re.compile(r"\s+")
+        tokens = splitter.split(alg.strip())
+
+        for token in tokens:
+            if token in {":", ",", ""}:
+                continue
+            if not re.fullmatch(token_pattern, token):
+                return False
+        return True
+    
+    def _is_commutator(self, alg):
+        if not self._is_alg(alg):
+            return False
+        if alg.count(',') != 1:
+            return False
+        if alg.count(':') > 1:
+            return False
+        return True
 
     def prepare_stats(self):
         """
@@ -137,8 +156,6 @@ class ExportManager:
         """
         self.prepare_stats()
         self.save_stats()
-
-        self.save_alg_sets()
 
     def get_algs_count(self):
         """
