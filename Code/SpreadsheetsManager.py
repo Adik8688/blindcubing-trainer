@@ -10,8 +10,6 @@ class SpreadsheetsManager:
     This class deals with reading and processing BLD spreadsheets
     '''
 
-    VALID_CHARS = " UDFBRLMESudfbrlw'/:,2xyz"
-
     def __init__(self, filepath):
         self.filepath = filepath
 
@@ -87,7 +85,7 @@ class SpreadsheetsManager:
         
         # list
         if option == "algs" and not df.shape[1] == 3:
-                return None
+            return None
         
         if option == "lps":
             for col1, col2 in self.iterate_list_rows(df, 2):
@@ -119,78 +117,65 @@ class SpreadsheetsManager:
 
     def update_algs(self):
         sheets = self.excel_to_dict_of_dfs()
-        algs = dict()
 
         for sheet_name, df in sheets.items():
+            self.update_algs_helper(sheet_name, df)
+
+            
+
+    def update_algs_helper(self, sheet_name, df):
+        try:
+            piece_type, buffer = sheet_name.split("_")
+        except ValueError:
+            print("Sheet name must contain both a piece type and a buffer, separated by _ e.g. edges_UF.")
+            return
+
+        print(f"Processing {sheet_name}")
+        filepath = JSON_DIR / f"{sheet_name}.json"
+        data = get_data(str(filepath))
+
+        for k, v in self.generic_df_to_dict(df, 'algs').items():
             try:
-                _, buffer = sheet_name.split("_")
-            except ValueError:
-                print("Sheet name must contain both a piece type and a buffer, separated by _ e.g. edges_UF.")
-                break
-            
-            print(f"Processing {sheet_name}")
-
-            algs_dict = {}
-            for k, v in self.generic_df_to_dict(df, 'algs').items():
                 t1, t2 = k.split(';')
-                key = f"{self.canonical_representation(buffer)};{self.canonical_representation(t1)};{self.canonical_representation(t2)}"
-                algs_dict[key] = v
-
-
-
-            if algs_dict is None:
+            except ValueError:
+                print(f"Invalid key format in sheet {sheet_name}: {k}")
                 continue
-
-            algs.update({sheet_name: algs_dict})
-
-        # Process each piece type's JSON file.
-        for piece_type, cases in algs.items():
-            filepath = JSON_DIR / f"{piece_type}.json"
-            data = get_data(str(filepath))
             
-            # For each case key (e.g. "UF;UB;UL") in our new data:
-            for case_key, new_record in cases.items():
-                new_alg = new_record["alg"]
+            case_key = f"{self.canonical_representation(buffer)};" \
+                    f"{self.canonical_representation(t1)};" \
+                    f"{self.canonical_representation(t2)}"
 
-                if case_key not in data:
-                    # Case doesn't exist: add a new entry with one algorithm record.
-                    data[case_key] = {
-                        "algorithms": [
-                            {
-                                "alg": new_alg,
-                                "results": [],
-                                "latest": True,
-                            }
-                        ],
-                        "lp": "",
-                        "difficult": False
-                    }
-                else:
-                    # Case exists: update the existing algorithms list.
-                    alg_list = data[case_key].get("algorithms", [])
-                    found = False
-                    for record in alg_list:
-                        if record["alg"] == new_alg:
-                            # Found an existing record with the same algorithm.
-                            record["latest"] = True
-                            found = True
-                        else:
-                            # Mark other records as not latest.
-                            record["latest"] = False
-                    if not found:
-                        # New algorithm is not in the list; add it.
-                        # Ensure all existing records are marked as not latest.
-                        for record in alg_list:
-                            record["latest"] = False
-                        alg_list.append({
-                            "alg": new_alg,
-                            "results": [],
-                            "latest": True,
-                            "lp": ""
-                        })
-                    data[case_key]["algorithms"] = sorted(alg_list, key=lambda x: not x['latest'])
+            new_alg = v["alg"]
 
-            save_data(data, str(filepath))
+            if case_key not in data:
+                data[case_key] = {
+                    'algorithms': [],
+                    'lp': "",
+                    "difficult": False
+                }
+
+            alg_list = data[case_key]['algorithms']
+
+            # Find existing index
+            i = next((x for x, record in enumerate(alg_list) if record['alg'] == new_alg), -1)
+
+            if alg_list:
+                alg_list[0]['latest'] = False
+
+            if i == -1:
+                new_entry = {
+                    "alg": new_alg,
+                    "results": [],
+                    "latest": True
+                }
+                alg_list.insert(0, new_entry)
+            else:
+                alg_list[0], alg_list[i] = alg_list[i], alg_list[0]
+                alg_list[0]['latest'] = True
+
+            data[case_key]["algorithms"] = alg_list
+
+        save_data(data, str(filepath))
 
     @staticmethod
     def process_metadata(mapping, process_func):
