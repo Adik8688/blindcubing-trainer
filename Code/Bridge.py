@@ -260,7 +260,7 @@ class Bridge(QObject):
             'slow': em.get_top_n_cases(filename, 40, np.mean, True),
             'unstable': em.get_top_n_cases(filename, 40, np.std, True),
             'fast': em.get_top_n_cases(filename, 40, np.mean),
-            'stable': em.get_top_n_cases(filename, 40, np.std),
+            'difficult': em.get_difficult_cases(filename)
         }
 
         targets = functions_map.get(option, [])

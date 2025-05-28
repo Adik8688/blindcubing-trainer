@@ -221,3 +221,14 @@ class ExportManager:
         top_keys = [key for key, _ in sorted_items[:n]]
         print(top_keys)
         return top_keys
+    
+    def get_difficult_cases(self, filename):
+        raw_data = get_data(filename)
+        
+        difficult_cases = []
+        for full_key, entry in raw_data.items():
+            if entry['difficult']:
+                short_key = " ".join(full_key.split(';')[1:])
+                difficult_cases.append(short_key)
+        
+        return difficult_cases

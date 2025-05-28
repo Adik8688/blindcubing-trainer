@@ -66,11 +66,6 @@ ColumnLayout {
                     onClicked: casesList.model = bridge.modifyList('Remove', firstTarget.currentValue, secondTarget.currentValue)
                 }
             }
-            // Switch {
-            //     anchors.right: parent.right
-            //     id: studySwitch
-            //     text: 'Study mode'
-            // }
         }
         RectangleBox {
             Layout.fillWidth: true
@@ -104,8 +99,8 @@ ColumnLayout {
                     onClicked: casesList.model = bridge.getPredefinedCasesSet('fast')
                 }
                 Button {
-                    text: "Add stable"
-                    onClicked: casesList.model = bridge.getPredefinedCasesSet('stable')
+                    text: "Add 💩"
+                    onClicked: casesList.model = bridge.getPredefinedCasesSet('difficult')
                 }
             }
 

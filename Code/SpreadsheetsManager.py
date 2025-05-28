@@ -117,6 +117,7 @@ class SpreadsheetsManager:
                 continue
             
             lp = ""
+            difficult = False
             
             t1, l1 = self.extract_lps(t1)
             t2, l2 = self.extract_lps(t2)
@@ -130,14 +131,17 @@ class SpreadsheetsManager:
                     f"{self.canonical_representation(t2)}"
 
             new_alg = v["alg"]
+            if '💩' in new_alg:
+                new_alg = new_alg.replace('💩', '')
+                difficult = True
 
             if case_key not in data:
                 data[case_key] = {
                     'algorithms': [],
-                    "difficult": False
                 }
 
             data[case_key]['lp'] = lp
+            data[case_key]['difficult'] = difficult
             alg_list = data[case_key]['algorithms']
 
             # Find existing index
