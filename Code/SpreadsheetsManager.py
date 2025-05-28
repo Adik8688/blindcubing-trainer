@@ -143,19 +143,14 @@ class SpreadsheetsManager:
             # Find existing index
             i = next((x for x, record in enumerate(alg_list) if record['alg'] == new_alg), -1)
 
-            if alg_list:
-                alg_list[0]['latest'] = False
-
             if i == -1:
                 new_entry = {
                     "alg": new_alg,
                     "results": [],
-                    "latest": True
                 }
                 alg_list.insert(0, new_entry)
             else:
                 alg_list[0], alg_list[i] = alg_list[i], alg_list[0]
-                alg_list[0]['latest'] = True
 
             data[case_key]["algorithms"] = alg_list
 

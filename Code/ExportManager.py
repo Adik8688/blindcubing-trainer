@@ -31,8 +31,6 @@ class ExportManager:
         "Best",
         "Worst",
         "Skew",
-        "Latest"
-
     ]
 
     def __init__(self):
@@ -78,7 +76,6 @@ class ExportManager:
                 get_stat(np.min),
                 get_stat(np.max),
                 get_stat(stats.skew),
-                r.get('latest')
             ]
             alg = r.get('alg', '')
 
