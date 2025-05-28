@@ -26,7 +26,7 @@ ColumnLayout {
         RectangleBox {
             Layout.fillWidth: true
             Layout.fillHeight: true
-            MyButtonDeeper {
+            MyButton {
                 id: algsButton
                 text: "Update algs"
                 onClicked: stackview.push('UpdateAlgs.qml')
@@ -35,7 +35,7 @@ ColumnLayout {
         RectangleBox {
             Layout.fillWidth: true
             Layout.fillHeight: true
-            MyButtonDeeper {
+            MyButton {
                 id: memoButton
                 text: "Update memo"
                 onClicked: stackview.push('UpdateMemo.qml')
@@ -44,16 +44,7 @@ ColumnLayout {
         RectangleBox {
             Layout.fillWidth: true
             Layout.fillHeight: true
-            MyButtonDeeper {
-                id: lpButton
-                text: "Update LPs"
-                onClicked: stackview.push('UpdateLPs.qml')
-            }
-        }
-        RectangleBox {
-            Layout.fillWidth: true
-            Layout.fillHeight: true
-            MyButtonDeeper {
+            MyButton {
                 text: "Remove memo"
                 onClicked: {
                     bridge.updateData("", 'memo_remove') 
@@ -64,12 +55,9 @@ ColumnLayout {
         RectangleBox {
             Layout.fillWidth: true
             Layout.fillHeight: true
-            MyButtonDeeper {
-                text: "Remove LPs"
-                onClicked: {
-                    bridge.updateData("", 'lps_remove') 
-                    stackview.pop()
-                }
+            MyButton {
+                text: "Back"
+                onClicked: stackview.pop()
             }
         }
     }
@@ -77,13 +65,5 @@ ColumnLayout {
         id: bottom
         Layout.preferredHeight: style.getInt('bottomHeight')
         Layout.fillWidth: true
-        RectangleBox {
-            Layout.fillWidth: true
-            Layout.fillHeight: true
-            MyButtonDeeper {
-                text: "Back"
-                onClicked: stackview.pop()
-            }
-        }
     }
 }

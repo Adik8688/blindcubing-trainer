@@ -9,3 +9,4 @@ Code/__pycache__/*.pyc
 !Json/.gitkeep
 !Exports/.gitkeep
 !Files/.gitkeep
+Code/__pycache__/SpreadsheetsManager.cpython-311.pyc

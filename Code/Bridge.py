@@ -82,9 +82,7 @@ class Bridge(QObject):
         functions_map = {
             "algs": sm.update_algs,
             "memo": sm.update_memo,
-            "lps": sm.update_lps,
             "memo_remove": sm.remove_memo,
-            "lps_remove": sm.remove_lps
         }
 
         functions_map[update_option]()

@@ -217,30 +217,7 @@ class SpreadsheetsManager:
             record.pop("memo", None)
         
         self.process_metadata({}, remove)
-
-    def update_lps(self):
-        # Load LP mapping(s) from Excel. Expecting a mapping of the form: { "UB": "A", "UL": "B", ... }
-        lps_dict = self.get_df_to_dict(self, 'lps')
-
-        def update(record, parts, lps_dict):
-            first_target = parts[1]
-            second_target = parts[2]
-
-            # Look up the letters from the LP mapping.
-            letter1 = lps_dict.get(first_target, "")
-            letter2 = lps_dict.get(second_target, "")
-            lp_value = letter1 + letter2
-
-            record["lp"] = lp_value
-
-        self.process_metadata(lps_dict, update)
     
-    def remove_lps(self):
-        def remove(record, parts, lps_dict):
-            record.pop("lp", None)
-        
-        self.process_metadata({}, remove)
-
     @staticmethod
     def canonical_representation(piece_name):
         if not piece_name:
