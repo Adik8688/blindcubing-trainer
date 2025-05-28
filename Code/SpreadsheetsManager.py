@@ -124,13 +124,13 @@ class SpreadsheetsManager:
             
 
     def update_algs_helper(self, sheet_name, df):
+        print(f"Processing {sheet_name}")
         try:
             piece_type, buffer = sheet_name.split("_")
         except ValueError:
             print("Sheet name must contain both a piece type and a buffer, separated by _ e.g. edges_UF.")
             return
 
-        print(f"Processing {sheet_name}")
         filepath = JSON_DIR / f"{sheet_name}.json"
         data = get_data(str(filepath))
 
@@ -141,6 +141,15 @@ class SpreadsheetsManager:
                 print(f"Invalid key format in sheet {sheet_name}: {k}")
                 continue
             
+            lp = ""
+            
+            t1, l1 = self.extract_lps(t1)
+            t2, l2 = self.extract_lps(t2)
+            
+            if l1 and l2:
+                lp = f"{l1}{l2}"
+           
+            
             case_key = f"{self.canonical_representation(buffer)};" \
                     f"{self.canonical_representation(t1)};" \
                     f"{self.canonical_representation(t2)}"
@@ -150,7 +159,7 @@ class SpreadsheetsManager:
             if case_key not in data:
                 data[case_key] = {
                     'algorithms': [],
-                    'lp': "",
+                    'lp': lp,
                     "difficult": False
                 }
 
@@ -177,6 +186,13 @@ class SpreadsheetsManager:
 
         save_data(data, str(filepath))
 
+    @staticmethod
+    def extract_lps(text):
+        parts = text.split()
+        if len(parts) == 2 and parts[1].startswith('(') and parts[1].endswith(')'):
+            return parts[0], parts[1][1:-1]
+        return text, ""
+    
     @staticmethod
     def process_metadata(mapping, process_func):
         for filename in os.listdir(JSON_DIR):

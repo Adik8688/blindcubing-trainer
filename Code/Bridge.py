@@ -14,6 +14,9 @@ from .ExportManager import ExportManager
 from .project_paths import JSON_DIR, STYLE_DIR
 from .utils import get_data, save_data
 
+from urllib.parse import urlparse, unquote
+import os
+
 QML_IMPORT_NAME = "io.qt.textproperties"
 QML_IMPORT_MAJOR_VERSION = 1 
 
@@ -59,8 +62,19 @@ class Bridge(QObject):
         Calls method to update algs/memo/lps depending on the chosen option
         '''
 
+        def qml_url_to_path(url):
+            # Parse and decode URL
+            parsed = urlparse(url)
+            path = unquote(parsed.path)
+
+            # macOS: remove leading '/' if it's followed by a drive letter (e.g., '/C:/...')
+            if os.name == 'nt' and path.startswith('/') and ':' in path[1:3]:
+                path = path[1:]
+
+            return path
+        
         # works no windows, might not work on mac
-        filepath = url[8:]
+        filepath = qml_url_to_path(url)
 
 
         sm = SpreadsheetsManager(filepath)
