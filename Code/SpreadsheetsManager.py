@@ -159,10 +159,10 @@ class SpreadsheetsManager:
             if case_key not in data:
                 data[case_key] = {
                     'algorithms': [],
-                    'lp': lp,
                     "difficult": False
                 }
 
+            data[case_key]['lp'] = lp
             alg_list = data[case_key]['algorithms']
 
             # Find existing index

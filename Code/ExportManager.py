@@ -126,6 +126,9 @@ class ExportManager:
             # temporary skip
             if filename.startswith('wings'):
                 continue
+            
+            if not filename.endswith('.json'):
+                continue
 
             # Initialize a dict-of-lists for the temporary DataFrame.
             self.temp_df = {col: [] for col in ExportManager.COLUMNS}
