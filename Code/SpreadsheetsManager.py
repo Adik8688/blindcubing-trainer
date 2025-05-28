@@ -23,6 +23,9 @@ class SpreadsheetsManager:
 
     @staticmethod
     def iterate_table_cells(df):
+        '''
+        General iterator for NxN spreadsheets
+        '''
         for col in range(1, df.shape[1]):
             first_target = df.iloc[0, col]
             for row in range(1, df.shape[0]):
@@ -32,22 +35,25 @@ class SpreadsheetsManager:
 
     @staticmethod
     def iterate_list_rows(df, num_cols=3):
+        '''
+        General iterator for list shaped spreadsheets
+        '''
         for idx, row in df.iterrows():
             if not row[0]:
                 break
             yield tuple(row.iloc[:num_cols])
     
-
-    def generic_df_to_dict(self, df, option):
+    def generic_df_to_dict(self, df):
+        '''
+        Iterates over a dataframe and returns a dict where key is combination of first_target and second_target, and value is cell value
+        '''
+        
         if df.shape[0] < 2 or df.shape[1] < 2 or not df.iloc[0, 1]:
             return None
-    
-        option_map = {
-            'algs': self.df_to_alg,
-            'words': self.df_to_words,
-            'lps': self.df_to_lps
-        }
-        processing_function = option_map[option]
+        
+        def processing_function(entries, first_target, second_target, cell_value):
+            key = f"{first_target};{second_target}"
+            entries[key] = cell_value
 
         entries = dict()
 
@@ -58,37 +64,11 @@ class SpreadsheetsManager:
                     processing_function(entries, first_target, second_target, cell_value)
             return entries
         
-        # list
-        if option == "algs" and not df.shape[1] == 3:
-            return None
-        
-        if option == "lps":
-            for col1, col2 in self.iterate_list_rows(df, 2):
-                if col2 != "":
-                    processing_function(entries, col1, col2)
-            return entries
-        
         for col1, col2, col3 in self.iterate_list_rows(df):
             if col3 != "":
                 processing_function(entries, col1, col2, col3)
         return entries
     
-    @staticmethod
-    def df_to_alg(entries, first_target, second_target, cell_value):
-        alg = cell_value
-        key = ";".join([str(first_target), str(second_target)])
-        entries[key] = {"alg": alg}
-
-    @staticmethod
-    def df_to_words(entries, first_target, second_target, cell_value):
-        key = f"{first_target};{second_target}"
-        entries[key] = cell_value
-
-    @staticmethod
-    def df_to_lps(entries, first_target, cell_value):
-        key = first_target
-        entries[key] = cell_value
-   
 
     def update_algs(self):
         sheets = self.excel_to_dict_of_dfs()
@@ -96,7 +76,6 @@ class SpreadsheetsManager:
         for sheet_name, df in sheets.items():
             self.update_algs_helper(sheet_name, df)
 
-            
 
     def update_algs_helper(self, sheet_name, df):
         print(f"Processing {sheet_name}")
@@ -109,7 +88,7 @@ class SpreadsheetsManager:
         filepath = JSON_DIR / f"{sheet_name}.json"
         data = get_data(str(filepath))
 
-        for k, v in self.generic_df_to_dict(df, 'algs').items():
+        for k, new_alg in self.generic_df_to_dict(df).items():
             try:
                 t1, t2 = k.split(';')
             except ValueError:
@@ -130,7 +109,6 @@ class SpreadsheetsManager:
                     f"{self.canonical_representation(t1)};" \
                     f"{self.canonical_representation(t2)}"
 
-            new_alg = v["alg"]
             if '💩' in new_alg:
                 new_alg = new_alg.replace('💩', '')
                 difficult = True
@@ -183,18 +161,16 @@ class SpreadsheetsManager:
                 process_func(record, parts, mapping)
             
             save_data(data, str(file_path))
-    
-    def get_df_to_dict(self, df, option):
-        excel = self.excel_to_dict_of_dfs()
-        df = excel[list(excel.keys())[0]]
-        return self.generic_df_to_dict(df, option)
 
     def update_memo(self):
         # Gather words from Excel sheets into a dict:
         # words_dict will be like:
         # { "first_target;second_target": word, ... }
-      
-        words_dict = self.get_df_to_dict(self, 'words')
+
+        excel = self.excel_to_dict_of_dfs()
+        df = excel[list(excel.keys())[0]]
+        words_dict = self.generic_df_to_dict(df)
+        
         def clear_key(key):
             t1, t2 = key.split(';')
             t1 = t1.split()[0]
