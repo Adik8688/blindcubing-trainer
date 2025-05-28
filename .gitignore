@@ -5,7 +5,7 @@ venv
 Exports/*
 Files/*
 Json/*
-Code/__pycache__/
+Code/__pycache__/*.pyc
 !Json/.gitkeep
 !Exports/.gitkeep
 !Files/.gitkeep

@@ -13,31 +13,6 @@ class SpreadsheetsManager:
     def __init__(self, filepath):
         self.filepath = filepath
 
-
-    @staticmethod
-    def keys_with_different_algs(data, key):
-        '''
-        Returns list of records which covers the same case, but might have different algorithm
-        '''
-        return [k for k in data if key.split(";")[:-1] == k.split(";")[:-1]]
-
-    @staticmethod
-    def new_record_from_key(key):
-        '''
-        Creates new record to be appended to the file from the given key
-        '''
-
-        key = key.split(";")
-        return {
-            "buffer": key[0],
-            "first_target": key[1],
-            "second_target": key[2],
-            "alg": key[3],
-            "results": [],
-            "latest": True,
-        }
-
-
     def excel_to_dict_of_dfs(self):
         '''
         Reads excel file and returns dict of pd dataframes
@@ -221,9 +196,16 @@ class SpreadsheetsManager:
         # { "first_target;second_target": word, ... }
       
         words_dict = self.get_df_to_dict(self, 'words')
-
-        def update(record, parts, words_dict):  
-            target_key = f"{parts[1]};{parts[2]}"
+        def clear_key(key):
+            t1, t2 = key.split(';')
+            t1 = t1.split()[0]
+            t2 = t2.split()[0]
+            return f"{t1};{t2}"
+        
+        words_dict = {clear_key(k): v for k, v in words_dict.items()} 
+        
+        def update(record, parts, words_dict): 
+            target_key = ";".join(parts[1:])
             if target_key in words_dict:
                 memo_word = words_dict[target_key]
                 record['memo'] = memo_word
