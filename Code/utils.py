@@ -9,10 +9,11 @@ def get_data(filepath):
     print(filepath)
     if not os.path.exists(filepath):
         return {}
-
-    with open(filepath, "r") as f:
-        return json.load(f)
-        
+    try:
+        with open(filepath, "r") as f:
+            return json.load(f)
+    except:
+        raise Exception(f"Problemo with {filepath}")
 
 def save_data(data, filepath):
     '''

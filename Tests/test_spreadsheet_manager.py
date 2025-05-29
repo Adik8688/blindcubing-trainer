@@ -3,6 +3,7 @@ from pathlib import Path
 from Code.utils import get_data, save_data
 from Code.SpreadsheetsManager import SpreadsheetsManager
 import os 
+from Code.ExportManager import ExportManager
 
 TEST_DIR = Path(__file__).parent
 FILES_DIR = TEST_DIR.parent / "Files_tests"
@@ -47,3 +48,8 @@ def test_update_memo(algs_spreadsheet_manager, memo_spreadsheet_manager):
     
     os.remove(TEST_JSON_FILE)
     
+
+def test_export_alg():
+    em = ExportManager()
+    comm = "R: R U R', E'"
+    assert em._is_commutator(comm)

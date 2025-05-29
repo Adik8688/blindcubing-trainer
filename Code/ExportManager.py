@@ -8,8 +8,6 @@ from .project_paths import JSON_DIR, EXPORTS_DIR, FILES_DIR
 from .utils import get_data
 import re
 
-VALID_CHARS = " UDFBRLMESudfbrlw'/:,2xyz[]()"
-
 class ExportManager:
     """
     This class deals with exporting statistics from the app.
@@ -36,18 +34,17 @@ class ExportManager:
     def __init__(self):
         self.df_dict = dict()
 
-    def add_to_df(self, record):
+    def add_to_df(self, record, temp_df):
         """
         Appends a list of values to the dataframe (stored as a dict of lists) as a new row.
         """
         for column, field in zip(ExportManager.COLUMNS, record):
-            self.temp_df[column].append(field)
+            temp_df[column].append(field)
 
-    def process_file(self, filepath):
+    def _process_file(self, data, temp_df):
         """
         Iterates through every record in the JSON file and extracts statistics.
         """
-        data = get_data(filepath)
 
         for case, record in data.items():
             r = record['algorithms'][0]
@@ -91,20 +88,21 @@ class ExportManager:
                 if get_stat(np.mean) != np.nan:
                     record[8] = record[7] / get_stat(np.mean)
 
-            self.add_to_df(record)
+            self.add_to_df(record, temp_df)
 
     def _is_alg(self, alg):
         token_pattern = r"[\[\(\)]*([UDFBRLMESudfbrlxyz](w)?('?2?)|[xyz]('?2?'))[\]\)]*"
         splitter = re.compile(r"\s+")
+        alg = alg.replace(":", "").replace(",", "")  # remove separators
         tokens = splitter.split(alg.strip())
 
         for token in tokens:
-            if token in {":", ",", ""}:
+            if token == "":
                 continue
             if not re.fullmatch(token_pattern, token):
                 return False
         return True
-    
+        
     def _is_commutator(self, alg):
         if not self._is_alg(alg):
             return False
@@ -114,32 +112,7 @@ class ExportManager:
             return False
         return True
 
-    def prepare_stats(self):
-        """
-        Prepares a dataframe with statistics for every JSON file.
-        Different piece types (or buffers) are saved as different sheets in the same Excel file.
-        """
-        for filename in os.listdir(JSON_DIR):
-            # temporary skip
-            if filename.startswith('wings'):
-                continue
-            
-            if not filename.endswith('.json'):
-                continue
-
-            # Initialize a dict-of-lists for the temporary DataFrame.
-            self.temp_df = {col: [] for col in ExportManager.COLUMNS}
-            self.process_file(JSON_DIR / filename)
-
-            # Only add non-empty dataframes.
-            # (Consider checking if at least one column list is non-empty.)
-            if any(self.temp_df.values()):
-                # Convert filename to a more friendly sheet name.
-                sheetname = filename.split('.')[0]
-                self.temp_df = pd.DataFrame.from_dict(self.temp_df)
-                self.df_dict[sheetname] = self.temp_df
-
-    def save_stats(self):
+    def write_stats_to_excel(self):
         """
         Saves calculated statistics to an Excel file.
         """
@@ -154,19 +127,48 @@ class ExportManager:
         """
         Calls submethods to export statistics.
         """
-        self.prepare_stats()
-        self.save_stats()
+        self.generate_stats()
+        self.write_stats_to_excel()
+
+    def generate_stats(self):
+        """
+        Prepares a dataframe with statistics for every JSON file.
+        Different piece types (or buffers) are saved as different sheets in the same Excel file.
+        """
+        def process_stats(data, filename):
+            temp_df = {col: [] for col in ExportManager.COLUMNS}
+            self._process_file(data, temp_df)
+
+            if any(temp_df.values()):
+                sheetname = filename.split('.')[0]
+                self.df_dict[sheetname] = pd.DataFrame.from_dict(temp_df)
+
+        self.process_jsons(process_stats)
+
+    def process_jsons(self, process_func):
+        '''
+        Iterates over JSON files in JSON DIR and applies process_func to each file
+        '''
+
+        for filename in os.listdir(JSON_DIR):
+            if not filename.endswith('.json'):
+                continue
+            data = get_data(JSON_DIR / filename)
+            process_func(data, filename)
 
     def get_algs_count(self):
         """
         Returns the total count of algorithms (i.e. total number of results across all records).
         """
         result = 0
-        for filename in os.listdir(JSON_DIR):
-            data = get_data(JSON_DIR / filename)
+
+        def count_func(data, filename):
+            nonlocal result
             for v in data.values():
                 for alg in v['algorithms']:
                     result += len(alg.get('results', []))
+
+        self.process_jsons(count_func)
         return result
 
     def get_time_spent(self):
@@ -174,11 +176,15 @@ class ExportManager:
         Returns a formatted string (HH:MM:SS) for the total time spent based on the results.
         """
         total = 0
-        for filename in os.listdir(JSON_DIR):
-            data = get_data(JSON_DIR / filename)
+
+        def time_func(data, filename):
+            nonlocal total
             for v in data.values():
                 for alg in v['algorithms']:
                     total += sum(alg.get('results', []))
+
+        self.process_jsons(time_func)
+
         h = total // 3600
         total %= 3600
         m, s = total // 60, total % 60
@@ -190,12 +196,15 @@ class ExportManager:
         """
         total = 0
         count = 0
-        for filename in os.listdir(JSON_DIR):
-            data = get_data(JSON_DIR / filename)
+        def avg_func(data, filename):
+            nonlocal total, count
             for v in data.values():
                 for alg in v['algorithms']:
-                    total += sum(alg.get('results', []))
-                    count += len(alg.get('results', []))
+                    results = alg.get('results', [])
+                    total += sum(results)
+                    count += len(results)
+
+        self.process_jsons(avg_func)
         return f"{total / count:.2f}" if count > 0 else "N/A"
 
     def export_top_n_to_file(self, df, filename, colname, n=40, asc=True):
@@ -219,7 +228,6 @@ class ExportManager:
         sorted_items = sorted(aggregated_data.items(), key=lambda item: item[1], reverse=reverse)
 
         top_keys = [key for key, _ in sorted_items[:n]]
-        print(top_keys)
         return top_keys
     
     def get_difficult_cases(self, filename):

@@ -193,7 +193,11 @@ class ComutatorAnalyzer:
 
         i = 0
         while i < len(alg) - 1:
-            reduced_pair = ComutatorAnalyzer._reduce_moves(alg[i], alg[i + 1])
+            try:
+                reduced_pair = ComutatorAnalyzer._reduce_moves(alg[i], alg[i + 1])
+            except:
+                i += 1
+                continue
 
             if reduced_pair != alg[i : i + 2] and reduced_pair != alg[i : i + 2][::-1]:
                 if not reduced_pair[0]: 
