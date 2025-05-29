@@ -58,11 +58,18 @@ class Move:
         return self.base_move + self.suffix
         
 
+VALID_CHARS = " UDFBRLMESudfbrlw'/:,2xyz"
+
+
 class ComutatorAnalyzer:
     def __init__(self, comm):
-        self.comm = comm
+        self.comm = self._clean_entry(comm)
         self.alg = self._expandComm()
     
+    @staticmethod
+    def _clean_entry(comm):
+        return "".join([ch for ch in comm if ch in VALID_CHARS])
+
     @staticmethod
     def _list_to_alg(alg, inv=False):
         alg = [Move(i) for i in alg]

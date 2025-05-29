@@ -20,7 +20,6 @@ class GameManager:
 
         self._set_game()
 
-
     def _set_game(self):
         '''
         Calls all necessary submethods
@@ -33,6 +32,9 @@ class GameManager:
         self.size = len(self.keys)
 
     def remove_pair(self, key):
+        '''
+        Remove results from game session before saving
+        '''
         self.new_results.pop(key)
     
     def increment_index(self):
@@ -40,19 +42,13 @@ class GameManager:
         Increments main index
         '''
         self.index += 1
-    
   
     def get_case(self, key):
         memo = self.data[key].get('memo', '')
         if memo:
             return memo
         
-        memo = self.data[key].get('lp', '')
-        if memo:
-            return memo
-        
-        return " ".join(key.split(";"))
-
+        return self.data['lp']
 
     def get_current_key(self):
         '''
@@ -98,7 +94,6 @@ class GameManager:
         key = self.shuffled_keys[self.index]
         return self.data[key]['algorithms'][0]['alg']
     
-
     def get_current_case_no(self):
         '''
         Returns current case number
@@ -155,7 +150,6 @@ class GameManager:
         diff = self.data[key]['difficult']
         self.data[key]['difficult'] = not diff
         print(f"Difficulty after change: {self.data[key]['difficult']}")
-
 
     def save_results(self):
         '''
