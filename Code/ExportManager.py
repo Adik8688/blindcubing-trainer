@@ -6,7 +6,6 @@ from scipy import stats
 from .ComutatorAnalyzer import ComutatorAnalyzer
 from .project_paths import JSON_DIR, EXPORTS_DIR, FILES_DIR
 from .utils import get_data
-import re
 
 class ExportManager:
     """
@@ -91,16 +90,18 @@ class ExportManager:
             self.add_to_df(record, temp_df)
 
     def _is_alg(self, alg):
-        token_pattern = r"[\[\(\)]*([UDFBRLMESudfbrlxyz](w)?('?2?)|[xyz]('?2?'))[\]\)]*"
-        splitter = re.compile(r"\s+")
-        alg = alg.replace(":", "").replace(",", "")  # remove separators
-        tokens = splitter.split(alg.strip())
+        separators = ",:[]()"
+        valid_moves = "UDFBRLMESudfbrlxyz"
 
-        for token in tokens:
-            if token == "":
-                continue
-            if not re.fullmatch(token_pattern, token):
+        for sep in separators:
+            alg = alg.replace(sep, " ")
+    
+        alg = alg.split()
+
+        for move in alg:
+            if move[0] not in valid_moves or len(move) > 3:
                 return False
+
         return True
         
     def _is_commutator(self, alg):

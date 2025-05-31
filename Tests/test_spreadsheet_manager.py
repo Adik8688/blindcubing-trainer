@@ -4,6 +4,7 @@ from Code.utils import get_data, save_data
 from Code.SpreadsheetsManager import SpreadsheetsManager
 import os 
 from Code.ExportManager import ExportManager
+from Code.ComutatorAnalyzer import ComutatorAnalyzer
 
 TEST_DIR = Path(__file__).parent
 FILES_DIR = TEST_DIR.parent / "Files_tests"
@@ -51,5 +52,9 @@ def test_update_memo(algs_spreadsheet_manager, memo_spreadsheet_manager):
 
 def test_export_alg():
     em = ExportManager()
-    comm = "R: R U R', E'"
+    comm = "R' F':[R U R',E]"
     assert em._is_commutator(comm)
+
+    cm = ComutatorAnalyzer(comm)
+    expected_alg_long = "R' F' R U R' E R U' R' E' F R"
+    assert expected_alg_long == cm.get_alg_str()
