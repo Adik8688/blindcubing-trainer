@@ -48,7 +48,7 @@ class GameManager:
         if memo:
             return memo
         
-        return self.data['lp']
+        return self.data[key]['lp']
 
     def get_current_key(self):
         '''
