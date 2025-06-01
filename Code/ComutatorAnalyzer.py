@@ -68,7 +68,12 @@ class ComutatorAnalyzer:
     
     @staticmethod
     def _clean_entry(comm):
-        return "".join([ch for ch in comm if ch in VALID_CHARS])
+        clean_comm = "".join([ch for ch in comm if ch in VALID_CHARS])
+        for m in 'udfbrl':
+            if m in clean_comm:
+                clean_comm = clean_comm.replace(m, m.upper() + 'w')
+        
+        return clean_comm
 
     @staticmethod
     def _list_to_alg(alg, inv=False):

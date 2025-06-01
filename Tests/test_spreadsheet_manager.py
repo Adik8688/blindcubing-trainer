@@ -52,9 +52,9 @@ def test_update_memo(algs_spreadsheet_manager, memo_spreadsheet_manager):
 
 def test_export_alg():
     em = ExportManager()
-    comm = "R' F':[R U R',E]"
+    comm = "l' F':[R U R',E]"
     assert em._is_commutator(comm)
 
     cm = ComutatorAnalyzer(comm)
-    expected_alg_long = "R' F' R U R' E R U' R' E' F R"
+    expected_alg_long = "Lw' F' R U R' E R U' R' E' F Lw"
     assert expected_alg_long == cm.get_alg_str()
