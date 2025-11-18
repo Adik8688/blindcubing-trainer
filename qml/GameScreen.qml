@@ -75,7 +75,7 @@ ColumnLayout {
             Layout.fillWidth: true
             Layout.fillHeight: true
             BottomText {
-                text: bridge.getLastResult() ? 'Last: ' + bridge.getLastResult() : ''
+                text: bridge.getLastResult() ? bridge.getLastResult() + "/" + bridge.getCurrentAvg() : ''
             }
         }
         RectangleBox {

@@ -85,7 +85,18 @@ class GameManager:
         
         key = self.shuffled_keys[self.index - 1]
         return self.new_results.get(key)
-            
+    
+
+    def get_current_avg(self):
+        '''
+        Returns average of current results
+        '''
+
+        if self.index == 0:
+            return ''
+        
+        return sum(self.new_results.values()) / len(self.new_results)
+
 
     def get_current_alg(self):
         '''

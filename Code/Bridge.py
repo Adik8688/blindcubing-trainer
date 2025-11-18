@@ -351,6 +351,14 @@ class Bridge(QObject):
         '''
         return str(self.gm.get_last_result())
     
+    @Slot (result=str)
+    def getCurrentAvg(self):
+        '''
+        Returns avg of current results
+        '''
+
+        return f"{self.gm.get_current_avg():.2f}"
+    
     @Slot ()
     def setStartTime(self):
         '''

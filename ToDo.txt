@@ -1,0 +1,7 @@
+Edges DR dziwne rzeczy
+Sprint teraz
+Priotity niskie
+Labels: bug, quick fix
+Epic: minor changes
+Assignee: ADR8688
+Reviewer: TfujStary69

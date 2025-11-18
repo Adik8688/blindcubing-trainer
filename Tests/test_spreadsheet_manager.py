@@ -5,6 +5,7 @@ from Code.SpreadsheetsManager import SpreadsheetsManager
 import os 
 from Code.ExportManager import ExportManager
 from Code.ComutatorAnalyzer import ComutatorAnalyzer
+from Code.GameManager import GameManager
 
 TEST_DIR = Path(__file__).parent
 FILES_DIR = TEST_DIR.parent / "Files_tests"
@@ -58,3 +59,13 @@ def test_export_alg():
     cm = ComutatorAnalyzer(comm)
     expected_alg_long = "Lw' F' R U R' E R U' R' E' F Lw"
     assert expected_alg_long == cm.get_alg_str()
+
+def test_gm_fucn():
+    gm = GameManager('edges', 'UF', ['UB UR', 'UB UL'])
+    gm.save_result(1.3)
+    gm.increment_index()
+
+    gm.save_result(1.1)
+    gm.increment_index()
+
+    gm.get_current_avg()
