@@ -6,6 +6,7 @@ from datetime import datetime
 
 from PySide6.QtCore import QObject, Slot
 from PySide6.QtQml import QmlElement
+from PySide6.QtCore import QUrl
 import numpy as np
 
 from .SpreadsheetsManager import SpreadsheetsManager
@@ -230,23 +231,18 @@ class Bridge(QObject):
     
     @Slot (str, result=list)
     def listFromFile(self, url):
-        '''
-        Sets subset based on provided .txt file
-        '''
-        filepath = url[8:]
+        qurl = QUrl(url)
+        filepath = qurl.toLocalFile()  # converts file:///… to /Users/… correctly
+
         targets = set()
         with open(filepath) as f:
             for line in f:
                 targets.add(line.strip())
 
-        print("From file: ")
-        print(targets)
-        # store set in the field
+        print("From file:", targets)
         self.cases_set = targets
-
-        # return list to update UI
         return list(targets)
-    
+        
     @Slot (str, result=list)
     def getPredefinedCasesSet(self, option="slow"):
         '''
